@@ -1,0 +1,425 @@
+/*-- -------------------------- -->
+<---          Landing           -->
+<--- -------------------------- -*/
+
+#landing {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.landing-left {
+    position: relative;
+}
+
+.landing-left:after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    right: -20px;
+    height: 50px;
+    width: 50px;
+    background:  var(--accent);
+    transform: rotate(45deg);
+}
+
+#landing h1 {
+    text-align: left;
+    font-size: 1.7em;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+    color: var(--primary);
+    text-decoration: none;
+    position: relative;
+    max-width: 330px;
+}
+
+#landing h2 {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 35px;
+    color: var(--primary);
+    font-weight: 400;
+    width: 270px;
+}
+
+.landing-button {
+    background: var(--secondary);
+    font-size: 14px;
+    color: var(--dark);
+}
+
+.landing-right {
+    background: var(--light);
+    width: 250px;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.landing-right:before {
+    content: '';
+    position: absolute;
+    height: 290px;
+    width: 290px;
+    background: url("/images/wood-BIRCH-silver.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(1);
+    opacity: .9;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    z-index: -2;
+}
+
+.image-container:after {
+    content: '';
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border: 4px solid var(--secondary);
+    z-index: 10;
+}
+
+.image-container {
+    position: relative;
+    z-index: 20;
+    height: 167px;
+}
+
+.landing-right img {
+    width: 250px;
+    position: relative;
+}
+
+.golden-box {
+    position: absolute;
+    height: 200px;
+    width: 230px;
+    background: var(--secondary);
+    opacity: .5;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+              translateY(4px);
+    z-index: -1;
+}
+
+/*-- -------------------------- -->
+<---        Mental health       -->
+<--- -------------------------- -*/
+
+.clover {
+    display: block;
+    width: 40px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.mental-health h2 {
+    text-transform: uppercase;
+    color: var(--primary);
+    font-size: 1.4em;
+    margin-bottom: 50px;
+}
+
+.card {
+    padding: 50px 35px;
+    box-shadow: 0px 0px 11px #0000001A;
+    border-radius: 20px;
+    max-width: 320px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.icon {
+    height: 80px;
+    width: 80px;
+    background: var(--primary);
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+
+.card  h3 {
+    display: block;
+    margin: auto;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: var(--primary);
+    letter-spacing: 0.54px;
+}
+
+.mental-health-button {
+    display: block;
+    margin: auto;
+    font-size: 14px;
+}
+
+/*-- -------------------------- -->
+<---         Struggles          -->
+<--- -------------------------- -*/
+
+#struggles {
+    padding-top: 100px !important;
+}
+
+.slide-container {
+    position: relative;
+}
+
+.slide-1-container,
+.slide-2-container {
+    position: relative;
+}
+
+.slide-1-container:before {
+    content: '';
+    position: absolute;
+    background: url("/images/Homepage_Struggling\ with.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 90%;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -10;
+}
+
+.slide-2-container:before {
+    content: '';
+    position: absolute;
+    background: url("/images/epic.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 90%;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -10;
+}
+
+.slide {
+    padding: 40px;
+    box-shadow: 0px 0px 11px #0000001A;
+    border-radius: 20px;
+    margin: auto;
+    max-width: 320px;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+}
+
+.slide-1-container:after,
+.slide-2-container:after {
+    content: '';
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background: var(--secondary);
+    bottom: -50px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-75%);
+    z-index: -1;
+}
+
+.slide-1-container {
+    margin-bottom: 190px;
+}
+
+.slide-2-container {
+    margin-bottom: 0px;
+}
+
+.slide h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background: var(--secondary);
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.slide ul li {
+    margin-bottom: 25px;
+    font-size: .8em;
+}
+
+/*-- -------------------------- -->
+<---         Potential          -->
+<--- -------------------------- -*/
+
+#potential {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#potential h2 {
+    color: var(--tertiary);
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.left > h3 {
+    font-weight: bold;
+}
+
+.potential-line {
+    height: 2px;
+    width: 150px;
+    display: block;
+    background: var(--secondary);
+    margin: 10px auto 50px auto;
+}
+
+.potential-group {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.potential-group .icon {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    margin-right: 25px;
+}
+
+.potential-group h3 {
+    font-size: 1em;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.right h3 {
+    font-weight: bold;
+    margin-top: 220px;
+    position: relative;
+    margin-bottom: 200px;
+    font-size: 1.3em;
+    transform: translateY(20px);
+}
+
+.right h3 span {
+    display: block;
+}
+
+.right h3:before {
+    content: '';
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border: 2px solid var(--secondary);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    opacity: .5;
+}
+
+.plant {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#potential:before {
+    content: '';
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background: var(--secondary);
+    bottom: -220px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-70%);
+    z-index: 100;
+}
+
+#potential:after {
+    position: absolute;
+    content: url("/images/About_Headshot-120px.jpg");
+    width: 100px !important;
+    height: 150px;
+    left: 50%;
+    transform: translateX(-60%);
+    bottom: -160px;
+    z-index: 1000;
+}
+
+/*-- -------------------------- -->
+<---     Victoria Highlight     -->
+<--- -------------------------- -*/
+
+#victoria-highlight {
+    background: var(--primary);
+    position: relative;
+    border-bottom: 10px solid var(--secondary);
+    overflow: hidden;
+}
+
+#victoria-highlight:before {
+    content: '';
+    height: 300px;
+    width: 300px;
+    border: 30px solid var(--light);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    opacity: .3;
+    top: -270px;
+}
+
+#victoria-highlight::after {
+    content: '';
+    height: 300px;
+    width: 300px;
+    border: 30px solid var(--light);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    opacity: .3;
+    bottom: -270px;
+}
+
+#victoria-highlight img {
+    display: none;
+}
+
+#victoria-highlight h2 {
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    position: relative;
+    z-index: 100;
+}
+
+.victoria-button {
+    background: #fff;
+    min-width: auto;
+    padding: 0px 30px;
+    display: block;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+    height: 35px;
+}

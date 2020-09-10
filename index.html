@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/core-styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Desktop Navbar -->
+        <div class="mobile-wrapper">
+            <div class="mobile-nav container">
+                <img id="mobile-logo" src="images/vertical-logo.png" alt="mobile_company_logo" height="60">
+
+                <!-- Hamburger Menu -->
+                <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
+                    <span aria-hidden="true" class="hamburger-box">
+                        <span aria-hidden="true" class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!--                   NAVIGATION                 -->
+        <!-- ============================================ -->
+
+        <nav>
+            <div class="navbar-menu">
+                <div id="side-menu" class=" side-nav">
+                    <ul id="on-top" class="navbar-links">
+                        <li class="nav-li"><a class="active-menu" href="/index.html">Home</a></li>
+                        <li class="nav-li"><a href="/html/">About Dr. Victoria</a></li>
+                        <li class="nav-li"><a href="/html/">Naturopathic Medicine</a></li>
+                        <li class="nav-li"><a href="/html/">Contact</a></li>
+                        <li class="nav-li">
+                            <button class="button-primary desktop-call" onclick="location.href='/html/contact.html'" type="button">
+                                Schedule An Appointment
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+
+        <section id="landing">
+            <div class="container">
+                <div class="landing-left">
+                    <h1>You deserve a future uninhibited by your mental health.</h1>
+                    <h2>Stability without side effects is priceless.</h2>
+                    <button class="button-primary landing-button" onclick="location.href='/html/contact.html'" type="button">
+                        Schedule An Appointment
+                    </button>
+                </div>
+            </div>
+            <div aria-hidden="true" class="landing-right">
+                <div class="golden-box"></div>
+                <div class="image-container">
+                    <img src="/images/victoria.png" alt="" width="250" height="167">
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                 Mental Health                -->
+        <!-- ============================================ -->
+        
+        <section id="mental-health">
+            <img aria-hidden="true" class="clover" src="/images/clover.svg" alt="" width="40" height="40">
+            <div class="container mental-health">
+                <h2>Mental Health Care Reimagined</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="icon"></div>
+                        <h3>Combining the best of modern science and natural medicine.</h3>
+                    </div>
+                    <div class="card">
+                        <div class="icon"></div>
+                        <h3>Discover your root causes for life-changing relief.</h3>
+                    </div>
+                    <div class="card">
+                        <div class="icon"></div>
+                        <h3>Personalized treatments for your unique needs.</h3>
+                    </div>
+                </div>
+                <button class="button-primary mental-health-button" onclick="location.href='/html/naturopathic-medicine.html'" type="button">
+                    What is Naturopathic Medicine?
+                </button>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                   Struggles                  -->
+        <!-- ============================================ -->
+        
+        <section id="struggles">
+            <div class="container slide-1-container">
+                <div class="slide-container">
+                    <div class="slide">
+                        <h2>You're struggling with</h2>
+                        <div aria-hidden="true" class="line"></div>
+                        <ul>
+                            <li>Maintaining energy, mood, focus, productivity, balance</li>
+                            <li>Relentless mental health struggles that infiltrate many areas of your life</li>
+                            <li>Frustrated, exhausted, overwhelmed with your health</li>
+                            <li>Taking medications to manage side effects of another medication</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================ -->
+            <!--                    Seeking                   -->
+            <!-- ============================================ -->
+
+            <div class="container">
+                <div class="container slide-2-container">
+                    <div class="slide">
+                        <h2>You're seeking</h2>
+                        <div aria-hidden="true" class="line"></div>
+                        <ul>
+                            <li>Stability without side effects</li>
+                            <li>Lasting relief</li>
+                            <li>Reduce, eradicate, or avoid pharmaceutical dependency</li>
+                            <li>Avoid losing opportunities, family, relationships, and finances due to your mental health</li>
+                            <li>Chance at your envisioned future uninhibited by mental health setbacks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                  Potential                   -->
+        <!-- ============================================ -->
+
+        <section id="potential">
+            <div class="container">
+                <img class="clover" src="/images/clover.svg" alt="">
+                <h2>I want to help because I believe your potential is endless.</h2>
+                <div class="potential-content-container">
+                    <div class="left">
+                        <h3>You deserve a doctor who:</h3>
+                        <div aria-hidden="true" class="potential-line"></div>
+                        <div class="potential-group">
+                            <div aria-hidden="true" class="icon"></div>
+                            <h3>Discovers and treats your root causes (not only suppresses symptoms)</h3>
+                        </div>
+                        <div class="potential-group">
+                            <div aria-hidden="true" class="icon"></div>
+                            <h3>Considers your unique circumstances and needs</h3>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h3>You deserve health care <span>that’s free of</span> judgement and stigma.</h3>
+                    </div>
+                </div>
+            </div>
+            <img class="plant" src="/images/linh-le-Ebwp2-6BG8E-unsplash.png" alt="">
+        </section>
+
+        <!-- ============================================ -->
+        <!--              Victoria Highlight              -->
+        <!-- ============================================ -->
+        
+        <section id="victoria-highlight">
+            <div class="container">
+                <div class="quote">
+                    <h2>Seeking a mental health doctor who personally overcame mental health struggles?</h2>
+                    <button class="button-secondary victoria-button" onclick="location.href='/html/about.html'" type="button">
+                        My Story
+                    </button>
+                </div>
+                <img src="/images/Homepage_Headshot 2.jpeg" alt="" width="100">
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--               What You'll Get                -->
+        <!-- ============================================ -->
+        
+        <section id="what-you-get">
+            <div class="container">
+                <h2>What you'll Get</h2>
+                <div class="got-item">
+                    <div aria-hidden="true" class="image-left"></div>
+                    <div class="got-item-right">
+                        <h3>In-depth analysis</h3>
+                        <div class="golden-line"></div>
+                        <ul>
+                            <li>Holistic health evaluation</li>
+                            <li>Your goals are respected and prioritized</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="got-item">
+                    <div class="got-item-right">
+                        <h3>In-depth analysis</h3>
+                        <div class="golden-line"></div>
+                        <ul>
+                            <li>Tests tailored to discover your root cause</li>
+                            <li>Results will be comprehensively explained</li>
+                        </ul>
+                    </div>
+                    <div aria-hidden="true" class="image-right"></div>
+                </div>
+                <div class="got-item">
+                    <div aria-hidden="true" class="image-left"></div>
+                    <div class="got-item-right">
+                        <h3>In-depth analysis</h3>
+                        <div class="golden-line"></div>
+                        <ul>
+                            <li>Address your underlying causes</li>
+                            <li>Collaboration that evolves with your health journey</li>
+                            <li>Striving for sustainable benefits</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--              Crazy Artsy Thing               -->
+        <!-- ============================================ -->
+        
+        <section id="crazy-artsy-thing">
+            <!--Giant blue triangles come from section:before and :after-->
+
+            <!--First white triangle pinting down comes from the crazy topper element-->
+            <div class="crazy-topper">
+                <img aria-hidden="true" class="clover" src="" alt="">
+                <h2>What you won't get</h2>
+                <div aria-hidden="true" class="golden-line"></div>
+                <ul>
+                    <li>• Treatments that’ll only suppress symptoms</li>
+                    <li>• Quick-“fix” generic pill •</li>
+                    <li>• Impersonal healthcare •</li>
+                    <li>Judged or shamed for your decisions •</li>
+                </ul>
+                <button class="button-primary" onclick="location.href='/html/about.html'" type="button">
+                    Our Unique Approach
+                </button>
+                <h3>You are more than your symptoms.</h3>
+                <!--Golden square comes from the :before on diamond element-->
+                <!--Second Giant white triangle comes form the :after on the diamond element-->
+                <div class="diamond">
+                    <div class="diamond-piece">
+                        <h4>Services</h4>
+                    </div>
+                    <div class="diamond-piece">
+                        <h4>Coming Soon</h4>
+                    </div>
+                    <div class="diamond-piece">
+                        <h4>What to Expect</h4>
+                    </div>
+                    <div class="diamond-piece">
+                        <h4>FAQ's</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                 Contact Cards                -->
+        <!-- ============================================ -->
+
+        <section id="contact-cards">
+            <div class="container">
+                <div class="contact-card">
+
+                </div>
+                <div class="contact-card">
+                    <div class="contact-content">
+                        <h2>SCHEDULE AN APPOINTMENT</h2>
+                        <div class="golden-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================ -->
+    <!--                    FOOTER                    -->
+    <!-- ============================================ -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-nav">
+                <img src="" alt="">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">What to Expect</a></li>
+                    <li><a href="">FAQ's</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="disclaimer">
+                <div class="disclaimer-topper">
+                    <p>Copyright © 2020. Designed by Kyle Kurokawa. Development by Oak Harbor Web Designs. All rights reserved.</p>
+                    <ul>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">li</a></li>
+                        <li><a href="">fb</a></li>
+                        <li><a href="">ig</a></li>
+                    </ul>
+                </div>
+                <p>DISCLAIMER: All content on this website is for informational and educational purposes only and is not intended to be or substitute medical or health advice for you or other individuals. Never use information on this website for diagnosing or treating any known or suspected disease or health problem, changing your medications or health care regimen, or disregard or delay professional medical advice. If you have or suspect to have a medical problem, or have any questions regarding your health, you must contact your doctor or qualified health care professionals. Using information from this website does not constitute or imply a doctor-patient relationship with Dr. Victoria Chan. Victoria Chan and her associates are not liable or responsible for any assumption, belief, advice, treatment course, health care change, diagnosis, financial consequence, damage, or any consequence you obtained through information from this website. Victoria Chan and her associates are not liable or responsible for any claims, beliefs, or consequences from websites linked to and from this website. Information and facts change constantly and thus may render content on this website obsolete, outdated, incomplete, or incorrect. Victoria Chan and her associates are not liable or responsible for any information or claims made on this website. If you choose to rely on any information from this website, it is solely at your own risk and interpretation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500, // values from 0 to 3000, with step 50ms
+        });
+    </script>
+</body>
+
+</html>
