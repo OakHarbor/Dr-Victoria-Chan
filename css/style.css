@@ -19,7 +19,9 @@
     height: 50px;
     width: 50px;
     background:  var(--accent);
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
 
 #landing h1 {
@@ -66,11 +68,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
     opacity: .9;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+        -ms-transform:translate(-50%, -50%);
+            transform:translate(-50%, -50%);
     z-index: -2;
 }
 
@@ -81,7 +86,9 @@
     width: 180px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+        -ms-transform: translate(-50%, -50%) rotate(45deg);
+            transform: translate(-50%, -50%) rotate(45deg);
     border: 4px solid var(--secondary);
     z-index: 10;
 }
@@ -105,7 +112,11 @@
     opacity: .5;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%)
+    -webkit-transform:translate(-50%, -50%)
+              translateY(4px);
+        -ms-transform:translate(-50%, -50%)
+              translateY(4px);
+            transform:translate(-50%, -50%)
               translateY(4px);
     z-index: -1;
 }
@@ -130,7 +141,8 @@
 
 .card {
     padding: 50px 35px;
-    box-shadow: 0px 0px 11px #0000001A;
+    -webkit-box-shadow: 0px 0px 11px #0000001A;
+            box-shadow: 0px 0px 11px #0000001A;
     border-radius: 20px;
     max-width: 320px;
     margin: auto;
@@ -190,7 +202,9 @@
     width: 90%;
     top: -80px;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     z-index: -10;
 }
 
@@ -205,13 +219,16 @@
     width: 90%;
     top: -80px;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     z-index: -10;
 }
 
 .slide {
     padding: 40px;
-    box-shadow: 0px 0px 11px #0000001A;
+    -webkit-box-shadow: 0px 0px 11px #0000001A;
+            box-shadow: 0px 0px 11px #0000001A;
     border-radius: 20px;
     margin: auto;
     max-width: 320px;
@@ -229,7 +246,9 @@
     background: var(--secondary);
     bottom: -50px;
     left: 50%;
-    transform: rotate(45deg) translateX(-75%);
+    -webkit-transform: rotate(45deg) translateX(-75%);
+        -ms-transform: rotate(45deg) translateX(-75%);
+            transform: rotate(45deg) translateX(-75%);
     z-index: -1;
 }
 
@@ -309,7 +328,9 @@
     width: 200px;
     top: 50%;
     right: 0;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 
 .right h3 {
@@ -318,7 +339,9 @@
     position: relative;
     margin-bottom: 200px;
     font-size: 1.3em;
-    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+            transform: translateY(20px);
 }
 
 .right h3 span {
@@ -333,7 +356,9 @@
     border: 2px solid var(--secondary);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+        -ms-transform: translate(-50%, -50%) rotate(45deg);
+            transform: translate(-50%, -50%) rotate(45deg);
     opacity: .5;
 }
 
@@ -351,7 +376,9 @@
     background: var(--secondary);
     bottom: -220px;
     left: 50%;
-    transform: rotate(45deg) translateX(-70%);
+    -webkit-transform: rotate(45deg) translateX(-70%);
+        -ms-transform: rotate(45deg) translateX(-70%);
+            transform: rotate(45deg) translateX(-70%);
     z-index: 100;
 }
 
@@ -361,7 +388,9 @@
     width: 100px !important;
     height: 150px;
     left: 50%;
-    transform: translateX(-60%);
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
     bottom: -160px;
     z-index: 1000;
 }
@@ -384,7 +413,9 @@
     border: 30px solid var(--light);
     position: absolute;
     left: 50%;
-    transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+            transform: translateX(-50%) rotate(45deg);
     opacity: .3;
     top: -270px;
 }
@@ -396,7 +427,9 @@
     border: 30px solid var(--light);
     position: absolute;
     left: 50%;
-    transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+            transform: translateX(-50%) rotate(45deg);
     opacity: .3;
     bottom: -270px;
 }
@@ -423,3 +456,7 @@
     z-index: 100;
     height: 35px;
 }
+
+/*-- -------------------------- -->
+<---     What You'll Get     -->
+<--- -------------------------- -*/
