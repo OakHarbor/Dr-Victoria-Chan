@@ -68,7 +68,7 @@ main:before {
     margin-left: auto;
 }
 .signature p:first-child {
-    font-size: .4em;
+    font-size: .4em !important;
     color: rgba(172, 183, 201, 1);
 }
 
