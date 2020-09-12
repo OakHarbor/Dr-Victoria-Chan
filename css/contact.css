@@ -70,6 +70,7 @@ main:before {
 .signature p:first-child {
     font-size: .4em !important;
     color: rgba(172, 183, 201, 1);
+    color: red;
 }
 
 .signature p:last-child {
