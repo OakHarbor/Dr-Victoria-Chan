@@ -63,14 +63,13 @@ main:before {
 
 .signature p {
     text-align: left;
-    width: 101px;
+    width: 111px;
     margin: 0;
     margin-left: auto;
 }
 .signature p:first-child {
     font-size: .4em !important;
     color: rgba(172, 183, 201, 1);
-    color: red;
 }
 
 .signature p:last-child {
