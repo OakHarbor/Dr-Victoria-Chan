@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/core-styles.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Desktop Navbar -->
+        <div class="mobile-wrapper">
+            <div class="mobile-nav container">
+                <img id="mobile-logo" src="/images/vertical-logo.png" alt="mobile_company_logo" height="60">
+
+                <!-- Hamburger Menu -->
+                <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
+                    <span aria-hidden="true" class="hamburger-box">
+                        <span aria-hidden="true" class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!--                   NAVIGATION                 -->
+        <!-- ============================================ -->
+
+        <nav>
+            <div class="navbar-menu">
+                <div id="side-menu" class=" side-nav">
+                    <ul id="on-top" class="navbar-links">
+                        <li class="nav-li"><a class="active-menu" href="/index.html">Home</a></li>
+                        <li class="nav-li"><a href="/html/">About Dr. Victoria</a></li>
+                        <li class="nav-li"><a href="/html/">Naturopathic Medicine</a></li>
+                        <li class="nav-li"><a href="/html/">Contact</a></li>
+                        <li class="nav-li">
+                            <button class="button-primary desktop-call" onclick="location.href='/html/contact.html'" type="button">
+                                Schedule An Appointment
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+
+        <section id="contact-form">
+            <div class="top">
+                <div class="letter">
+                    <span class="greeting">Hi Everyone !</span>
+                    <p class="first-p">
+                        I'm currently fine-tuning the details needed for coordinating the best healthcare I can give you.
+                    </p>
+                    <p>
+                        <strong>I'll be seeing patients located <span>in California starting January 2021.</span></strong>
+                    </p>
+                    <div class="signature">
+                        <p>Your mental health advocate,</p>
+                        <p>Dr. Victoria Chan</p>
+                    </div>
+                </div>
+                <h2>Want to be notified when I announce these?</h2>
+            </div>
+            <div class="bottom">
+                <div aria-hidden="true" class="left-pillar"></div>
+                <div aria-hidden="true" class="right-pillar"></div>
+
+                <div class="three-triangles">
+                    <div class="square">
+                        <a href="">Services Offered</a>
+                    </div>
+                    <div class="square">
+                        
+                    </div>
+                    <div class="square">
+                        <a href="">Contact Details</a>
+                    </div>
+                    <div class="square">
+                        <a href="">Schedule Availabilities</a>
+                    </div>
+                </div>
+
+                <div class="form container">
+                    <form action="">
+                        <h3>Fill out the form below <span>or reach out at <strong>hello@drvictoriachan.com</strong></span></h3>
+                        <input aria-label="name" name="name" placeholder="Your Name" type="text" tabindex="1" required>
+                        <input aria-label="email" name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+                        <button name="submit" type="submit" id="contact-submit" class="primary button-solid" data-submit="...Sending">Submit</button>
+                    </form>
+                    <h3 class="seeking">Seeking <em>help</em> is evidence of your <span>Strength</span></h3>
+                </div>
+
+                <div class="social">
+                    <div class="social-square">
+                        <img class="clover" src="/images/clover.svg" alt="">
+                        <h3>Follow me</h3>
+                        <p>@drvictoriachan</p>
+                        <div class="social-button-group">
+                            <a href=""><img src="/images/facebook.svg" alt=""></a>
+                            <a href=""><img src="/images/instagram.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================ -->
+    <!--                    FOOTER                    -->
+    <!-- ============================================ -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-nav">
+                <img src="" alt="">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">What to Expect</a></li>
+                    <li><a href="">FAQ's</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="disclaimer">
+                <div class="disclaimer-topper">
+                    <p>Copyright © 2020. Designed by Kyle Kurokawa. Development by Oak Harbor Web Designs. All rights reserved.</p>
+                    <ul>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">li</a></li>
+                        <li><a href="">fb</a></li>
+                        <li><a href="">ig</a></li>
+                    </ul>
+                </div>
+                <p>DISCLAIMER: All content on this website is for informational and educational purposes only and is not intended to be or substitute medical or health advice for you or other individuals. Never use information on this website for diagnosing or treating any known or suspected disease or health problem, changing your medications or health care regimen, or disregard or delay professional medical advice. If you have or suspect to have a medical problem, or have any questions regarding your health, you must contact your doctor or qualified health care professionals. Using information from this website does not constitute or imply a doctor-patient relationship with Dr. Victoria Chan. Victoria Chan and her associates are not liable or responsible for any assumption, belief, advice, treatment course, health care change, diagnosis, financial consequence, damage, or any consequence you obtained through information from this website. Victoria Chan and her associates are not liable or responsible for any claims, beliefs, or consequences from websites linked to and from this website. Information and facts change constantly and thus may render content on this website obsolete, outdated, incomplete, or incorrect. Victoria Chan and her associates are not liable or responsible for any information or claims made on this website. If you choose to rely on any information from this website, it is solely at your own risk and interpretation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500, // values from 0 to 3000, with step 50ms
+        });
+    </script>
+</body>
+
+</html>
