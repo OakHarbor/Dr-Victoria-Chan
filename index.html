@@ -38,7 +38,7 @@
         <!-- Desktop Navbar -->
         <div class="mobile-wrapper">
             <div class="mobile-nav container">
-                <img id="mobile-logo" src="images/vertical-logo.png" alt="mobile_company_logo" height="60">
+                <img id="mobile-logo" src="images/mobile-logo.svg" alt="mobile_company_logo" width="194">
 
                 <!-- Hamburger Menu -->
                 <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
@@ -56,6 +56,7 @@
         <nav>
             <div class="navbar-menu">
                 <div id="side-menu" class=" side-nav">
+                    <img src="/images/desktop-logo.svg" alt="">
                     <ul id="on-top" class="navbar-links">
                         <li class="nav-li"><a class="active-menu" href="/index.html">Home</a></li>
                         <li class="nav-li"><a href="/html/">About Dr. Victoria</a></li>
@@ -82,9 +83,9 @@
             <div class="container">
                 <div class="landing-left">
                     <h1>You deserve a future uninhibited by your mental health.</h1>
-                    <h2>Stability without side effects is priceless.</h2>
+                    <h2>Stability without side effects is possible.</h2>
                     <button class="button-primary landing-button" onclick="location.href='/html/contact.html'" type="button">
-                        Schedule An Appointment
+                        Optimize Your Health
                     </button>
                 </div>
             </div>
@@ -94,6 +95,7 @@
                     <img src="/images/victoria.png" alt="" width="250" height="167">
                 </div>
             </div>
+            <div aria-hidden="true" class="green-triangle"></div>
         </section>
 
         <!-- ============================================ -->
@@ -101,10 +103,12 @@
         <!-- ============================================ -->
         
         <section id="mental-health">
-            <img aria-hidden="true" class="clover" src="/images/clover.svg" alt="" width="40" height="40">
             <div class="container mental-health">
-                <h2>Mental Health Care Reimagined</h2>
                 <div class="card-container">
+                    <h2>Mental Health Care Reimagined
+                        <span aria-hidden="true"><img src="/images/clover.svg" alt=""></span>
+                        <span aria-hidden="true"><img src="/images/clover.svg" alt=""></span>
+                    </h2>
                     <div class="card">
                         <div class="icon"></div>
                         <h3>Combining the best of modern science and natural medicine.</h3>
@@ -117,10 +121,10 @@
                         <div class="icon"></div>
                         <h3>Personalized treatments for your unique needs.</h3>
                     </div>
+                    <button class="button-primary mental-health-button" onclick="location.href='/html/naturopathic-medicine.html'" type="button">
+                        What is Naturopathic Medicine?
+                    </button>
                 </div>
-                <button class="button-primary mental-health-button" onclick="location.href='/html/naturopathic-medicine.html'" type="button">
-                    What is Naturopathic Medicine?
-                </button>
             </div>
         </section>
 
@@ -132,6 +136,7 @@
             <div class="container slide-1-container">
                 <div class="slide-container">
                     <div class="slide">
+                        <div class="struggle-picture"></div>
                         <h2>You're struggling with</h2>
                         <div aria-hidden="true" class="line"></div>
                         <ul>
@@ -148,10 +153,11 @@
             <!--                    Seeking                   -->
             <!-- ============================================ -->
 
-            <div class="container">
-                <div class="container slide-2-container">
+            <div class="seeking-container container">
+                <div class="slide-2-container">
                     <div class="slide">
-                        <h2>You're seeking</h2>
+                        <div class="seeking-picture"></div>
+                        <h2>You're seeking:</h2>
                         <div aria-hidden="true" class="line"></div>
                         <ul>
                             <li>Stability without side effects</li>
@@ -171,8 +177,9 @@
 
         <section id="potential">
             <div class="container">
-                <img class="clover" src="/images/clover.svg" alt="">
-                <h2>I want to help because I believe your potential is endless.</h2>
+                <img aria-hidden="true" class="clover" src="/images/clover.svg" alt="">
+                <h2>I want to help because I believe your potential is endless.
+                </h2>
                 <div class="potential-content-container">
                     <div class="left">
                         <h3>You deserve a doctor who:</h3>
@@ -191,7 +198,7 @@
                     </div>
                 </div>
             </div>
-            <img class="plant" src="/images/linh-le-Ebwp2-6BG8E-unsplash.png" alt="">
+            <img aria-hidden="true" class="plant" src="/images/linh-le-Ebwp2-6BG8E-unsplash.png" alt="">
         </section>
 
         <!-- ============================================ -->
@@ -200,13 +207,17 @@
         
         <section id="victoria-highlight">
             <div class="container">
+                <div aria-label="headshot of victoria chan" class="victoria"></div>
                 <div class="quote">
                     <h2>Seeking a mental health doctor who personally overcame mental health struggles?</h2>
-                    <button class="button-secondary victoria-button" onclick="location.href='/html/about.html'" type="button">
+                    <button class="desktop button-primary victoria-button" onclick="location.href='/html/about.html'" type="button">
                         My Story
                     </button>
                 </div>
-                <img src="/images/Homepage_Headshot 2.jpeg" alt="" width="100">
+                <button class="button-primary victoria-button mobile" onclick="location.href='/html/about.html'" type="button">
+                    My Story
+                </button>
+                <img class="victoria desktop" src="/images/Homepage_Headshot 2.jpeg" alt="" width="100">
             </div>
         </section>
 
@@ -216,39 +227,53 @@
         
         <section id="what-you-get">
             <div class="container">
-                <h2>What you'll Get</h2>
-                <div class="got-item">
-                    <div aria-hidden="true" class="image-left"></div>
-                    <div class="got-item-right">
-                        <h3>In-depth analysis</h3>
-                        <div class="golden-line"></div>
-                        <ul>
-                            <li>Holistic health evaluation</li>
-                            <li>Your goals are respected and prioritized</li>
-                        </ul>
+                <h2>What you'll get</h2>
+                <div class="item-container">
+                    <div class="got-item">
+                        <div aria-hidden="true" class="image-left"></div>
+                        <div class="got-item-right">
+                            <h3>In-depth analysis 
+                                <span aria-hidden="true" class="span-background">
+                                    <span class="number">1</span>
+                                </span>
+                            </h3>
+                            <div class="golden-line"></div>
+                            <ul>
+                                <li>Holistic health evaluation</li>
+                                <li>Your goals are respected and prioritized</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="got-item">
-                    <div class="got-item-right">
-                        <h3>In-depth analysis</h3>
-                        <div class="golden-line"></div>
-                        <ul>
-                            <li>Tests tailored to discover your root cause</li>
-                            <li>Results will be comprehensively explained</li>
-                        </ul>
+                    <div class="got-item">
+                        <div class="got-item-right">
+                            <h3>In-depth analysis 
+                                <span aria-hidden="true" class="span-background">
+                                    <span class="number">2</span>
+                                </span>
+                            </h3>
+                            <div class="golden-line"></div>
+                            <ul>
+                                <li>Tests tailored to discover your root cause</li>
+                                <li>Results will be comprehensively explained</li>
+                            </ul>
+                        </div>
+                        <div aria-hidden="true" class="image-right"></div>
                     </div>
-                    <div aria-hidden="true" class="image-right"></div>
-                </div>
-                <div class="got-item">
-                    <div aria-hidden="true" class="image-left"></div>
-                    <div class="got-item-right">
-                        <h3>In-depth analysis</h3>
-                        <div class="golden-line"></div>
-                        <ul>
-                            <li>Address your underlying causes</li>
-                            <li>Collaboration that evolves with your health journey</li>
-                            <li>Striving for sustainable benefits</li>
-                        </ul>
+                    <div class="got-item">
+                        <div aria-hidden="true" class="image-left"></div>
+                        <div class="got-item-right">
+                            <h3>In-depth analysis 
+                                <span aria-hidden="true" class="span-background">
+                                    <span class="number">3</span>
+                                </span>
+                            </h3>
+                            <div class="golden-line"></div>
+                            <ul>
+                                <li>Address your underlying causes</li>
+                                <li>Collaboration that evolves with your health journey</li>
+                                <li>Striving for sustainable benefits</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -266,16 +291,16 @@
                 <img aria-hidden="true" class="clover" src="" alt="">
                 <h2>What you won't get</h2>
                 <div aria-hidden="true" class="golden-line"></div>
-                <ul>
-                    <li>• Treatments that’ll only suppress symptoms</li>
-                    <li>• Quick-“fix” generic pill •</li>
-                    <li>• Impersonal healthcare •</li>
-                    <li>Judged or shamed for your decisions •</li>
+                <ul class="first-ul">
+                    <li><span aria-hidden="true">•</span> Treatments that’ll only suppress symptoms</li>
+                    <li><span aria-hidden="true">•</span> Quick-“fix” generic pill <span>•</span></li>
+                    <li>Judged or shamed for your decisions <span aria-hidden="true">•</span></li>
+                    <li><span aria-hidden="true">•</span> Impersonal healthcare <span aria-hidden="true">•</span></li>
                 </ul>
                 <button class="button-primary" onclick="location.href='/html/about.html'" type="button">
                     Our Unique Approach
                 </button>
-                <h3>You are more than your symptoms.</h3>
+                <h3>You are more <span>than your symptoms.</span></h3>
                 <!--Golden square comes from the :before on diamond element-->
                 <!--Second Giant white triangle comes form the :after on the diamond element-->
                 <div class="diamond">

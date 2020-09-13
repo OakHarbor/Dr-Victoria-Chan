@@ -5,50 +5,44 @@
 #landing {
     min-height: 100vh;
     padding-top: 100px;
+    padding-bottom: 350px;
+    position: relative;
 }
 
 .landing-left {
     position: relative;
 }
 
-.landing-left:after {
-    content: '';
-    position: absolute;
-    top: 50px;
-    right: -20px;
-    height: 50px;
-    width: 50px;
-    background:  var(--accent);
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
-}
-
 #landing h1 {
     text-align: left;
-    font-size: 1.7em;
+    font-size: 24px;
     font-weight: 600;
     line-height: 1.3em;
+    margin-top: 50px;
     margin-bottom: 15px;
     color: var(--primary);
     text-decoration: none;
     position: relative;
-    max-width: 330px;
+    max-width: 226px;
 }
 
 #landing h2 {
     text-align: left;
-    font-size: 1em;
+    font-size: 12px;
     margin-bottom: 35px;
     color: var(--primary);
     font-weight: 400;
-    width: 270px;
+    width: 220px;
 }
 
 .landing-button {
     background: var(--secondary);
     font-size: 14px;
     color: var(--dark);
+    padding: 0 10px;
+    width: 150px;
+    position: relative;
+    border: 5px;
 }
 
 .landing-right {
@@ -121,57 +115,111 @@
     z-index: -1;
 }
 
+.green-triangle {
+    background: var(--accent);
+    position: absolute;
+    height: 700px;
+    left: -1000px;
+    width: 1500px;
+    bottom: -145px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    z-index: -3;
+}
+
 /*-- -------------------------- -->
-<---        Mental health       -->
+<---       Mental Health        -->
 <--- -------------------------- -*/
 
-.clover {
-    display: block;
-    width: 40px;
-    margin: auto;
-    margin-bottom: 10px;
+#mental-health {
+    overflow: visible !important;
+    background-color: var(--primary);
+    height: 140px;
+}
+
+.mental-health {
+    -webkit-transform: translateY(-400px);
+        -ms-transform: translateY(-400px);
+            transform: translateY(-400px);
+    position: relative;
+    z-index: 100000;
+}
+
+.card-container {
+    padding: 17px 10px 10px 10px;
+    -webkit-box-shadow: 0px 0px 11px #0000001A;
+            box-shadow: 0px 0px 11px #0000001A;
+    border-radius: 10px;
+    background-color: #fff;
 }
 
 .mental-health h2 {
+    font: normal normal normal 14px/16px Fira Sans;
+    letter-spacing: 4.2px;
     text-transform: uppercase;
-    color: var(--primary);
-    font-size: 1.4em;
-    margin-bottom: 50px;
+    text-align: center;
+    width: 182px;
+    margin: auto;
+    font-weight: 600;
+    margin-bottom: 42px;
+    position: relative;
+}
+
+.mental-health h2 span {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(90deg);
+        -ms-transform: translateY(-50%) rotate(90deg);
+            transform: translateY(-50%) rotate(90deg);
+}
+
+.mental-health h2 span:first-child {
+    left: -25px;
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+        -ms-transform: translateY(-50%) rotate(-90deg);
+            transform: translateY(-50%) rotate(-90deg);
+}
+
+.mental-health h2 span:last-child {
+    right: -25px;
+}
+
+.mental-health h2 span img {
+    width: 15px;
 }
 
 .card {
-    padding: 50px 35px;
-    -webkit-box-shadow: 0px 0px 11px #0000001A;
-            box-shadow: 0px 0px 11px #0000001A;
-    border-radius: 20px;
-    max-width: 320px;
-    margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .icon {
-    height: 80px;
-    width: 80px;
-    background: var(--primary);
-    display: block;
-    margin: auto;
-    margin-bottom: 40px;
+    height: 50px;
+    width: 50px;
+    background-color: var(--primary);
     border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
-.card  h3 {
-    display: block;
+.card h3 {
+    font-size: 12px;
+    letter-spacing: 0.36px;
+    color: #2D325A;
+    width: 188px;
+    font-weight: 400;
     margin: auto;
-    font-size: 1.2em;
-    line-height: 1.6em;
-    color: var(--primary);
-    letter-spacing: 0.54px;
 }
 
 .mental-health-button {
+    font-size: 14px;
+    width: 260px;
     display: block;
     margin: auto;
-    font-size: 14px;
+    padding: 0;
+    background: var(--secondary);
+    color: var(--primary);
+    border-radius: 5px;
 }
 
 /*-- -------------------------- -->
@@ -179,169 +227,226 @@
 <--- -------------------------- -*/
 
 #struggles {
-    padding-top: 100px !important;
-}
-
-.slide-container {
+    background: var(--primary);
     position: relative;
+    height: 620px;
+    overflow: visible !important;
+    margin-bottom: 250px;
 }
 
-.slide-1-container,
-.slide-2-container {
-    position: relative;
-}
-
-.slide-1-container:before {
+#struggles:before {
     content: '';
     position: absolute;
+    height: 400px;
+    width: 400px;
+    background: var(--primary);
+    bottom: -180px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+            transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
+}
+
+#struggles:after {
+    content: '';
+    background: var(--primary);
+    height: 100px;
+    width: 120%;
+    position: absolute;
+    top: -50px;
+}
+
+.struggle-picture {
+    height: 137px;
+    width: 100%;
     background: url("/images/Homepage_Struggling\ with.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100px;
-    width: 90%;
-    top: -80px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    z-index: -10;
 }
 
-.slide-2-container:before {
-    content: '';
-    position: absolute;
+.slide h2 {
+    color: #fff;
+    text-align: left;
+    opacity: .8;
+    font-size: 16px;
+    margin-top: 17px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: var(--secondary);
+    margin: 10px auto 12px auto;
+    width: 240px;
+}
+
+.slide ul li {
+    color: #fff;
+    opacity: .7;
+    font-size: 12px;
+    letter-spacing: 0.36px;
+    line-height: 1.7em;
+    margin-bottom: 5px;
+}
+
+.slide h2, .slide ul {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.slide ul {
+    padding-left: 40px;
+}
+
+/*-- -------------------------- -->
+<---          Seeking           -->
+<--- -------------------------- -*/
+
+.seeking-container {
+    padding: 0 10px;
+}
+
+.slide-2-container .slide {
+    background: #fff;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 11px #0000001A;
+            box-shadow: 0px 0px 11px #0000001A;
+    border-radius: 10px;
+}
+
+.seeking-picture {
+    height: 137px;
+    width: 100%;
     background: url("/images/epic.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100px;
-    width: 90%;
-    top: -80px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    z-index: -10;
 }
 
-.slide {
-    padding: 40px;
-    -webkit-box-shadow: 0px 0px 11px #0000001A;
-            box-shadow: 0px 0px 11px #0000001A;
-    border-radius: 20px;
-    margin: auto;
-    max-width: 320px;
-    position: relative;
-    z-index: 10;
-    background: #fff;
+.slide-2-container .slide h2, .slide-2-container .slide ul li {
+    color: var(--primary);
 }
 
-.slide-1-container:after,
-.slide-2-container:after {
-    content: '';
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    background: var(--secondary);
-    bottom: -50px;
-    left: 50%;
-    -webkit-transform: rotate(45deg) translateX(-75%);
-        -ms-transform: rotate(45deg) translateX(-75%);
-            transform: rotate(45deg) translateX(-75%);
-    z-index: -1;
-}
-
-.slide-1-container {
-    margin-bottom: 190px;
-}
-
-.slide-2-container {
-    margin-bottom: 0px;
-}
-
-.slide h2 {
-    font-size: 1.3em;
-    font-weight: bold;
+.slide-2-container .slide h2 {
     text-align: left;
+    opacity: .8;
+    font-size: 16px;
+    margin-top: 17px;
+    font-weight: 700;
+    padding: 0 20px;
+    margin-bottom: 10px;
 }
 
-.line {
-    height: 2px;
-    width: 100%;
-    background: var(--secondary);
-    margin-top: 10px;
-    margin-bottom: 25px;
+.slide-2-container .slide ul {
+    padding-left: 30px;
+    padding-right: 26px;
 }
 
-.slide ul li {
-    margin-bottom: 25px;
-    font-size: .8em;
+.slide-2-container .slide ul li {
+    font-size: 12px;
+    letter-spacing: 0.36px;
+    line-height: 1.7em;
+    margin-bottom: 5px;
+    font-weight: 600;
 }
 
 /*-- -------------------------- -->
 <---         Potential          -->
 <--- -------------------------- -*/
 
-#potential {
-    position: relative;
-    margin-bottom: 100px;
+.clover {
+    width: 25px;
+    display: block;
+    margin: auto;
+    margin-bottom: 7px;
 }
 
 #potential h2 {
     color: var(--tertiary);
-    font-weight: 600;
-    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 202px;
+    margin: auto;
+    margin-bottom: 64px;
 }
 
-.left > h3 {
+.potential-content-container .left {
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 11px #0000001A;
+            box-shadow: 0px 0px 11px #0000001A;
+    border-radius: 5px;
+    padding: 20px 30px 27px 30px;
+    margin-bottom: 74px;
+    position: relative;
+}
+
+.potential-content-container .left:before {
+    content: '';
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background: var(--light);
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 70px) rotate(45deg);
+        -ms-transform: translate(-50%, 70px) rotate(45deg);
+            transform: translate(-50%, 70px) rotate(45deg);
+    z-index: -1;
+}
+
+.potential-content-container .left:after {
+    content: '';
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background: var(--accent);
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -110px) rotate(45deg);
+        -ms-transform: translate(-50%, -110px) rotate(45deg);
+            transform: translate(-50%, -110px) rotate(45deg);
+    z-index: -2;
+}
+
+.potential-content-container .left > h3 {
+    font-size: 16px;
+    color: var(--primary);
+    margin: auto;
+    width: 202px;
     font-weight: bold;
 }
 
 .potential-line {
-    height: 2px;
-    width: 150px;
-    display: block;
-    background: var(--secondary);
-    margin: 10px auto 50px auto;
-}
-
-.potential-group {
-    height: 80px;
     width: 100%;
-    position: relative;
-    margin-bottom: 50px;
-}
-
-.potential-group .icon {
-    display: inline-block;
-    float: left;
-    margin: 0;
-    margin-right: 25px;
+    height: 1px;
+    background: var(--secondary);
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .potential-group h3 {
-    font-size: 1em;
-    margin: 0;
-    text-align: left;
-    position: absolute;
-    width: 200px;
-    top: 50%;
-    right: 0;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    font-size: 12px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.potential-group:last-child h3 {
+    margin-bottom: 0;
+    width: 148px;
+}
+
+.right h3, .right h3 span {
+    width: 178px;
+    color: #fff;
+    font-size: 16px;
+    margin: auto;
+    position: relative;
 }
 
 .right h3 {
-    font-weight: bold;
-    margin-top: 220px;
-    position: relative;
-    margin-bottom: 200px;
-    font-size: 1.3em;
-    -webkit-transform: translateY(20px);
-        -ms-transform: translateY(20px);
-            transform: translateY(20px);
+    line-height: 1.5em;
 }
 
 .right h3 span {
@@ -351,48 +456,18 @@
 .right h3:before {
     content: '';
     position: absolute;
-    height: 130px;
-    width: 130px;
-    border: 2px solid var(--secondary);
+    height: 90px;
+    width: 90px;
+    border: 1px solid var(--secondary);
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%) rotate(45deg);
         -ms-transform: translate(-50%, -50%) rotate(45deg);
             transform: translate(-50%, -50%) rotate(45deg);
-    opacity: .5;
 }
 
 .plant {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-#potential:before {
-    content: '';
-    position: absolute;
-    height: 120px;
-    width: 120px;
-    background: var(--secondary);
-    bottom: -220px;
-    left: 50%;
-    -webkit-transform: rotate(45deg) translateX(-70%);
-        -ms-transform: rotate(45deg) translateX(-70%);
-            transform: rotate(45deg) translateX(-70%);
-    z-index: 100;
-}
-
-#potential:after {
-    position: absolute;
-    content: url("/images/About_Headshot-120px.jpg");
-    width: 100px !important;
-    height: 150px;
-    left: 50%;
-    -webkit-transform: translateX(-60%);
-        -ms-transform: translateX(-60%);
-            transform: translateX(-60%);
-    bottom: -160px;
-    z-index: 1000;
+    display: none;
 }
 
 /*-- -------------------------- -->
@@ -400,63 +475,276 @@
 <--- -------------------------- -*/
 
 #victoria-highlight {
-    background: var(--primary);
+    background: var(--light);
     position: relative;
-    border-bottom: 10px solid var(--secondary);
-    overflow: hidden;
+    overflow: visible !important;
 }
 
 #victoria-highlight:before {
     content: '';
-    height: 300px;
-    width: 300px;
-    border: 30px solid var(--light);
     position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%) rotate(45deg);
-        -ms-transform: translateX(-50%) rotate(45deg);
-            transform: translateX(-50%) rotate(45deg);
-    opacity: .3;
-    top: -270px;
+    height: 663px;
+    width: 663px;
+    right: -464px;
+    bottom: -450px;
+    background: var(--primary);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
 
-#victoria-highlight::after {
+#victoria-highlight:after {
     content: '';
-    height: 300px;
-    width: 300px;
-    border: 30px solid var(--light);
     position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%) rotate(45deg);
-        -ms-transform: translateX(-50%) rotate(45deg);
-            transform: translateX(-50%) rotate(45deg);
-    opacity: .3;
-    bottom: -270px;
+    height: 163px;
+    width: 163px;
+    right: -104px;
+    top: -30px;
+    background: var(--secondary);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
 
-#victoria-highlight img {
+#victoria-highlight .container {
+    padding: 0;
+}
+
+.desktop {
     display: none;
 }
 
-#victoria-highlight h2 {
-    color: #fff;
-    margin-bottom: 50px;
-    margin-top: 80px;
+.victoria {
+    background: url("/images/Homepage_Headshot\ 2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 256px;
+    width: 171px;
     position: relative;
+    -webkit-transform: translateX(-15px);
+        -ms-transform: translateX(-15px);
+            transform: translateX(-15px);
+    margin-bottom: 44px;
+}
+
+.victoria:after {
+    content: '';
+    position: absolute;
+    height: 173px;
+    width: 173px;
+    border: 5px solid var(--secondary);
     z-index: 100;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -129px) rotate(45deg);
+        -ms-transform: translate(-50%, -129px) rotate(45deg);
+            transform: translate(-50%, -129px) rotate(45deg);
+}
+
+.quote {
+    position: absolute;
+    padding: 10px 14px;
+    background: var(--light);
+    width: 240px;
+    border-radius: 10px;
+    top: 180px;
+    right: -36px;
+    z-index: 100;
+    -webkit-box-shadow: 0px 3px 11px #00000029;
+            box-shadow: 0px 3px 11px #00000029;
+}
+
+.quote h2 {
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    font-weight: 400;
+}
+
+.quote button {
+    display: none;
 }
 
 .victoria-button {
-    background: #fff;
-    min-width: auto;
-    padding: 0px 30px;
+    position: relative;
+    min-width: 120px;
+    background: var(--secondary);
+    color: var(--primary);
+    border-radius: 5px;
+    height: 30px;
     display: block;
     margin: auto;
-    position: relative;
-    z-index: 100;
-    height: 35px;
 }
 
 /*-- -------------------------- -->
-<---     What You'll Get     -->
+<---      What You'll Get       -->
 <--- -------------------------- -*/
+
+#what-you-get {
+    background: var(--light);
+    padding-bottom: 0 !important;
+}
+
+#what-you-get .container {
+    position: relative;
+    z-index: 100;
+    background: #fff;
+    padding: 20px 10px 10px 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+    -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+            transform: translateY(-30px);
+}
+
+#what-you-get h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.item-container {
+    background: rgba(152, 152, 152, .1);
+    padding: 21px 15px;
+    border-radius: 5px;
+}
+.got-item {
+    padding-left: 64px;
+}
+
+.got-item h3 {
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.got-item h3:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 220px;
+    background: var(--secondary);
+    bottom: -11px;
+    left: -50px;
+}
+
+.span-background {
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    background: var(--primary);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    bottom: -25px;
+    left: -50px;
+    z-index: 100;
+}
+
+.number {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+        -ms-transform: translate(-50%, -50%) rotate(-45deg);
+            transform: translate(-50%, -50%) rotate(-45deg);
+    font-size: 14px;
+}
+
+.got-item:nth-child(2), .got-item:nth-child(3) {
+    margin-top: 20px;
+}
+
+.got-item ul li {
+    font-size: 12px;
+    color: var(--primary);
+    line-height: 1.7em;
+    font-weight: 500;
+}
+
+/*-- -------------------------- -->
+<---      Crazy Art Thins       -->
+<--- -------------------------- -*/
+
+#crazy-artsy-thing {
+    background: var(--light);
+    padding-top: 0px !important;
+}
+
+.crazy-topper h2{
+    color: #fff;
+    font-size: 16px;
+}
+
+.crazy-topper .golden-line {
+    height: 1px;
+    width: 250px;
+    margin: 10px auto 22px auto;
+    background: var(--secondary);
+}
+
+.first-ul {
+    margin-bottom: 34px;
+}
+
+.first-ul li {
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.7em;
+    letter-spacing: 0.33px;
+    width: auto;
+    opacity: .8;
+    margin-bottom: 5px;
+}
+
+.first-ul li:nth-child(1) {
+    width: 245px;
+    margin: auto;
+}
+
+.first-ul li:nth-child(2) {
+    width: 140px;
+    margin: auto;
+}
+
+.first-ul li:nth-child(3) {
+    width: 210px;
+    margin: auto;
+}
+
+.first-ul li:nth-child(4) {
+    width: 135px;
+    margin: auto;
+}
+
+.first-ul li span {
+    display: none;
+}
+
+.crazy-topper button {
+    position: relative;
+    min-width: 120px;
+    background: var(--secondary);
+    color: var(--primary);
+    border-radius: 5px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.crazy-topper h3, .crazy-topper h3 span {
+    color: #fff;
+    font-size: 20px;
+    width: 192px;
+    margin: auto;
+}
+
+.crazy-topper h3 span {
+    display: block;
+}
