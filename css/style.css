@@ -385,28 +385,28 @@
 .potential-content-container .left:before {
     content: '';
     position: absolute;
-    height: 400px;
-    width: 400px;
+    height: 700px;
+    width: 700px;
     background: var(--light);
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, 70px) rotate(45deg);
-        -ms-transform: translate(-50%, 70px) rotate(45deg);
-            transform: translate(-50%, 70px) rotate(45deg);
+    -webkit-transform: translate(-50%, 120px) rotate(45deg);
+        -ms-transform: translate(-50%, 120px) rotate(45deg);
+            transform: translate(-50%, 120px) rotate(45deg);
     z-index: -1;
 }
 
 .potential-content-container .left:after {
     content: '';
     position: absolute;
-    height: 400px;
-    width: 400px;
+    height: 700px;
+    width: 700px;
     background: var(--accent);
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -110px) rotate(45deg);
-        -ms-transform: translate(-50%, -110px) rotate(45deg);
-            transform: translate(-50%, -110px) rotate(45deg);
+    -webkit-transform: translate(-50%, -50px) rotate(45deg);
+        -ms-transform: translate(-50%, -50px) rotate(45deg);
+            transform: translate(-50%, -50px) rotate(45deg);
     z-index: -2;
 }
 
@@ -491,6 +491,7 @@
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
+    z-index: 2;
 }
 
 #victoria-highlight:after {
@@ -575,6 +576,7 @@
     height: 30px;
     display: block;
     margin: auto;
+    z-index: 5;
 }
 
 /*-- -------------------------- -->
@@ -588,7 +590,6 @@
 
 #what-you-get .container {
     position: relative;
-    z-index: 100;
     background: #fff;
     padding: 20px 10px 10px 10px;
     border-radius: 10px;
@@ -596,19 +597,24 @@
     -webkit-transform: translateY(-30px);
         -ms-transform: translateY(-30px);
             transform: translateY(-30px);
+    z-index: 1000;
 }
 
 #what-you-get h2 {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .item-container {
     background: rgba(152, 152, 152, .1);
     padding: 21px 15px;
     border-radius: 5px;
+    z-index: 1000;
+    position: relative;
 }
+
 .got-item {
     padding-left: 64px;
 }
@@ -639,7 +645,7 @@
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
-    bottom: -25px;
+    bottom: -24px;
     left: -50px;
     z-index: 100;
 }
@@ -667,12 +673,28 @@
 }
 
 /*-- -------------------------- -->
-<---      Crazy Art Thins       -->
+<---      Crazy Art Things      -->
 <--- -------------------------- -*/
 
 #crazy-artsy-thing {
     background: var(--light);
     padding-top: 0px !important;
+    overflow: visible !important;
+}
+
+.crazy-topper {
+    position: relative;
+    z-index: 1000;
+}
+
+.overflow-hide {
+    position: absolute;
+    height: 360px;
+    width: 450px;
+    background: var(--light);
+    top: -300px;
+    left: -50px;
+    z-index: -200;
 }
 
 .crazy-topper h2{
@@ -738,13 +760,214 @@
     margin-bottom: 70px;
 }
 
+.crazy-topper button img {
+    position: absolute;
+    width: 25px;
+    left: 50%;
+    top: 70px;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.crazy-topper h3 {
+    -webkit-transform: translateY(25px);
+        -ms-transform: translateY(25px);
+            transform: translateY(25px);
+}
+
 .crazy-topper h3, .crazy-topper h3 span {
     color: #fff;
     font-size: 20px;
     width: 192px;
     margin: auto;
+    font-weight: 700;
 }
 
 .crazy-topper h3 span {
     display: block;
+}
+
+/*-- -------------------------- -->
+<---       Contact Cards        -->
+<--- -------------------------- -*/
+
+#contact-cards {
+    background: url("/images/nasa-sea-from-space-1920H.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 640px;
+    overflow: visible !important;
+    position: relative;
+}
+
+
+#contact-cards:before {
+    content: '';
+    position: absolute;
+    height: 360px;
+    width: 450px;
+    background: var(--light);
+    top: -700px;
+    left: -50px;
+    z-index: 1;
+}
+
+#contact-cards:after {
+    content: '';
+    position: absolute;
+    background: var(--light);
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -790px) rotate(-45deg);
+        -ms-transform: translate(-50%, -790px) rotate(-45deg);
+            transform: translate(-50%, -790px) rotate(-45deg);
+}
+
+/* Boxes */
+.diamond {
+    position: relative;
+    height: 270px;
+    width: 270px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -240px) rotate(-45deg);
+        -ms-transform: translate(-50%, -240px) rotate(-45deg);
+            transform: translate(-50%, -240px) rotate(-45deg);
+}
+
+.diamond:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -1010px) rotate(90deg);
+        -ms-transform: translate(-50%, -1010px) rotate(90deg);
+            transform: translate(-50%, -1010px) rotate(90deg);
+    height: 1600px;
+    width: 400px;
+    background: var(--primary);
+}
+
+.diamond:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-455px, 10px) rotate(-90deg);
+        -ms-transform: translate(-455px, 10px) rotate(-90deg);
+            transform: translate(-455px, 10px) rotate(-90deg);
+    width: 1600px;
+    height: 400px;
+    background: var(--primary);
+}
+
+.diamond-piece {
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    background: rgba(219, 177, 59, .35);
+}
+
+.diamond-piece h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+        -ms-transform: translate(-50%, -50%) rotate(45deg);
+            transform: translate(-50%, -50%) rotate(45deg);
+    color: #989898;
+    font-size: 12px;
+    width: 85px;
+}
+
+.diamond-piece:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.diamond-piece:nth-child(2) {
+    top: 0;
+    right: 0;
+    background: transparent;
+}
+
+.diamond-piece:nth-child(2) h4 {
+    font-size: 17px;
+    width: 102px;
+    font-weight: 700;
+}
+
+.diamond-piece:nth-child(2) h4:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: -14px;
+    background: rgba(219, 177, 59, .35);
+}
+
+.diamond-piece:nth-child(3) {
+    bottom: 0;
+    left: 0;
+}
+
+.diamond-piece:nth-child(4) {
+    bottom: 0;
+    right: 0;
+}
+
+/* appointment */
+.contact-card {
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background: #fff;
+    bottom: -55px;
+    z-index: 10000;
+}
+
+.contact-card img {
+    position: absolute;
+    width: 25px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: -80px;
+}
+
+.contact-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+    color: var(--primary);
+}
+
+.contact-content a {
+    font-weight: 800;
+    letter-spacing: 0.42px;
+}
+
+.contact-content .golden-line {
+    height: 2px;
+    width: 56px;
+    background: var(--secondary);
+    display: block;
+    margin: auto;
+    margin-top: 10px;
 }
