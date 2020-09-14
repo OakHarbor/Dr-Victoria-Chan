@@ -571,6 +571,7 @@ footer {
     position: relative;
 	z-index: 1000;
 	padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 .footer-svg {
@@ -748,4 +749,5 @@ footer .container {
 	font-size: 6px;
 	color: #fff;
 	opacity: .5;
+	text-align: justify;
 }
