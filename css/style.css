@@ -1128,6 +1128,10 @@
         top: 1px;
         right: -300px;
     }
+
+    .first-ul li {
+        font-size: 11px !important;
+    }
 }
 
 /* Large Screen Landscape 736px */
