@@ -594,7 +594,7 @@
 <--- -------------------------- -*/
 
 #what-you-get {
-    height: 420px;
+    height: 470px;
     background: var(--light);
     padding-bottom: 0 !important;
     overflow: visible !important;
@@ -995,4 +995,178 @@
     display: block;
     margin: auto;
     margin-top: 10px;
+}
+
+/* Step 1 Mobile Landscape */
+@media screen and (min-width: 540px) and (max-width: 767px) {
+
+    /*-- -------------------------- -->
+    <---          Landing           -->
+    <--- -------------------------- -*/
+
+    #landing {
+        min-height: 600px;
+        height: 610px;
+        position: relative;
+    }
+    
+    .landing-right {
+        position: absolute;
+        top: 60px;
+        right:20px;
+    }
+
+    .landing-right:after {
+        width: 300%;
+        bottom: -3320px;
+        left: -90px;
+    }
+
+    .card {
+        display: inline-block;
+        float: left;
+        width: 28%;
+        margin: 0 13px;
+    }
+
+    .card h3 {
+        width: 100%;
+    }
+
+    .card-container {
+        max-width: 627px;
+        height: 300px;
+        -webkit-transform: translateY(190px);
+            -ms-transform: translateY(190px);
+                transform: translateY(190px);
+    }
+
+    /*-- -------------------------- -->
+    <---       Mental Health        -->
+    <--- -------------------------- -*/
+
+    .mental-health-button {
+        margin-top: 40px;
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    /*-- -------------------------- -->
+    <---          Struggles         -->
+    <--- -------------------------- -*/
+
+    #struggles:before {
+        height: 500px;
+        width: 500px;
+    }
+
+    /*-- -------------------------- -->
+    <---     Vicoria Highlight      -->
+    <--- -------------------------- -*/
+
+    #victoria-highlight .container {
+        max-width: 430px;
+        position: relative;
+    }
+
+    .victoria {
+        -webkit-transform: translateX(60px);
+            -ms-transform: translateX(60px);
+                transform: translateX(60px);
+    }
+
+    .quote {
+        right: 0px;
+        top: 130px;
+    }
+
+    /*-- -------------------------- -->
+    <---       Contact Cards        -->
+    <--- -------------------------- -*/
+
+    #contact-cards:after {
+        width: 600px;
+        height: 600px;
+        left: 50%;
+        -webkit-transform: translate(-50%, -1160px) rotate(-45deg);
+            -ms-transform: translate(-50%, -1160px) rotate(-45deg);
+                transform: translate(-50%, -1160px) rotate(-45deg);
+    }
+
+}
+
+/* Large Screen Landscape */
+@media screen and (min-width: 570px) {
+
+    .crazy-topper h2 {
+        position: relative;
+        width: 300px;
+        margin: auto;
+    }
+
+    .crazy-topper h2:before {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        background: var(--primary);
+        top: 19px;
+        left: -300px;
+    }
+
+    .crazy-topper h2:after {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        background: var(--primary);
+        top: 1px;
+        right: -300px;
+    }
+}
+
+/* Large Screen Landscape 736px */
+@media screen and (min-width: 570px) {
+
+    .landing-left {
+        margin-left: 70px;
+    }
+
+    .landing-right {
+        right: 70px;
+    }
+
+    .landing-right:after {
+        left: -40px;
+    }
+}
+
+/* Step 2 */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    
+}
+
+/* Step 3 */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    
+}
+
+/* Step 4 */
+@media screen and (min-width: 1200px) {
+
+    
+
+}
+
+/* Step 5 */
+@media screen and (min-width: 1400px) {
+
+    
 }
