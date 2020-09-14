@@ -76,9 +76,9 @@
 .landing-right:after {
     content: url("/images/landing-background.svg");
     position: absolute;
-    bottom: -684px;
-    height: 1000px;
-    width: 200%;
+    bottom: -1800px;
+    height: auto;
+    width: 170%;
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
@@ -125,14 +125,6 @@
               translateY(4px);
             transform:translate(-50%, -50%)
               translateY(4px);
-    z-index: -1;
-}
-
-.landing-shapes {
-    position: absolute;
-    width: 100%;
-    bottom: -1200px;
-    left: 0;
     z-index: -1;
 }
 
@@ -826,13 +818,13 @@
     content: '';
     position: absolute;
     background: var(--light);
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -790px) rotate(-45deg);
-        -ms-transform: translate(-50%, -790px) rotate(-45deg);
-            transform: translate(-50%, -790px) rotate(-45deg);
+    -webkit-transform: translate(-50%, -910px) rotate(-45deg);
+        -ms-transform: translate(-50%, -910px) rotate(-45deg);
+            transform: translate(-50%, -910px) rotate(-45deg);
 }
 
 /* Boxes */
@@ -933,7 +925,7 @@
 /* appointment */
 .contact-card {
     position: absolute;
-    width: 280px;
+    width: 90%;
     height: 150px;
     left: 50%;
     -webkit-transform: translateX(-50%);
