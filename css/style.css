@@ -73,6 +73,17 @@
     z-index: -2;
 }
 
+.landing-right:after {
+    content: url("/images/landing-background.svg");
+    position: absolute;
+    bottom: -684px;
+    height: 1000px;
+    width: 200%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -4;
+}
+
 .image-container:after {
     content: '';
     position: absolute;
@@ -115,17 +126,12 @@
     z-index: -1;
 }
 
-.green-triangle {
-    background: var(--accent);
+.landing-shapes {
     position: absolute;
-    height: 700px;
-    left: -1000px;
-    width: 1500px;
-    bottom: -145px;
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
-    z-index: -3;
+    width: 100%;
+    bottom: -1200px;
+    left: 0;
+    z-index: -1;
 }
 
 /*-- -------------------------- -->
