@@ -680,7 +680,7 @@ footer .container {
 	top: 98px;
 	height: 25px;
 	right: 0px;
-	background: var(--light);
+	background: var(--secondary);
 }
 
 .clover-group:before {
@@ -692,7 +692,7 @@ footer .container {
 	        transform: translateY(-50%);
 	height: 50px;
 	width: 200px;
-	background: var(--light);
+	background: var(--secondary);
 	z-index: -1;
 	border-radius: 10px;
 	right: -150px;
