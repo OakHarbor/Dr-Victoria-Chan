@@ -52,6 +52,10 @@ body, html {
     font-family: 'Fira Sans', sans-serif;
 }
 
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
 body {
 	overflow: hidden !important;
 }
