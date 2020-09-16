@@ -758,7 +758,7 @@ footer .container {
 
 
 /* Step 2 Tablet */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 600px) and (max-width: 991px) {
 
 	footer {
 		padding-top: 180px;
@@ -771,8 +771,8 @@ footer .container {
 	.clover-group {
 		top: 00px;
 		height: 100px;
-		width: 300px;
-		right: -200px;
+		width: 350px;
+		right: -250px;
 		border-radius: 20px 0 0 20px;
 	}
 

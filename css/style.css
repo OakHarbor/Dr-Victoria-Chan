@@ -3,7 +3,7 @@
 <--- -------------------------- -*/
 
 #landing {
-    min-height: 100vh;
+    min-height: 600px;
     padding-top: 100px;
     padding-bottom: 350px;
     position: relative;
@@ -523,6 +523,9 @@
 
 #victoria-highlight .container {
     padding: 0;
+    max-width: 320px;
+    margin: auto;
+    position: relative;
 }
 
 .desktop {
@@ -563,7 +566,7 @@
     background: var(--light);
     width: 240px;
     border-radius: 10px;
-    top: 180px;
+    top: 140px;
     right: -36px;
     z-index: 100;
     -webkit-box-shadow: 0px 3px 11px #00000029;
@@ -1001,8 +1004,82 @@
     margin-top: 10px;
 }
 
+/* Large Screen Landscape 736px */
+@media screen and (min-width: 352px) {
+
+    #victoria-highlight:before {
+        height: 3000px;
+        width: 600px;
+        left: 100px;
+        top: -800px;
+    }
+
+    .crazy-topper h2:before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        right: -600px;
+        width: 700px;
+        height: 400px;
+        background: var(--primary);
+    }
+
+    #contact-cards:after {
+        display: none;
+    }
+    
+}
+
+/* Large Screen Landscape 736px */
+@media screen and (min-width: 414px) {
+
+    #landing {
+        min-height: 600px;
+    }
+
+    .landing-right:after {
+        width: 550px;
+        bottom: -2300px;
+    }
+
+}
+
+/* Large Screen Landscape 736px */
+@media screen and (min-width: 570px) and (max-width: 600px) {
+
+    .landing-right:after {
+        left: -40px;
+    }
+
+    .crazy-topper h2 {
+        position: relative;
+        width: 300px;
+        margin: auto;
+    }
+
+    .crazy-topper h2:before {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        background: var(--primary);
+        top: 19px;
+        left: -300px;
+    }
+
+    .crazy-topper h2:after {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        background: var(--primary);
+        top: 1px;
+        right: -300px;
+    }
+}
+
 /* Step 1 Mobile Landscape */
-@media screen and (min-width: 540px) and (max-width: 767px) {
+@media screen and (min-width: 548px) and (max-width: 767px) {
 
     /*-- -------------------------- -->
     <---          Landing           -->
@@ -1021,9 +1098,9 @@
     }
 
     .landing-right:after {
-        width: 300%;
-        bottom: -3320px;
-        left: -90px;
+        width: 790px;
+        bottom: -3550px;
+        left: -120px;
     }
 
     /*-- -------------------------- -->
@@ -1104,52 +1181,6 @@
 
 }
 
-/* Large Screen Landscape */
-@media screen and (min-width: 570px) {
-
-    .crazy-topper h2 {
-        position: relative;
-        width: 300px;
-        margin: auto;
-    }
-
-    .crazy-topper h2:before {
-        content: '';
-        position: absolute;
-        width: 200px;
-        height: 300px;
-        background: var(--primary);
-        top: 19px;
-        left: -300px;
-    }
-
-    .crazy-topper h2:after {
-        content: '';
-        position: absolute;
-        width: 200px;
-        height: 300px;
-        background: var(--primary);
-        top: 1px;
-        right: -300px;
-    }
-}
-
-/* Large Screen Landscape 736px */
-@media screen and (min-width: 570px) {
-
-    .landing-left {
-        margin-left: 70px;
-    }
-
-    .landing-right {
-        right: 70px;
-    }
-
-    .landing-right:after {
-        left: -40px;
-    }
-}
-
 /* Step 2 Tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
@@ -1189,9 +1220,9 @@
     }
 
     .landing-right:after {
-        width: 800px;
-        bottom: -3600px;
-        left: -40px;
+        width: 1000px;
+        bottom: -4400px;
+        left: -160px;
     }
 
     .golden-box {
@@ -1249,7 +1280,8 @@
         -webkit-transform: translateY(-290px);
             -ms-transform: translateY(-290px);
                 transform:translateX(-10%) translateY(-490px);
-        box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
     }
 
     .mental-health-button {
@@ -1289,7 +1321,9 @@
         height: 600px;
         width: 600px;
         left: 50%;
-        transform: translateX(-50%) rotate(45deg);
+        -webkit-transform: translateX(-50%) rotate(45deg);
+            -ms-transform: translateX(-50%) rotate(45deg);
+                transform: translateX(-50%) rotate(45deg);
         bottom: 570px;
         z-index: 10;
     }
@@ -1297,14 +1331,17 @@
     .slide-1-container {
         position: absolute;
         left: 50%;
-        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
         top: -630px;
         width: 100%;
         background: var(--light);
         padding: 35px;
         border-radius: 20px 20px 0 0;
         overflow: visible;
-        box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
         z-index: 100;
     }
 
@@ -1339,7 +1376,9 @@
         position: relative;
         z-index: 10;
         left: 50%;
-        transform: translate(-50%, -40px);
+        -webkit-transform: translate(-50%, -40px);
+            -ms-transform: translate(-50%, -40px);
+                transform: translate(-50%, -40px);
         width: 620px;
         z-index: 100;
     }
@@ -1389,7 +1428,9 @@
         width: 760px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -51%) rotate(45deg);
+        -webkit-transform: translate(-50%, -51%) rotate(45deg);
+            -ms-transform: translate(-50%, -51%) rotate(45deg);
+                transform: translate(-50%, -51%) rotate(45deg);
         z-index: -3;
     }
 
@@ -1401,7 +1442,9 @@
         margin: 0;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
     }
 
     #potential h2:before {
@@ -1413,7 +1456,9 @@
         width: 430px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -55%) rotate(45deg);
+        -webkit-transform: translate(-50%, -55%) rotate(45deg);
+            -ms-transform: translate(-50%, -55%) rotate(45deg);
+                transform: translate(-50%, -55%) rotate(45deg);
         z-index: -3;
     }
 
@@ -1425,7 +1470,9 @@
         width: 100px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -290px) rotate(45deg);
+        -webkit-transform: translate(-50%, -290px) rotate(45deg);
+            -ms-transform: translate(-50%, -290px) rotate(45deg);
+                transform: translate(-50%, -290px) rotate(45deg);
     }
 
     .white-background {
@@ -1435,7 +1482,9 @@
         background: #fff;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -55%) rotate(45deg);
+        -webkit-transform: translate(-50%, -55%) rotate(45deg);
+            -ms-transform: translate(-50%, -55%) rotate(45deg);
+                transform: translate(-50%, -55%) rotate(45deg);
         z-index: 10;
     }
 
@@ -1445,7 +1494,9 @@
         width: 40px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -70px);
+        -webkit-transform: translate(-50%, -70px);
+            -ms-transform: translate(-50%, -70px);
+                transform: translate(-50%, -70px);
         z-index: 100;
     }
 
@@ -1468,7 +1519,9 @@
         width: 100px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -355px) rotate(45deg);
+        -webkit-transform: translate(-50%, -355px) rotate(45deg);
+            -ms-transform: translate(-50%, -355px) rotate(45deg);
+                transform: translate(-50%, -355px) rotate(45deg);
         z-index: 0;
     }
 
@@ -1502,7 +1555,9 @@
         text-align: left;
         margin: 0;
         top: 50%;
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
     }
 
     .potential-group:last-child {
@@ -1539,13 +1594,17 @@
     .victoria {
         height: 576px;
         width: 384px;
-        transform: translateY(60px);
+        -webkit-transform: translateY(60px);
+            -ms-transform: translateY(60px);
+                transform: translateY(60px);
     }
 
     .victoria:after {
         height: 400px;
         width: 400px;
-        transform: translate(-50%, -280px) rotate(45deg);
+        -webkit-transform: translate(-50%, -280px) rotate(45deg);
+            -ms-transform: translate(-50%, -280px) rotate(45deg);
+                transform: translate(-50%, -280px) rotate(45deg);
     }
 
     #victoria-highlight:after {
@@ -1618,7 +1677,9 @@
         width: 520px;
         bottom: -15px;
         left: 50%;
-        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
     }
 
     .got-item h3 {
@@ -1655,6 +1716,18 @@
 
     .crazy-topper h2 {
         font-size: 26px;
+        position: relative;
+    }
+
+    .crazy-topper:before {
+        content: '';
+        position: absolute;
+        top: -400px;
+        right: -500px;
+        width: 700px;
+        height: 900px;
+        background: var(--primary);
+        z-index: -1;
     }
 
     .crazy-topper .golden-line {
@@ -1699,7 +1772,9 @@
 
     .diamond:after {
         height: 600px;
-        transform: translate(-355px, 10px) rotate(-90deg);
+        -webkit-transform: translate(-355px, 10px) rotate(-90deg);
+            -ms-transform: translate(-355px, 10px) rotate(-90deg);
+                transform: translate(-355px, 10px) rotate(-90deg);
     }
 
     .diamond-piece h4 {
@@ -1717,7 +1792,9 @@
     }
 
     .diamond-piece img {
-        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
         position: absolute;
         top: -6px;
         left: 85px;
@@ -1741,7 +1818,9 @@
         height: 300px;
         position: absolute;
         left: 50%;
-        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
         bottom: -50px;
         z-index: 100000;
     }
@@ -1755,7 +1834,9 @@
 
     .contact-card:first-child {
         left: 0;
-        transform: unset;
+        -webkit-transform: unset;
+            -ms-transform: unset;
+                transform: unset;
     }
 
     .contact-card:first-child:before {
@@ -1776,7 +1857,9 @@
     .contact-card:last-child {
         right: 0px;
         left: unset;
-        transform: translateX(0);
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0);
     }
 
     .contact-card img {
@@ -1787,7 +1870,9 @@
     .diamond {
         height: 370px;
         width: 370px;
-        transform: translate(-50%, -290px) rotate(-45deg);
+        -webkit-transform: translate(-50%, -290px) rotate(-45deg);
+            -ms-transform: translate(-50%, -290px) rotate(-45deg);
+                transform: translate(-50%, -290px) rotate(-45deg);
     }
 
     .diamond-piece {
@@ -1796,7 +1881,9 @@
     }
 
     .diamond:after {
-        transform: translate(-300px, 10px) rotate(-90deg);
+        -webkit-transform: translate(-300px, 10px) rotate(-90deg);
+            -ms-transform: translate(-300px, 10px) rotate(-90deg);
+                transform: translate(-300px, 10px) rotate(-90deg);
     }
 
     .diamond-piece img {
