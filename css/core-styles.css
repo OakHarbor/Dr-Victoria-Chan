@@ -755,3 +755,78 @@ footer .container {
 	opacity: .5;
 	text-align: justify;
 }
+
+
+/* Step 2 Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	footer {
+		padding-top: 180px;
+	}
+
+	.logo-group img {
+		width: 371px;
+	}
+
+	.clover-group {
+		top: 00px;
+		height: 100px;
+		width: 300px;
+		right: -200px;
+		border-radius: 20px 0 0 20px;
+	}
+
+	.blue-clover {
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		        transform: translateY(-50%);
+		width: 55px;
+		right: -30px;
+	}
+
+	.list-group {
+		width: 415px;
+		padding: 55px 90px 55px 36px;
+		margin-right: 0;
+		border-radius: 20px;
+		margin-top: 60px;
+	}
+
+	.list-group a, .list-group h2 {
+		font-size: 20px;
+		font-weight: normal;
+	}
+
+	.social {
+		width: 72px;
+	}
+
+	.social a {
+		font-size: 20px;
+	}
+
+	.top a {
+		font-size: 20px;
+		width: 66px;
+		margin-bottom: 50px;
+		margin-right: 10px;
+	}
+
+	.social img {
+		width: 35px;
+		margin-bottom: 30px;
+	}
+
+	.disclaimer-topper p {
+		font-size: 16px;
+		width: 530px;
+		margin-top: 50px;
+	}
+
+	.disclaimer-p {
+		font-size: 8px;
+	}
+
+}
