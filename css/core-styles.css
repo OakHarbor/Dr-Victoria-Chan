@@ -402,7 +402,31 @@ h1, h2, h3, h4, h5, h6 {
 	display: none;
 }
 
+/* Step 2 Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .mobile-nav.container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 56px;
+        position: relative;
+    }
+
+    .mobile-wrapper img {
+        left: 56px;
+    }
+
+    .hamburger-box {
+        right: 20px;
+	}
+	
+}
+
 @media screen and (min-width: 992px) {
+
+	.container {
+		max-width: 1300px;
+	}
 
     .section {
 		padding-top: 100px !important;
@@ -431,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
 		margin: 0 !important;
 		position: absolute;
 		left: 2em;
-		height: 80px;
+		width: 171px;
 	}
 
 	/*navbar */
@@ -827,6 +851,105 @@ footer .container {
 
 	.disclaimer-p {
 		font-size: 8px;
+	}
+
+}
+
+
+/* Step 3 Tablet/Desktop */
+@media screen and (min-width: 992px) {
+
+	.list-group:before,
+	.clover-group,
+	.footer-svg {
+		display: none;
+	}
+
+	footer {
+		border-top: 90px solid var(--light);
+	}
+
+	.footer-nav {
+		max-width: 760px;
+		margin: auto;
+	}
+	
+	.logo-group {
+		width: 300px;
+		height: 120px;
+	}
+
+	.logo-group img {
+		width: 270px;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.logo-group h2 {
+		font-size: 14px;
+		width: 380px;
+	}
+
+	.list-group {
+		margin: 0;
+		position: absolute;
+		right: -65px;
+		top: 0;
+		width: 415px;
+		background: none;
+		padding: 0;
+	}
+
+	.list-group ul {
+		float: left;
+		margin-right: 40px;
+	}
+
+	.list-group ul:last-child {
+		margin-right: 0;
+	}
+
+	.disclaimer-topper {
+		width: 760px;
+		margin: auto;
+		display: relative;
+		margin-top: 40px;
+	}
+
+	.disclaimer-topper p {
+		width: 450px;
+		text-align: left;
+		margin-right: auto;
+		display: inline-block;
+	}
+
+	.social {
+		position: relative;
+		display: inline-block;
+		width: auto;
+		right: 0;
+		top: unset;
+		-webkit-transform: translateX(135px);
+		    -ms-transform: translateX(135px);
+		        transform: translateX(135px);
+	}
+
+	.top {
+		display: none;
+	}
+
+	.social li {
+		float: left;
+		margin-right: 30px;
+	}
+
+	.social a {
+		margin: 0;
+	}
+
+	.disclaimer-p {
+		width: 760px;
+		margin: auto;
 	}
 
 }
