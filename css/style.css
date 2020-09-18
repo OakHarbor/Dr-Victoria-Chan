@@ -2009,6 +2009,7 @@
     }
 
     .card-container {
+        background: transparent;
         max-width: 1030px;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -2073,11 +2074,11 @@
         content: '';
         position: absolute;
         height: 90%;
-        width: 50vw;
-        right: -100px;
+        width: 60vw;
+        right: -50px;
         background: url("/images/Homepage_Struggling\ with.jpg");
         background-size: cover;
-        background-position: left;
+        background-position: center;
         top: 50%;
         -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
@@ -2090,7 +2091,7 @@
         border-radius: 20px;
         padding: 54px 60px 54px 60px;
         max-width: 520px;
-        background: #fff;
+        background: var(--light);
         position: absolute;
         z-index: 20;
         left: 100px;
@@ -2099,18 +2100,19 @@
     .struggle-picture {
         position: absolute;
         background: var(--primary);
-        height: 200px;
-        width: 200px;
+        height: 500px;
+        width: 500px;
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
-        right: -550px;
-        top: -75px;
+        right: -940px;
+        top: -225px;
     }
 
     .slide h2 {
-        color: var(--primary);
+        color: #fff;
         font-size: 30px;
+        font-weight: bold;
     }
 
     .line {
@@ -2119,7 +2121,6 @@
     }
 
     .slide ul li {
-        color: var(--primary);
         font-size: 18px;
     }
 
@@ -2135,13 +2136,13 @@
     .seeking-picture {
         position: absolute;
         background: var(--secondary);
-        height: 200px;
-        width: 200px;
+        height: 500px;
+        width: 500px;
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
-        left: -550px;
-        top: 400px;
+        left: -940px;
+        top: 248px;
     }
 
     .slide-2-container .slide h2 {
@@ -2399,6 +2400,12 @@
 
     .victoria-button {
         margin-right: 0;
+        background: #fff;
+        color: var(--primary);
+    }
+
+    .white-clover {
+        display: none;
     }
 
     /*-- -------------------------- -->
@@ -2727,8 +2734,835 @@
 }
 
 /* Step 4 */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
+    
+    /*-- -------------------------- -->
+    <---          Landing           -->
+    <--- -------------------------- -*/
 
+    #landing {
+        position: relative;
+        min-height: 800px;
+        padding-bottom: 100px;
+    }
+
+    #landing.container {
+        position: relative;
+    }
+
+    #landing h1 {
+        font-size: 50px;
+        max-width: 472px;
+        margin-bottom: 20px;
+    }
+
+    #landing h2 {
+        font-size: 24px;
+        width: 450px;
+    }
+
+    .landing-right {
+        top: 100px;
+        right: 00px;
+        width: 489px;
+        height: 357px;
+        position: absolute;
+    }
+
+    .landing-right:before {
+        height: 630px;
+        width: 630px;
+    }
+
+    .landing-right:after {
+        content: '';
+        position: absolute;
+        bottom: -135px;
+        left: unset;
+        right: -655px;
+        height: 630px;
+        width: 600px;
+        background: url("/images/Mint\ &\ Gold.png");
+        z-index: -10;
+    }
+
+    .landing-right img, .image-container {
+        width: 489px;
+        height: 357px;
+    }
+
+    .image-container:after {
+        width: 410px;
+        height: 410px;
+    }
+
+    .golden-box {
+        width: 455px;
+        height: 423px;
+    }
+
+    /*-- -------------------------- -->
+    <---       Mental Health        -->
+    <--- -------------------------- -*/
+
+    #mental-health {
+        background: #fff;
+        height: auto;
+    }
+
+    .mental-health {
+        max-width: 1030px;
+        width: 1030px;
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
+    }
+
+    .mental-health h2 {
+        font-size: 24px;
+        width: 506px;
+    }
+
+    .mental-health h2 span:first-child img {
+        display: none;
+    }
+
+    .mental-health h2 span:last-child {
+        left: 50%;
+        right: unset;
+        -webkit-transform: translate(-50%, -60px);
+            -ms-transform: translate(-50%, -60px);
+                transform: translate(-50%, -60px);
+    }
+
+    .mental-health h2 span:last-child img {
+        width: 30px;
+    }
+
+    .card-container {
+        background: transparent;
+        max-width: 1030px;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+    }
+
+    .card {
+        display: inline-block;
+        float: left;
+        width: 300px;
+        height: 330px;
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
+        padding: 65px 0;
+        margin-right: 35px;
+    }
+
+    .card:nth-child(4) {
+        margin-right: 0;
+    }
+
+    .icon {
+        height: 90px;
+        width: 90px;
+        margin-bottom: 45px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .mental-health-button {
+        display: block;
+        background: var(--primary);
+        color: #fff;
+        -webkit-transform: translateY(50px);
+            -ms-transform: translateY(50px);
+                transform: translateY(50px);
+        border-radius: 10px;
+    }
+
+    /*-- -------------------------- -->
+    <---         Struggles          -->
+    <--- -------------------------- -*/
+
+    #struggles {
+        background: #fff;
+        margin-bottom: 0;
+        height: auto;
+    }
+
+    #struggles:after {
+        display: none;
+    }
+
+    .slide-1-container {
+        position: relative;
+        height: 500px;
+        margin-bottom: 150px;
+    }
+
+    .slide-1-container:before {
+        content: '';
+        position: absolute;
+        height: 90%;
+        width: 70vw;
+        right: -100px;
+        background: url("/images/Homepage_Struggling\ with.jpg");
+        background-size: cover;
+        background-position: center;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+
+    .slide {
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
+        border-radius: 20px;
+        padding: 54px 60px 54px 60px;
+        max-width: 520px;
+        background: var(--light);
+        position: absolute;
+        z-index: 20;
+        left: 100px;
+    }
+
+    .struggle-picture {
+        position: absolute;
+        background: var(--primary);
+        height: 500px;
+        width: 500px;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        right: -1050px;
+        top: -225px;
+    }
+
+    .slide h2 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .line {
+        width: calc(100% - 40px);
+        margin-bottom: 40px;
+    }
+
+    .slide ul li {
+        font-size: 18px;
+    }
+
+    /*-- -------------------------- -->
+    <---          Seeking           -->
+    <--- -------------------------- -*/
+
+    .seeking-container {
+        position: relative;
+        height: 525px;
+    }
+
+    .seeking-picture {
+        position: absolute;
+        background: var(--secondary);
+        height: 500px;
+        width: 500px;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        left: -1050px;
+        top: 248px;
+    }
+
+    .slide-2-container .slide h2 {
+        color: var(--primary);
+        font-size: 30px;
+    }
+
+    .slide-2-container .slide ul li {
+        color: var(--primary);
+        font-size: 18px;
+    }
+
+    .slide-2-container:before {
+        content: '';
+        position: absolute;
+        height: 90%;
+        width: 60vw;
+        left: -100px;
+        right: unset;
+        background: url("/images/epic.png");
+        background-size: cover;
+        background-position: right;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+
+    .slide-2-container .slide {
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
+        border-radius: 20px;
+        right: 100px;
+        padding: 54px 60px 54px 60px;
+        max-width: 520px;
+        background: #fff;
+        position: absolute;
+        z-index: 20;
+        left: unset;
+    }
+
+    /*-- -------------------------- -->
+    <---         Potential          -->
+    <--- -------------------------- -*/
+
+    #potential {
+       background: #fff;
+        position: relative;
+    }
+
+    .left:before, .left:after {
+        display: none;
+    }
+
+    .clover {
+        width: 40px;
+        margin-bottom: 50px;
+    }
+
+    #potential h2 {
+        font-size: 40px;
+        width: 576px;
+        -webkit-transform: translateY(-40px);
+            -ms-transform: translateY(-40px);
+                transform: translateY(-40px);
+    }
+
+    .left {
+        display: inline-block;
+    }
+
+    .potential-content-container {
+        position: relative;
+        height: 500px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .potential-content-container .left {
+        width: 437px;
+        max-width: 437px;
+        padding: 0;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        margin-bottom: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+
+    .potential-content-container .left > h3 {
+        font-size: 26px;
+        width: 330px;
+    }
+
+    .potential-line {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        width: 100px;
+        height: 2px;
+    }
+
+    .potential-group {
+        margin-bottom: 60px;
+        height: 70px;
+        position: relative;
+    }
+
+    .potential-group:last-child {
+        margin-bottom: 0;
+    }
+
+    .potential-group .icon {
+        display: inline-block;
+        float: left;
+        width: 70px;
+        height: 70px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        margin-right: 40px;
+    }
+
+    .potential-content-container .icon {
+        margin-bottom: 0;
+    }
+
+    .potential-group h3 {
+        font-size: 18px;
+        text-align: left;
+        display: inline-block;
+        float: left;
+        width: 327px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        margin: 0;
+    }
+
+    .potential-group:last-child h3 {
+        width: 221px;
+    }
+
+    .right {
+        display: inline-block;
+        top: 50%;
+        -webkit-transform: translateY(-80%);
+            -ms-transform: translateY(-80%);
+                transform: translateY(-80%);
+        position: absolute;
+        right: 0;
+    }
+
+    .right h3, .right h3 span {
+        color: var(--primary);
+        width: 336px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .right h3:before {
+        height: 180px;
+        width: 180px;
+    }
+
+    .plant {
+        display: block;
+        position: absolute;
+        right: -20px;
+        bottom: -25px;
+        height: 100%;
+    }
+
+    /*-- -------------------------- -->
+    <---          Victoria          -->
+    <--- -------------------------- -*/
+
+    #victoria-highlight {
+        height: 250px;
+        overflow: visible !important;
+        padding: 0;
+        border-bottom: 10px solid var(--secondary);
+        position: relative;
+    }
+
+    #victoria-highlight:before {
+        display: none;
+    }
+
+    #victoria-highlight:after {
+        background: var(--primary);
+        width: 300px;
+        height: 300px;
+        top: 50%;
+        right: -220px;
+        -webkit-transform: translateY(-50%) rotate(45deg);
+            -ms-transform: translateY(-50%) rotate(45deg);
+                transform: translateY(-50%) rotate(45deg);
+        z-index: 100;
+    }
+
+    #victoria-highlight .container {
+        height: 100%;
+    }
+
+    .victoria {
+        position: absolute;
+        height: 450px;
+        width: 300px;
+        z-index: 10000;
+        top: 50%;
+        -webkit-transform: translateY(-50%) translateX(290px);
+            -ms-transform: translateY(-50%) translateX(290px);
+                transform: translateY(-50%) translateX(290px);
+        margin: 0;
+    }
+
+    .victoria:after {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block !important;
+    }
+
+    .quote {
+        position: absolute;
+        top: unset;
+        right: unset;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        top: 50%;
+        -webkit-transform: translate(-20px, -50%);
+            -ms-transform: translate(-220px, -50%);
+                transform: translate(-200px, -50%);
+        width: 320px;
+        padding: 0;
+    }
+
+    .quote h2 {
+        text-align: right;
+        width: 320px;
+        font-size: 20px;
+        line-height: 1.5em;
+        margin-bottom: 30px;
+    }
+
+    .victoria-button {
+        margin-right: 0;
+        background: #fff;
+        color: var(--primary);
+    }
+
+    .white-clover {
+        display: none;
+    }
+
+    /*-- -------------------------- -->
+    <---        What You Get        -->
+    <--- -------------------------- -*/
+
+    #what-you-get {
+        height: auto;
+    }
+
+    #what-you-get .container {
+        width: 950px;
+        max-width: 950px;
+        padding: 0;
+    }
+
+    #what-you-get h2 {
+        width: 417px;
+        font-size: 40px;
+        margin-top: 130px;
+        margin-bottom: 50px;
+        text-align: left;
+        padding-left: 140px;
+        position: relative;
+    }
+
+     #what-you-get h2:before {
+         content: '';
+         position: absolute;
+         bottom: -20px;
+         height: 2px;
+         width: 100px;
+         background: var(--secondary);
+         left: 50%;
+         -webkit-transform: translateX(calc(-50% + 70px));
+             -ms-transform: translateX(calc(-50% + 70px));
+                 transform: translateX(calc(-50% + 70px));
+     }
+
+    .item-container {
+        background: #fff;
+    }
+
+    #what-you-get {
+        background: #fff;
+    }
+
+    #contact-cards:before,
+    .diamond:after,
+    .diamond:before,
+    .crazy-topper h2:before {
+        display: none;
+    }
+
+    .got-item {
+        position: relative;
+        height: auto;
+        width: 550px;
+        margin: 0;
+        -webkit-box-shadow: 0px 0px 19px #0000001A;
+                box-shadow: 0px 0px 19px #0000001A;
+        border-radius: 20px;
+        background: #fff;
+        border-radius: 20px;
+        padding-left: 0;
+        margin-bottom: 100px;
+    }
+
+    .got-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .got-item .got-item-right {
+        position: relative;
+        z-index: 10000;
+        padding: 100px 80px;
+        background: #fff;
+        border-radius: 20px;
+    }
+
+    .got-item:nth-child(1),
+    .got-item:nth-child(3) {
+        -webkit-transform: translateX(370px);
+            -ms-transform: translateX(370px);
+                transform: translateX(370px);
+    }
+
+    .got-item:nth-child(3) .image-left {
+        background: url("/images/pexels-marcus-aurelius-4064696.png");
+        background-position: right;
+    }
+
+    .image-left {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(-370px, -50%);
+            -ms-transform: translate(-370px, -50%);
+                transform: translate(-370px, -50%);
+        height: 95%;
+        width: 400px;
+        background: url("/images/pexels-cottonbro-4098374.png");
+        z-index: -100;
+    }
+
+    .got-item:nth-child(2) .span-background {
+        left: unset;
+        right: -102px;
+    }
+
+    .image-right {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(520px, -50%);
+            -ms-transform: translate(520px, -50%);
+                transform: translate(520px, -50%);
+        height: 95%;
+        width: 400px;
+        background: url("/images/pexels-bongkarn-thanyakij-3734617.png");
+        z-index: -100;
+    }
+
+    .got-item h3 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .got-item h3:after {
+        width: 100%;
+        left: 0;
+    }
+
+    .span-background {
+        height: 45px;
+        width: 45px;
+        border: 4px solid #fff;
+        left: -102px;
+        top: 65px;
+    }
+
+    .number {
+        font-size: 18px;
+    }
+
+    .got-item ul {
+        padding-left: 20px;
+    }
+
+    .got-item ul li {
+        font-size: 16px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 400px;
+    }
+
+    .got-item ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---     Crazy Artsy Stuff      -->
+    <--- -------------------------- -*/
+
+    #crazy-artsy-thing {
+        background: #fff;
+        height: 270px;
+    }
+
+    .crazy-topper .clover {
+        display: block;
+        width: 35px;
+        margin-bottom: 30px;
+    }
+
+    .crazy-topper h2 {
+        color: var(--tertiary);
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .first-ul {
+        width: 395px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .first-ul li {
+        color: var(--primary);
+        float: left;
+        list-style: none;
+    }
+
+    .first-ul li:nth-child(3) {
+        margin-left: 20px;
+    }
+
+    .crazy-topper button {
+        background: var(--primary);
+        color: #fff;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    .crazy-topper button img {
+        display: none;
+    }
+
+    .crazy-topper h3, .crazy-topper h3 span {
+        color: var(--primary);
+        font-size: 25px;
+        width: 632px;
+        display: inline;
+    }
+
+    .crazy-topper h3 {
+        margin: auto;
+        display: block;
+        width: 100%;
+    }
+
+    .diamond {
+        z-index: 1000;
+        -webkit-transform: translate(-50%, -290px) rotate(-45deg);
+            -ms-transform: translate(-50%, -290px) rotate(-45deg);
+                transform: translate(-50%, -290px) rotate(-45deg);
+    }
+
+    /* .diamond:before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100vw;
+        height: 400%;
+        left: 50%;
+        transform: translate(-40%, -500px) rotate(45deg);
+        background: url("/images/crazy-footer-design.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: visible !important;
+    } */
+
+    .diamond-piece {
+        background: #989898;
+    }
+
+    .diamond-piece h4 {
+        color: #fff;
+    }
+
+    .diamond-piece:nth-child(2) h4 {
+        color: #989898;
+    }
+
+    .cft {
+        position: absolute;
+        top: -500px;
+        display: block;
+    }
+
+    /*-- -------------------------- -->
+    <---       Contact Cards        -->
+    <--- -------------------------- -*/
+
+    #contact-cards {
+        padding-top: 130px;
+    }
+
+    #contact-cards .container {
+        width: 730px;
+        max-width: 730px;
+        margin: auto;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        bottom: -50px;
+        z-index: 100000;
+    }
+
+    .contact-card {
+        background: #fff;
+        width: 360px;
+        height: 185px;
+        left: unset;
+        bottom: -80px;
+    }
+
+    .contact-card:first-child {
+        left: 0;
+        -webkit-transform: unset;
+            -ms-transform: unset;
+                transform: unset;
+    }
+
+    .contact-card:first-child:before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        right: 10px;
+        background: #989898;
+        opacity: .5;
+    }
+
+    #contact-cards:after {
+        display: none;
+    }
+
+    .contact-card:last-child {
+        right: 0px;
+        left: unset;
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0);
+    }
+
+    .contact-card img {
+        left: -5px;
+        width: 40px;
+    }
+    
+}
 
 }
 

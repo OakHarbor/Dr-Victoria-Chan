@@ -16,7 +16,7 @@ main:before {
     z-index: -1;
 }
 
-.top {
+.contact-top{
     height: auto;
     background: url("/images/contact-bg.png");
     background-size: cover;
@@ -27,7 +27,7 @@ main:before {
     position: relative;
 }
 
-.top {
+.contact-top{
     height: 500px;
 }
 
@@ -76,7 +76,7 @@ main:before {
     font-family: 'Satisfy', cursive;
 }
 
-.top h2 {
+.contact-toph2 {
     position: absolute;
     display: block;
     font-size: 1em;
@@ -153,7 +153,7 @@ main:before {
     width: 200px;
 }
 
-.three-triangles, .form, .social {
+.three-triangles, .form, .contact-social {
     position: relative;
     z-index: 100;
 }
@@ -273,7 +273,7 @@ form button[type="submit"] {
 <---           Social           -->
 <--- -------------------------- -*/
 
-.social {
+.contact-social {
     position: relative;
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
@@ -358,6 +358,10 @@ form button[type="submit"] {
     right: 0;
 }
 
+footer {
+    border: none;
+}
+
 @media screen and (min-width: 680px) {
 
     .form {
@@ -395,7 +399,7 @@ form button[type="submit"] {
 /* Step 1 */
 @media screen and (min-width: 457px) and (max-width: 767px) {
 
-    .top {
+    .contact-top{
         height: 800px;
         max-width: 700px;
     }
@@ -477,11 +481,11 @@ form button[type="submit"] {
         color: #fff;
     }
 
-    .top h2 {
+    .contact-toph2 {
         bottom: 80px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         content: '';
         position: absolute;
         width: 70px;
@@ -516,7 +520,7 @@ form button[type="submit"] {
 /* Step 2 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    .top {
+    .contact-top{
         height: 800px;
         max-width: 700px;
     }
@@ -629,11 +633,11 @@ form button[type="submit"] {
         color: #fff;
     }
 
-    .top h2 {
+    .contact-toph2 {
         bottom: 80px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         content: '';
         position: absolute;
         width: 70px;
@@ -671,6 +675,7 @@ form button[type="submit"] {
     #contact-form {
         position: relative;
         padding-top: 0;
+        min-height: 1000px;
     }
 
     #contact-form:before {
@@ -699,7 +704,7 @@ form button[type="submit"] {
                 transform: rotate(45deg);
     }
 
-    .top {
+    .contact-top{
         height: 900px;
         max-width: 900px;
     }
@@ -833,11 +838,11 @@ form button[type="submit"] {
         top: 50px;
     }
 
-    .top h2 {
+    .contact-toph2 {
         bottom: 100px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         content: '';
         position: absolute;
         width: 70px;
@@ -903,7 +908,7 @@ form button[type="submit"] {
                 transform: rotate(45deg);
     }
 
-    .top {
+    .contact-top{
         height: 900px;
         max-width: 900px;
     }
@@ -1048,11 +1053,11 @@ form button[type="submit"] {
         z-index: 10000;
     }
 
-    .top h2 {
+    .contact-toph2 {
         bottom: 100px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         content: '';
         position: absolute;
         width: 70px;
@@ -1124,7 +1129,7 @@ form button[type="submit"] {
 /* Step 6 */
 @media screen and (min-width: 1526px) {
 
-    .top {
+    .contact-top{
         height: 1300px;
         max-width: 1100px;
     }
@@ -1189,7 +1194,7 @@ form button[type="submit"] {
         font-size: 1.5em;
     }
 
-    .top h2 {
+    .contact-toph2 {
         font-size: 2em;
         width: 350px;
         bottom: 170px;
@@ -1210,7 +1215,7 @@ form button[type="submit"] {
 /* Step 7 */
 @media screen and (min-width: 1765px) {
 
-    .top {
+    .contact-top{
         height: 1500px;
         max-width: 1300px;
     }
@@ -1293,13 +1298,13 @@ form button[type="submit"] {
         font-size: 1.5em;
     }
 
-    .top h2 {
+    .contact-toph2 {
         font-size: 2em;
         width: 350px;
         bottom: 170px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         height: 2px;
         width: 150px;
         bottom: -25px;
@@ -1316,7 +1321,7 @@ form button[type="submit"] {
 /* Step 8 */
 @media screen and (min-width: 2050px) {
 
-    .top {
+    .contact-top{
         height: 1500px;
         max-width: 1300px;
     }
@@ -1395,13 +1400,13 @@ form button[type="submit"] {
         font-size: 1.5em;
     }
 
-    .top h2 {
+    .contact-toph2 {
         font-size: 2em;
         width: 350px;
         bottom: 170px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         height: 2px;
         width: 150px;
         bottom: -25px;
@@ -1418,7 +1423,7 @@ form button[type="submit"] {
 /* Step 9 */
 @media screen and (min-width: 2300px) {
 
-    .top {
+    .contact-top{
         height: 1900px;
         max-width: 1700px;
     }
@@ -1497,13 +1502,13 @@ form button[type="submit"] {
         font-size: 1.5em;
     }
 
-    .top h2 {
+    .contact-toph2 {
         font-size: 2em;
         width: 350px;
         bottom: 220px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         height: 2px;
         width: 150px;
         bottom: -25px;
@@ -1520,7 +1525,7 @@ form button[type="submit"] {
 /* Step 9 */
 @media screen and (min-width: 2550px) {
 
-    .top {
+    .contact-top{
         height: 1900px;
         max-width: 1700px;
     }
@@ -1599,13 +1604,13 @@ form button[type="submit"] {
         font-size: 1.5em;
     }
 
-    .top h2 {
+    .contact-toph2 {
         font-size: 2em;
         width: 350px;
         bottom: 220px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         height: 2px;
         width: 150px;
         bottom: -25px;
@@ -1622,7 +1627,7 @@ form button[type="submit"] {
 /* Step 10 */
 @media screen and (min-width: 2750px) {
 
-    .top {
+    .contact-top{
         height: 2100px;
         max-width: 1900px;
     }
@@ -1714,13 +1719,13 @@ form button[type="submit"] {
         font-size: 1.8em;
     }
 
-    .top h2 {
+    .contact-toph2 {
         font-size: 2em;
         width: 350px;
         bottom: 220px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         height: 2px;
         width: 150px;
         bottom: -25px;
@@ -1752,7 +1757,7 @@ form button[type="submit"] {
 /* Step 11 */
 @media screen and (min-width: 2950px) {
 
-    .top {
+    .contact-top{
         height: 2200px;
         max-width: 2100px;
     }
@@ -1844,13 +1849,13 @@ form button[type="submit"] {
         font-size: 1.9em;
     }
 
-    .top h2 {
+    .contact-toph2 {
         font-size: 2.5em;
         width: 450px;
         bottom: 220px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         height: 2px;
         width: 150px;
         bottom: -25px;
@@ -1882,7 +1887,7 @@ form button[type="submit"] {
 /* Step 12 */
 @media screen and (min-width: 3250px) {
 
-    .top {
+    .contact-top{
         height: 2200px;
         max-width: 2200px;
     }
@@ -1974,13 +1979,13 @@ form button[type="submit"] {
         font-size: 1.9em;
     }
 
-    .top h2 {
+    .contact-toph2 {
         font-size: 2.5em;
         width: 450px;
         bottom: 220px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         height: 2px;
         width: 150px;
         bottom: -25px;
@@ -2012,7 +2017,7 @@ form button[type="submit"] {
 /* Step 13 */
 @media screen and (min-width: 3530px) {
 
-    .top {
+    .contact-top{
         height: 2400px;
         max-width: 2400px;
     }
@@ -2104,13 +2109,13 @@ form button[type="submit"] {
         font-size: 1.9em;
     }
 
-    .top h2 {
+    .contact-toph2 {
         font-size: 2.5em;
         width: 450px;
         bottom: 220px;
     }
 
-    .top h2:after {
+    .contact-toph2:after {
         height: 2px;
         width: 150px;
         bottom: -25px;
