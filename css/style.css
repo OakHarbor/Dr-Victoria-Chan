@@ -1201,6 +1201,11 @@
         min-height: 1600px;
     }
 
+    #landing .container {
+        max-width: 730px;
+        width: 730px;
+    }
+
     #landing h1 {
         font-size: 50px;
         max-width: 472px;
@@ -2570,7 +2575,7 @@
 
     #crazy-artsy-thing {
         background: #fff;
-        height: 270px;
+        height: auto;
     }
 
     .crazy-topper .clover {
@@ -2627,10 +2632,11 @@
     }
 
     .diamond {
+        position: absolute !important;
         z-index: 1000;
-        -webkit-transform: translate(-50%, -290px) rotate(-45deg);
-            -ms-transform: translate(-50%, -290px) rotate(-45deg);
-                transform: translate(-50%, -290px) rotate(-45deg);
+        bottom: 500px;
+        top: unset;
+        bottom: 6%;
     }
 
     /* .diamond:before {
@@ -2640,7 +2646,7 @@
         width: 100vw;
         height: 400%;
         left: 50%;
-        transform: translate(-40%, -500px) rotate(45deg);
+        transform: translate(-29%, -630px) rotate(45deg);
         background: url("/images/crazy-footer-design.svg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -2656,14 +2662,24 @@
         color: #fff;
     }
 
+    .diamond-piece:nth-child(2) {
+
+        top: -30px;
+        left: 165px;
+        right: unset;
+    }
+
     .diamond-piece:nth-child(2) h4 {
         color: #989898;
+        font-size: 25px;
+        width: 200px;
     }
 
     .cft {
         position: absolute;
         top: -500px;
         display: block;
+        z-index: 0;
     }
 
     /*-- -------------------------- -->
@@ -2672,6 +2688,8 @@
 
     #contact-cards {
         padding-top: 130px;
+        height: calc(100vw - 400px);
+        position: relative;
     }
 
     #contact-cards .container {
@@ -2731,6 +2749,46 @@
         width: 40px;
     }
     
+}
+
+/* Step 4 */
+@media screen and (min-width: 1101px) {
+
+    .crazy-topper {
+        height: 350px;
+    }
+
+    .first-ul {
+        width: 460px;
+        margin: 80px auto;
+    }
+
+    .first-ul li {
+        font-size: 14px;
+        width: auto;
+    }
+
+    .first-ul li:nth-child(1) {
+        width: 300px;
+    }
+
+    .first-ul li:nth-child(2) {
+        width: 150px;
+    }
+
+    .first-ul li:nth-child(3) {
+        width: 250px;
+    }
+
+    .first-ul li:nth-child(4) {
+        width: 180px;
+    }
+
+    .crazy-topper button {
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+
 }
 
 /* Step 4 */
@@ -2936,7 +2994,7 @@
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
-        right: -1050px;
+        right: -1150px;
         top: -225px;
     }
 
@@ -2972,7 +3030,7 @@
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
-        left: -1050px;
+        left: -1150px;
         top: 248px;
     }
 
@@ -3401,7 +3459,7 @@
 
     #crazy-artsy-thing {
         background: #fff;
-        height: 270px;
+        height: 300px;
     }
 
     .crazy-topper .clover {
@@ -3417,7 +3475,7 @@
     }
 
     .first-ul {
-        width: 395px;
+        width: 460px;
         height: 40px;
         margin-left: auto;
         margin-right: auto;
@@ -3437,7 +3495,7 @@
         background: var(--primary);
         color: #fff;
         border-radius: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 70px;
     }
 
     .crazy-topper button img {
@@ -3458,10 +3516,11 @@
     }
 
     .diamond {
+        position: absolute !important;
         z-index: 1000;
-        -webkit-transform: translate(-50%, -290px) rotate(-45deg);
-            -ms-transform: translate(-50%, -290px) rotate(-45deg);
-                transform: translate(-50%, -290px) rotate(-45deg);
+        bottom: 500px;
+        top: unset;
+        bottom: 7%;
     }
 
     /* .diamond:before {
@@ -3471,7 +3530,7 @@
         width: 100vw;
         height: 400%;
         left: 50%;
-        transform: translate(-40%, -500px) rotate(45deg);
+        transform: translate(-29%, -630px) rotate(45deg);
         background: url("/images/crazy-footer-design.svg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -3487,22 +3546,33 @@
         color: #fff;
     }
 
+    .diamond-piece:nth-child(2) {
+
+        top: -30px;
+        left: 165px;
+        right: unset;
+    }
+
     .diamond-piece:nth-child(2) h4 {
         color: #989898;
+        font-size: 25px;
+        width: 200px;
     }
 
     .cft {
         position: absolute;
         top: -500px;
         display: block;
+        z-index: 0;
     }
-
     /*-- -------------------------- -->
     <---       Contact Cards        -->
     <--- -------------------------- -*/
 
     #contact-cards {
         padding-top: 130px;
+        height: calc(100vw - 400px);
+        position: relative;
     }
 
     #contact-cards .container {
@@ -3564,10 +3634,100 @@
     
 }
 
+/* Step 5 */
+@media screen and (min-width: 1320px) {
+
+    .crazy-topper {
+        zoom: 120%;
+    }
+
+    .diamond {
+        bottom: 8%;
+    }
+
 }
 
 /* Step 5 */
 @media screen and (min-width: 1400px) {
 
+    .landing-right {
+        right: 200px;
+    }
+
+    .struggle-picture {
+        right: -1200px;
+    }
+
+    .seeking-picture {
+        left: -1200px;
+    }
+
+    .slide-1-container:before {
+        right: -300px;
+    }
+
+    .diamond {
+        zoom: 120%;
+        bottom: 5%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 1500px) {
+
+    .landing-right {
+        right: 300px;
+    }
+
+    .slide-2-container:before {
+        left: -220px;
+    }
+
+    .crazy-topper, .diamond {
+        zoom: 127%;
+    }
+
+    .diamond {
+        bottom: 4%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 1600px) {
+
+    html {
+        zoom: 110%;
+    }
+
+    .slide-1-container:before {
+        right: -300px;
+    }
+
+    .diamond {
+        bottom: 16%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 1600px) {
+
+    html {
+        zoom: 110%;
+    }
+
+    .slide-1-container:before {
+        right: -300px;
+    }
     
+    .struggle-picture {
+        right: -1260px;
+    }
+
+    .seeking-picture {
+        left: -1260px;
+    }
+
 }

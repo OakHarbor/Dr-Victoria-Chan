@@ -455,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
 		margin: 0 !important;
 		position: absolute;
 		left: 2em;
-		width: 171px;
+		width: 271px;
 	}
 
 	/*navbar */
@@ -583,7 +583,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 1201px) { 
 
 	.navbar-menu img {
-		width: ;
+		width: 350px;
 	}
 
 }
