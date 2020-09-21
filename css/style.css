@@ -3697,11 +3697,276 @@
 /* Step 6 */
 @media screen and (min-width: 1600px) {
 
+    #contact-cards {
+        height: calc(100vw - 550px);
+    }
+
     html {
         zoom: 110%;
     }
 
     .slide-1-container:before {
+        right: -300px;
+    }
+
+    .diamond {
+        bottom: 4%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 1700px) {
+
+    #contact-cards {
+        height: calc(100vw - 550px);
+    }
+
+    html {
+        zoom: 110%;
+    }
+
+    .slide-1-container:before {
+        right: -400px;
+    }
+
+    .diamond {
+        bottom: 5%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 1800px) {
+
+    #landing:before {
+        content: '';
+        position: absolute;
+        top: 300px;
+        height: 150px;
+        width: 150px;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        background: var(--accent);
+        left: -60px;
+    }
+
+    #landing h1 {
+        margin-top: 150px;
+    }
+
+    #contact-cards {
+        height: calc(100vw - 550px);
+    }
+
+    .diamond {
+        bottom: 6%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 1900px) {
+
+    html {
+        zoom: 120%;
+    }
+
+    .crazy-topper {
+        height: 10px;
+    }
+
+    .slide-1-container:before {
+        right: -550px;
+    }
+
+    #contact-cards {
+        height: calc(100vw - 700px);
+    }
+
+    .diamond {
+        bottom: 6.8%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2000px) {
+
+    html {
+        zoom: 140%;
+    }
+
+    #crazy-artsy-thing {
+        height: 400px;
+    }
+
+    #contact-cards {
+        height: calc(100vw - 950px);
+    }
+
+    .diamond {
+        bottom: 7%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2000px) {
+
+    html {
+        zoom: 140%;
+    }
+
+    #crazy-artsy-thing {
+        height: 400px;
+    }
+
+    #contact-cards {
+        height: calc(100vw - 1050px);
+    }
+
+    .diamond {
+        bottom: -3%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2050px) {
+
+    html {
+        zoom: 140%;
+    }
+
+    #crazy-artsy-thing {
+        height: 400px;
+    }
+
+    #contact-cards {
+        height: calc(100vw - 1050px);
+    }
+
+    .diamond {
+        bottom: -1%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2123px) {
+
+    html {
+        zoom: 140%;
+    }
+
+    #crazy-artsy-thing {
+        height: 400px;
+    }
+
+    #contact-cards {
+        height: calc(100vw - 1050px);
+    }
+
+    .diamond {
+        zoom: 150%;
+        bottom: -1%
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2234px) {
+
+    html {
+        zoom: 140%;
+    }
+
+    #crazy-artsy-thing {
+        height: 400px;
+    }
+
+    .slide-1-container:before {
+        right: -700px;
+    }
+
+    .slide-2-container:before {
+        left: -700px;
+    }
+
+    #contact-cards {
+        height: calc(100vw - 100vh);
+    }
+
+    .diamond {
+        position: absolute;
+        zoom: 160%;
+        bottom: 3%
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2533px) {
+
+    html {
+        zoom: 160%;
+    }
+
+    #crazy-artsy-thing {
+        height: 370px;
+    }
+
+    #contact-cards {
+        height: calc(100vw - 1400px);
+    }
+
+    .diamond {
+        position: absolute;
+        zoom: 160%;
+        bottom: 4%
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2665px) {
+
+    html {
+        zoom: 160%;
+    }
+
+    #crazy-artsy-thing {
+        height: 300px;
+    }
+
+    .slide-1-container:before {
+        width: 1100px;
+        right: -300px;
+    }
+
+    #contact-cards {
+        height: calc(100vw - 1350px);
+    }
+
+    .diamond {
+        position: absolute;
+        zoom: 160%;
+        bottom: 6%
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2753px) {
+
+    html {
+        zoom: 170%;
+    }
+
+    .slide-1-container:before {
+        width: 1100px;
         right: -300px;
     }
 
@@ -3712,22 +3977,57 @@
 }
 
 /* Step 6 */
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 2938px) {
 
     html {
-        zoom: 110%;
+        zoom: 180%;
     }
 
     .slide-1-container:before {
+        width: 1100px;
         right: -300px;
     }
-    
-    .struggle-picture {
-        right: -1260px;
+
+    #crazy-artsy-thing {
+        height: 300px;
     }
 
-    .seeking-picture {
-        left: -1260px;
+    #contact-cards {
+        height: calc(100vw - 1750px);
+    }
+
+    .diamond {
+        bottom: 2%;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 3114px) {
+
+    html {
+        zoom: 180%;
+    }
+
+    .slide-1-container:before {
+        width: 1100px;
+        right: -300px;
+    }
+
+    .slide-2-container:before {
+        left: -1000px;
+    }
+
+    #crazy-artsy-thing {
+        height: 200px;
+    }
+
+    #contact-cards {
+        height: calc(100vw - 1750px);
+    }
+
+    .diamond {
+        bottom: 6%;
     }
 
 }
