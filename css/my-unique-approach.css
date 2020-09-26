@@ -1,0 +1,927 @@
+/*-- -------------------------- -->
+<---          Landing           -->
+<--- -------------------------- -*/
+
+section {
+    overflow-y: visible !important;
+    overflow-x: visible !important;
+}
+
+#approach-landing {
+    position: relative;
+    min-height: 100vh;
+    padding-top: 0 !important;
+}
+
+#approach-landing:before {
+    content: '';
+    position: absolute;
+    background: url("/images/Homepage_Leaf.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    opacity: .2;
+}
+
+#approach-landing h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    width: 268px;
+    line-height: 1.4em;
+}
+
+.arrow {
+    height: 106px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 120px;
+}
+
+.clover {
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 71px;
+}
+
+#approach-landing h2 {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+    bottom: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+.gold-square {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 140px;
+    left: -20px;
+    background: var(--secondary);
+}
+
+.green-square {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    right: -90px;
+    bottom: -58px;
+    background: var(--accent);
+}
+
+/*-- -------------------------- -->
+<---      Unique Approach       -->
+<--- -------------------------- -*/
+
+#unique-approach {
+    position: relative;
+    margin-top: -70px;
+}
+
+.accordian-content {
+    -webkit-box-shadow: 0px 0px 7px #0000001A;
+            box-shadow: 0px 0px 7px #0000001A;
+    padding:  0 25px 20px 25px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+
+.accordian:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    opacity: .7;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.accordian-topper {
+    position: relative;
+}
+
+.accordian-topper button {
+    position: absolute;
+    height: 15px;
+    min-width: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 0;
+    border: none;
+    background: none;
+}
+
+.accordian-topper img {
+    position: absolute;
+    height: 15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 0;
+}
+
+.acc1 .accordian-topper button {
+    display: none;
+}
+
+.open-accordian  {
+    z-index: 100;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-transform: translateY(-50%) rotate(0deg);
+        -ms-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+}
+
+.open-accordian.clicked {
+    visibility: hidden;
+    z-index: -100;
+    -webkit-transform: translateY(-50%) rotate(360deg);
+        -ms-transform: translateY(-50%) rotate(360deg);
+            transform: translateY(-50%) rotate(360deg);
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.close-accordian {
+    visibility: hidden;
+    z-index: -100;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-transform: translateY(-50%) rotate(0deg);
+        -ms-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+}
+
+.close-accordian.clicked {
+    visibility: visible;
+    z-index: 100;
+    -webkit-transform: translateY(-50%) rotate(720deg);
+        -ms-transform: translateY(-50%) rotate(720deg);
+            transform: translateY(-50%) rotate(720deg);
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.accordian-topper h3 {
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5em;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    z-index: 100;
+}
+
+.accordian-topper h3.close {
+    margin-bottom: 0;
+}
+
+.accordian-topper h3:before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    opacity: .7;
+    top: 0px;
+    left: -25px;
+    right: -25px;
+    bottom: 0px;
+    border-radius: 5px;
+    z-index: -1;
+    -webkit-box-shadow: 0px 0px 7px #0000001A;
+            box-shadow: 0px 0px 7px #0000001A;
+}
+
+.accordian-topper h3 span {
+    color: var(--primary);
+    font-size: 12px;
+    display: block;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 1         -->
+<--- -------------------------- -*/
+
+.acc1 {
+    padding-bottom: 20px;
+}
+
+.acc1 .accordian-box h4 {
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 0.36px;
+    color: var(--light);
+    line-height: 1.6em;
+}
+
+.acc1 .accordian-box h4 span {
+    display: block;
+    color: var(--light);
+}
+
+.green {
+    color: var(--accent);
+    letter-spacing: 0.36px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.green:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.red {
+    color: var(--tertiary);
+    letter-spacing: 0.36px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.red:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.accordian-list h4 {
+    color: #666;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.accordian-list ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding: 0;
+    width: 68%;
+}
+
+.accordian-list ul li {
+    list-style: none;
+}
+
+.accordian-list ul li {
+    font-size: 8px;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 2         -->
+<--- -------------------------- -*/
+
+.acc2 .accordian-box h4 {
+    text-align: left;
+    color: var(--light);
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc2 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.acc2 .accordian-box ul {
+    padding: 0;
+}
+
+.acc2 .accordian-box ul li {
+    font-size: 11px;
+    color: var(--light);
+    list-style: none;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.acc2 .accordian-box ul li:before {
+    content: '';
+    height: 2px;
+    width: 2px;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0px;
+    background: var(--secondary);
+}
+
+.acc2 .green {
+    margin-bottom: 10px;
+}
+
+.acc2 .green:before {
+    display: none;
+}
+
+.acc2 .accordian-box p:last-child {
+    font-size: 12px;
+    color: var(--primary);
+    font-weight: bold;
+    line-height: 1.6em;
+    width: 209px;
+}
+
+.acc2 .accordian-box p:last-child span {
+    display: block;
+    color: var(--primary);
+}
+
+.acc2 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc2 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc2 .accordian-content.open {
+    height: 350px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc2 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 3         -->
+<--- -------------------------- -*/
+
+.acc3 h3 span {
+    display: block;
+    font-size: 14px;
+}
+
+.acc3 ul li {
+    font-size: 11px;
+    color: var(--light);
+    line-height: 1.7em;
+    max-width: 211px;
+    margin-bottom: 5px;
+}
+
+.acc3 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc3 .accordian-content {
+    height: 61px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc3 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 199px;
+}
+
+.acc3 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 4         -->
+<--- -------------------------- -*/
+
+.acc4 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc4 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc4 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 61px;
+}
+
+.acc4 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 5         -->
+<--- -------------------------- -*/
+
+.acc5 .accordian-box p {
+    font-size: 11px;
+    color: var(--light);
+    line-height: 1.7em;
+    margin-bottom: 15px;
+    letter-spacing: 0.33px;
+}
+
+.span {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.acc5 .accordian-box p:last-child {
+    margin-bottom: 0;
+}
+
+.acc5 .accordian-box a {
+    color: var(--accent);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.acc5 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc5 .accordian-content {
+    height: 61px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc5 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 366px;
+}
+
+.acc5 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 6         -->
+<--- -------------------------- -*/
+
+.acc6 h3 span {
+    display: block;
+    color: var(--primary);
+    font-size: 14px;
+}
+
+.acc6 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc6 .accordian-content {
+    height: 61px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc6 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 97px;
+}
+
+.acc6 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 7         -->
+<--- -------------------------- -*/
+
+.acc7 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc7 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc7 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 61px;
+}
+
+.acc7 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+/*-- -------------------------- -->
+<---        Accordian 8         -->
+<--- -------------------------- -*/
+
+.acc8 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc8 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc8 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 61px;
+}
+
+.acc8 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+/*-- -------------------------- -->
+<---        Accordian 9         -->
+<--- -------------------------- -*/
+
+.acc9 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc9 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc9 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 61px;
+}
+
+.acc9 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+/*-- -------------------------- -->
+<---        Accordian 10        -->
+<--- -------------------------- -*/
+
+.acc10 h3 span {
+    display: block;
+    color: var(--primary);
+    font-size: 14px;
+}
+
+.acc10 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc10 .accordian-content {
+    height: 61px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc10 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 97px;
+}
+
+.acc10 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 11        -->
+<--- -------------------------- -*/
+
+.acc11 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc11 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc11 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 61px;
+}
+
+.acc11 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 12        -->
+<--- -------------------------- -*/
+
+.acc12 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc12 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc12 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 61px;
+}
+
+.acc12 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---           Bottom           -->
+<--- -------------------------- -*/
+
+#contact-cards {
+    position: relative;
+}
+
+.clover {
+    display: none;
+}
+
+.bottom {
+    padding-top: 20px;
+}
+
+.bottom p {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: var(--primary);
+    color: #4d4d4d;
+    position: relative;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.bottom p:before {
+    content: '';
+    position: absolute;
+    width: 33px;
+    height: 1px;
+    background: var(--secondary);
+    bottom: -10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.bottom button {
+    display: block;
+    margin: auto;
+    background: var(--secondary);
+    color: var(--primary);
+    border-radius: 5px;
+    min-width: auto;
+}
+
+/*-- -------------------------- -->
+<---        Contact Cards       -->
+<--- -------------------------- -*/
+
+#contact-cards {
+    position: relative;
+}
+
+.contact-card {
+    position: absolute;
+    width: 90%;
+    height: 150px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background: #fff;
+    bottom: -55px;
+    z-index: 10000;
+}
+
+.contact-card img {
+    position: absolute;
+    width: 25px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: -80px;
+}
+
+.contact-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+    color: var(--primary);
+}
+
+.contact-content a {
+    font-weight: 800;
+    letter-spacing: 0.42px;
+}
+
+.contact-content .golden-line {
+    height: 2px;
+    width: 56px;
+    background: var(--secondary);
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}

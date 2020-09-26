@@ -28,7 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <title></title>
 </head>
@@ -60,9 +60,9 @@
                     <img src="/images/desktop-logo.svg" alt="">
                     <ul id="on-top" class="navbar-links">
                         <li class="nav-li"><a href="/index.html">Home</a></li>
-                        <li class="nav-li"><a href="/html/">My Unique Approach</a></li>
+                        <li class="nav-li"><a href="/html/my-unique-approach.html">My Unique Approach</a></li>
                         <li class="nav-li"><a href="/html/">About</a></li>
-                        <li class="nav-li"><a class="active-menu" href="/html/">Contact</a></li>
+                        <li class="nav-li"><a class="active-menu" href="/html/contact.html">Contact</a></li>
                         <li class="nav-li">
                             <button class="button-primary desktop-call" onclick="location.href='/html/contact.html'" type="button">
                                 Schedule An Appointment
@@ -155,12 +155,12 @@
                 </div>
                 <div class="list-group">
                     <ul>
-                        <li><a href="" class="gold-border">Home</a></li>
+                        <li><a href="/index.html" class="gold-border">Home</a></li>
                     </ul>
                     <ul>
                         <h2 class="gold-border">About Dr. Victoria</h2>
                         <li class="list-dot"><a href="">My Story</a></li>
-                        <li class="list-dot"><a href="">My Unique Approach</a></li>
+                        <li class="list-dot"><a href="/html/my-unique-approach.html">My Unique Approach</a></li>
                     </ul>
                     <ul>
                         <h2 class="gold-border">Naturopathic Medicince</h2>
@@ -168,7 +168,7 @@
                         <li class="list-dot"><a href="">Principles and Philosophy</a></li>
                     </ul>
                     <ul>
-                        <li><a href="" class="gold-border">Contact</a></li>
+                        <li><a href="/html/contact.html" class="gold-border">Contact</a></li>
                     </ul>
                 </div>
                 <div aria-hidden="true" class="clover-group">
@@ -191,7 +191,7 @@
         </div>
     </footer>
 
-    <script src="/app.js"></script>
+    <script defer src="/app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({

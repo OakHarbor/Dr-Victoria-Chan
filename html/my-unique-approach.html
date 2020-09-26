@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/core-styles.css">
+    <link rel="stylesheet" href="/css/my-unique-approach.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Desktop Navbar -->
+        <div class="mobile-wrapper">
+            <div class="mobile-nav container">
+                <img id="mobile-logo" src="/images/mobile-logo.svg" alt="mobile_company_logo" width="194">
+
+                <!-- Hamburger Menu -->
+                <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
+                    <span aria-hidden="true" class="hamburger-box">
+                        <span aria-hidden="true" class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!--                   NAVIGATION                 -->
+        <!-- ============================================ -->
+
+        <nav>
+            <div class="navbar-menu">
+                <div id="side-menu" class=" side-nav">
+                    <img src="/images/desktop-logo.svg" alt="">
+                    <ul id="on-top" class="navbar-links">
+                        <li class="nav-li"><a href="/index.html">Home</a></li>
+                        <li class="nav-li"><a class="active-menu" href="/html/my-unique-approach.html">My Unique Approach</a></li>
+                        <li class="nav-li"><a href="/html/">About</a></li>
+                        <li class="nav-li"><a href="/html/contact.html">Contact</a></li>
+                        <li class="nav-li">
+                            <button class="button-primary desktop-call" onclick="location.href='/html/contact.html'" type="button">
+                                Schedule An Appointment
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+
+        <section id="approach-landing">
+            <div aria-hidden="true" class="gold-square"></div>
+            <div aria-hidden="true" class="green-square"></div>
+            <h1>Life-long pharmaceuticals are not your only option.</h1>
+            <img class="arrow" src="/images/arrow.svg" alt="">
+            <img class="clover" src="/images/clover.svg" alt="">
+            <h2>My Unique Approach</h2>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                Unique Approach               -->
+        <!-- ============================================ -->
+
+        <section id="unique-approach">
+            <div class="container accordian-group">
+                <div class="accordian acc1">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Address your root causes <span>(rather than only masking symptoms)</span></h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="accordian-box">
+                            <h4>Your symptoms <span>are manifesting for a reason.</span></h4>
+                            <p class="green">I want to help you discover why.</p>
+                        </div>
+                        <div class="accordian-box">
+                            <h4>Your body systems are connected.</h4>
+                            <p class="red">Imbalances of one body system can create mental health symptoms.</p>
+                        </div>
+                        <div class="accordian-list">
+                            <h4>Mental health influencers:</h4>
+                            <ul>
+                                <li>Adrenals</li>
+                                <li>Allergies</li>
+                                <li>Cardiovascular</li>
+                                <li>Chronic Pain</li>
+                                <li>Digestion</li>
+                                <li>Genetics</li>
+                                <li>Hormones</li>
+                                <li>Immune</li>
+                                <li>Infection</li>
+                                <li>Inflamation</li>
+                                <li>Lifestyle</li>
+                                <li>Neuro-Endocrine</li>
+                                <li>Neurotransmitters</li>
+                                <li>Nutrition</li>
+                                <li>Pharmaceuticals</li>
+                                <li>Respiratory</li>
+                                <li>Stress</li>
+                                <li>Thyroid</li>
+                                <li>Toxins</li>
+                                <li>Trauma</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 2 -->
+                <div class="accordian acc2">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>In-depth health evaluation</h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="accordian-box">
+                            <h4>I’ll puzzle together your:</h4>
+                            <ul>
+                                <li>Symptoms</li>
+                                <li>Medical History</li>
+                                <li>Contributing Body Systems</li>
+                                <li>Lan Results</li>
+                                <li>Lifestyle</li>
+                                <li>Diet</li>
+                            </ul>
+                            <p class="green">This thorough investigation deserves attention and takes time.</p>
+                            <p>When was the last time your doctor spent more than 20 minutes <span>learning about you?</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 3 -->
+                <div class="accordian acc3">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Functional labs tailored <span>to find your root cause</span></h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="accordian-box">
+                            <ul>
+                                <li>2 people with the same diagnosis can have very different underlying causes.</li>
+                                <li>After contextualizing your struggles, I’ll select labs to help discover your contributing factors.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 4 -->
+                <div class="accordian acc4">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Aim of sustainable benefits</h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 5 -->
+                <div class="accordian acc5">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Customized treatment plans (specifically for you)</h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="accordian-box">
+                            <p>
+                                NDs are extensively trained in integrative medicine where they learn <span class="span">evidence-</span>based treatments across <span class="span">many</span> modalities. <a href="">LEARN MORE</a>
+                            </p>
+                            <P>
+                                <strong>Think of it like a toolbox where pharmaceuticals are just one <span class="span">option.</span></strong> Our job is to match your specific needs to the most appropriate tool in their toolbox.
+                            </P>
+                            <p>
+                                You have unique priorities, abilities, genetics, biology, and psychology. <strong>I aim to create treatment plans that are practical for your lifestyle, sustainable, and ultimately align with your goals.</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 6 -->
+                <div class="accordian acc6">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Treatments that evolve <span>with your health journey</span></h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 7 -->
+                <div class="accordian acc7">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Options</h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 8 -->
+                <div class="accordian acc8">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Your goals are my top priority</h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 9 -->
+                <div class="accordian acc9">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Respect</h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 10 -->
+                <div class="accordian acc10">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Physician-grade supplements <span>(if needed)</span></h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 11 -->
+                <div class="accordian acc11">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Advocate</h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordian 12 -->
+                <div class="accordian acc12">
+                    <div class="accordian-content">
+                        <div class="accordian-topper">
+                            <h3>Collaboration</h3>
+                            <button aria-label="open collapsed information" class="open-accordian">
+                                <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                            </button>
+                            <button aria-label="collapse information" class="close-accordian">
+                                <img aria-hidden="true" src="/images/close.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <img class="clover" aria-hidden="true" src="/images/clover.svg" alt="">
+                <p>Learn More</p>
+                <button class="button-primary landing-button" onclick="location.href='/html/contact.html'" type="button">
+                    My Story
+                </button>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                 Contact Cards                -->
+        <!-- ============================================ -->
+
+        <section id="contact-cards">
+            <div class="container">
+                <div class="contact-card">
+
+                </div>
+                <div class="contact-card">
+                    <img class="clover" aria-hidden="true" src="/images/clover.svg" alt="">
+                    <div class="contact-content">
+                        <a href="#">SCHEDULE AN APPOINTMENT</a>
+                        <div class="golden-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================ -->
+    <!--                    FOOTER                    -->
+    <!-- ============================================ -->
+
+    <footer>
+        <img aria-hidden="true" class="footer-svg" src="/images/footer-background.svg" alt="">
+        <div class="container">
+            <div class="footer-nav">
+                <div class="logo-group">
+                    <img src="/images/gold-logo.svg" alt="">
+                    <h2>Optimize your Mental Health and Regain Stability.</h2>
+                </div>
+                <div class="list-group">
+                    <ul>
+                        <li><a href="/index.html" class="gold-border">Home</a></li>
+                    </ul>
+                    <ul>
+                        <h2 class="gold-border">About Dr. Victoria</h2>
+                        <li class="list-dot"><a href="">My Story</a></li>
+                        <li class="list-dot"><a href="/html/my-unique-approach.html">My Unique Approach</a></li>
+                    </ul>
+                    <ul>
+                        <h2 class="gold-border">Naturopathic Medicince</h2>
+                        <li class="list-dot"><a href="">What is it?</a></li>
+                        <li class="list-dot"><a href="">Principles and Philosophy</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/html/contact.html" class="gold-border">Contact</a></li>
+                    </ul>
+                </div>
+                <div aria-hidden="true" class="clover-group">
+                    <img class="blue-clover" src="/images/blue-clover.svg" alt="">
+                </div>
+            </div>
+            <div class="disclaimer">
+                <div class="disclaimer-topper">
+                    <p>Copyright © 2020. Designed by Kyle Kurokawa. Development by Oak Harbor Web Designs. All rights reserved.</p>
+                    <ul class="social">
+                        <li class="top"><a href="">Back to Top</a></li>
+                        <li><a href=""><img src="/images/linkedin.svg" alt=""></a></li>
+                        <li><a href=""><img src="/images/facebook.svg" alt=""></a></li>
+                        <li><a href=""><img src="/images/instagram.svg" alt=""></a></li>
+                        <li><a href="">Privacy</a></li>
+                    </ul>
+                </div>
+                <p class="disclaimer-p">DISCLAIMER: All content on this website is for informational and educational purposes only and is not intended to be or substitute medical or health advice for you or other individuals. Never use information on this website for diagnosing or treating any known or suspected disease or health problem, changing your medications or health care regimen, or disregard or delay professional medical advice. If you have or suspect to have a medical problem, or have any questions regarding your health, you must contact your doctor or qualified health care professionals. Using information from this website does not constitute or imply a doctor-patient relationship with Dr. Victoria Chan. Victoria Chan and her associates are not liable or responsible for any assumption, belief, advice, treatment course, health care change, diagnosis, financial consequence, damage, or any consequence you obtained through information from this website. Victoria Chan and her associates are not liable or responsible for any claims, beliefs, or consequences from websites linked to and from this website. Information and facts change constantly and thus may render content on this website obsolete, outdated, incomplete, or incorrect. Victoria Chan and her associates are not liable or responsible for any information or claims made on this website. If you choose to rely on any information from this website, it is solely at your own risk and interpretation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script defer src="/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500, // values from 0 to 3000, with step 50ms
+        });
+    </script>
+</body>
+
+</html>
