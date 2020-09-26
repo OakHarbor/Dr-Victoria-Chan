@@ -136,7 +136,7 @@ section {
 .accordian-topper button {
     position: absolute;
     height: 15px;
-    min-width: 20px;
+    min-width: 15px;
     top: 50%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -195,9 +195,9 @@ section {
 .close-accordian.clicked {
     visibility: visible;
     z-index: 100;
-    -webkit-transform: translateY(-50%) rotate(720deg);
-        -ms-transform: translateY(-50%) rotate(720deg);
-            transform: translateY(-50%) rotate(720deg);
+    -webkit-transform: translateY(-50%) rotate(180deg);
+        -ms-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
