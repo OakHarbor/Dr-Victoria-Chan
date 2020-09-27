@@ -339,6 +339,15 @@ body:before {
     transition: all .3s ease-in-out;
 }
 
+.acc1 .accordian-list {
+    height: 0;
+    overflow: hidden;
+}
+
+.acc1 .accordian-list.open {
+    height: auto;
+}
+
 .acc1 .accordian-content {
     height: 61px;
     -webkit-transition: all .3s ease-in-out;

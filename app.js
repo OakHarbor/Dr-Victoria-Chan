@@ -51,6 +51,7 @@ let toggleNav = function () {
 // ACcordian 1
 const $acc1Box = $(".acc1 .accordian-box");
 const $acc1Content = $(".acc1 .accordian-content");
+const $acc1List = $(".acc1 .accordian-list");
 const $acc1Open = $(".acc1 .open-accordian");
 const $acc1Close = $(".acc1 .close-accordian");
 
@@ -127,6 +128,7 @@ $acc1Open.on("click", function (e) {
   $acc1Close.addClass("clicked");
   $acc1Box.addClass("open");
   $acc1Content.addClass("open");
+  $acc1List.addClass("open");
 });
 
 $acc1Close.on("click", function (e) {
@@ -134,6 +136,7 @@ $acc1Close.on("click", function (e) {
   $acc1Close.removeClass("clicked");
   $acc1Box.removeClass("open");
   $acc1Content.removeClass("open");
+  $acc1List.removeClass("open");
 });
 
 // Opening & Closing Accordian 2
