@@ -13,15 +13,20 @@ section {
     padding-top: 0 !important;
 }
 
-#approach-landing:before {
+body {
+    position: relative;
+}
+
+body:before {
     content: '';
-    position: absolute;
+    position: fixed;
+    left: 0;
     background: url("/images/Homepage_Leaf.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
+    width: 100vh;
     opacity: .2;
 }
 
@@ -102,7 +107,7 @@ section {
 
 #unique-approach {
     position: relative;
-    margin-top: -70px;
+    margin-top: -62px;
 }
 
 .accordian-content {
@@ -111,8 +116,10 @@ section {
     padding:  0 25px 20px 25px;
     border-radius: 5px;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     height: auto;
+    background: #fff;
+    opacity: .7;
 }
 
 
@@ -156,10 +163,6 @@ section {
     right: 0;
 }
 
-.acc1 .accordian-topper button {
-    display: none;
-}
-
 .open-accordian  {
     z-index: 100;
     -webkit-transition: .3s ease-in-out;
@@ -173,9 +176,9 @@ section {
 .open-accordian.clicked {
     visibility: hidden;
     z-index: -100;
-    -webkit-transform: translateY(-50%) rotate(360deg);
-        -ms-transform: translateY(-50%) rotate(360deg);
-            transform: translateY(-50%) rotate(360deg);
+    -webkit-transform: translateY(-50%) rotate(180deg);
+        -ms-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
@@ -195,9 +198,9 @@ section {
 .close-accordian.clicked {
     visibility: visible;
     z-index: 100;
-    -webkit-transform: translateY(-50%) rotate(180deg);
-        -ms-transform: translateY(-50%) rotate(180deg);
-            transform: translateY(-50%) rotate(180deg);
+    -webkit-transform: translateY(-50%) rotate(360deg);
+        -ms-transform: translateY(-50%) rotate(360deg);
+            transform: translateY(-50%) rotate(360deg);
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
@@ -247,8 +250,8 @@ section {
 <---        Accordian 1         -->
 <--- -------------------------- -*/
 
-.acc1 {
-    padding-bottom: 20px;
+.accordian-box ul li {
+    line-height: 20px;
 }
 
 .acc1 .accordian-box h4 {
@@ -326,6 +329,36 @@ section {
     font-size: 8px;
     color: #666;
     margin-bottom: 6px;
+}
+
+.acc1 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc1 .accordian-content {
+    height: 61px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc1 .accordian-content.open {
+    height: 376px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc1 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 /*-- -------------------------- -->
@@ -414,7 +447,7 @@ section {
 }
 
 .acc2 .accordian-content.open {
-    height: 350px;
+    height: 387px;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -440,7 +473,6 @@ section {
 .acc3 ul li {
     font-size: 11px;
     color: var(--light);
-    line-height: 1.7em;
     max-width: 211px;
     margin-bottom: 5px;
 }
@@ -528,7 +560,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 197px;
+    height: 248px;
 }
 
 .acc4 .accordian-box.open {
@@ -627,6 +659,10 @@ section {
     padding-left: 0px;
 }
 
+.acc6 .accordian-box ul li:last-child {
+    margin-bottom: 0;
+}
+
 .acc6 h3 span {
     display: block;
     color: var(--primary);
@@ -652,7 +688,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 190px;
+    height: 223px;
 }
 
 .acc6 .accordian-box.open {
@@ -693,6 +729,10 @@ section {
     padding-left: 0px;
 }
 
+.acc7 .accordian-box ul li:last-child {
+    margin-bottom: 0;
+}
+
 .acc7 .accordian-box {
     opacity: 0;
     height: 0;
@@ -712,7 +752,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 156px;
+    height: 182px;
 }
 
 .acc7 .accordian-box.open {
@@ -752,6 +792,7 @@ section {
     letter-spacing: .33px;
     position: relative;
     padding-left: 0px;
+    margin-bottom: 0;
 }
 
 .acc8 .accordian-box {
@@ -773,7 +814,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 142px;
+    height: 156px;
 }
 
 .acc8 .accordian-box.open {
@@ -813,6 +854,7 @@ section {
     letter-spacing: .33px;
     position: relative;
     padding-left: 0px;
+    margin-bottom: 0;
 }
 
 .acc9 .accordian-box {
@@ -834,7 +876,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 175px;
+    height: 196px;
 }
 
 .acc9 .accordian-box.open {
@@ -874,6 +916,7 @@ section {
     letter-spacing: .33px;
     position: relative;
     padding-left: 0px;
+    margin-bottom: 0;
 }
 
 .acc10 h3 span {
@@ -901,7 +944,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 130px;
+    height: 137px;
 }
 
 .acc10 .accordian-box.open {
@@ -915,6 +958,33 @@ section {
 /*-- -------------------------- -->
 <---        Accordian 11        -->
 <--- -------------------------- -*/
+
+.acc11 .accordian-box h4 {
+    text-align: left;
+    color: var(--light);
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc11 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.acc11 .accordian-box ul li {
+    font-size: 11px;
+    color: var(--light);
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
 
 .acc11 .accordian-box {
     opacity: 0;
@@ -935,7 +1005,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 61px;
+    height: 116px;
 }
 
 .acc11 .accordian-box.open {
@@ -949,6 +1019,33 @@ section {
 /*-- -------------------------- -->
 <---        Accordian 12        -->
 <--- -------------------------- -*/
+
+.acc12 .accordian-box h4 {
+    text-align: left;
+    color: var(--light);
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc12 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.acc12 .accordian-box ul li {
+    font-size: 11px;
+    color: var(--light);
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
 
 .acc12 .accordian-box {
     opacity: 0;
@@ -969,7 +1066,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 61px;
+    height: 136px;
 }
 
 .acc12 .accordian-box.open {
@@ -988,8 +1085,9 @@ section {
     position: relative;
 }
 
-.clover {
-    display: none;
+.bottom .clover, 
+.contact-card .clover {
+    display: none !important;
 }
 
 .bottom {
@@ -1084,4 +1182,16 @@ section {
     display: block;
     margin: auto;
     margin-top: 10px;
+}
+
+/* Step 6 */
+@media screen and (min-width: 414px) {
+
+    html {
+        zoom: 130%;
+    }
+
+    #approach-landing {
+        min-height: 73vh;
+    }
 }
