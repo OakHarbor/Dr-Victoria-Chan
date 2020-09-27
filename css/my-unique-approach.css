@@ -342,10 +342,16 @@ body:before {
 .acc1 .accordian-list {
     height: 0;
     overflow: hidden;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .acc1 .accordian-list.open {
     height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .acc1 .accordian-content {
@@ -356,7 +362,7 @@ body:before {
 }
 
 .acc1 .accordian-content.open {
-    height: 376px;
+    height: 467px;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
