@@ -479,6 +479,36 @@ section {
 <---        Accordian 4         -->
 <--- -------------------------- -*/
 
+.acc4 .accordian-box h4 {
+    text-align: left;
+    color: var(--light);
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc4 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.acc4 .accordian-box ul li {
+    font-size: 11px;
+    color: var(--light);
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+}
+
+.acc4 .accordian-box ul li:last-child {
+    margin-bottom: 0 !important;
+}
+
 .acc4 .accordian-box {
     opacity: 0;
     height: 0;
@@ -498,7 +528,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 61px;
+    height: 197px;
 }
 
 .acc4 .accordian-box.open {
@@ -571,6 +601,32 @@ section {
 <---        Accordian 6         -->
 <--- -------------------------- -*/
 
+.acc6 .accordian-box h4 {
+    text-align: left;
+    color: var(--light);
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc6 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.acc6 .accordian-box ul li {
+    font-size: 11px;
+    color: var(--light);
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+}
+
 .acc6 h3 span {
     display: block;
     color: var(--primary);
@@ -596,7 +652,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 97px;
+    height: 190px;
 }
 
 .acc6 .accordian-box.open {
@@ -610,6 +666,32 @@ section {
 /*-- -------------------------- -->
 <---        Accordian 7         -->
 <--- -------------------------- -*/
+
+.acc7 .accordian-box h4 {
+    text-align: left;
+    color: var(--light);
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc7 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.acc7 .accordian-box ul li {
+    font-size: 11px;
+    color: var(--light);
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+}
 
 .acc7 .accordian-box {
     opacity: 0;
@@ -630,7 +712,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 61px;
+    height: 156px;
 }
 
 .acc7 .accordian-box.open {
@@ -645,6 +727,32 @@ section {
 /*-- -------------------------- -->
 <---        Accordian 8         -->
 <--- -------------------------- -*/
+
+.acc8 .accordian-box h4 {
+    text-align: left;
+    color: var(--light);
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc8 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.acc8 .accordian-box ul li {
+    font-size: 11px;
+    color: var(--light);
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+}
 
 .acc8 .accordian-box {
     opacity: 0;
@@ -665,7 +773,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 61px;
+    height: 142px;
 }
 
 .acc8 .accordian-box.open {
@@ -680,6 +788,32 @@ section {
 /*-- -------------------------- -->
 <---        Accordian 9         -->
 <--- -------------------------- -*/
+
+.acc9 .accordian-box h4 {
+    text-align: left;
+    color: var(--light);
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc9 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.acc9 .accordian-box ul li {
+    font-size: 11px;
+    color: var(--light);
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+}
 
 .acc9 .accordian-box {
     opacity: 0;
@@ -700,7 +834,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 61px;
+    height: 175px;
 }
 
 .acc9 .accordian-box.open {
@@ -715,6 +849,32 @@ section {
 /*-- -------------------------- -->
 <---        Accordian 10        -->
 <--- -------------------------- -*/
+
+.acc10 .accordian-box h4 {
+    text-align: left;
+    color: var(--light);
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc10 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: var(--secondary);
+}
+
+.acc10 .accordian-box ul li {
+    font-size: 11px;
+    color: var(--light);
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+}
 
 .acc10 h3 span {
     display: block;
@@ -741,7 +901,7 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 97px;
+    height: 130px;
 }
 
 .acc10 .accordian-box.open {

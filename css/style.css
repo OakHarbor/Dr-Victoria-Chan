@@ -3896,12 +3896,12 @@
     }
 
     #contact-cards {
-        height: calc(100vw - 100vh);
+        height: calc(100vw - 1100px);
     }
 
     .diamond {
         position: absolute;
-        zoom: 160%;
+        zoom: 140%;
         bottom: 3%
     }
 
