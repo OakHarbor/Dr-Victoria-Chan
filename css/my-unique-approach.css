@@ -1187,10 +1187,6 @@ body:before {
 /* Step 6 */
 @media screen and (min-width: 414px) {
 
-    html {
-        zoom: 130%;
-    }
-
     #approach-landing {
         min-height: clac(100vh -50px);
     }
