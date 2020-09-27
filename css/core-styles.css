@@ -436,7 +436,8 @@ h1, h2, h3, h4, h5, h6 {
         display: block;
         font-size: 14px;
         padding: 0 5px;
-        height: 30px;
+		height: 30px;
+		margin-right: 0;
     }
 
 	/* Hidden Elements */
@@ -453,7 +454,7 @@ h1, h2, h3, h4, h5, h6 {
 		display: block;
 		margin: 0 !important;
 		position: absolute;
-		left: 2em;
+		left: 0em;
 		width: 271px;
 	}
 
@@ -484,7 +485,8 @@ h1, h2, h3, h4, h5, h6 {
 		z-index: 100;
 		left: 0;
         background: none;
-        background-color: #fff;
+		background-color: #fff;
+		margin-top: 20px;
 	}
 
 	#on-top {
@@ -497,6 +499,10 @@ h1, h2, h3, h4, h5, h6 {
 		-webkit-box-pack: end;
 		    -ms-flex-pack: end;
 		        justify-content: flex-end;
+	}
+
+	#on-top li:last-child {
+		margin-right: 0;
 	}
 
 	.side-nav {
@@ -546,6 +552,11 @@ h1, h2, h3, h4, h5, h6 {
 		-o-transition: .2s ease;
 		transition: .2s ease;
 		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.desktop-call {
+		font-weight: 500;
 	}
 
 	.side-nav ul li a:hover {

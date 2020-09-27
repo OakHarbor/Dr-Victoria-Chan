@@ -1098,6 +1098,11 @@
         height: 610px;
         position: relative;
     }
+
+    #landing .container {
+        max-width: 627px;
+        padding: 0;
+    }
     
     .landing-right {
         position: absolute;
@@ -1109,6 +1114,10 @@
         width: 790px;
         bottom: -3550px;
         left: -120px;
+    }
+
+    .landing-button {
+        zoom: 80%;
     }
 
     /*-- -------------------------- -->
@@ -1914,6 +1923,14 @@
     <---          Landing           -->
     <--- -------------------------- -*/
 
+    .side-nav {
+        max-width: 95%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
     #landing {
         position: relative;
         min-height: 800px;
@@ -2693,8 +2710,8 @@
     }
 
     #contact-cards .container {
-        width: 730px;
-        max-width: 730px;
+        width: 790px;
+        max-width: 790px;
         margin: auto;
         height: 300px;
         position: absolute;
@@ -2708,10 +2725,14 @@
 
     .contact-card {
         background: #fff;
-        width: 360px;
-        height: 185px;
+        width: 49%;
+        height: 205px;
         left: unset;
         bottom: -80px;
+    }
+
+    .contact-card a {
+        width: 150px;
     }
 
     .contact-card:first-child {
@@ -2753,6 +2774,43 @@
 
 /* Step 4 */
 @media screen and (min-width: 1101px) {
+
+    .side-nav {
+        max-width: 1050px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    #landing {
+        zoom: 80%;
+        padding-top: 100px;
+    }
+
+    #landing .container {
+        max-width: 1320px;
+        padding: 0;
+    }
+
+    .landing-left {
+        width: 1300px;
+        max-width: 1300px;
+    }
+
+    .landing-right {
+        right: 200px;
+    }
+
+    .card-container {
+        -webkit-transform: translateY(-30px);
+            -ms-transform: translateY(-30px);
+                transform: translateY(-30px);
+    }
+
+    .mental-health h2 {
+        font-weight: 400;
+    }
 
     .crazy-topper {
         height: 350px;
@@ -2798,6 +2856,14 @@
     <---          Landing           -->
     <--- -------------------------- -*/
 
+    .side-nav {
+        max-width: 1150px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
     #landing {
         position: relative;
         min-height: 800px;
@@ -2806,6 +2872,19 @@
 
     #landing.container {
         position: relative;
+    }
+
+    #landing .container {
+        zoom: 120%;
+        padding: 0;
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    .landing-left {
+        max-width: 1300px;
+        width: 1300px;
+        margin-left: 0;
     }
 
     #landing h1 {
@@ -2857,6 +2936,24 @@
     .golden-box {
         width: 455px;
         height: 423px;
+    }
+
+    #landing {
+        zoom: 80%;
+    }
+
+    .landing-right {
+        right: 200px;
+    }
+
+    .card-container {
+        -webkit-transform: translateY(-30px);
+            -ms-transform: translateY(-30px);
+                transform: translateY(-30px);
+    }
+
+    .mental-health h2 {
+        font-weight: 400;
     }
 
     /*-- -------------------------- -->
@@ -3576,8 +3673,8 @@
     }
 
     #contact-cards .container {
-        width: 730px;
-        max-width: 730px;
+        width: 790px;
+        max-width: 790px;
         margin: auto;
         height: 300px;
         position: absolute;
@@ -3591,10 +3688,14 @@
 
     .contact-card {
         background: #fff;
-        width: 360px;
-        height: 185px;
+        width: 49%;
+        height: 205px;
         left: unset;
         bottom: -80px;
+    }
+
+    .contact-content a {
+        width: 130px !important;
     }
 
     .contact-card:first-child {
@@ -3637,6 +3738,35 @@
 /* Step 5 */
 @media screen and (min-width: 1320px) {
 
+    #landing {
+        zoom: 80%;
+    }
+
+    #landing .container {
+        zoom: 120%;
+        padding: 0;
+    }
+
+    .landing-left {
+        max-width: 1100px;
+        width: 1100px;
+        margin-left: 0;
+    }
+
+    .landing-right {
+        right: 350px;
+    }
+
+    .card-container {
+        -webkit-transform: translateY(-30px);
+            -ms-transform: translateY(-30px);
+                transform: translateY(-30px);
+    }
+
+    .mental-health h2 {
+        font-weight: 400;
+    }
+
     .crazy-topper {
         zoom: 120%;
     }
@@ -3650,8 +3780,39 @@
 /* Step 5 */
 @media screen and (min-width: 1400px) {
 
+    #landing {
+        zoom: 80%;
+    }
+
+    #landing .container {
+        zoom: 120%;
+        padding: 0;
+    }
+
+    .landing-left {
+        max-width: 1300px;
+        width: 1300px;
+        margin-left: 0;
+    }
+
     .landing-right {
-        right: 200px;
+        right: 400px;
+    }
+
+    .landing-right:after {
+        width: 700px;
+        right: -800px;
+        background-size: cover;
+    }
+
+    .card-container {
+        -webkit-transform: translateY(-30px);
+            -ms-transform: translateY(-30px);
+                transform: translateY(-30px);
+    }
+
+    .mental-health h2 {
+        font-weight: 400;
     }
 
     .struggle-picture {
@@ -3677,7 +3838,12 @@
 @media screen and (min-width: 1500px) {
 
     .landing-right {
-        right: 300px;
+        right: 500px;
+    }
+
+    .landing-right:after {
+        width: 800px;
+        right: -950px;
     }
 
     .slide-2-container:before {
@@ -3739,10 +3905,14 @@
 /* Step 6 */
 @media screen and (min-width: 1800px) {
 
+    #landing {
+        zoom: 80%;
+    }
+
     #landing:before {
         content: '';
         position: absolute;
-        top: 300px;
+        top: 200px;
         height: 150px;
         width: 150px;
         -webkit-transform: rotate(45deg);
@@ -3753,7 +3923,7 @@
     }
 
     #landing h1 {
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
     #contact-cards {
@@ -3762,6 +3932,10 @@
 
     .diamond {
         bottom: 6%;
+    }
+
+    .card-container {
+
     }
 
 }
