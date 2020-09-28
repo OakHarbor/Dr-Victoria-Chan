@@ -409,10 +409,15 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
         padding: 0 56px;
         position: relative;
-    }
+	}
+	
+	.mobile-wrapper {
+		margin-top: 40px;
+	}
 
     .mobile-wrapper img {
-        left: 56px;
+		left: 56px;
+		width: 368px;
     }
 
     .hamburger-box {
