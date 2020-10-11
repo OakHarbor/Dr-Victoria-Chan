@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/core-styles.css">
+    <link rel="stylesheet" href="/css/my-unique-approach.css">
+    <link rel="stylesheet" href="/css/what-is-nat.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Desktop Navbar -->
+        <div class="mobile-wrapper">
+            <div class="mobile-nav container">
+                <img id="mobile-logo" src="/images/mobile-logo.svg" alt="mobile_company_logo" width="194">
+
+                <!-- Hamburger Menu -->
+                <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
+                    <span aria-hidden="true" class="hamburger-box">
+                        <span aria-hidden="true" class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!--                   NAVIGATION                 -->
+        <!-- ============================================ -->
+
+        <nav>
+            <div class="navbar-menu">
+                <div id="side-menu" class=" side-nav">
+                    <img src="/images/desktop-logo.svg" alt="">
+                    <ul id="on-top" class="navbar-links">
+                        <li class="nav-li"><a href="/index.html">Home</a></li>
+                        <li class="nav-li"><a class="active-menu" href="/html/my-unique-approach.html">My Unique Approach</a></li>
+                        <li class="nav-li"><a href="/html/">About</a></li>
+                        <li class="nav-li"><a href="/html/contact.html">Contact</a></li>
+                        <li class="nav-li">
+                            <button class="button-primary desktop-call" onclick="location.href='/html/contact.html'" type="button">
+                                Schedule An Appointment
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+
+        <section id="approach-landing">
+            <h1>What is <span class="nat">Naturopathic Medicine?</span> <span class="landing-span">(and what makes this approach different)?</span></h1>
+            <img aria-hidden="true" class="arrow" src="/images/arrow.svg" alt="">
+            <img aria-hidden="true" class="clover" src="/images/clover.svg" alt="">
+        </section>
+
+        <!-- ============================================ -->
+        <!--                     Cards                    -->
+        <!-- ============================================ -->
+
+        <section id="cards">
+            <div class="container">
+                <div class="card-group">
+                    <div class="card">
+                        <div class="icon"></div>
+                        <h2>Distinct and comprehensive health care system that combines the best of modern science and natural medicine to provide individualized treatment.</h2>
+                    </div>
+                    <div class="card">
+                        <div class="icon"></div>
+                        <h2>This growing field of medicine seeks to treat the root causes of disease to restore optimal health.</h2>
+                    </div>
+                    <div class="card">
+                        <div class="icon"></div>
+                        <h2>Involving a wide range of modalities, selected treatments emphasize effective measures that impose the least harm.</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--              Principles Mobile               -->
+        <!-- ============================================ -->
+        
+        <section id="principles-mobile">
+            <div class="container">
+                <h2>6 Principles of Naturopathic Medicine</h2>
+                <div class="principle-group">
+                    <!-- Accordian 2 -->
+                    <div class="accordian acc2">
+                        <div class="accordian-content">
+                            <div class="accordian-topper">
+                                <h3>First Do No Harm</h3>
+                                <button aria-label="open collapsed information" class="open-accordian">
+                                    <img aria-hidden="true" src="/images/close.svg" alt="">
+                                </button>
+                                <button aria-label="collapse information" class="close-accordian">
+                                    <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="accordian-box">
+                                <ul>
+                                    <li>
+                                        NDs select treatments with the least harmful effects (while still being effective).
+                                    </li>
+                                    <li>
+                                        They’re trained to weigh benefits/risks to identify if higher-force interventions are indeed the safest option for you.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Accordian 3 -->
+                    <div class="accordian acc3">
+                        <div class="accordian-content">
+                            <div class="accordian-topper">
+                                <h3>Identify and Treat the Cause</h3>
+                                <button aria-label="open collapsed information" class="open-accordian">
+                                    <img aria-hidden="true" src="/images/close.svg" alt="">
+                                </button>
+                                <button aria-label="collapse information" class="close-accordian">
+                                    <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="accordian-box">
+                                <ul>
+                                    <li>
+                                        Instead of only suppressing symptoms, NDs strive to also discover and treat the root causes of those symptoms.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Accordian 4 -->
+                    <div class="accordian acc4">
+                        <div class="accordian-content">
+                            <div class="accordian-topper">
+                                <h3>Treat The Whole Person</h3>
+                                <button aria-label="open collapsed information" class="open-accordian">
+                                    <img aria-hidden="true" src="/images/close.svg" alt="">
+                                </button>
+                                <button aria-label="collapse information" class="close-accordian">
+                                    <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="accordian-box">
+                                <ul>
+                                    <li>
+                                        NDs recognize that body systems don't act in isolation.
+                                    </li>
+                                    <li>
+                                        Disease stems from a complex interaction of factors.
+                                    </li>
+                                    <li>
+                                        To treat your physical symptoms, NDs also examine your other body systems, mental, genetic, lifestyle, and environmental contributors.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Accordian 5 -->
+                    <div class="accordian acc5">
+                        <div class="accordian-content">
+                            <div class="accordian-topper">
+                                <h3>Healing Power of Nature</h3>
+                                <button aria-label="open collapsed information" class="open-accordian">
+                                    <img aria-hidden="true" src="/images/close.svg" alt="">
+                                </button>
+                                <button aria-label="collapse information" class="close-accordian">
+                                    <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="accordian-box">
+                                <ul>
+                                    <li>
+                                        Your body consists of amazingly intelligent systems that are designed to heal itself (when given the correct tools).
+                                    </li>
+                                    <li>
+                                        Disease occurs when something is too overwhelming for those systems to overcome.
+                                    </li>
+                                    <li>
+                                        NDs first identify and remove obstacles to recovery. Then restore and support your inherent systems to achieve optimal health.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Accordian 6 -->
+                    <div class="accordian acc6">
+                        <div class="accordian-content">
+                            <div class="accordian-topper">
+                                <h3>Doctor as teacher</h3>
+                                <button aria-label="open collapsed information" class="open-accordian">
+                                    <img aria-hidden="true" src="/images/close.svg" alt="">
+                                </button>
+                                <button aria-label="collapse information" class="close-accordian">
+                                    <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="accordian-box">
+                                <ul>
+                                    <li>
+                                        Health care should not be a one-way interaction where doctors tell you to take prescriptions without you understanding why.
+                                    </li>
+                                    <li>
+                                        NDs prioritize you understanding your health to best achieve and maintain wellness.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Accordian 7 -->
+                    <div class="accordian acc7">
+                        <div class="accordian-content">
+                            <div class="accordian-topper">
+                                <h3>Prevention</h3>
+                                <button aria-label="open collapsed information" class="open-accordian">
+                                    <img aria-hidden="true" src="/images/close.svg" alt="">
+                                </button>
+                                <button aria-label="collapse information" class="close-accordian">
+                                    <img aria-hidden="true" src="/images/chevron.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="accordian-box">
+                                <ul>
+                                    <li>
+                                        Health care should not only be for late-stage illnesses or when symptoms arise.
+                                    </li>
+                                    <li>
+                                        NDs can help assess risk factors to prevent the development of unwanted diseases.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--             Principles Desktop               -->
+        <!-- ============================================ -->
+        
+        <section id="principles-desktop">
+            <div class="container">
+                <h2 class="heading">6 Principles of Naturopathic Medicine</h2>
+                <div class="button-group">
+                    <a id="button1">
+                        <div class="click-group">
+                            <div class="button-icon"></div>
+                            <h2 class="button-h2">First Do No Harm</h2>
+                        </div>
+                    </a><a id="button2">
+                        <div class="click-group">
+                            <div class="button-icon"></div>
+                            <h2 class="button-h2">Identify and Treat the Cause</h2>
+                        </div>
+                    </a><a id="button3">
+                        <div class="click-group">
+                            <div class="button-icon"></div>
+                            <h2 class="button-h2">Treat the Whole Person</h2>
+                        </div>
+                    </a><a id="button4">
+                        <div class="click-group">
+                            <div class="button-icon"></div>
+                            <h2 class="button-h2">Healing Power of nature</h2>
+                        </div>
+                    </a><a id="button5" class="active">
+                        <div class="click-group">
+                            <div class="button-icon"></div>
+                            <h2 class="button-h2">Doctor as Teacher</h2>
+                        </div>
+                    </a><a id="button6">
+                        <div class="click-group">
+                            <div class="button-icon"></div>
+                            <h2 class="button-h2">Prevention</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="button-content">
+                    <div class="content-container">
+                        <div class="button1-content buttton-content">
+                            <ul>
+                                <li>
+                                    NDs select treatments with the least harmful effects (while still being effective).
+                                </li>
+                                <li>
+                                    They’re trained to weigh benefits/risks to identify if higher-force interventions are indeed the safest option for you.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button2-content buttton-content">
+                            <ul>
+                                <li>
+                                    Instead of only suppressing symptoms, NDs strive to also discover and treat the root causes of those symptoms.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button3-content buttton-content">
+                            <ul>
+                                <li>
+                                    NDs recognize that body systems don't act in isolation.
+                                </li>
+                                <li>
+                                    Disease stems from a complex interaction of factors.
+                                </li>
+                                <li>
+                                    To treat your physical symptoms, NDs also examine your other body systems, mental, genetic, lifestyle, and environmental contributors.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button4-content buttton-content">
+                            <ul>
+                                <li>
+                                    Your body consists of amazingly intelligent systems that are designed to heal itself (when given the correct tools).
+                                </li>
+                                <li>
+                                    Disease occurs when something is too overwhelming for those systems to overcome.
+                                </li>
+                                <li>
+                                    NDs first identify and remove obstacles to recovery. Then restore and support your inherent systems to achieve optimal health.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button5-content buttton-content active">
+                            <ul>
+                                <li>
+                                    Health care should not be a one-way interaction where doctors tell you to take prescriptions without you understanding why.
+                                </li>
+                                <li>
+                                    NDs prioritize you understanding your health to best achieve and maintain wellness.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button6-content buttton-content">
+                            <ul>
+                                <li>
+                                    Health care should not only be for late-stage illnesses or when symptoms arise.
+                                </li>
+                                <li>
+                                    NDs can help assess risk factors to prevent the development of unwanted diseases.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                     Order                    -->
+        <!-- ============================================ -->
+        
+        <section id="therapeutic-order">
+            <div class="container">
+                <h2 class="heading">Therapeutic Order of Naturopathic Treatment</h2>
+                <h3>ND clinical decision-making is governed by these guidelines to fit your specific needs, maximize patient benefit, and reduce harm potential.</h3>
+                <div class="numbered-group">
+                    <div class="item">
+                        <div class="number"><p>1</p></div>
+                        <h4>Remove obstacles to health</h4>
+                    </div>
+                    <div class="item">
+                        <div class="number"><p>2</p></div>
+                        <h4>Stimulate self-healing mechanisms</h4>
+                    </div>
+                    <div class="item">
+                        <div class="number">
+                            <p>3</p>
+                        </div>
+                        <h4>Restore damaged systems</h4>
+                    </div>
+                    <div class="item">
+                        <div class="number">
+                            <p>4</p>
+                        </div>
+                        <h4>Physical alignment</h4>
+                    </div>
+                    <div class="item">
+                        <div class="number">
+                            <p>5</p>
+                        </div>
+                        <h4>Natural symptom control</h4>
+                    </div>
+                    <div class="item">
+                        <div class="number">
+                            <p>6</p>
+                        </div>
+                        <h4>Synthetic symptoms relief</h4>
+                    </div>
+                    <div class="item">
+                        <div class="number">
+                            <p>7</p>
+                        </div>
+                        <h4>High force interventions</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                  Learn More                  -->
+        <!-- ============================================ -->
+        
+        <section id="learn-more">
+            <div class="container">
+                <h2>Learn More</h2>
+                <div class="learn-more-items">
+                    <div class="lm-item">
+                        <h3>American Association of <span>Naturopathic Physicians (AANP)</span></h3>
+                    </div><div class="lm-item">
+                        <h3>Department of Consumer Affairs: Naturopathic Medicine Committee</h3>
+                    </div><div class="lm-item">
+                        <h3>California Naturopathic <span>Doctors Association (CNDA)</span></h3>
+                    </div><div class="lm-item">
+                        <h3>Psychiatric Association of Naturopathic Physicians (PsychANP)</h3>
+                    </div>
+                </div>
+                <h2>Explore</h2>
+                <div class="explore-group">
+                    <button class="button-primary landing-button" onclick="location.href='/html/my-unique-approach.html'" type="button">
+                        My Unique Approach
+                    </button><button class="button-primary landing-button" onclick="location.href='/html/my-story.html'" type="button">
+                        My Story
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                 Contact Cards                -->
+        <!-- ============================================ -->
+
+        <section id="contact-cards">
+            <div class="container">
+                <div class="contact-card">
+
+                </div>
+                <div class="contact-card">
+                    <img class="clover" aria-hidden="true" src="/images/clover.svg" alt="">
+                    <div class="contact-content">
+                        <a href="#">SCHEDULE AN APPOINTMENT</a>
+                        <div class="golden-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================ -->
+    <!--                    FOOTER                    -->
+    <!-- ============================================ -->
+
+    <footer>
+        <img aria-hidden="true" class="footer-svg" src="/images/footer-background.svg" alt="">
+        <div class="container">
+            <div class="footer-nav">
+                <div class="logo-group">
+                    <img src="/images/gold-logo.svg" alt="">
+                    <h2>Optimize your Mental Health and Regain Stability.</h2>
+                </div>
+                <div class="list-group">
+                    <ul>
+                        <li><a href="/index.html" class="gold-border">Home</a></li>
+                    </ul>
+                    <ul>
+                        <h2 class="gold-border">About Dr. Victoria</h2>
+                        <li class="list-dot"><a href="">My Story</a></li>
+                        <li class="list-dot"><a href="/html/my-unique-approach.html">My Unique Approach</a></li>
+                    </ul>
+                    <ul>
+                        <h2 class="gold-border">Naturopathic Medicince</h2>
+                        <li class="list-dot"><a href="">What is it?</a></li>
+                        <li class="list-dot"><a href="">Principles and Philosophy</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/html/contact.html" class="gold-border">Contact</a></li>
+                    </ul>
+                </div>
+                <div aria-hidden="true" class="clover-group">
+                    <img class="blue-clover" src="/images/blue-clover.svg" alt="">
+                </div>
+            </div>
+            <div class="disclaimer">
+                <div class="disclaimer-topper">
+                    <p>Copyright © 2020. Designed by Kyle Kurokawa. Development by Oak Harbor Web Designs. All rights reserved.</p>
+                    <ul class="social">
+                        <li class="top"><a href="">Back to Top</a></li>
+                        <li><a href=""><img src="/images/linkedin.svg" alt=""></a></li>
+                        <li><a href=""><img src="/images/facebook.svg" alt=""></a></li>
+                        <li><a href=""><img src="/images/instagram.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <p class="disclaimer-p">DISCLAIMER: All content on this website is for informational and educational purposes only and is not intended to be or substitute medical or health advice for you or other individuals. Never use information on this website for diagnosing or treating any known or suspected disease or health problem, changing your medications or health care regimen, or disregard or delay professional medical advice. If you have or suspect to have a medical problem, or have any questions regarding your health, you must contact your doctor or qualified health care professionals. Using information from this website does not constitute or imply a doctor-patient relationship with Dr. Victoria Chan. Victoria Chan and her associates are not liable or responsible for any assumption, belief, advice, treatment course, health care change, diagnosis, financial consequence, damage, or any consequence you obtained through information from this website. Victoria Chan and her associates are not liable or responsible for any claims, beliefs, or consequences from websites linked to and from this website. Information and facts change constantly and thus may render content on this website obsolete, outdated, incomplete, or incorrect. Victoria Chan and her associates are not liable or responsible for any information or claims made on this website. If you choose to rely on any information from this website, it is solely at your own risk and interpretation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script defer src="/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500, // values from 0 to 3000, with step 50ms
+        });
+    </script>
+</body>
+
+</html>

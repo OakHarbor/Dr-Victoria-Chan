@@ -310,3 +310,125 @@ $acc12Close.on("click", function (e) {
   $acc12Box.removeClass("open");
   $acc12Content.removeClass("open");
 });
+
+
+// what is naturopathic medicne buttons 
+
+
+const $button1 = $("#button1");
+const $button2 = $("#button2");
+const $button3 = $("#button3");
+const $button4 = $("#button4");
+const $button5 = $("#button5");
+const $button6 = $("#button6");
+
+const $button1Content = $(".button1-content");
+const $button2Content = $(".button2-content");
+const $button3Content = $(".button3-content");
+const $button4Content = $(".button4-content");
+const $button5Content = $(".button5-content");
+const $button6Content = $(".button6-content");
+
+
+// Opening & Closing Accordian 1
+$button1.on("click", function (e) {
+  $button1.addClass("active");
+  $button2.removeClass("active");
+  $button3.removeClass("active");
+  $button4.removeClass("active");
+  $button5.removeClass("active");
+  $button6.removeClass("active");
+
+  // content active
+  $button1Content.addClass("active");
+  $button2Content.removeClass("active");
+  $button3Content.removeClass("active");
+  $button4Content.removeClass("active");
+  $button5Content.removeClass("active");
+  $button6Content.removeClass("active");
+});
+
+$button2.on("click", function (e) {
+  $button2.addClass("active");
+  $button1.removeClass("active");
+  $button3.removeClass("active");
+  $button4.removeClass("active");
+  $button5.removeClass("active");
+  $button6.removeClass("active");
+
+  // content active
+  $button2Content.addClass("active");
+  $button1Content.removeClass("active");
+  $button3Content.removeClass("active");
+  $button4Content.removeClass("active");
+  $button5Content.removeClass("active");
+  $button6Content.removeClass("active");
+});
+
+$button3.on("click", function (e) {
+  $button3.addClass("active");
+  $button2.removeClass("active");
+  $button1.removeClass("active");
+  $button4.removeClass("active");
+  $button5.removeClass("active");
+  $button6.removeClass("active");
+
+  // content active
+  $button3Content.addClass("active");
+  $button2Content.removeClass("active");
+  $button1Content.removeClass("active");
+  $button4Content.removeClass("active");
+  $button5Content.removeClass("active");
+  $button6Content.removeClass("active");
+});
+
+$button4.on("click", function (e) {
+  $button4.addClass("active");
+  $button2.removeClass("active");
+  $button3.removeClass("active");
+  $button1.removeClass("active");
+  $button5.removeClass("active");
+  $button6.removeClass("active");
+
+  // content active
+  $button4Content.addClass("active");
+  $button2Content.removeClass("active");
+  $button3Content.removeClass("active");
+  $button1Content.removeClass("active");
+  $button5Content.removeClass("active");
+  $button6Content.removeClass("active");
+});
+
+$button5.on("click", function (e) {
+  $button5.addClass("active");
+  $button2.removeClass("active");
+  $button3.removeClass("active");
+  $button4.removeClass("active");
+  $button1.removeClass("active");
+  $button6.removeClass("active");
+
+  // content active
+  $button5Content.addClass("active");
+  $button2Content.removeClass("active");
+  $button3Content.removeClass("active");
+  $button4Content.removeClass("active");
+  $button1Content.removeClass("active");
+  $button6Content.removeClass("active");
+});
+
+$button6.on("click", function (e) {
+  $button6.addClass("active");
+  $button2.removeClass("active");
+  $button3.removeClass("active");
+  $button4.removeClass("active");
+  $button5.removeClass("active");
+  $button1.removeClass("active");
+
+  // content active
+  $button6Content.addClass("active");
+  $button2Content.removeClass("active");
+  $button3Content.removeClass("active");
+  $button4Content.removeClass("active");
+  $button5Content.removeClass("active");
+  $button1Content.removeClass("active");
+});

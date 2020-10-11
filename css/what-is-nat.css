@@ -1,0 +1,1420 @@
+/*-- -------------------------- -->
+<---          Landing           -->
+<--- -------------------------- -*/
+
+#principles-desktop {
+    display: none;
+}
+
+.container {
+    padding: 0 10px;
+}
+
+body:before {
+    display: block;
+    content: '';
+    position: fixed;
+    left: 0;
+    background: url("/images/clouds.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw;
+    opacity: 1;
+}
+
+#approach-landing h1 {
+    line-height: 1.3em;
+}
+
+.landing-span {
+    color: var(--primary);
+    font-size: 12px;
+    display: block;
+    font-weight: normal;
+}
+
+.nat {
+    display: block;
+    color: var(--primary);
+}
+
+/*-- -------------------------- -->
+<---           Cards            -->
+<--- -------------------------- -*/
+
+#cards {
+    padding-bottom: 0;
+}
+
+#cards .container {
+    width: 100%;
+    margin: auto;
+}
+
+.card-group {
+   position: relative;
+   background: rgba(255, 255, 255, .7);
+   box-shadow: 0px 0px 11px #0000001A;
+   border-radius: 10px;
+   z-index: 100;
+   padding: 30px 27px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    background: #304b78;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.card h2 {
+    font-size: 12px;
+    color: #4d4d4d;
+    letter-spacing: 0.36px;
+    line-height: 1.7em;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+/*-- -------------------------- -->
+<---     Principles Mobile      -->
+<--- -------------------------- -*/
+
+#principles-mobile {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#principles-mobile h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    width: 176px;
+    display: block;
+    margin: 80px auto 30px auto;
+}
+
+#principles-mobile h2:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 28px;
+    height: 20px;
+    background: url("/images/clover.svg");
+    background-size: contain;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -35px;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 3         -->
+<--- -------------------------- -*/
+
+.acc3 h3 span {
+    display: block;
+    font-size: 14px;
+}
+
+.acc3 ul li {
+    font-size: 11px;
+    color: var(--light);
+    max-width: 211px;
+    margin-bottom: 5px;
+}
+
+.acc3 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc3 .accordian-content,
+.acc5 .accordian-content,
+.acc6 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+.acc2 .accordian-content.open,
+.acc3 .accordian-content.open,
+.acc4 .accordian-content.open,
+.acc5 .accordian-content.open,
+.acc6 .accordian-content.open,
+.acc7 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: auto;
+}
+
+.acc3 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc2 .accordian-box ul {
+        columns: initial;
+        width: 100%;
+        max-width: 100%;
+        padding-left: 10px;
+    }
+
+.acc2 .accordian-box ul li:before {
+    display: none;  
+}
+
+.acc2 .accordian-box.open {
+    padding-top: 0px;
+    width: 100%;
+    margin: auto;
+}
+
+.acc2 .accordian-box ul li:nth-child(1), .acc2 .accordian-box ul li:nth-child(2), .acc2 .accordian-box ul li:nth-child(3) {
+    width: 100%;
+    list-style: circle;
+    padding: 0;
+}
+
+/*-- -------------------------- -->
+<---           Order            -->
+<--- -------------------------- -*/
+
+#therapeutic-order {
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    z-index: 100;
+}
+
+#therapeutic-order h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    width: 176px;
+    display: block;
+    margin: 80px auto 30px auto;
+}
+
+#therapeutic-order h2:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    background: url("/images/clover.svg");
+    background-size: contain;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -35px;
+}
+
+#therapeutic-order h3 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.7em;
+    width: 237px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    letter-spacing: 0.36px;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item .number {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item .number p {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.item:nth-child(1) .number {
+    background: #4d4d4d;
+}
+
+.item:nth-child(2) .number {
+    background: #2d325a;
+}
+
+.item:nth-child(3) .number {
+    background: #304b78;
+}
+
+.item:nth-child(4) .number {
+    background: #2c94a2;
+}
+
+.item:nth-child(5) .number {
+    background: #dbbf3b;
+}
+
+.item:nth-child(6) .number {
+    background: #4d4d4d;
+}
+
+.item:nth-child(7) .number{
+    background: #ba5656;
+}
+
+/*-- -------------------------- -->
+<---         Learn More         -->
+<--- -------------------------- -*/
+
+#learn-more {
+    padding-top: 0;
+    padding-bottom: 0;
+     position: relative;
+    z-index: 100;
+}
+
+#learn-more h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 176px;
+    display: block;
+    margin: 75px auto 30px auto;
+    letter-spacing: 0.3px;
+    color: #4D4D4D;
+}
+
+#learn-more h2:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    background: url("/images/clover.svg");
+    background-size: contain;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -35px;
+}
+
+#learn-more h2:after {
+    content: '';
+    position: absolute;
+    width: 33px;
+    height: 1px;
+    background: var(--secondary);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -7px;
+}
+
+.lm-item {
+    background: #304b78;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    max-width: 300px;
+}
+
+.lm-item h3,
+.lm-item h3 span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.lm-item span {
+    display: block;
+}
+
+.explore-group {
+    margin-bottom: 45px;
+}
+
+.explore-group button {
+    background: var(--secondary);
+    color: var(--primary);
+    width: 196px;
+    font-size: 14px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Step 2 */
+@media screen and (min-width: 540px) and (max-width: 767px) {
+
+/*-- -------------------------- -->
+<---        Accordian 3         -->
+<--- -------------------------- -*/
+
+.acc3 h3 span {
+    display: block;
+    font-size: 14px;
+}
+
+.acc3 ul li {
+    font-size: 11px;
+    color: var(--light);
+    max-width: 211px;
+    margin-bottom: 5px;
+}
+
+.acc3 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc3 .accordian-content,
+.acc5 .accordian-content,
+.acc6 .accordian-content {
+    height: 53px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+.acc2 .accordian-content.open,
+.acc3 .accordian-content.open,
+.acc4 .accordian-content.open,
+.acc5 .accordian-content.open,
+.acc6 .accordian-content.open,
+.acc7 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: auto;
+}
+
+.acc3 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc6 .accordian-content:before {
+    display: block;
+    top: 64px;
+}
+
+.acc5 .accordian-content:before {
+    display: block;
+    top: 66px;
+}
+
+.acc3 .accordian-content:before {
+    display: block;
+    top: 66px;
+}
+
+}
+
+/* Step 3 */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    #approach-landing {
+        padding-bottom: 0;
+    }
+
+    .arrow {
+        bottom: 130px;
+    }
+
+    #approach-landing .clover {
+        bottom: 0;
+    }
+
+    #approach-landing h1 {
+        font-size: 50px;
+    }
+
+    .landing-span {
+        font-size: 26px;
+    }
+
+    /*-- -------------------------- -->
+    <---           Cards            -->
+    <--- -------------------------- -*/
+
+    #cards {
+        padding-bottom: 20px;
+    }
+
+    .card-group {
+        width: 580px;
+        margin: auto;
+        padding: 50px 35px;
+    }
+
+    .icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .card:nth-child(2) h2 {
+        width: 350px;
+    }
+
+    .card:nth-child(3) h2 {
+        width: 370px;
+    }
+
+    /*-- -------------------------- -->
+    <---      Principle Mobile      -->
+    <--- -------------------------- -*/
+
+    #principles-mobile h2 {
+        font-size: 30px;
+        width: 328px;
+    }
+
+    #principles-mobile h2:before {
+        display: block;
+        width: 42px;
+        height: 30px;
+        top: -40px;
+    }
+
+    .accordian-topper h3 {
+        font-size: 26px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .acc2 .accordian-content,
+    .acc3 .accordian-content,
+    .acc4 .accordian-content,
+    .acc5 .accordian-content,
+    .acc6 .accordian-content,
+    .acc7 .accordian-content {
+        height: 85px;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        overflow: visible;
+        margin-bottom: 44px;
+    }
+
+    .acc2 .accordian-box ul {
+        columns: initial;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .acc2 .accordian-box ul li:before {
+        display: none;  
+    }
+
+    .acc2 .accordian-box.open {
+        padding-top: 40px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .acc2 .accordian-box ul li:nth-child(1), .acc2 .accordian-box ul li:nth-child(2), .acc2 .accordian-box ul li:nth-child(3) {
+        width: 100%;
+        list-style: circle;
+        padding: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---           Order            -->
+    <--- -------------------------- -*/
+
+    #therapeutic-order h2 {
+        font-size: 30px;
+        width: 346px;
+        margin-top: 150px;
+    }
+
+    #therapeutic-order h2:before {
+        display: block;
+        width: 43px;
+        height: 30px;
+        top: -50px;
+    }
+
+    #therapeutic-order h3 {
+        font-size: 18px;
+        width: 430px;
+        margin-bottom: 60px;
+    }
+
+    .numbered-group {
+        width: 410px;
+        margin: auto;
+    }
+
+    .item {
+        text-align: left;
+        justify-self: end;
+        height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .item .number, .item h4 {
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    .item h4 {
+        font-size: 20px;
+    }
+
+    .item .number {
+        height: 40px;
+        width: 40px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+
+    /*-- -------------------------- -->
+    <---         Learn More         -->
+    <--- -------------------------- -*/
+
+    #learn-more {
+        padding-top: 30px;
+    }
+
+    #learn-more h2 {
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+
+    #learn-more h2:before {
+        display: block;
+        width: 42px;
+        height: 30px;
+        top: -60px;
+    }
+
+    #learn-more h2:after {
+        width: 50px;
+    }
+
+    .learn-more-items {
+        width: 700px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .lm-item {
+        display: inline-block;
+        width: 340px;
+        max-width: 340px;
+        margin-bottom: 20px;
+    }
+
+    .lm-item:nth-child(1),
+    .lm-item:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    .explore-group {
+        width: 540px;
+        text-align: left;
+        margin: auto;
+    }
+
+    .explore-group button {
+        width: 250px;
+        display: inline-block;
+    }
+
+    .explore-group button:nth-child(1) {
+        margin-right: 40px;
+    }
+
+    #contact-cards .container {
+        height: 100px;
+    }
+
+}
+
+/* Step 3 */
+@media screen and (min-width: 992px) and (max-width: 1299px) {
+
+    /*-- -------------------------- -->
+    <---          Landing           -->
+    <--- -------------------------- -*/
+
+    #approach-landing {
+        min-height: calc(100vh - 300px);
+    }
+
+    #approach-landing h1 {
+        width: 976px;
+        font-size: 50px;
+    }
+
+    .nat {
+        display: inline;
+    }
+
+    .landing-span {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .arrow {
+        bottom: 40px;
+    }
+
+    #approach-landing .clover {
+        bottom: -20px;
+        margin-bottom: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---           Cards            -->
+    <--- -------------------------- -*/
+
+    .card-group {
+        text-align: center;
+        padding: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+    .card {
+        display: inline-block;
+        width: 390px;
+        max-width: 390px;
+        height: 385px;
+        margin-right: 30px;
+        padding: 54px 42px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 11px #0000001A;
+        margin-bottom: 0;
+        border-radius: 20px;
+        zoom: 80%;
+        vertical-align: middle;
+    }
+
+    .card:last-child {
+        margin-right: 0;
+    }
+
+    .icon {
+        height: 90px;
+        width: 90px;
+        margin-bottom: 45px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+    }
+
+    /*-- -------------------------- -->
+    <---     Principles Desktop     -->
+    <--- -------------------------- -*/
+
+    #principles-mobile {
+        display: none;
+    }
+
+    #principles-desktop {
+        display: block;
+        position: relative;
+        z-index: 100;
+    }
+
+
+    .heading {
+        position: relative;
+        font-weight: 700;
+        font-size: 30px;
+        width: auto;
+        display: block;
+        margin: 80px auto 50px auto;
+    }
+
+    .heading:before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        background: url(/images/clover.svg);
+        background-size: contain;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -45px;
+    }
+
+    .button-group {
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 11px #0000001A;
+        position: relative;
+        z-index: 100;
+        border-radius: 20px;
+        width: 1200px;
+        zoom: 84%;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .click-group {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .button-group a {
+        height: 225px;
+        width: 380px;
+        display: inline-block;
+        margin-right: 10px;
+        position: relative;
+        border-radius: 10px;
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a:nth-child(3),
+    .button-group a:nth-child(6) {
+        margin: 0;
+    }
+
+    .button-icon {
+        height: 70px;
+        width: 70px;
+        background: var(--primary);
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .button-group a h2 {
+        width: 300px;
+        max-width: 100%;
+        font-size: 20px;
+        transition: .1s ease-in-out;
+    }
+    
+    .button-group a:hover .button-icon {
+        background: #fff;
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a:hover {
+        background: var(--primary);
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a.active .button-h2 {
+        color: #fff;
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a.active .button-icon {
+        background: #fff;
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a.active {
+        background: var(--primary);
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a.active .button-h2 {
+        color: #fff !important;
+        position: relative;
+        z-index: 100;
+        transition: .1s ease-in-out;
+    }
+
+    /* Button Content */
+
+    .button1-content,
+    .button2-content,
+    .button3-content,
+    .button4-content,
+    .button5-content,
+    .button6-content {
+        display: none;
+    }
+
+    .button1-content.active,
+    .button2-content.active,
+    .button3-content.active,
+    .button4-content.active,
+    .button5-content.active,
+    .button6-content.active {
+        display: block;
+    }
+
+    .button-content {
+        width: 758px;
+        margin: auto;
+        padding: 50px 74px;
+        background: rgba(255, 255, 255, .8);
+        position: relative;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0px 0px 11px #0000001A;
+    }
+
+    .button-content:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        background: #bfbebe;
+        opacity: .2;
+        border-radius: 10px;
+    }
+
+    .button-content ul {
+        margin-left: 10px;
+        width: auto;
+        max-width: 758px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .button-content ul li {
+        font-size: 18px !important;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        margin-bottom: 8px;
+        font-weight: 500;
+    }
+
+    /*-- -------------------------- -->
+    <---           Order            -->
+    <--- -------------------------- -*/
+
+    #therapeutic-order h2 {
+        font-size: 30px;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    #therapeutic-order h2:before {
+        display: block;
+        width: 43px;
+        height: 30px;
+        top: -50px;
+    }
+
+    #therapeutic-order h3 {
+        font-size: 18px;
+        width: 752px;
+        margin-bottom: 60px;
+    }
+
+    .numbered-group {
+        width: 410px;
+        margin: auto;
+    }
+
+    .item {
+        text-align: left;
+        justify-self: end;
+        height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .item .number, .item h4 {
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    .item h4 {
+        font-size: 20px;
+    }
+
+    .item .number {
+        height: 40px;
+        width: 40px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+
+    /*-- -------------------------- -->
+    <---         Learn More         -->
+    <--- -------------------------- -*/
+
+    #learn-more {
+        padding-top: 30px;
+    }
+
+    #learn-more h2 {
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+
+    #learn-more h2:before {
+        display: block;
+        width: 42px;
+        height: 30px;
+        top: -60px;
+    }
+
+    #learn-more h2:after {
+        width: 50px;
+    }
+
+    .learn-more-items {
+        width: 700px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .lm-item {
+        display: inline-block;
+        width: 340px;
+        max-width: 340px;
+        margin-bottom: 20px;
+    }
+
+    .lm-item:nth-child(1),
+    .lm-item:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    .explore-group {
+        width: 540px;
+        text-align: left;
+        margin: auto;
+    }
+
+    .explore-group button {
+        width: 250px;
+        display: inline-block;
+    }
+
+    .explore-group button:nth-child(1) {
+        margin-right: 40px;
+    }
+
+    #contact-cards .container {
+        height: 100px;
+    }
+
+
+}
+
+/* Step 4 */
+@media screen and (min-width: 1300px) {
+
+    /*-- -------------------------- -->
+    <---          Landing           -->
+    <--- -------------------------- -*/
+
+    #approach-landing {
+        min-height: calc(100vh - 300px);
+    }
+
+    #approach-landing h1 {
+        width: 976px;
+        font-size: 50px;
+    }
+
+    .nat {
+        display: inline;
+    }
+
+    .landing-span {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .arrow {
+        bottom: 40px;
+    }
+
+    #approach-landing .clover {
+        bottom: -20px;
+        margin-bottom: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---           Cards            -->
+    <--- -------------------------- -*/
+
+    .card-group {
+        text-align: center;
+        padding: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+    .card {
+        display: inline-block;
+        width: 390px;
+        max-width: 390px;
+        height: 385px;
+        margin-right: 30px;
+        padding: 54px 42px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 11px #0000001A;
+        margin-bottom: 0;
+        border-radius: 20px;
+        zoom: 100%;
+        vertical-align: middle;
+    }
+
+    .card:first-child h2 {
+        width: 290px;
+    }
+
+    .card:last-child {
+        margin-right: 0;
+    }
+
+    .icon {
+        height: 90px;
+        width: 90px;
+        margin-bottom: 45px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+    }
+
+    /*-- -------------------------- -->
+    <---     Principles Desktop     -->
+    <--- -------------------------- -*/
+
+    #principles-mobile {
+        display: none;
+    }
+
+    #principles-desktop {
+        display: block;
+        position: relative;
+        z-index: 100;
+    }
+
+
+    .heading {
+        position: relative;
+        font-weight: 700;
+        font-size: 30px;
+        width: auto;
+        display: block;
+        margin: 80px auto 50px auto;
+    }
+
+    .heading:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        background: url(/images/clover.svg);
+        background-size: contain;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -45px;
+    }
+
+    .button-group {
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 11px #0000001A;
+        position: relative;
+        z-index: 100;
+        border-radius: 20px;
+        width: 1200px;
+        zoom: 100%;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .click-group {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .button-group a {
+        height: 225px;
+        width: 380px;
+        display: inline-block;
+        margin-right: 10px;
+        position: relative;
+        border-radius: 10px;
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a:nth-child(3),
+    .button-group a:nth-child(6) {
+        margin: 0;
+    }
+
+    .button-icon {
+        height: 70px;
+        width: 70px;
+        background: var(--primary);
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .button-group a h2 {
+        width: 300px;
+        max-width: 100%;
+        font-size: 20px;
+        transition: .1s ease-in-out;
+    }
+    
+    .button-group a:hover .button-icon {
+        background: #fff;
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a:hover {
+        background: var(--primary);
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a.active .button-h2 {
+        color: #fff;
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a.active .button-icon {
+        background: #fff;
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a.active {
+        background: var(--primary);
+        transition: .1s ease-in-out;
+    }
+
+    .button-group a.active .button-h2 {
+        color: #fff !important;
+        position: relative;
+        z-index: 100;
+        transition: .1s ease-in-out;
+    }
+
+    /* Button Content */
+
+    .button1-content,
+    .button2-content,
+    .button3-content,
+    .button4-content,
+    .button5-content,
+    .button6-content {
+        display: none;
+    }
+
+    .button1-content.active,
+    .button2-content.active,
+    .button3-content.active,
+    .button4-content.active,
+    .button5-content.active,
+    .button6-content.active {
+        display: block;
+    }
+
+    .button-content {
+        width: 900px;
+        margin: auto;
+        padding: 50px 74px;
+        background: rgba(255, 255, 255, .8);
+        position: relative;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0px 0px 11px #0000001A;
+    }
+
+    .button-content:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        background: #bfbebe;
+        opacity: .2;
+        border-radius: 10px;
+    }
+
+    .button-content ul {
+        margin-left: 10px;
+        width: auto;
+        max-width: 758px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .button-content ul li {
+        font-size: 18px !important;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        margin-bottom: 8px;
+        font-weight: 500;
+    }
+
+    /*-- -------------------------- -->
+    <---           Order            -->
+    <--- -------------------------- -*/
+
+    #therapeutic-order h2 {
+        font-size: 30px;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    #therapeutic-order h2:before {
+        display: block;
+        width: 43px;
+        height: 30px;
+        top: -50px;
+    }
+
+    #therapeutic-order h3 {
+        font-size: 18px;
+        width: 752px;
+        margin-bottom: 60px;
+    }
+
+    .numbered-group {
+        width: 410px;
+        margin: auto;
+    }
+
+    .item {
+        text-align: left;
+        justify-self: end;
+        height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .item .number, .item h4 {
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    .item h4 {
+        font-size: 20px;
+    }
+
+    .item .number {
+        height: 40px;
+        width: 40px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+
+    /*-- -------------------------- -->
+    <---         Learn More         -->
+    <--- -------------------------- -*/
+
+    #learn-more {
+        padding-top: 30px;
+    }
+
+    #learn-more h2 {
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+
+    #learn-more h2:before {
+        display: block;
+        width: 42px;
+        height: 30px;
+        top: -60px;
+    }
+
+    #learn-more h2:after {
+        width: 50px;
+    }
+
+    .learn-more-items {
+        width: 700px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .lm-item {
+        display: inline-block;
+        width: 340px;
+        max-width: 340px;
+        margin-bottom: 20px;
+    }
+
+    .lm-item:nth-child(1),
+    .lm-item:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    .explore-group {
+        width: 540px;
+        text-align: left;
+        margin: auto;
+    }
+
+    .explore-group button {
+        width: 250px;
+        display: inline-block;
+    }
+
+    .explore-group button:nth-child(1) {
+        margin-right: 40px;
+    }
+
+    #contact-cards .container {
+        height: 100px;
+    }
+
+}
