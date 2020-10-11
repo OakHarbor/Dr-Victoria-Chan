@@ -848,6 +848,7 @@ body:before {
     .button-group a:hover {
         background: var(--primary);
         transition: .1s ease-in-out;
+        cursor: pointer;
     }
 
     .button-group a:hover .button-h2 {
@@ -1207,6 +1208,11 @@ body:before {
     .button-group a:hover .button-icon {
         background: #fff;
         transition: .1s ease-in-out;
+        cursor: pointer;
+    }
+
+    .button-group a:hover h2{
+        color: #fff;
     }
 
     .button-group a:hover {
