@@ -850,8 +850,12 @@ body:before {
         transition: .1s ease-in-out;
     }
 
+    .button-group a:hover .button-h2 {
+        color: #fff !important;
+    }
+
     .button-group a.active .button-h2 {
-        color: #fff;
+        color: #fff !important;
         transition: .1s ease-in-out;
     }
 
