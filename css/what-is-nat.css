@@ -896,23 +896,10 @@ body:before {
         width: 758px;
         margin: auto;
         padding: 50px 74px;
-        background: rgba(255, 255, 255, .8);
+        background: rgba(255, 255, 255, .5);
         position: relative;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 20px 20px;
         box-shadow: 0px 0px 11px #0000001A;
-    }
-
-    .button-content:before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 20px;
-        bottom: 20px;
-        left: 20px;
-        right: 20px;
-        background: #bfbebe;
-        opacity: .2;
-        border-radius: 10px;
     }
 
     .button-content ul {
@@ -1269,23 +1256,10 @@ body:before {
         width: 900px;
         margin: auto;
         padding: 50px 74px;
-        background: rgba(255, 255, 255, .8);
+        background: rgba(255, 255, 255, .5);
         position: relative;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 20px 20px;
         box-shadow: 0px 0px 11px #0000001A;
-    }
-
-    .button-content:before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 20px;
-        bottom: 20px;
-        left: 20px;
-        right: 20px;
-        background: #bfbebe;
-        opacity: .2;
-        border-radius: 10px;
     }
 
     .button-content ul {
