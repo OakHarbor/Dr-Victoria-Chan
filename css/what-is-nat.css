@@ -1047,7 +1047,7 @@ body:before {
     <--- -------------------------- -*/
 
     #approach-landing {
-        min-height: calc(100vh - 300px);
+        min-height: 69vh;
     }
 
     #approach-landing h1 {

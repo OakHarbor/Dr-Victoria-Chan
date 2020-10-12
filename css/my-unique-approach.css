@@ -2008,14 +2008,6 @@ body:before {
 /* Step 3 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
-    .navbar-menu {
-        background: transparent;
-        width: 100%;
-        max-width: 1260px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
     .navbar-menu img {
         width: 300px;
     }
@@ -2528,10 +2520,7 @@ body:before {
 
     .navbar-menu {
         background: transparent;
-        width: 100%;
-        max-width: 1260px;
-        margin-left: 20px;
-        margin-right: 20px;
+
     }
 
     .navbar-menu img {

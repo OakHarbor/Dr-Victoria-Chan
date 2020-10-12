@@ -578,7 +578,7 @@ header {
 		z-index: 100;
 		left: 0;
         background: none;
-		background-color: #fff;
+		background-color: transparent;
 		margin-top: 20px;
 		height: 100px;
 	}
