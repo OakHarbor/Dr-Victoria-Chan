@@ -1204,6 +1204,10 @@ body:before {
         font-size: 20px;
         transition: .1s ease-in-out;
     }
+
+    .button-group a:hover {
+        cursor: pointer;
+    }
     
     .button-group a:hover .button-icon {
         background: #fff;

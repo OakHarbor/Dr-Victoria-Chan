@@ -93,6 +93,10 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 
+header {
+	position: relative;
+}
+
 /* hidden desktop elements */
 
 .topper-flex,
@@ -184,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
-    background-color: #000;
+    background-color: var(--secondary);
 }
 .hamburger-box {
     width: 30px;
@@ -204,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 30px;
     height: 3px;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     border-radius: 4px;
     position: absolute;
     -webkit-transition-property: -webkit-transform;
@@ -219,10 +223,17 @@ h1, h2, h3, h4, h5, h6 {
          -o-transition-timing-function: ease;
             transition-timing-function: ease;
 }
-.hamburger-inner::after,
+
 .hamburger-inner {
-	width: 20px;
+	width: 30px;
 }
+
+.hamburger-inner::after,
+.hamburger-inner::before {
+	width: 20px;
+	right: 0;
+}
+
 .hamburger-inner::before, .hamburger-inner::after {
     content: "";
     display: block;
@@ -273,7 +284,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent !important;
 }
 .hamburger--spring.is-active .hamburger-inner::before {
-    top: 0;
+	top: 0;
+	width: 30px;
     -webkit-transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
     -o-transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -342,24 +354,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-menu {
-	background: #f5f5f5;
-	width: 0;
+	background: var(--light);
+	border-radius: 10px 0 0 10px;
+	width: 220px !important;
 	position: absolute;
-	right: 0;
-	height: 100%;
+	top: 85px;
+	right: -250px;
+	height: 310px;
 	-webkit-transition: .3s ease-in-out;
 	-o-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	z-index: 100;
-	overflow: hidden;
+	padding: 10px 20px;
+	
 }
 
 .side-nav {
-	overflow: hidden;
-	padding: 40px 0;
-	position: absolute;
-	right: 2em;
-	top: 60px;
+	overflow: visible;
+	padding: 0;
+	position: relative;
+	top: 0px;
 	-webkit-transition: .3s ease;
 	-o-transition: .3s ease;
 	transition: .3s ease;
@@ -370,35 +384,101 @@ h1, h2, h3, h4, h5, h6 {
 
 .side-nav ul {
 	margin: 0;
-	text-align: right;
+	text-align: left;
 	list-style: none;
-	overflow: hidden;
+	overflow: visible;
+	padding: 0;
 }
 
 .side-nav ul li {
-	margin-bottom: 20px;
 	overflow: hidden;
+	border-bottom: 1px solid var(--secondary);
+	height: auto;
+}
+
+.side-nav ul li .sub-li {
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
+	padding-left: 10px;
+	position: relative;
+}
+
+.side-nav ul li .sub-li:first-child {
+	border-top: 1px solid var(--secondary);
+}
+
+.side-nav ul li .sub-li:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	transform: translateY(-50%);
+	height: 3px;
+	width: 3px;
+	background: var(--secondary);
+	border-radius: 50%;
+}
+
+.schedule {
+	border: none;
+	position: absolute;
+	bottom: -70px;
+	left: -20px;
+	width: 230px;
+	height: 70px;
+	overflow: visible;
+	border-radius: 0px 0 0 10px;
+	border: none !important;
+}
+
+.schedule button {
+	border: none;
+	width: 230px;
+	height: 70px;
+	padding: 0;
+	padding-left: 20px;
+	border-radius: 0px 0 0 10px;
+	font-size: 12px;
+	text-align: left;
+	line-height: 1.5em;
 }
 
 .side-nav a {
+	overflow: hidden;
 	text-decoration: none;
-	padding: 5px 10px 5px 10px;
+	padding: 0;
 	-webkit-transition: .3s ease-in-out;
 	-o-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	-webkit-transition-delay: .2s;
 	     -o-transition-delay: .2s;
 	        transition-delay: .2s;
-	opacity: 0;
+	opacity: 1;
+	width: 170px !important;
+	font-size: 12px;
+	color: #fff;
+	line-height: 38px;
+}
+
+.button-span-mobile {
+	display: block;
+	color: #fff;
 }
 
 .active-menu {
-	border-right: 4px solid var(--primary);
-	color: var(--primary);
+	
 }
 
-.desktop-call {
-	display: none;
+.side-nav ul li.drop-down {
+	border-bottom: none;
+}
+
+@media screen and (min-width:400px) and (max-width: 450px) {
+
+	.navbar-menu {
+		zoom: 140%;
+	}
+
 }
 
 /* Step 2 Tablet */
@@ -422,6 +502,10 @@ h1, h2, h3, h4, h5, h6 {
 
     .hamburger-box {
         right: 20px;
+	}
+
+	.navbar-menu {
+		zoom: 180%;
 	}
 	
 }

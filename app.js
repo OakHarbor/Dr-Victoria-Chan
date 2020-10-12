@@ -22,25 +22,27 @@ let toggleNav = function () {
     let getSidebar = document.querySelector(".navbar-menu");
     let getSidebarUL = document.querySelector(".side-nav ul");
     let getSidebarLinks = document.querySelectorAll(".side-nav a");
+    let html = document.querySelectorAll("html");
 
     if (toggleNavStatus === false) {
 
-         getSidebarLinks.forEach((item, index)=>{
-          console.log(item);
-          item.style.opacity = "1";
-         });
-        getSidebar.style.width = "60%";
+        //  getSidebarLinks.forEach((item, index)=>{
+        //   console.log(item);
+        //   item.style.opacity = "1";
+        //  });
+        getSidebar.style.right = "0px";
 
         toggleNavStatus = true;
     } 
 
     else if (toggleNavStatus === true) {
 
-         getSidebarLinks.forEach((item, index)=>{
-          item.style.opacity = "0";
-          item.style.transitionDelay = "0s";
-         });
-        getSidebar.style.width = "0";
+        //  getSidebarLinks.forEach((item, index)=>{
+        //   item.style.opacity = "0";
+        //   item.style.transitionDelay = "0s";
+        //  });
+        getSidebar.style.right = "-250px";
+       
 
         toggleNavStatus = false;
     }
