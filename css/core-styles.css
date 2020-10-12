@@ -412,7 +412,9 @@ header {
 	position: absolute;
 	top: 50%;
 	left: 0px;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	height: 3px;
 	width: 3px;
 	background: var(--secondary);
@@ -662,7 +664,9 @@ header {
 		overflow: visible;
 		border-radius: 10px;
 		border: none !important;
-		transform: translateX(20px);
+		-webkit-transform: translateX(20px);
+		    -ms-transform: translateX(20px);
+		        transform: translateX(20px);
 	}
 
 	.schedule button {
@@ -726,7 +730,9 @@ header {
 		clear: both !important;
 		float: left;
 		left: 50%;
-		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		    -ms-transform: translateX(-50%);
+		        transform: translateX(-50%);
 		width: auto;
 		margin: 0;
 		margin-bottom: 10px;
