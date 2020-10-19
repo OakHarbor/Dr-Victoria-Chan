@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/core-styles.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/my-story.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Desktop Navbar -->
+        <div class="mobile-wrapper">
+            <div class="mobile-nav container">
+                <img id="mobile-logo" src="/images/mobile-logo.svg" alt="mobile_company_logo" width="194">
+
+                <!-- Hamburger Menu -->
+                <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
+                    <span aria-hidden="true" class="hamburger-box">
+                        <span aria-hidden="true" class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!--                   NAVIGATION                 -->
+        <!-- ============================================ -->
+
+        <nav class="navbar-menu">
+            <div id="side-menu" class=" side-nav">
+                <img src="/images/desktop-logo.svg" alt="">
+                <ul id="on-top" class="navbar-links">
+                    <li class="nav-li padd"><a class="active-menu" href="/index.html">Home</a></li>
+                    <li class="nav-li padd"><a href="/html/my-unique-approach.html">My Unique Approach</a></li>
+                    <li id="about-drop-down" class="nav-li drop-down padd">
+                        <a href="/html/my-story.html">About</a>
+                        <ul id="about-sub-dropdown" class="sub-nav">
+                            <li class="sub-li">
+                                <a href="/html/my-story.html">My Story</a>
+                            </li>
+                            <li class="sub-li">
+                                <a href="/html/what-is-naturopathic-medicine.html">What is Naturopathic Medicine</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-li padd"><a href="/html/contact.html">Contact</a></li>
+                    <li class="nav-li schedule">
+                        <button class="button-primary desktop-call" onclick="location.href='/html/contact.html'" type="button">
+                            Schedule <span class="button-span-mobile">An Appointment</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+
+        <section id="story-landing">
+            <div class="container">
+                <div class="text-group">
+                    <span>My Story</span>
+                    <h1>Mental health survivor becomes doctor</h1>
+                </div>
+                <div class="image-group">
+                    <img src="/images/About_Headshot 1.jpg" alt="">
+                </div>
+                <div class="content-group">
+                    <div class="grey-box">
+                        <ul>
+                            <li>Depression</li>
+                            <li>Panic Attacks</li>
+                            <li>Disordered Eating</li>
+                            <li>Memory Loss</li>
+                            <li>Chronic Stress</li>
+                            <li>Sleep Dysfunction</li>
+                        </ul>
+                    </div>
+                    <div class="colored-box">
+                        <div class="blue">
+                            <p>I’ve personally struggled through each of these symptoms and was desperate for relief.</p>
+                        </div>
+                        <div class="green">
+                            <p>I understand feeling hopeless, afraid, overwhelmed, shamed, not believed, desperate, exhausted, and wanting to give up.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--             Looking For Answers              -->
+        <!-- ============================================ -->
+        
+        <section id="answers">
+            <div class="container">
+                <div class="section-container">
+                    <div class="section-image"></div>
+                    <div class="section-content">
+                        <h2>Looking for answers</h2>
+                        <div class="section-line"></div>
+                        <p>When seeking help, I was either given pills (that were my “best option”) with side effects I was not warned about or disregarded (since my body didn’t respond to treatments as expected).</p>
+                        <p>But I didn’t get lasting relief.</p>
+                        <p>I exhausted medical specialists around the world. By the 14th doctor consulted, I found a Naturopathic Doctor who assured me that my experiences were not fabricated and explored my root causes. With collaboration, I eventually overcame them. I finally found the right solutions for my unique situation.</p>
+                        <p class="bold">With collaboration, I eventurall overcame them. <span>I finally found the right solutions for my unique situation.</span></p>
+                    </div>
+                    <button class="button-primary landing-button" onclick="location.href='/html/what-is-naturopathic-medicine.html'" type="button">
+                        What is Naturopathic Medicine?
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--               Reframed Mindset               -->
+        <!-- ============================================ -->
+        
+        <section id="mindset">
+            <div class="container">
+                <div class="section-container">
+                    <div class="section-image"></div>
+                    <div class="section-content">
+                        <h2>My reframed mindset</h2>
+                        <div class="section-line"></div>
+                        <p>My outlook on health transformed from dejected to empowered.</p>
+                        <p>I witnessed firsthand how “gentle medicine” made drastic differences—not only in my health, but my everyday life, future, and surrounding community.</p>
+                        <p>How is this not more well known?</p>
+                    </div>
+                    <button class="button-primary landing-button" onclick="location.href='/html/what-is-naturopathic-medicine.html#principles'" type="button">
+                        6 Principles / Therapeutic Disorder
+                    </button>
+                </div>
+            </div>
+        </section> 
+
+        <!-- ============================================ -->
+        <!--                 Ripple Effect                -->
+        <!-- ============================================ -->
+        
+        <section id="ripple">
+            <div class="container">
+                <div class="section-container">
+                    <div class="section-image"></div>
+                    <div class="section-content">
+                        <h2>The ripple effect</h2>
+                        <div class="section-line"></div>
+                        <p>I wanted to provide relief for others also experiencing this, so I went to naturopathic medical school.</p>
+                        <p><strong>I’m passionate about helping people discover their options and understand the “why” of their health.</strong></p>
+                        <p>I’ll combine current medical research with traditional medicine while considering each patient’s unique needs.</p>
+                    </div>
+                    <button class="button-primary" onclick="location.href='/html/contact.html'" type="button">
+                        Schedule An Appointment
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                  I Believe                   -->
+        <!-- ============================================ -->
+        
+        <section id="believe">
+            <div class="container">
+                <h2>I believe</h2>
+                <div class="section-line"></div>
+                <div class="grey-boxes">
+                    <div class="grey-box margin1">
+                        <p>
+                            People with the same diagnosis can have very different experiences and needs (and they’re all correct).
+                        </p>
+                    </div>
+                    <div class="grey-box margin2">
+                        <p>
+                            Any decision you feel is best for yourself <span>should be respected.</span>
+                        </p>
+                    </div>
+                </div>
+                <h3>I want to be your advocate so you can be your best self.</h3>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                    Degrees                   -->
+        <!-- ============================================ -->
+        
+        <section id="degrees">
+            <div class="container">
+                <h2>Degrees and certifications</h2>
+                <div class="section-line"></div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <div class="item">
+                                <h3>Doctor of Naturopathic Medicine</h3>
+                                <h4>Bastyr University</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <h3>Bachelor Degrees in Psychology and Human Resources</h3>
+                                <h4>University of Hong Kong</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <h3>Professional Affiliations</h3>
+                                <h4 class="dot">American Association of Naturopathic Physicians (AANP)</h4>
+                                <h4 class="dot">California Association of Naturopathic Physicians (CNDA)</h4>
+                                <h4 class="dot">Psychiatric Association of Naturopathic Physicians (PsychANP)</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="button-primary" onclick="location.href='/html/contact.html'" type="button">
+                Education and Training
+            </button>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                  Influences                  -->
+        <!-- ============================================ -->
+        
+        <section id="influences">
+            <div class="container">
+                <h2>Non-medical influences <span>that shaped me as a doctor:</span></h2>
+                <div class="section-line"></div>
+                <div class="influence-group">
+                    <div class="influence">
+                        <p>I grew up taking care for my brother with special needs.</p>
+                    </div><div class="influence">
+                        <p>Humbling international experiences that taught me that I always have more to learn.</p>
+                    </div><div class="influence">
+                        <p>My upbringing consisted of working at my immigrant family’s restaurant.</p>
+                    </div><div class="influence">
+                        <p>My passion for influencing mental health started in high school where I have explored self-learning ever since.</p>
+                    </div>
+                </div>
+                <h3><span>Enough about me - </span>I want to hear your story.</h3>
+                <button class="button-primary" onclick="location.href='/html/contact.html'" type="button">
+                    Say Hello
+                </button>
+            </div>
+            <img src="/images/crazy-footer-design.svg" alt="">
+        </section>
+
+        <!-- ============================================ -->
+        <!--                 Contact Cards                -->
+        <!-- ============================================ -->
+        
+        <section id="contact-cards">
+            <div class="container">
+                <div class="contact-card">
+        
+                </div>
+                <div class="contact-card">
+                    <img class="clover" aria-hidden="true" src="/images/3-leaf-blue-diamond.svg" alt="">
+                    <div class="contact-content">
+                        <a href="#">SCHEDULE AN APPOINTMENT</a>
+                        <div class="golden-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================ -->
+    <!--                    FOOTER                    -->
+    <!-- ============================================ -->
+
+    <footer>
+        <img aria-hidden="true" class="footer-svg" src="/images/footer-background.svg" alt="">
+        <div class="container">
+            <div class="footer-nav">
+                <div class="logo-group">
+                    <img src="/images/gold-logo.svg" alt="">
+                    <h2>Optimize your Mental Health and Regain Stability.</h2>
+                </div>
+                <div class="list-group">
+                    <ul>
+                        <li><a href="/index.html" class="gold-border">Home</a></li>
+                    </ul>
+                    <ul>
+                        <h2 class="gold-border">About Dr. Victoria</h2>
+                        <li class="list-dot"><a href="">My Story</a></li>
+                        <li class="list-dot"><a href="/html/my-unique-approach.html">My Unique Approach</a></li>
+                    </ul>
+                    <ul>
+                        <h2 class="gold-border">Naturopathic Medicince</h2>
+                        <li class="list-dot"><a href="">What is it?</a></li>
+                        <li class="list-dot"><a href="">Principles and Philosophy</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/html/contact.html" class="gold-border">Contact</a></li>
+                    </ul>
+                </div>
+                <div aria-hidden="true" class="clover-group">
+                    <img class="blue-clover" src="/images/blue-clover.svg" alt="">
+                </div>
+            </div>
+            <div class="disclaimer">
+                <div class="disclaimer-topper">
+                    <p>Copyright © 2020. Designed by Kyle Kurokawa. Development by Oak Harbor Web Designs. All rights reserved.</p>
+                    <ul class="social">
+                        <li class="top"><a href="">Back to Top</a></li>
+                        <li><a href=""><img src="/images/linkedin.svg" alt=""></a></li>
+                        <li><a href=""><img src="/images/facebook.svg" alt=""></a></li>
+                        <li><a href=""><img src="/images/instagram.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <p class="disclaimer-p">DISCLAIMER: All content on this website is for informational and educational purposes only and is not intended to be or substitute medical or health advice for you or other individuals. Never use information on this website for diagnosing or treating any known or suspected disease or health problem, changing your medications or health care regimen, or disregard or delay professional medical advice. If you have or suspect to have a medical problem, or have any questions regarding your health, you must contact your doctor or qualified health care professionals. Using information from this website does not constitute or imply a doctor-patient relationship with Dr. Victoria Chan. Victoria Chan and her associates are not liable or responsible for any assumption, belief, advice, treatment course, health care change, diagnosis, financial consequence, damage, or any consequence you obtained through information from this website. Victoria Chan and her associates are not liable or responsible for any claims, beliefs, or consequences from websites linked to and from this website. Information and facts change constantly and thus may render content on this website obsolete, outdated, incomplete, or incorrect. Victoria Chan and her associates are not liable or responsible for any information or claims made on this website. If you choose to rely on any information from this website, it is solely at your own risk and interpretation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script defer src="/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500, // values from 0 to 3000, with step 50ms
+        });
+    </script>
+</body>
+
+</html>

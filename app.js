@@ -41,7 +41,7 @@ let toggleNav = function () {
         //   item.style.opacity = "0";
         //   item.style.transitionDelay = "0s";
         //  });
-        getSidebar.style.right = "-250px";
+        getSidebar.style.right = "-450px";
        
 
         toggleNavStatus = false;

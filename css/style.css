@@ -56,6 +56,7 @@
 .landing-right:before {
     content: '';
     position: absolute;
+    display: block;
     height: 290px;
     width: 290px;
     background: url("/images/wood-BIRCH-silver.png");
@@ -76,6 +77,7 @@
 .landing-right:after {
     content: url("/images/landing-background.svg");
     position: absolute;
+    display: block;
     bottom: -1800px;
     height: auto;
     width: 170%;
@@ -89,6 +91,7 @@
 .image-container:after {
     content: '';
     position: absolute;
+    display: block;
     height: 180px;
     width: 180px;
     top: 50%;
@@ -239,6 +242,7 @@
 #struggles:before {
     content: '';
     position: absolute;
+    display: block;
     height: 400px;
     width: 400px;
     background: var(--primary);
@@ -256,6 +260,7 @@
     height: 100px;
     width: 120%;
     position: absolute;
+    display: block;
     top: -50px;
 }
 
@@ -399,6 +404,7 @@
 .potential-content-container .left:before {
     content: '';
     position: absolute;
+    display: block;
     height: 700px;
     width: 700px;
     background: var(--light);
@@ -413,6 +419,7 @@
 .potential-content-container .left:after {
     content: '';
     position: absolute;
+    display: block;
     height: 700px;
     width: 700px;
     background: var(--accent);
@@ -470,6 +477,7 @@
 .right h3:before {
     content: '';
     position: absolute;
+    display: block;
     height: 90px;
     width: 90px;
     border: 1px solid var(--secondary);
@@ -497,6 +505,7 @@
 #victoria-highlight:before {
     content: '';
     position: absolute;
+    display: block;
     height: 663px;
     width: 663px;
     right: -464px;
@@ -511,6 +520,7 @@
 #victoria-highlight:after {
     content: '';
     position: absolute;
+    display: block;
     height: 163px;
     width: 163px;
     right: -104px;
@@ -549,6 +559,7 @@
 .victoria:after {
     content: '';
     position: absolute;
+    display: block;
     height: 173px;
     width: 173px;
     border: 5px solid var(--secondary);
@@ -662,6 +673,7 @@
 .got-item h3:after {
     content: '';
     position: absolute;
+    display: block;
     height: 1px;
     width: 220px;
     background: var(--secondary);
@@ -842,6 +854,7 @@
 #contact-cards:before {
     content: '';
     position: absolute;
+    display: block;
     height: 360px;
     width: 480px;
     background: var(--light);
@@ -853,6 +866,7 @@
 #contact-cards:after {
     content: '';
     position: absolute;
+    display: block;
     background: var(--light);
     width: 400px;
     height: 400px;
@@ -878,6 +892,7 @@
 .diamond:before {
     content: '';
     position: absolute;
+    display: block;
     left: 50%;
     -webkit-transform: translate(-50%, -1010px) rotate(90deg);
         -ms-transform: translate(-50%, -1010px) rotate(90deg);
@@ -890,6 +905,7 @@
 .diamond:after {
     content: '';
     position: absolute;
+    display: block;
     left: 50%;
     -webkit-transform: translate(-455px, 10px) rotate(-90deg);
         -ms-transform: translate(-455px, 10px) rotate(-90deg);
@@ -938,6 +954,7 @@
 .diamond-piece:nth-child(2) h4:after {
     content: '';
     position: absolute;
+    display: block;
     height: 2px;
     width: 60px;
     left: 50%;
@@ -1016,6 +1033,7 @@
 @media screen and (min-width: 352px) {
 
     #victoria-highlight:before {
+        display: block;
         height: 3000px;
         width: 600px;
         left: 100px;
@@ -1048,6 +1066,7 @@
     .landing-right:after {
         width: 550px;
         bottom: -2300px;
+        display: block;
     }
 
 }
@@ -1057,6 +1076,7 @@
 
     .landing-right:after {
         left: -40px;
+        display: block;
     }
 
     .crazy-topper h2 {
@@ -1068,6 +1088,7 @@
     .crazy-topper h2:before {
         content: '';
         position: absolute;
+        display: block;
         width: 200px;
         height: 300px;
         background: var(--primary);
@@ -1078,6 +1099,7 @@
     .crazy-topper h2:after {
         content: '';
         position: absolute;
+        display: block;
         width: 200px;
         height: 300px;
         background: var(--primary);
@@ -1111,6 +1133,7 @@
     }
 
     .landing-right:after {
+        display: block;
         width: 790px;
         bottom: -3550px;
         left: -120px;
@@ -1159,6 +1182,7 @@
     <--- -------------------------- -*/
 
     #struggles:before {
+        display: block;
         height: 500px;
         width: 500px;
     }
@@ -1188,6 +1212,7 @@
     <--- -------------------------- -*/
 
     #contact-cards:after {
+        display: block;
         width: 600px;
         height: 600px;
         left: 50%;
@@ -1239,9 +1264,11 @@
     .landing-right:before {
         width: 440px;
         height: 440px;
+        display: block;
     }
 
     .landing-right:after {
+        display: block;
         width: 1000px;
         bottom: -4400px;
         left: -160px;
@@ -1258,6 +1285,7 @@
     }
 
     .image-container:after {
+        display: block;
         height: 290px;
         width: 290px;
     }
@@ -1339,6 +1367,7 @@
     .seeking-container:before {
         content: '';
         position: absolute;
+        display: block;
         background: var(--light);
         height: 600px;
         width: 600px;
@@ -1445,6 +1474,7 @@
     .h2-group:before {
         content: '';
         position: absolute;
+        display: block;
         background: var(--primary);
         height: 760px;
         width: 760px;
@@ -1487,6 +1517,7 @@
     #potential h2:after {
         content: '';
         position: absolute;
+        display: block;
         background: var(--primary);
         height: 100px;
         width: 100px;
@@ -1536,6 +1567,7 @@
     .potential-content-container:before {
         content: '';
         position: absolute;
+        display: block;
         background: var(--accent);
         height: 100px;
         width: 100px;
@@ -1600,6 +1632,7 @@
     }
 
     .right h3:before {
+        display: block;
         height: 160px;
         width: 160px;
     }
@@ -1630,6 +1663,7 @@
     }
 
     #victoria-highlight:after {
+        display: block;
         height: 400px;
         width: 400px;
         right: -230px;
@@ -1654,6 +1688,7 @@
     }
 
     #victoria-highlight:before {
+        display: block;
         height: 3000px;
         width: 800px;
         left: 100px;
@@ -1665,6 +1700,7 @@
     }
 
     .crazy-topper h2:after {
+        display: block;
         height: 300px;
         top: -100px;
         z-index: -10;
@@ -1694,6 +1730,7 @@
     #what-you-get h2:before {
         content: '';
         position: absolute;
+        display: block;
         background: var(--secondary);
         height: 2px;
         width: 520px;
@@ -1725,6 +1762,7 @@
     }
 
     .got-item h3:after {
+        display: block;
         width: 486px;
     }
 
@@ -1744,6 +1782,7 @@
     .crazy-topper:before {
         content: '';
         position: absolute;
+        display: block;
         top: -400px;
         right: -500px;
         width: 700px;
@@ -1794,6 +1833,7 @@
 
     .diamond:after {
         height: 600px;
+        display: block;
         -webkit-transform: translate(-355px, 10px) rotate(-90deg);
             -ms-transform: translate(-355px, 10px) rotate(-90deg);
                 transform: translate(-355px, 10px) rotate(-90deg);
@@ -1810,6 +1850,7 @@
     }
 
     .diamond-piece:nth-child(2) h4:after {
+        display: block;
         width: 100px;
     }
 
@@ -1864,6 +1905,7 @@
     .contact-card:first-child:before {
         content: '';
         position: absolute;
+        display: block;
         top: 10px;
         left: 10px;
         bottom: 10px;
@@ -1961,6 +2003,7 @@
     }
 
     .landing-right:before {
+        display: block;
         height: 630px;
         width: 630px;
     }
@@ -1968,6 +2011,7 @@
     .landing-right:after {
         content: '';
         position: absolute;
+        display: block;
         bottom: -135px;
         left: unset;
         right: -655px;
@@ -1983,6 +2027,7 @@
     }
 
     .image-container:after {
+        display: block;
         width: 410px;
         height: 410px;
     }
@@ -2095,6 +2140,7 @@
     .slide-1-container:before {
         content: '';
         position: absolute;
+        display: block;
         height: 90%;
         width: 60vw;
         right: -50px;
@@ -2180,6 +2226,7 @@
     .slide-2-container:before {
         content: '';
         position: absolute;
+        display: block;
         height: 90%;
         width: 700px;
         left: -100px;
@@ -2330,6 +2377,7 @@
     }
 
     .right h3:before {
+        display: block;
         height: 180px;
         width: 180px;
     }
@@ -2359,6 +2407,7 @@
     }
 
     #victoria-highlight:after {
+        display: block;
         background: var(--primary);
         width: 300px;
         height: 300px;
@@ -2457,6 +2506,7 @@
      #what-you-get h2:before {
          content: '';
          position: absolute;
+         display: block;
          bottom: -20px;
          height: 2px;
          width: 100px;
@@ -2745,6 +2795,7 @@
     .contact-card:first-child:before {
         content: '';
         position: absolute;
+        display: block;
         top: 10px;
         left: 10px;
         bottom: 10px;
@@ -2907,6 +2958,7 @@
     }
 
     .landing-right:before {
+        display: block;
         height: 630px;
         width: 630px;
     }
@@ -2914,6 +2966,7 @@
     .landing-right:after {
         content: '';
         position: absolute;
+        display: block;
         bottom: -135px;
         left: unset;
         right: -655px;
@@ -2931,6 +2984,7 @@
     .image-container:after {
         width: 410px;
         height: 410px;
+        display: block;
     }
 
     .golden-box {
@@ -3059,6 +3113,7 @@
     .slide-1-container:before {
         content: '';
         position: absolute;
+        display: block;
         height: 90%;
         width: 70vw;
         right: -100px;
@@ -3144,6 +3199,7 @@
     .slide-2-container:before {
         content: '';
         position: absolute;
+        display: block;
         height: 90%;
         width: 60vw;
         left: -100px;
@@ -3294,6 +3350,7 @@
     }
 
     .right h3:before {
+        display: block;
         height: 180px;
         width: 180px;
     }
@@ -3324,6 +3381,7 @@
 
     #victoria-highlight:after {
         background: var(--primary);
+        display: block;
         width: 300px;
         height: 300px;
         top: 50%;
@@ -3421,6 +3479,7 @@
      #what-you-get h2:before {
          content: '';
          position: absolute;
+         display: block;
          bottom: -20px;
          height: 2px;
          width: 100px;
@@ -3519,6 +3578,7 @@
     }
 
     .got-item h3:after {
+        display: block;
         width: 100%;
         left: 0;
     }
@@ -3708,6 +3768,7 @@
     .contact-card:first-child:before {
         content: '';
         position: absolute;
+        display: block;
         top: 10px;
         left: 10px;
         bottom: 10px;
@@ -3800,6 +3861,7 @@
     }
 
     .landing-right:after {
+        display: block;
         width: 700px;
         right: -800px;
         background-size: cover;
@@ -3825,6 +3887,7 @@
 
     .slide-1-container:before {
         right: -300px;
+        display: block;
     }
 
     .diamond {
@@ -3842,6 +3905,7 @@
     }
 
     .landing-right:after {
+        display: block;
         width: 800px;
         right: -950px;
     }
@@ -3860,348 +3924,3 @@
 
 }
 
-/* Step 6 */
-@media screen and (min-width: 1600px) {
-
-    #contact-cards {
-        height: calc(100vw - 550px);
-    }
-
-    html {
-        zoom: 110%;
-    }
-
-    .slide-1-container:before {
-        right: -300px;
-    }
-
-    .diamond {
-        bottom: 4%;
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 1700px) {
-
-    #contact-cards {
-        height: calc(100vw - 550px);
-    }
-
-    html {
-        zoom: 110%;
-    }
-
-    .slide-1-container:before {
-        right: -400px;
-    }
-
-    .diamond {
-        bottom: 5%;
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 1800px) {
-
-    #landing {
-        zoom: 80%;
-    }
-
-    #landing:before {
-        content: '';
-        position: absolute;
-        top: 200px;
-        height: 150px;
-        width: 150px;
-        -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-                transform: rotate(45deg);
-        background: var(--accent);
-        left: -60px;
-    }
-
-    #landing h1 {
-        margin-top: 50px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 550px);
-    }
-
-    .diamond {
-        bottom: 6%;
-    }
-
-    .card-container {
-
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 1900px) {
-
-    html {
-        zoom: 120%;
-    }
-
-    .crazy-topper {
-        height: 10px;
-    }
-
-    .slide-1-container:before {
-        right: -550px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 700px);
-    }
-
-    .diamond {
-        bottom: 6.8%;
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 2000px) {
-
-    html {
-        zoom: 140%;
-    }
-
-    #crazy-artsy-thing {
-        height: 400px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 950px);
-    }
-
-    .diamond {
-        bottom: 7%;
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 2000px) {
-
-    html {
-        zoom: 140%;
-    }
-
-    #crazy-artsy-thing {
-        height: 400px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 1050px);
-    }
-
-    .diamond {
-        bottom: -3%;
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 2050px) {
-
-    html {
-        zoom: 140%;
-    }
-
-    #crazy-artsy-thing {
-        height: 400px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 1050px);
-    }
-
-    .diamond {
-        bottom: -1%;
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 2123px) {
-
-    html {
-        zoom: 140%;
-    }
-
-    #crazy-artsy-thing {
-        height: 400px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 1050px);
-    }
-
-    .diamond {
-        zoom: 150%;
-        bottom: -1%
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 2234px) {
-
-    html {
-        zoom: 140%;
-    }
-
-    #crazy-artsy-thing {
-        height: 400px;
-    }
-
-    .slide-1-container:before {
-        right: -700px;
-    }
-
-    .slide-2-container:before {
-        left: -600px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 1100px);
-    }
-
-    .diamond {
-        position: absolute;
-        zoom: 140%;
-        bottom: 3%
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 2533px) {
-
-    html {
-        zoom: 160%;
-    }
-
-    #crazy-artsy-thing {
-        height: 370px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 1400px);
-    }
-
-    .diamond {
-        position: absolute;
-        zoom: 160%;
-        bottom: 4%
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 2665px) {
-
-    html {
-        zoom: 160%;
-    }
-
-    #crazy-artsy-thing {
-        height: 300px;
-    }
-
-    .slide-1-container:before {
-        width: 1100px;
-        right: -300px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 1350px);
-    }
-
-    .diamond {
-        position: absolute;
-        zoom: 160%;
-        bottom: 6%
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 2753px) {
-
-    html {
-        zoom: 170%;
-    }
-
-    .slide-1-container:before {
-        width: 1100px;
-        right: -300px;
-    }
-
-    .diamond {
-        bottom: 16%;
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 2938px) {
-
-    html {
-        zoom: 180%;
-    }
-
-    .slide-1-container:before {
-        width: 1100px;
-        right: -300px;
-    }
-
-    #crazy-artsy-thing {
-        height: 300px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 1750px);
-    }
-
-    .diamond {
-        bottom: 2%;
-    }
-
-}
-
-/* Step 6 */
-@media screen and (min-width: 3114px) {
-
-    html {
-        zoom: 180%;
-    }
-
-    .slide-1-container:before {
-        width: 1100px;
-        right: -300px;
-    }
-
-    .slide-2-container:before {
-        left: -1000px;
-    }
-
-    #crazy-artsy-thing {
-        height: 200px;
-    }
-
-    #contact-cards {
-        height: calc(100vw - 1750px);
-    }
-
-    .diamond {
-        bottom: 6%;
-    }
-
-}

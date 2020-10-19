@@ -475,10 +475,12 @@ header {
 	border-bottom: none;
 }
 
-@media screen and (min-width:400px) and (max-width: 450px) {
+@media screen and (min-width:400px) {
 
 	.navbar-menu {
-		zoom: 140%;
+		transform: scale(1.4);
+		transform-origin: top right;
+		right: -450px;
 	}
 
 }
@@ -507,7 +509,9 @@ header {
 	}
 
 	.navbar-menu {
-		zoom: 180%;
+		top: 150px;
+		right: -450px;
+		z-index: 100000;
 	}
 	
 }
@@ -581,6 +585,7 @@ header {
 		background-color: transparent;
 		margin-top: 20px;
 		height: 100px;
+		transform: none;
 	}
 
 	#on-top {
