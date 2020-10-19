@@ -42,11 +42,26 @@
 .landing-button {
     background: var(--secondary);
     font-size: 14px;
-    color: var(--dark);
+    color: var(--primary);
     padding: 0 10px;
     width: 150px;
     position: relative;
-    border: 5px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.landing-button .yellow-arrow {
+    display: none;
+}
+
+.landing-button:hover .yellow-arrow {
+    display: inline-block;
+    position: relative;
+    z-index: 10000;
+}
+
+.landing-button:hover .blue-arrow {
+    display: none;
 }
 
 .landing-right {
@@ -222,13 +237,13 @@
 
 .mental-health-button {
     font-size: 14px;
-    width: 260px;
+    width: auto;
     display: block;
     margin: auto;
-    padding: 0;
+    padding: 0 14px;
     background: var(--secondary);
     color: var(--primary);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /*-- -------------------------- -->
@@ -602,10 +617,11 @@
 .victoria-button {
     position: relative;
     min-width: 120px;
+    width: 120px;
     background: var(--secondary);
     color: var(--primary);
-    border-radius: 5px;
-    height: 30px;
+    border-radius: 10px;
+    height: 35px;
     display: block;
     margin: auto;
     z-index: 5;
@@ -749,6 +765,25 @@
     z-index: -200;
 }
 
+.crazy-topper button {
+    margin-bottom: 67px;
+}
+
+.crazy-topper button:after {
+    content: '';
+    position: absolute;
+    display: block;
+    background: url("/images/clover.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 50%;
+    bottom: -58px;
+    transform: translateX(-50%);
+    height: 15px;
+    width: 22px;
+}
+
 .crazy-topper h2{
     color: #fff;
     font-size: 16px;
@@ -800,32 +835,10 @@
     display: none;
 }
 
-.crazy-topper button {
-    position: relative;
-    min-width: 120px;
-    background: var(--secondary);
-    color: var(--primary);
-    border-radius: 5px;
-    height: 30px;
-    display: block;
-    margin: auto;
-    margin-bottom: 70px;
-}
-
-.crazy-topper button img {
-    position: absolute;
-    width: 25px;
-    left: 50%;
-    top:75px;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-}
-
 .crazy-topper h3 {
-    -webkit-transform: translateY(25px);
-        -ms-transform: translateY(25px);
-            transform: translateY(25px);
+    -webkit-transform: translateY(105px);
+        -ms-transform: translateY(105px);
+            transform: translateY(105px);
 }
 
 .crazy-topper h3, .crazy-topper h3 span {
@@ -1040,7 +1053,7 @@
         display: block;
         height: 3000px;
         width: 600px;
-        left: 100px;
+        left: 60px;
         top: -900px;
     }
 
@@ -1141,10 +1154,6 @@
         width: 790px;
         bottom: -3550px;
         left: -120px;
-    }
-
-    .landing-button {
-        zoom: 80%;
     }
 
     /*-- -------------------------- -->
@@ -1298,6 +1307,14 @@
         width: 358px;
         height: 262px;
     }
+
+    .landing-button {
+        font-size: 16px;
+        width: auto;
+        max-width: auto;
+        padding: 0 17px;
+    }
+
     
     /*-- -------------------------- -->
     <---       Mental Health        -->
@@ -1710,6 +1727,11 @@
         z-index: -10;
     }
 
+    .victoria-button {
+        width: auto;
+        min-width: auto;
+    }
+
     /*-- -------------------------- -->
     <---        What You Get        -->
     <--- -------------------------- -*/
@@ -1800,6 +1822,10 @@
         width: 520px;
     }
 
+    .first-ul {
+        padding-bottom: 50px;
+    }
+
     .first-ul li {
         font-size: 20px;
     }
@@ -1829,10 +1855,6 @@
         margin-bottom: 50px;
         font-size: 30px;
         width: 288px;
-    }
-
-    .crazy-topper button img {
-        display: none;
     }
 
     .diamond:after {
@@ -2651,7 +2673,7 @@
 
     #crazy-artsy-thing {
         background: #fff;
-        height: auto;
+        height: 400px;
         position: relative;
     }
 
@@ -2716,7 +2738,7 @@
         position: absolute !important;
         z-index: 1000;
         bottom: 50%;
-        margin-bottom: -270px;
+        margin-bottom: -250px;
         top: auto;
     }
 
@@ -2755,7 +2777,7 @@
 
     #contact-cards {
         padding-top: 130px;
-        height: 800px;
+        height: 700px;
         position: relative;
     }
 
@@ -3060,8 +3082,8 @@
 
     .mental-health-button {
         display: block;
-        background: var(--primary);
-        color: #fff;
+        background: var(--secondary);
+        color: var(--primary);
         -webkit-transform: translateY(50px);
             -ms-transform: translateY(50px);
                 transform: translateY(50px);
@@ -3634,14 +3656,10 @@
     }
 
     .crazy-topper button {
-        background: var(--primary);
-        color: #fff;
+        background: var(--secondary);
+        color: var(--primary);
         border-radius: 10px;
         margin-bottom: 70px;
-    }
-
-    .crazy-topper button img {
-        display: none;
     }
 
     .crazy-topper h3, .crazy-topper h3 span {

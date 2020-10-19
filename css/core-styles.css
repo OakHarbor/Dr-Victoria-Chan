@@ -2,6 +2,12 @@
 <---         CORE STYLES        -->
 <--- -------------------------- -*/
 
+button img {
+	display: inline-block;
+	width: 20px;
+	margin-left: 10px;
+}
+
 * {
     margin: 0;
     padding: 0;
