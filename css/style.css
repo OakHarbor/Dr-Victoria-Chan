@@ -2,6 +2,10 @@
 <---          Landing           -->
 <--- -------------------------- -*/
 
+.scalable-feature {
+    display: none;
+}
+
 #landing {
     min-height: 600px;
     padding-top: 100px;
@@ -2831,13 +2835,12 @@
     }
 
     #landing {
-        zoom: 80%;
         padding-top: 100px;
     }
 
     #landing .container {
         max-width: 1320px;
-        padding: 0;
+        padding: 0 20px;
     }
 
     .landing-left {
@@ -2845,8 +2848,36 @@
         max-width: 1300px;
     }
 
+    .scalable-feature {
+        display: block;
+        position: absolute;
+        top: 60px;
+        right: 50%;
+        margin-right: -500px;
+        width: 500px;
+    }
+
+    .scalable-feature:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 50%;
+        height: 100%;
+        width: 450px;
+        background: url("/images/mint.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+    .scalable-feature img {
+        width: 100%;
+    }
+
     .landing-right {
-        right: 200px;
+        display: none;
     }
 
     .card-container {
@@ -2921,13 +2952,9 @@
 
     #landing.container {
         position: relative;
-    }
-
-    #landing .container {
-        zoom: 120%;
-        padding: 0;
-        margin: auto;
-        max-width: 1200px;
+        width: 100%;
+        max-width: 1300px;
+        margin-right: auto;
     }
 
     .landing-left {
@@ -2945,53 +2972,6 @@
     #landing h2 {
         font-size: 24px;
         width: 450px;
-    }
-
-    .landing-right {
-        top: 100px;
-        right: 00px;
-        width: 489px;
-        height: 357px;
-        position: absolute;
-    }
-
-    .landing-right:before {
-        display: block;
-        height: 630px;
-        width: 630px;
-    }
-
-    .landing-right:after {
-        content: '';
-        position: absolute;
-        display: block;
-        bottom: -135px;
-        left: auto;
-        right: -655px;
-        height: 630px;
-        width: 600px;
-        background: url("/images/Mint\ &\ Gold.png");
-        z-index: -10;
-    }
-
-    .landing-right img, .image-container {
-        width: 489px;
-        height: 357px;
-    }
-
-    .image-container:after {
-        width: 410px;
-        height: 410px;
-        display: block;
-    }
-
-    .golden-box {
-        width: 455px;
-        height: 423px;
-    }
-
-    #landing {
-        zoom: 80%;
     }
 
     .landing-right {
@@ -3683,7 +3663,9 @@
         bottom: 50%;
         top: auto;
         margin-bottom: -160px;
-        transform: translateX(-50%) rotate(-45deg);
+        -webkit-transform: translateX(-50%) rotate(-45deg);
+            -ms-transform: translateX(-50%) rotate(-45deg);
+                transform: translateX(-50%) rotate(-45deg);
     }
 
     .diamond-piece {
@@ -3792,23 +3774,15 @@
 /* Step 5 */
 @media screen and (min-width: 1320px) {
 
-    #landing {
-        zoom: 80%;
-    }
-
     #landing .container {
-        zoom: 120%;
-        padding: 0;
+        max-width: 1300px;
+        width: 100%;
     }
 
     .landing-left {
-        max-width: 1100px;
-        width: 1100px;
+        max-width: 1300px;
+        width: 100%;
         margin-left: 0;
-    }
-
-    .landing-right {
-        right: 350px;
     }
 
     .card-container {
@@ -3827,12 +3801,7 @@
 @media screen and (min-width: 1400px) {
 
     #landing {
-        zoom: 80%;
-    }
-
-    #landing .container {
-        zoom: 120%;
-        padding: 0;
+        padding-top: 217px;
     }
 
     .landing-left {
@@ -3841,15 +3810,15 @@
         margin-left: 0;
     }
 
-    .landing-right {
-        right: 400px;
+    .scalable-feature {
+        top: 100px;
+        height: 615px;
+        width: auto;
+        margin-right: -600px;
     }
 
-    .landing-right:after {
-        display: block;
-        width: 700px;
-        right: -800px;
-        background-size: cover;
+    .scalable-feature:before {
+        width: 650px;
     }
 
     .card-container {
@@ -3880,23 +3849,15 @@
 /* Step 6 */
 @media screen and (min-width: 1500px) {
 
-    .landing-right {
-        right: 500px;
-    }
-
-    .landing-right:after {
-        display: block;
-        width: 800px;
-        right: -950px;
-    }
-
     .slide-2-container:before {
         left: -220px;
     }
 
     .diamond {
         margin-bottom: -180px;
-        transform: translateX(-50%) rotate(-45deg) scale(1.2);
+        -webkit-transform: translateX(-50%) rotate(-45deg) scale(1.2);
+            -ms-transform: translateX(-50%) rotate(-45deg) scale(1.2);
+                transform: translateX(-50%) rotate(-45deg) scale(1.2);
     }
 
     .cft {
@@ -3910,11 +3871,32 @@
 }
 
 /* Step 6 */
+@media screen and (min-width: 1660px) {
+
+    #landing:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 300px;
+        left: -50px;
+        height: 150px;
+        width: 150px;
+        background: var(--accent);
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+    }
+
+}
+
+/* Step 6 */
 @media screen and (min-width: 1824px) {
 
     .diamond {
         margin-bottom: -210px;
-        transform: translateX(-50%) rotate(-45deg) scale(1.5);
+        -webkit-transform: translateX(-50%) rotate(-45deg) scale(1.5);
+            -ms-transform: translateX(-50%) rotate(-45deg) scale(1.5);
+                transform: translateX(-50%) rotate(-45deg) scale(1.5);
     }
 
     .cft {
@@ -3927,17 +3909,58 @@
 
 }
 
+
+/* Step 6 */
+@media screen and (min-width: 1881px) {
+
+    #landing:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 270px;
+        left: -80px;
+        height: 230px;
+        width: 230px;
+        background: var(--accent);
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+    }
+
+    .scalable-feature::before {
+        width: 770px;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2124px) {
+
+    .scalable-feature::before {
+        width: 930px;
+    }
+
+}
+
 /* Step 6 */
 @media screen and (min-width: 2441px) {
 
+    .scalable-feature::before {
+        width: 1130px;
+    }
+
     .crazy-topper {
-        transform: scale(1.4);
+        -webkit-transform: scale(1.4);
+            -ms-transform: scale(1.4);
+                transform: scale(1.4);
         margin-top: 200px;
     }
 
     .diamond {
         margin-bottom: -240px;
-        transform: translateX(-50%) rotate(-45deg) scale(1.8);
+        -webkit-transform: translateX(-50%) rotate(-45deg) scale(1.8);
+            -ms-transform: translateX(-50%) rotate(-45deg) scale(1.8);
+                transform: translateX(-50%) rotate(-45deg) scale(1.8);
     }
 
     .cft {
