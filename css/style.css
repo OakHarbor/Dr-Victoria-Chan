@@ -3871,6 +3871,14 @@
         left: -220px;
     }
 
+    .seeking-picture {
+        left: -1300px;
+    }
+
+    .struggle-picture {
+        right: -1300px;
+    }
+
     .diamond {
         margin-bottom: -180px;
         -webkit-transform: translateX(-50%) rotate(-45deg) scale(1.2);
