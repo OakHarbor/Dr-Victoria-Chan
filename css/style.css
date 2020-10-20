@@ -779,7 +779,9 @@
     background-repeat: no-repeat;
     left: 50%;
     bottom: -58px;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     height: 15px;
     width: 22px;
 }
@@ -2168,8 +2170,9 @@
         position: absolute;
         display: block;
         height: 90%;
-        width: 60vw;
-        right: -50px;
+        width: 700px;
+        right: 50%;
+        margin-right: -630px;
         background: url("/images/Homepage_Struggling\ with.jpg");
         background-size: cover;
         background-position: center;
@@ -2255,8 +2258,9 @@
         display: block;
         height: 90%;
         width: 700px;
-        left: -100px;
+        left: 50%;
         right: auto;
+        margin-left: -630px;
         background: url("/images/epic.png");
         background-size: cover;
         background-position: right;
@@ -3115,8 +3119,9 @@
         position: absolute;
         display: block;
         height: 90%;
-        width: 70vw;
-        right: -100px;
+        width: 800px;
+        right: 50%;
+        margin-right: -710px;
         background: url("/images/Homepage_Struggling\ with.jpg");
         background-size: cover;
         background-position: center;
@@ -3201,9 +3206,10 @@
         position: absolute;
         display: block;
         height: 90%;
-        width: 60vw;
-        left: -100px;
+        width: 800px;
+        left: 50%;
         right: auto;
+        margin-left: -710px;
         background: url("/images/epic.png");
         background-size: cover;
         background-position: right;
@@ -3858,18 +3864,19 @@
     }
 
     .slide-1-container:before {
-        right: -300px;
-        display: block;
+        width: 900px;
+        margin-right: -770px;
+    }
+
+    .slide-2-container:before {
+        width: 900px;
+        margin-left: -770px;
     }
 
 }
 
 /* Step 6 */
 @media screen and (min-width: 1500px) {
-
-    .slide-2-container:before {
-        left: -220px;
-    }
 
     .seeking-picture {
         left: -1300px;
@@ -3892,6 +3899,16 @@
 
     #contact-cards {
         height: 1100px;
+    }
+
+    .slide-1-container:before {
+        width: 1100px;
+        margin-right: -970px;
+    }
+
+    .slide-2-container:before {
+        width: 1100px;
+        margin-left: -970px;
     }
 
 }
@@ -3957,6 +3974,29 @@
         width: 770px;
     }
 
+    .seeking-picture {
+        left: -1450px;
+    }
+
+    .struggle-picture {
+        right: -1450px;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 1900px) {
+
+    .slide-1-container:before {
+        width: 1300px;
+        margin-right: -1170px;
+    }
+
+    .slide-2-container:before {
+        width: 1300px;
+        margin-left: -1170px;
+    }
+
 }
 
 /* Step 6 */
@@ -3964,6 +4004,29 @@
 
     .scalable-feature::before {
         width: 930px;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2300px) {
+
+    .slide-1-container:before {
+        width: 1600px;
+        margin-right: -1470px;
+    }
+
+    .slide-2-container:before {
+        width: 1600px;
+        margin-left: -1470px;
+    }
+
+    .seeking-picture {
+        left: -1600px;
+    }
+
+    .struggle-picture {
+        right: -1600px;
     }
 
 }
@@ -3995,6 +4058,61 @@
 
     #contact-cards {
         height: 1600px;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2600px) {
+
+    .slide-1-container:before {
+        width: 1600px;
+        margin-right: -1470px;
+    }
+
+    .slide-2-container:before {
+        width: 1600px;
+        margin-left: -1470px;
+    }
+
+    .seeking-picture {
+        left: -1800px;
+    }
+
+    .struggle-picture {
+        right: -1800px;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2842px) {
+
+    .scalable-feature::before {
+        width: 1330px;
+    }
+
+}
+
+/* Step 6 */
+@media screen and (min-width: 2900px) {
+
+    .slide-1-container:before {
+        width: 1900px;
+        margin-right: -1770px;
+    }
+
+    .slide-2-container:before {
+        width: 1900px;
+        margin-left: -1770px;
+    }
+
+    .seeking-picture {
+        left: -1900px;
+    }
+
+    .struggle-picture {
+        right: -1900px;
     }
 
 }
