@@ -220,6 +220,7 @@
 
 .card {
     margin-bottom: 30px;
+    padding-top: 75px;
 }
 
 .icon {
@@ -238,6 +239,7 @@
     width: 188px;
     font-weight: 400;
     margin: auto;
+    line-height: 1.5em;
 }
 
 .mental-health-button {
@@ -323,7 +325,7 @@
     opacity: .7;
     font-size: 12px;
     letter-spacing: 0.36px;
-    line-height: 1.7em;
+    line-height: 1.5em;
     margin-bottom: 5px;
 }
 
@@ -372,7 +374,7 @@
     margin-top: 17px;
     font-weight: 700;
     padding: 0 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .slide-2-container .slide ul {
@@ -3073,6 +3075,7 @@
                 box-shadow: 0px 0px 11px #0000001A;
         padding: 65px 0;
         margin-right: 35px;
+        margin-bottom: 0;
     }
 
     .card:nth-child(4) {
@@ -3087,6 +3090,7 @@
 
     .card h3 {
         font-size: 18px;
+        width: 230px;
     }
 
     .mental-health-button {
@@ -3107,6 +3111,7 @@
         background: #fff;
         margin-bottom: 0;
         height: auto;
+        padding-top: 20px;
     }
 
     #struggles:after {
@@ -3131,9 +3136,9 @@
         background-size: cover;
         background-position: center;
         top: 50%;
-        -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
+        -webkit-transform: translateY(-53%);
+            -ms-transform: translateY(-53%);
+                transform: translateY(-53%);
     }
 
     .slide {
@@ -3157,13 +3162,13 @@
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
         right: -1150px;
-        top: -225px;
+        top: -237px;
     }
 
     .slide h2 {
         color: #fff;
         font-size: 30px;
-        font-weight: bold;
+        font-weight: 500;
     }
 
     .line {
@@ -3173,6 +3178,7 @@
 
     .slide ul li {
         font-size: 18px;
+        font-weight: 300;
     }
 
     /*-- -------------------------- -->
@@ -4009,6 +4015,7 @@
 
     .scalable-feature::before {
         width: 930px;
+        background-position: left;
     }
 
 }
