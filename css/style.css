@@ -678,7 +678,7 @@
 
 #what-you-get h2 {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 20px;
     position: relative;
 }
@@ -698,7 +698,7 @@
 .got-item h3 {
     font-size: 14px;
     text-align: left;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 20px;
     position: relative;
 }
@@ -746,7 +746,7 @@
     font-size: 12px;
     color: var(--primary);
     line-height: 1.7em;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /*-- -------------------------- -->
@@ -2705,7 +2705,7 @@
     .crazy-topper h2 {
         color: var(--tertiary);
         font-size: 26px;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .first-ul {
@@ -2726,8 +2726,8 @@
     }
 
     .crazy-topper button {
-        background: var(--primary);
-        color: #fff;
+        background: var(--secondary);
+        color: var(--primary);
         border-radius: 10px;
         margin-bottom: 30px;
     }
@@ -2791,6 +2791,10 @@
     <--- -------------------------- -*/
 
     #contact-cards {
+        background: url("/images/nasa-sea-from-space-1920H@2x.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         padding-top: 130px;
         height: 700px;
         position: relative;
@@ -3560,7 +3564,7 @@
         background: #fff;
         border-radius: 20px;
         padding-left: 0;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
     }
 
     .got-item:last-child {
@@ -3730,7 +3734,7 @@
         z-index: 1000;
         bottom: 50%;
         top: auto;
-        margin-bottom: -160px;
+        margin-bottom: -215px;
         -webkit-transform: translateX(-50%) rotate(-45deg);
             -ms-transform: translateX(-50%) rotate(-45deg);
                 transform: translateX(-50%) rotate(-45deg);
@@ -3760,7 +3764,7 @@
     .cft {
         position: absolute;
         bottom: 50%;
-        margin-bottom: -780px;
+        margin-bottom: -861px;
         display: block;
         z-index: 100;
     }
@@ -3770,7 +3774,11 @@
     <--- -------------------------- -*/
 
     #contact-cards {
-        height: 1000px;
+        background: url("/images/nasa-sea-from-space-1920H@2x.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1050px;
         padding-top: 130px;
         position: relative;
     }
