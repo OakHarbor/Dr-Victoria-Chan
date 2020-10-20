@@ -307,9 +307,12 @@
 .slide h2 {
     color: #fff;
     text-align: left;
-    opacity: .8;
     font-size: 16px;
     margin-top: 17px;
+}
+
+.slide-1-container h2 {
+    opacity: .9;
 }
 
 .line {
