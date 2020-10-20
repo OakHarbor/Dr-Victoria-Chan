@@ -3126,7 +3126,7 @@
         content: '';
         position: absolute;
         display: block;
-        height: 90%;
+        height: 85%;
         width: 800px;
         right: 50%;
         margin-right: -710px;
@@ -3160,7 +3160,7 @@
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
         right: -1150px;
-        top: -237px;
+        top: -226px;
     }
 
     .slide h2 {

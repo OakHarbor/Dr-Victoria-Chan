@@ -484,8 +484,12 @@ header {
 @media screen and (min-width:400px) {
 
 	.navbar-menu {
-		transform: scale(1.4);
-		transform-origin: top right;
+		-webkit-transform: scale(1.4);
+		    -ms-transform: scale(1.4);
+		        transform: scale(1.4);
+		-webkit-transform-origin: top right;
+		    -ms-transform-origin: top right;
+		        transform-origin: top right;
 		right: -450px;
 	}
 
@@ -591,7 +595,9 @@ header {
 		background-color: transparent;
 		margin-top: 50px;
 		height: 100px;
-		transform: none;
+		-webkit-transform: none;
+		    -ms-transform: none;
+		        transform: none;
 	}
 
 	#on-top {
@@ -788,7 +794,9 @@ header {
 		background: var(--secondary);
 		bottom: 10px;
 		left: 50%;
-		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		    -ms-transform: translateX(-50%);
+		        transform: translateX(-50%);
 	}
 
 	/* sub nav on hover */

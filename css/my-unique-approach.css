@@ -2602,24 +2602,32 @@ body:before {
     #approach-landing h1 {
         font-size: 50px;
         width: 600px;
-        transform: translate(-50%, -120px);
+        -webkit-transform: translate(-50%, -120px);
+            -ms-transform: translate(-50%, -120px);
+                transform: translate(-50%, -120px);
     }
 
     #approach-landing h2 {
         font-size: 24px;
         bottom: 50px;
-        transform: translateY(70px);
+        -webkit-transform: translateY(70px);
+            -ms-transform: translateY(70px);
+                transform: translateY(70px);
     }
 
     .clover {
         width: 43px;
         margin-bottom: 40px;
-        transform: translateX(-50%) translateY(80px);
+        -webkit-transform: translateX(-50%) translateY(80px);
+            -ms-transform: translateX(-50%) translateY(80px);
+                transform: translateX(-50%) translateY(80px);
     }
 
     .arrow {
         bottom: 180px;
-        transform: translateX(-50%) translateY(90px);
+        -webkit-transform: translateX(-50%) translateY(90px);
+            -ms-transform: translateX(-50%) translateY(90px);
+                transform: translateX(-50%) translateY(90px);
     }
 
     .accordian {
