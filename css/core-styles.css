@@ -625,7 +625,7 @@ header {
 		    -ms-flex-pack: end;
 		        justify-content: flex-end;
 		right: 0;
-		top: 0;
+		top: 30px;
 	}
 
 	.side-nav ul li {
@@ -670,7 +670,7 @@ header {
 		position: relative;
 		top: 0;
 		right: 0;
-		width: 190px;
+		width: auto;
 		height: 30px;
 		overflow: visible;
 		border-radius: 10px;
@@ -687,9 +687,10 @@ header {
 		height: 30px;
 		padding: 0;
 		border-radius: 0px 0 0 10px;
-		font-size: 12px;
+		font-size: 14px;
 		text-align: center;
 		line-height: 1.5em;
+		font-weight: normal;
 	}
 
 	.side-nav ul li a:hover,
@@ -783,9 +784,11 @@ header {
 		content: '';
 		position: absolute;
 		height: 2px;
-		width: 50px;
+		width: 30px;
 		background: var(--secondary);
 		bottom: 10px;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 
 	/* sub nav on hover */

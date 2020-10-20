@@ -9,7 +9,7 @@ section {
 
 #approach-landing {
     position: relative;
-    min-height: 100vh;
+    height: 600px;
     padding-top: 0 !important;
 }
 
@@ -1499,6 +1499,9 @@ body:before {
 /* Step 2 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+    #approach-landing {
+        height: 970px;
+    }
 
     .open-accordian  {
     z-index: 100;
@@ -2071,6 +2074,10 @@ body:before {
 
     .contact-card {
         width: 97%;
+    }
+
+    #approach-landing {
+        height: 800px;
     }
 
     #approach-landing h1 {
