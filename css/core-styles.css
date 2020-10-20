@@ -589,7 +589,7 @@ header {
 		left: 0;
         background: none;
 		background-color: transparent;
-		margin-top: 20px;
+		margin-top: 50px;
 		height: 100px;
 		transform: none;
 	}
@@ -625,7 +625,7 @@ header {
 		    -ms-flex-pack: end;
 		        justify-content: flex-end;
 		right: 0;
-		top: 30px;
+		top: 0px;
 	}
 
 	.side-nav ul li {
