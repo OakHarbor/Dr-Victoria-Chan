@@ -313,6 +313,7 @@
 
 .slide-1-container h2 {
     opacity: .9;
+    font-weight: 400;
 }
 
 .line {
@@ -377,7 +378,7 @@
     text-align: left;
     font-size: 16px;
     margin-top: 17px;
-    font-weight: 700;
+    font-weight: 500;
     padding: 0 20px;
     margin-bottom: 20px;
 }
@@ -414,10 +415,10 @@
 #potential h2 {
     color: var(--tertiary);
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     width: 202px;
     margin: auto;
-    margin-bottom: 64px;
+    margin-bottom: 44px;
 }
 
 .potential-content-container .left {
@@ -3053,13 +3054,15 @@
     .mental-health h2 span:last-child {
         left: 50%;
         right: auto;
-        -webkit-transform: translate(-50%, -60px);
-            -ms-transform: translate(-50%, -60px);
-                transform: translate(-50%, -60px);
+        -webkit-transform: translate(-50%, -73px);
+            -ms-transform: translate(-50%, -73px);
+                transform: translate(-50%, -73px);
     }
 
     .mental-health h2 span:last-child img {
-        width: 30px;
+        width: auto;
+        height: 30px;
+        top: 100px;
     }
 
     .card-container {
@@ -3125,6 +3128,14 @@
         position: relative;
         height: 500px;
         margin-bottom: 75px;
+    }
+
+    .slide-1-container h2 {
+        font-weight: 400 !important;
+    }
+
+    .slide-2-container h2 {
+        font-weight: 500 !important;
     }
 
     .slide-1-container:before {
@@ -3258,6 +3269,7 @@
     #potential {
        background: #fff;
         position: relative;
+        padding-top: 20px !important;
     }
 
     .left:before, .left:after {
@@ -3266,7 +3278,7 @@
 
     .clover {
         width: 40px;
-        margin-bottom: 50px;
+        margin-bottom: 68px;
     }
 
     #potential h2 {
@@ -3343,6 +3355,7 @@
     .potential-group h3 {
         font-size: 18px;
         text-align: left;
+        line-height: 1.5em;
         display: inline-block;
         float: left;
         width: 327px;
@@ -3503,7 +3516,7 @@
         margin-top: 130px;
         margin-bottom: 50px;
         text-align: left;
-        padding-left: 140px;
+        padding-left: 67px;
         position: relative;
     }
 
@@ -3516,9 +3529,9 @@
          width: 100px;
          background: var(--secondary);
          left: 50%;
-         -webkit-transform: translateX(calc(-50% + 70px));
-             -ms-transform: translateX(calc(-50% + 70px));
-                 transform: translateX(calc(-50% + 70px));
+         -webkit-transform: translateX(-50%);
+             -ms-transform: translateX(-50%);
+                 transform: translateX(-50%);
      }
 
     .item-container {
