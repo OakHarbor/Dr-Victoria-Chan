@@ -3105,12 +3105,12 @@
 
     .mental-health-button {
         display: block;
+        position: relative;
         background: var(--secondary);
         color: var(--primary);
-        -webkit-transform: translateY(50px);
-            -ms-transform: translateY(50px);
-                transform: translateY(50px);
         border-radius: 10px;
+        top: 50px;
+        margin: auto;
     }
 
     /*-- -------------------------- -->
@@ -3984,6 +3984,10 @@
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
+    }
+
+    #landing {
+        min-height: 750px;
     }
 
 }
