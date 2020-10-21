@@ -577,6 +577,7 @@ header {
 	}
 
 	.navbar-menu {
+		padding: 0 20px;
 		top: 0;
 		width: 100% !important;
 		max-width: 1300px;
