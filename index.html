@@ -102,7 +102,7 @@
             <div data-aos="fade-left" aria-label="victoria chan" class="scalable-feature">
                 <img aria-hidden="true" src="/images/V-feature-headshot.png" alt="">
             </div>
-            <div data-aos="fade-up-right" aria-hidden="true" class="landing-right">
+            <div aria-hidden="true" class="landing-right">
                 <div class="golden-box"></div>
                 <div class="image-container">
                     <img src="/images/victoria.png" alt="" width="250" height="167">
@@ -151,9 +151,9 @@
                 <div class="slide-container">
                     <div class="slide">
                         <div class="struggle-picture"></div>
-                        <h2>If you're struggling with:</h2>
-                        <div aria-hidden="true" class="line"></div>
-                        <ul>
+                        <h2 data-aos="fade-up">If you're struggling with:</h2>
+                        <div data-aos="fade-up" data-aos-delay="200" aria-hidden="true" class="line"></div>
+                        <ul data-aos="fade-up" data-aos-delay="400">
                             <li>Maintaining energy, mood, focus, productivity, balance</li>
                             <li>Relentless mental health struggles that infiltrate many areas of your life</li>
                             <li>Frustrated, exhausted, overwhelmed with your health</li>
@@ -171,9 +171,9 @@
                 <div class="slide-2-container">
                     <div class="slide">
                         <div class="seeking-picture"></div>
-                        <h2>If you're seeking:</h2>
-                        <div aria-hidden="true" class="line"></div>
-                        <ul>
+                        <h2 data-aos="fade-up">If you're seeking:</h2>
+                        <div data-aos="fade-up" data-aos-delay="200" aria-hidden="true" class="line"></div>
+                        <ul data-aos="fade-up" data-aos-delay="400">
                             <li>Stability without side effects</li>
                             <li>Lasting relief</li>
                             <li>Reduce, eradicate, or avoid pharmaceutical dependency</li>
@@ -421,6 +421,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
+            disable: 'phone',
             duration: 1000, // values from 0 to 3000, with step 50ms
             once: true, // whether animation should happen only once - while scrolling down
         });

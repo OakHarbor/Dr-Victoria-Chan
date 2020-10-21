@@ -220,7 +220,7 @@
 
 .card {
     margin-bottom: 30px;
-    padding-top: 75px;
+    padding-top: 0px;
 }
 
 .icon {
@@ -263,6 +263,7 @@
     height: 620px;
     overflow: visible !important;
     margin-bottom: 250px;
+    padding-top: 75px;
 }
 
 #struggles:before {
@@ -851,9 +852,9 @@
 }
 
 .crazy-topper h3 {
-    -webkit-transform: translateY(105px);
-        -ms-transform: translateY(105px);
-            transform: translateY(105px);
+    -webkit-transform: translateY(24px);
+        -ms-transform: translateY(24px);
+            transform: translateY(24px);
 }
 
 .crazy-topper h3, .crazy-topper h3 span {
@@ -2786,6 +2787,10 @@
         z-index: 100;
     }
 
+    .crazy-topper button:after {
+        display: none;
+    }
+
     /*-- -------------------------- -->
     <---       Contact Cards        -->
     <--- -------------------------- -*/
@@ -3086,6 +3091,7 @@
         padding: 65px 0;
         margin-right: 35px;
         margin-bottom: 0;
+        border-radius: 20px;
     }
 
     .card:nth-child(4) {
@@ -3767,6 +3773,10 @@
         margin-bottom: -861px;
         display: block;
         z-index: 100;
+    }
+
+    .crazy-topper button:after {
+        display: none;
     }
 
     /*-- -------------------------- -->
