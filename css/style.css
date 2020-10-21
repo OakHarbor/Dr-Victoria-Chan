@@ -3877,7 +3877,11 @@
 @media screen and (min-width: 1400px) {
 
     #landing {
-        padding-top: 217px;
+        padding-top: 200px;
+    }
+
+    #landing:before {
+        top: 245px;
     }
 
     .landing-left {
@@ -3887,7 +3891,7 @@
     }
 
     .scalable-feature {
-        top: 69px;
+        top: 52px;
         height: 615px;
         width: auto;
         margin-right: -600px;
@@ -4012,7 +4016,7 @@
         content: '';
         position: absolute;
         display: block;
-        top: 262px;
+        top: 245px;
         left: -80px;
         height: 230px;
         width: 230px;
