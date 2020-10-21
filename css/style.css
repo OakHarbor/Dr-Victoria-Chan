@@ -3394,7 +3394,7 @@
         color: var(--primary);
         width: 336px;
         font-size: 30px;
-        font-weight: bold;
+        font-weight: 500;
     }
 
     .right h3:before {
@@ -3676,6 +3676,10 @@
         margin-bottom: 0;
     }
 
+    .item-container {
+        padding-bottom: 0;
+    }
+
     /*-- -------------------------- -->
     <---     Crazy Artsy Stuff      -->
     <--- -------------------------- -*/
@@ -3698,21 +3702,51 @@
         font-weight: bold;
     }
 
+    .crazy-topper .golden-line {
+        margin-bottom: 35px;
+    }
+
     .first-ul {
-        width: 460px;
+        width: 500px;
         height: 40px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .first-ul li:nth-child(1) { 
+        width: 289px;
+    }
+
+    .first-ul li:nth-child(4) {
+        width: 150px;
     }
 
     .first-ul li {
         color: var(--primary);
-        float: left;
-        list-style: none;
+        margin-right: 15px !important;
+        line-height: 1.5em;
+        margin: 0 auto 4px auto !important;
+        display: block;
+        list-style: circle !important;
+        text-align: center;
+        position: relative;
     }
 
-    .first-ul li:nth-child(3) {
-        margin-left: 20px;
+    .first-ul li:before {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 5px;
+        background: var(--secondary);
+        border-radius: 50%;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        left: -20px;
     }
 
     .crazy-topper button {

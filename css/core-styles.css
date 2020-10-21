@@ -2,6 +2,25 @@
 <---         CORE STYLES        -->
 <--- -------------------------- -*/
 
+.landing-button .yellow-arrow {
+    display: none;
+}
+
+.landing-button:hover .yellow-arrow {
+    display: inline-block;
+    position: relative;
+    z-index: 10000;
+}
+
+.landing-button:hover .blue-arrow {
+    display: none;
+}
+
+.landing-button:hover {
+	background: var(--primary) !important;
+	color: var(--secondary) !important;
+}
+
 button img {
 	display: inline-block;
 	width: 20px;
@@ -741,7 +760,7 @@ header {
 	.sub-nav {
 		position: absolute;
 		height: 300px;
-		right: 210px;
+		right: 221px;
 		top: 80px;
 	}
 
