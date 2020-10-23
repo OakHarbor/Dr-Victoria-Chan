@@ -1229,11 +1229,24 @@
         -webkit-transform: translateX(60px);
             -ms-transform: translateX(60px);
                 transform: translateX(60px);
+        z-index: 100;
     }
 
     .quote {
         right: 0px;
         top: 130px;
+    }
+
+    #victoria-highlight:before {
+        display: block;
+        height: 3000px;
+        width: 600px;
+        left: 156px;
+        top: -900px;
+    }
+
+    .first-ul {
+        margin-bottom: 100px;
     }
 
     /*-- -------------------------- -->
@@ -1831,6 +1844,10 @@
         height: 900px;
         background: var(--primary);
         z-index: -1;
+    }
+
+    .crazy-topper button:after {
+        display: none;
     }
 
     .crazy-topper .golden-line {
@@ -2748,6 +2765,7 @@
         margin: auto;
         display: block;
         width: 100%;
+        margin-top: 83px;
     }
 
     .diamond {
