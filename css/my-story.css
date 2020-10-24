@@ -1500,6 +1500,7 @@
         bottom: 50%;
         margin-bottom: -860px;
         z-index: -1;
+        width: 100%;
     }
 
     
@@ -1738,6 +1739,7 @@
         bottom: 50%;
         margin-bottom: -700px;
         z-index: -1;
+        width: 100%;
     }
 
     /*-- -------------------------- -->
@@ -1771,6 +1773,7 @@
 
     #influences img {
         margin-bottom: -900px;
+        width: 100%;
     }
 
     #contact-cards {
