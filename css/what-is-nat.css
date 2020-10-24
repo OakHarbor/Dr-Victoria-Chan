@@ -77,8 +77,8 @@ body:before {
 .card-group {
    position: relative;
    background: rgba(255, 255, 255, .7);
-   -webkit-box-shadow: 0px 0px 11px #0000001A;
-           box-shadow: 0px 0px 11px #0000001A;
+   -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+           box-shadow: 0px 0px 11px rgba(0,0,0,.1);
    border-radius: 10px;
    z-index: 100;
    padding: 30px 27px;
@@ -769,8 +769,8 @@ body:before {
         margin-right: 30px;
         padding: 54px 42px;
         background: rgba(255, 255, 255, 1);
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
         margin-bottom: 0;
         border-radius: 20px;
         zoom: 80%;
@@ -832,8 +832,8 @@ body:before {
 
     .button-group {
         background: rgba(255, 255, 255, 1);
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
         position: relative;
         z-index: 100;
         border-radius: 20px;
@@ -964,8 +964,8 @@ body:before {
         background: rgba(255, 255, 255, .5);
         position: relative;
         border-radius: 0 0 20px 20px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .button-content ul {
@@ -1155,8 +1155,8 @@ body:before {
         margin-right: 30px;
         padding: 54px 42px;
         background: rgba(255, 255, 255, 1);
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
         margin-bottom: 0;
         border-radius: 20px;
         zoom: 100%;
@@ -1222,8 +1222,8 @@ body:before {
 
     .button-group {
         background: rgba(255, 255, 255, 1);
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
         position: relative;
         z-index: 100;
         border-radius: 20px;
@@ -1358,8 +1358,8 @@ body:before {
         background: rgba(255, 255, 255, .5);
         position: relative;
         border-radius: 0 0 20px 20px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .button-content ul {

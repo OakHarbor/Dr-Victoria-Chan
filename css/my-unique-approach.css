@@ -111,8 +111,8 @@ body:before {
 }
 
 .accordian-content {
-    -webkit-box-shadow: 0px 0px 7px #0000001A;
-            box-shadow: 0px 0px 7px #0000001A;
+    -webkit-box-shadow: 0px 0px 7px rgba(0,0,0,.1);
+            box-shadow: 0px 0px 7px rgba(0,0,0,.1);
     padding:  0 25px 20px 25px;
     border-radius: 5px;
     position: relative;
@@ -236,8 +236,8 @@ body:before {
     bottom: 0px;
     border-radius: 5px;
     z-index: -1;
-    -webkit-box-shadow: 0px 0px 7px #0000001A;
-            box-shadow: 0px 0px 7px #0000001A;
+    -webkit-box-shadow: 0px 0px 7px rgba(0,0,0,.1);
+            box-shadow: 0px 0px 7px rgba(0,0,0,.1);
 }
 
 .accordian-topper h3 span {
@@ -1363,8 +1363,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc2 .accordian-content, 
@@ -1393,8 +1393,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc6 .accordian-content:before {
@@ -1408,8 +1408,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc1 .accordian-content:before, 
@@ -1449,8 +1449,8 @@ body:before {
         height: 100%;
         background: #fff;
         opacity: 1;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
         border-radius: 10px;
     }
 
@@ -1670,8 +1670,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc2 .accordian-content, 
@@ -1700,8 +1700,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc6 .accordian-content:before {
@@ -1715,8 +1715,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc1 .accordian-content:before, 
@@ -2182,8 +2182,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc2 .accordian-content, 
@@ -2212,8 +2212,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc6 .accordian-content:before {
@@ -2227,8 +2227,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc1 .accordian-content:before, 
@@ -2715,8 +2715,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc2 .accordian-content, 
@@ -2745,8 +2745,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc6 .accordian-content:before {
@@ -2760,8 +2760,8 @@ body:before {
         opacity: .2;
         z-index: 1;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 11px #0000001A;
-                box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+                box-shadow: 0px 0px 11px rgba(0,0,0,.1);
     }
 
     .acc1 .accordian-content:before, 
