@@ -6,6 +6,10 @@
     display: none;
 }
 
+.social .facebook {
+	height: 16px !important;
+}
+
 .landing-button:hover .yellow-arrow {
     display: inline-block;
     position: relative;
