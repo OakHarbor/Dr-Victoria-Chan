@@ -806,7 +806,7 @@
 }
 
 .crazy-topper .golden-line {
-    height: 1px;
+    height: 2px;
     width: 250px;
     margin: 10px auto 22px auto;
     background: var(--secondary);
@@ -995,7 +995,7 @@
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
     bottom: -14px;
-    background: rgba(219, 177, 59, .35);
+    background: rgba(219, 177, 59, 1);
 }
 
 .diamond-piece:nth-child(3) {
@@ -1853,6 +1853,7 @@
     .crazy-topper .golden-line {
         margin: 22px auto 32px auto;
         width: 520px;
+        height: 2px;
     }
 
     .first-ul {
@@ -2968,7 +2969,7 @@
     }
 
     .first-ul li:nth-child(2) {
-        width: 150px;
+        width: 158px;
     }
 
     .first-ul li:nth-child(3) {
@@ -3653,6 +3654,7 @@
         display: block;
         width: 100%;
         left: 0;
+        height: 2px;
     }
 
     .span-background {
@@ -3722,6 +3724,9 @@
 
     .crazy-topper .golden-line {
         margin-bottom: 35px;
+        margin-top: 15px;
+        height: 2px;
+        width: 100px;
     }
 
     .first-ul {
@@ -3738,7 +3743,7 @@
     }
 
     .first-ul li:nth-child(4) {
-        width: 150px;
+        width: 190px;
     }
 
     .first-ul li {
