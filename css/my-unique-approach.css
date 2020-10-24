@@ -150,11 +150,12 @@ body:before {
     right: 0;
     border: none;
     background: none;
+    padding: 20px;
 }
 
 .accordian-topper img {
     position: absolute;
-    height: 15px;
+    height: 25px;
     top: 50%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);

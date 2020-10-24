@@ -1653,40 +1653,8 @@
     <---           Degrees          -->
     <--- -------------------------- -*/
 
-    #degrees {
-        padding-top: 63px;
-        overflow: visible !important;
-    }
-
-    #degrees .container {
-        max-width: 1280px;
-    }
-
-    #degrees h2:before {
-        top: -133px;
-    }
-
     #degrees .section-line {
-        margin-bottom: 100px;
-    }
-
-    #degrees ul {
-        width: 1280px;
-        position: relative;
-    }
-
-    #degrees ul li {
-        max-width: 550px;
-    }
-
-    #degrees ul li:nth-child(3) {
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-
-    #degrees button {
-        margin-top: 109px;
+        margin-bottom: 56px;
     }
 
     /*-- -------------------------- -->
