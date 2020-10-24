@@ -1957,7 +1957,7 @@ body:before {
         background: #fff;
         width: 49%;
         height: 205px;
-        left: unset;
+        left: auto;
         bottom: -80px;
     }
 
@@ -1967,9 +1967,9 @@ body:before {
 
     .contact-card:first-child {
         left: 0;
-        -webkit-transform: unset;
-            -ms-transform: unset;
-                transform: unset;
+        -webkit-transform: auto;
+            -ms-transform: auto;
+                transform: auto;
     }
 
     .contact-card:first-child:before {
@@ -1989,7 +1989,7 @@ body:before {
 
     .contact-card:last-child {
         right: 0px;
-        left: unset;
+        left: auto;
         -webkit-transform: translateX(0);
             -ms-transform: translateX(0);
                 transform: translateX(0);
@@ -2470,7 +2470,7 @@ body:before {
         background: #fff;
         width: 49%;
         height: 205px;
-        left: unset;
+        left: auto;
         bottom: -80px;
     }
 
@@ -2480,9 +2480,9 @@ body:before {
 
     .contact-card:first-child {
         left: 0;
-        -webkit-transform: unset;
-            -ms-transform: unset;
-                transform: unset;
+        -webkit-transform: auto;
+            -ms-transform: auto;
+                transform: auto;
     }
 
     .contact-card:first-child:before {
@@ -2502,7 +2502,7 @@ body:before {
 
     .contact-card:last-child {
         right: 0px;
-        left: unset;
+        left: auto;
         -webkit-transform: translateX(0);
             -ms-transform: translateX(0);
                 transform: translateX(0);
@@ -3003,7 +3003,7 @@ body:before {
         background: #fff;
         width: 49%;
         height: 205px;
-        left: unset;
+        left: auto;
         bottom: -80px;
     }
 
@@ -3013,9 +3013,9 @@ body:before {
 
     .contact-card:first-child {
         left: 0;
-        -webkit-transform: unset;
-            -ms-transform: unset;
-                transform: unset;
+        -webkit-transform: auto;
+            -ms-transform: auto;
+                transform: auto;
     }
 
     .contact-card:first-child:before {
@@ -3037,7 +3037,7 @@ body:before {
 
     .contact-card:last-child {
         right: 0px;
-        left: unset;
+        left: auto;
         -webkit-transform: translateX(0);
             -ms-transform: translateX(0);
                 transform: translateX(0);
