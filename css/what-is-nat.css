@@ -757,7 +757,7 @@ body:before {
     <--- -------------------------- -*/
 
     #principles-mobile {
-        display: none;
+        display: none !important;
     }
 
     #principles-desktop {
@@ -1122,7 +1122,7 @@ body:before {
     <--- -------------------------- -*/
 
     #principles-mobile {
-        display: none;
+        display: none !important;
     }
 
     #principles-desktop {
@@ -1295,6 +1295,10 @@ body:before {
     /*-- -------------------------- -->
     <---           Order            -->
     <--- -------------------------- -*/
+
+    #principles-mobile {
+        display: none !important;
+    }
 
     #therapeutic-order h2 {
         font-size: 30px;
