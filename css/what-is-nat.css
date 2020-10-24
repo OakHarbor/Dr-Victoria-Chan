@@ -7,7 +7,7 @@
     display: block;
     margin: auto;
     letter-spacing: .5px;
-    color: var(--primary);
+    color: #2D325A;
     font-size: 10px;
     -webkit-transform: translateY(50px);
         -ms-transform: translateY(50px);
@@ -50,7 +50,7 @@ body:before {
 }
 
 .landing-span {
-    color: var(--primary);
+    color: #2D325A;
     font-size: 12px;
     display: block;
     font-weight: normal;
@@ -58,7 +58,7 @@ body:before {
 
 .nat {
     display: block;
-    color: var(--primary);
+    color: #2D325A;
 }
 
 /*-- -------------------------- -->
@@ -77,7 +77,8 @@ body:before {
 .card-group {
    position: relative;
    background: rgba(255, 255, 255, .7);
-   box-shadow: 0px 0px 11px #0000001A;
+   -webkit-box-shadow: 0px 0px 11px #0000001A;
+           box-shadow: 0px 0px 11px #0000001A;
    border-radius: 10px;
    z-index: 100;
    padding: 30px 27px;
@@ -136,7 +137,9 @@ body:before {
     background: url("/images/clover.svg");
     background-size: contain;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     top: -35px;
 }
 
@@ -151,7 +154,7 @@ body:before {
 
 .acc3 ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     max-width: 211px;
     margin-bottom: 5px;
 }
@@ -195,7 +198,9 @@ body:before {
 }
 
 .acc2 .accordian-box ul {
-        columns: initial;
+        -webkit-columns: initial;
+           -moz-columns: initial;
+                columns: initial;
         width: 100%;
         max-width: 100%;
         padding-left: 10px;
@@ -246,7 +251,9 @@ body:before {
     background: url("/images/clover.svg");
     background-size: contain;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     top: -35px;
 }
 
@@ -279,7 +286,9 @@ body:before {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .item h4 {
@@ -347,7 +356,9 @@ body:before {
     background: url("/images/clover.svg");
     background-size: contain;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     top: -35px;
 }
 
@@ -356,9 +367,11 @@ body:before {
     position: absolute;
     width: 33px;
     height: 1px;
-    background: var(--secondary);
+    background: #DBB13B;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     bottom: -7px;
 }
 
@@ -386,8 +399,8 @@ body:before {
 }
 
 .explore-group button {
-    background: var(--secondary);
-    color: var(--primary);
+    background: #DBB13B;
+    color: #2D325A;
     width: 196px;
     font-size: 14px;
     margin: auto;
@@ -410,7 +423,7 @@ body:before {
 
 .acc3 ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     max-width: 211px;
     margin-bottom: 5px;
 }
@@ -563,7 +576,9 @@ body:before {
     }
 
     .acc2 .accordian-box ul {
-        columns: initial;
+        -webkit-columns: initial;
+           -moz-columns: initial;
+                columns: initial;
         width: 100%;
         max-width: 100%;
     }
@@ -614,7 +629,8 @@ body:before {
 
     .item {
         text-align: left;
-        justify-self: end;
+        -ms-grid-column-align: end;
+            justify-self: end;
         height: 40px;
         margin-bottom: 40px;
     }
@@ -741,7 +757,8 @@ body:before {
         text-align: center;
         padding: 0;
         background: none;
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
     }
 
     .card {
@@ -752,7 +769,8 @@ body:before {
         margin-right: 30px;
         padding: 54px 42px;
         background: rgba(255, 255, 255, 1);
-        box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
         margin-bottom: 0;
         border-radius: 20px;
         zoom: 80%;
@@ -806,13 +824,16 @@ body:before {
         background: url(/images/clover.svg);
         background-size: contain;
         left: 50%;
-        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
         top: -45px;
     }
 
     .button-group {
         background: rgba(255, 255, 255, 1);
-        box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
         position: relative;
         z-index: 100;
         border-radius: 20px;
@@ -827,7 +848,9 @@ body:before {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
     }
 
     .button-group a {
@@ -837,6 +860,8 @@ body:before {
         margin-right: 10px;
         position: relative;
         border-radius: 10px;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
@@ -848,7 +873,7 @@ body:before {
     .button-icon {
         height: 70px;
         width: 70px;
-        background: var(--primary);
+        background: #2D325A;
         border-radius: 50%;
         margin: auto;
         margin-bottom: 30px;
@@ -858,16 +883,22 @@ body:before {
         width: 300px;
         max-width: 100%;
         font-size: 20px;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
     
     .button-group a:hover .button-icon {
         background: #fff;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
     .button-group a:hover {
-        background: var(--primary);
+        background: #2D325A;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
         cursor: pointer;
     }
@@ -878,16 +909,22 @@ body:before {
 
     .button-group a.active .button-h2 {
         color: #fff !important;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
     .button-group a.active .button-icon {
         background: #fff;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
     .button-group a.active {
-        background: var(--primary);
+        background: #2D325A;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
@@ -895,6 +932,8 @@ body:before {
         color: #fff !important;
         position: relative;
         z-index: 100;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
@@ -925,7 +964,8 @@ body:before {
         background: rgba(255, 255, 255, .5);
         position: relative;
         border-radius: 0 0 20px 20px;
-        box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
     }
 
     .button-content ul {
@@ -974,7 +1014,8 @@ body:before {
 
     .item {
         text-align: left;
-        justify-self: end;
+        -ms-grid-column-align: end;
+            justify-self: end;
         height: 40px;
         margin-bottom: 40px;
     }
@@ -1102,7 +1143,8 @@ body:before {
         text-align: center;
         padding: 0;
         background: none;
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
     }
 
     .card {
@@ -1113,7 +1155,8 @@ body:before {
         margin-right: 30px;
         padding: 54px 42px;
         background: rgba(255, 255, 255, 1);
-        box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
         margin-bottom: 0;
         border-radius: 20px;
         zoom: 100%;
@@ -1171,13 +1214,16 @@ body:before {
         background: url(/images/clover.svg);
         background-size: contain;
         left: 50%;
-        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
         top: -45px;
     }
 
     .button-group {
         background: rgba(255, 255, 255, 1);
-        box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
         position: relative;
         z-index: 100;
         border-radius: 20px;
@@ -1192,7 +1238,9 @@ body:before {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
     }
 
     .button-group a {
@@ -1202,6 +1250,8 @@ body:before {
         margin-right: 10px;
         position: relative;
         border-radius: 10px;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
@@ -1213,7 +1263,7 @@ body:before {
     .button-icon {
         height: 70px;
         width: 70px;
-        background: var(--primary);
+        background: #2D325A;
         border-radius: 50%;
         margin: auto;
         margin-bottom: 30px;
@@ -1223,6 +1273,8 @@ body:before {
         width: 300px;
         max-width: 100%;
         font-size: 20px;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
@@ -1232,6 +1284,8 @@ body:before {
     
     .button-group a:hover .button-icon {
         background: #fff;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
         cursor: pointer;
     }
@@ -1241,22 +1295,30 @@ body:before {
     }
 
     .button-group a:hover {
-        background: var(--primary);
+        background: #2D325A;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
     .button-group a.active .button-h2 {
         color: #fff;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
     .button-group a.active .button-icon {
         background: #fff;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
     .button-group a.active {
-        background: var(--primary);
+        background: #2D325A;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
@@ -1264,6 +1326,8 @@ body:before {
         color: #fff !important;
         position: relative;
         z-index: 100;
+        -webkit-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
         transition: .1s ease-in-out;
     }
 
@@ -1294,7 +1358,8 @@ body:before {
         background: rgba(255, 255, 255, .5);
         position: relative;
         border-radius: 0 0 20px 20px;
-        box-shadow: 0px 0px 11px #0000001A;
+        -webkit-box-shadow: 0px 0px 11px #0000001A;
+                box-shadow: 0px 0px 11px #0000001A;
     }
 
     .button-content ul {
@@ -1307,7 +1372,7 @@ body:before {
 
     .button-content ul li {
         font-size: 18px !important;
-        color: var(--primary);
+        color: #2D325A;
         line-height: 1.5em;
         margin-bottom: 8px;
         font-weight: 400;
@@ -1347,7 +1412,8 @@ body:before {
 
     .item {
         text-align: left;
-        justify-self: end;
+        -ms-grid-column-align: end;
+            justify-self: end;
         height: 40px;
         margin-bottom: 40px;
     }

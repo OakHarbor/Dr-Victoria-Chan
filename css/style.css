@@ -29,7 +29,7 @@
     line-height: 1.3em;
     margin-top: 50px;
     margin-bottom: 15px;
-    color: var(--primary);
+    color: #2D325A;
     text-decoration: none;
     position: relative;
     max-width: 226px;
@@ -39,15 +39,15 @@
     text-align: left;
     font-size: 12px;
     margin-bottom: 35px;
-    color: var(--primary);
+    color: #2D325A;
     font-weight: 400;
     width: 220px;
 }
 
 .landing-button {
-    background: var(--secondary);
+    background: #DBB13B;
     font-size: 14px;
-    color: var(--primary);
+    color: #2D325A;
     padding: 0 10px;
     width: 150px;
     position: relative;
@@ -70,7 +70,7 @@
 }
 
 .landing-right {
-    background: var(--light);
+    background: #304b78;
     width: 250px;
     position: relative;
     margin: auto;
@@ -123,7 +123,7 @@
     -webkit-transform: translate(-50%, -50%) rotate(45deg);
         -ms-transform: translate(-50%, -50%) rotate(45deg);
             transform: translate(-50%, -50%) rotate(45deg);
-    border: 4px solid var(--secondary);
+    border: 4px solid #DBB13B;
     z-index: 10;
 }
 
@@ -142,7 +142,7 @@
     position: absolute;
     height: 200px;
     width: 230px;
-    background: var(--secondary);
+    background: #DBB13B;
     opacity: .5;
     top: 50%;
     left: 50%;
@@ -161,7 +161,7 @@
 
 #mental-health {
     overflow: visible !important;
-    background-color: var(--primary);
+    background-color: #2D325A;
     height: 140px;
 }
 
@@ -226,7 +226,7 @@
 .icon {
     height: 50px;
     width: 50px;
-    background-color: var(--primary);
+    background-color: #2D325A;
     border-radius: 50%;
     margin: auto;
     margin-bottom: 20px;
@@ -246,7 +246,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
 }
@@ -267,8 +269,8 @@
     display: block;
     margin: auto;
     padding: 0 14px;
-    background: var(--secondary);
-    color: var(--primary);
+    background: #DBB13B;
+    color: #2D325A;
     border-radius: 10px;
 }
 
@@ -277,7 +279,7 @@
 <--- -------------------------- -*/
 
 #struggles {
-    background: var(--primary);
+    background: #2D325A;
     position: relative;
     height: 620px;
     overflow: visible !important;
@@ -291,7 +293,7 @@
     display: block;
     height: 400px;
     width: 400px;
-    background: var(--primary);
+    background: #2D325A;
     bottom: -210px;
     left: 50%;
     -webkit-transform: translateX(-50%) rotate(45deg);
@@ -302,7 +304,7 @@
 
 #struggles:after {
     content: '';
-    background: var(--primary);
+    background: #2D325A;
     height: 100px;
     width: 120%;
     position: absolute;
@@ -339,7 +341,7 @@
 .line {
     height: 1px;
     width: 100%;
-    background: var(--secondary);
+    background: #DBB13B;
     margin: 10px auto 12px auto;
     width: 240px;
 }
@@ -391,7 +393,7 @@
 }
 
 .slide-2-container .slide h2, .slide-2-container .slide ul li {
-    color: var(--primary);
+    color: #2D325A;
 }
 
 .slide-2-container .slide h2 {
@@ -433,7 +435,7 @@
 }
 
 #potential h2 {
-    color: var(--tertiary);
+    color: #BA5656;
     font-size: 14px;
     font-weight: 600;
     width: 202px;
@@ -459,7 +461,7 @@
     display: block;
     height: 700px;
     width: 700px;
-    background: var(--light);
+    background: #304b78;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, 120px) rotate(45deg);
@@ -474,7 +476,7 @@
     display: block;
     height: 700px;
     width: 700px;
-    background: var(--accent);
+    background: #56BCA2;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50px) rotate(45deg);
@@ -485,7 +487,7 @@
 
 .potential-content-container .left > h3 {
     font-size: 16px;
-    color: var(--primary);
+    color: #2D325A;
     margin: auto;
     width: 202px;
     font-weight: bold;
@@ -494,7 +496,7 @@
 .potential-line {
     width: 100%;
     height: 1px;
-    background: var(--secondary);
+    background: #DBB13B;
     margin-top: 10px;
     margin-bottom: 30px;
 }
@@ -532,7 +534,7 @@
     display: block;
     height: 90px;
     width: 90px;
-    border: 1px solid var(--secondary);
+    border: 1px solid #DBB13B;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%) rotate(45deg);
@@ -549,7 +551,7 @@
 <--- -------------------------- -*/
 
 #victoria-highlight {
-    background: var(--light);
+    background: #304b78;
     position: relative;
     overflow: visible !important;
 }
@@ -562,7 +564,7 @@
     width: 663px;
     right: -464px;
     bottom: -450px;
-    background: var(--primary);
+    background: #2D325A;
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
@@ -577,7 +579,7 @@
     width: 163px;
     right: -104px;
     top: -30px;
-    background: var(--secondary);
+    background: #DBB13B;
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
@@ -614,7 +616,7 @@
     display: block;
     height: 173px;
     width: 173px;
-    border: 5px solid var(--secondary);
+    border: 5px solid #DBB13B;
     z-index: 100;
     top: 50%;
     left: 50%;
@@ -626,7 +628,7 @@
 .quote {
     position: absolute;
     padding: 10px 14px;
-    background: var(--light);
+    background: #304b78;
     width: 240px;
     border-radius: 10px;
     top: 140px;
@@ -651,8 +653,8 @@
     position: relative;
     min-width: 120px;
     width: 120px;
-    background: var(--secondary);
-    color: var(--primary);
+    background: #DBB13B;
+    color: #2D325A;
     border-radius: 10px;
     height: 35px;
     display: block;
@@ -666,7 +668,7 @@
 
 #what-you-get {
     height: 470px;
-    background: var(--light);
+    background: #304b78;
     padding-bottom: 0 !important;
     overflow: visible !important;
     position: relative;
@@ -729,7 +731,7 @@
     display: block;
     height: 1px;
     width: 220px;
-    background: var(--secondary);
+    background: #DBB13B;
     bottom: -11px;
     left: -50px;
 }
@@ -738,7 +740,7 @@
     position: absolute;
     height: 27px;
     width: 27px;
-    background: var(--primary);
+    background: #2D325A;
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
@@ -764,7 +766,7 @@
 
 .got-item ul li {
     font-size: 12px;
-    color: var(--primary);
+    color: #2D325A;
     line-height: 1.7em;
     font-weight: 400;
 }
@@ -774,7 +776,7 @@
 <--- -------------------------- -*/
 
 #crazy-artsy-thing {
-    background: var(--light);
+    background: #304b78;
     padding-top: 0px !important;
     overflow: visible !important;
 }
@@ -793,7 +795,7 @@
     position: absolute;
     height: 360px;
     width: 450px;
-    background: var(--light);
+    background: #304b78;
     top: -300px;
     left: -50px;
     z-index: -200;
@@ -829,7 +831,7 @@
     height: 2px;
     width: 250px;
     margin: 10px auto 22px auto;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .first-ul {
@@ -910,7 +912,7 @@
     display: block;
     height: 360px;
     width: 480px;
-    background: var(--light);
+    background: #304b78;
     top: -700px;
     left: -50px;
     z-index: 1;
@@ -920,7 +922,7 @@
     content: '';
     position: absolute;
     display: block;
-    background: var(--light);
+    background: #304b78;
     width: 400px;
     height: 400px;
     top: 50%;
@@ -952,7 +954,7 @@
             transform: translate(-50%, -1010px) rotate(90deg);
     height: 1600px;
     width: 400px;
-    background: var(--primary);
+    background: #2D325A;
 }
 
 .diamond:after {
@@ -965,7 +967,7 @@
             transform: translate(-455px, 10px) rotate(-90deg);
     width: 1600px;
     height: 400px;
-    background: var(--primary);
+    background: #2D325A;
 }
 
 .diamond-piece {
@@ -1065,7 +1067,7 @@
             transform: translate(-50%, -50%);
     text-align: center;
     font-size: 14px;
-    color: var(--primary);
+    color: #2D325A;
 }
 
 .contact-content a {
@@ -1076,7 +1078,7 @@
 .contact-content .golden-line {
     height: 2px;
     width: 56px;
-    background: var(--secondary);
+    background: #DBB13B;
     display: block;
     margin: auto;
     margin-top: 10px;
@@ -1100,7 +1102,7 @@
         right: -600px;
         width: 700px;
         height: 400px;
-        background: var(--primary);
+        background: #2D325A;
         z-index: -1;
     }
 
@@ -1145,7 +1147,7 @@
         display: block;
         width: 200px;
         height: 300px;
-        background: var(--primary);
+        background: #2D325A;
         top: 19px;
         left: -300px;
     }
@@ -1156,7 +1158,7 @@
         display: block;
         width: 200px;
         height: 300px;
-        background: var(--primary);
+        background: #2D325A;
         top: 1px;
         right: -300px;
     }
@@ -1371,7 +1373,7 @@
     <--- -------------------------- -*/
 
     #mental-health {
-        background: var(--light);
+        background: #304b78;
     }
 
     .mental-health h2 {
@@ -1422,7 +1424,7 @@
 
     #struggles {
         position: relative;
-        background: var(--light);
+        background: #304b78;
         overflow: visible !important;
         margin-bottom: 0;
     }
@@ -1439,7 +1441,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--light);
+        background: #304b78;
         height: 600px;
         width: 600px;
         left: 50%;
@@ -1458,7 +1460,7 @@
                 transform: translateX(-50%);
         top: -630px;
         width: 100%;
-        background: var(--light);
+        background: #304b78;
         padding: 35px;
         border-radius: 20px 20px 0 0;
         overflow: visible;
@@ -1532,7 +1534,7 @@
     <--- -------------------------- -*/
 
     #potential {
-        background: var(--light);
+        background: #304b78;
         padding-top: 80px;
     }
 
@@ -1546,7 +1548,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--primary);
+        background: #2D325A;
         height: 760px;
         width: 760px;
         top: 50%;
@@ -1574,7 +1576,7 @@
         content: '';
         position: absolute;
         background: transparent;
-        border: 30px solid var(--secondary);
+        border: 30px solid #DBB13B;
         height: 430px;
         width: 430px;
         top: 50%;
@@ -1589,7 +1591,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--primary);
+        background: #2D325A;
         height: 100px;
         width: 100px;
         top: 50%;
@@ -1639,7 +1641,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--accent);
+        background: #56BCA2;
         height: 100px;
         width: 100px;
         top: 50%;
@@ -1807,7 +1809,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--secondary);
+        background: #DBB13B;
         height: 2px;
         width: 520px;
         bottom: -15px;
@@ -1863,7 +1865,7 @@
         right: -500px;
         width: 700px;
         height: 900px;
-        background: var(--primary);
+        background: #2D325A;
         z-index: -1;
     }
 
@@ -2190,8 +2192,8 @@
 
     .mental-health-button {
         display: block;
-        background: var(--secondary);
-        color: var(--primary);
+        background: #DBB13B;
+        color: #2D325A;
         -webkit-transform: translateY(50px);
             -ms-transform: translateY(50px);
                 transform: translateY(50px);
@@ -2212,7 +2214,9 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
         width: 100%;
         height: 100%;
     }
@@ -2260,7 +2264,7 @@
         border-radius: 20px;
         padding: 54px 60px 54px 60px;
         max-width: 520px;
-        background: var(--light);
+        background: #304b78;
         position: absolute;
         z-index: 20;
         left: 100px;
@@ -2268,7 +2272,7 @@
 
     .struggle-picture {
         position: absolute;
-        background: var(--primary);
+        background: #2D325A;
         height: 500px;
         width: 500px;
         -webkit-transform: rotate(45deg);
@@ -2304,7 +2308,7 @@
 
     .seeking-picture {
         position: absolute;
-        background: var(--secondary);
+        background: #DBB13B;
         height: 500px;
         width: 500px;
         -webkit-transform: rotate(45deg);
@@ -2315,12 +2319,12 @@
     }
 
     .slide-2-container .slide h2 {
-        color: var(--primary);
+        color: #2D325A;
         font-size: 30px;
     }
 
     .slide-2-container .slide ul li {
-        color: var(--primary);
+        color: #2D325A;
         font-size: 18px;
     }
 
@@ -2472,7 +2476,7 @@
     }
 
     .right h3, .right h3 span {
-        color: var(--primary);
+        color: #2D325A;
         width: 336px;
         font-size: 30px;
         font-weight: bold;
@@ -2505,7 +2509,7 @@
         height: 250px;
         overflow: visible !important;
         padding: 0;
-        border-bottom: 10px solid var(--secondary);
+        border-bottom: 10px solid #DBB13B;
         position: relative;
     }
 
@@ -2515,7 +2519,7 @@
 
     #victoria-highlight:after {
         display: block;
-        background: var(--primary);
+        background: #2D325A;
         width: 300px;
         height: 300px;
         top: 50%;
@@ -2615,7 +2619,7 @@
          bottom: -20px;
          height: 2px;
          width: 100px;
-         background: var(--secondary);
+         background: #DBB13B;
          left: 50%;
          -webkit-transform: translateX(calc(-50% + 70px));
              -ms-transform: translateX(calc(-50% + 70px));
@@ -2762,7 +2766,7 @@
     }
 
     .crazy-topper h2 {
-        color: var(--tertiary);
+        color: #BA5656;
         font-size: 26px;
         font-weight: 600;
     }
@@ -2776,7 +2780,7 @@
     }
 
     .first-ul li {
-        color: var(--primary);
+        color: #2D325A;
         float: left;
         list-style: none;
     }
@@ -2786,8 +2790,8 @@
     }
 
     .crazy-topper button {
-        background: var(--secondary);
-        color: var(--primary);
+        background: #DBB13B;
+        color: #2D325A;
         border-radius: 10px;
         margin-bottom: 30px;
     }
@@ -2797,7 +2801,7 @@
     }
 
     .crazy-topper h3, .crazy-topper h3 span {
-        color: var(--primary);
+        color: #2D325A;
         font-size: 25px;
         width: 632px;
         display: inline;
@@ -3022,7 +3026,9 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
         width: 100%;
         height: 100%;
     }
@@ -3166,8 +3172,8 @@
     .mental-health-button {
         display: block;
         position: relative;
-        background: var(--secondary);
-        color: var(--primary);
+        background: #DBB13B;
+        color: #2D325A;
         border-radius: 10px;
         top: 50px;
         margin: auto;
@@ -3187,7 +3193,9 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
         width: 100%;
         height: 100%;
     }
@@ -3244,7 +3252,7 @@
         border-radius: 20px;
         padding: 54px 60px 54px 60px;
         max-width: 520px;
-        background: var(--light);
+        background: #304b78;
         position: absolute;
         z-index: 20;
         left: 100px;
@@ -3252,7 +3260,7 @@
 
     .struggle-picture {
         position: absolute;
-        background: var(--primary);
+        background: #2D325A;
         height: 500px;
         width: 500px;
         -webkit-transform: rotate(45deg);
@@ -3294,7 +3302,7 @@
 
     .seeking-picture {
         position: absolute;
-        background: var(--secondary);
+        background: #DBB13B;
         height: 500px;
         width: 500px;
         -webkit-transform: rotate(45deg);
@@ -3305,12 +3313,12 @@
     }
 
     .slide-2-container .slide h2 {
-        color: var(--primary);
+        color: #2D325A;
         font-size: 30px;
     }
 
     .slide-2-container .slide ul li {
-        color: var(--primary);
+        color: #2D325A;
         font-size: 18px;
     }
 
@@ -3464,7 +3472,7 @@
     }
 
     .right h3, .right h3 span {
-        color: var(--primary);
+        color: #2D325A;
         width: 336px;
         font-size: 30px;
         font-weight: 500;
@@ -3498,7 +3506,7 @@
         height: 250px;
         overflow: visible !important;
         padding: 0;
-        border-bottom: 10px solid var(--secondary);
+        border-bottom: 10px solid #DBB13B;
         position: relative;
     }
 
@@ -3507,7 +3515,7 @@
     }
 
     #victoria-highlight:after {
-        background: var(--primary);
+        background: #2D325A;
         display: block;
         width: 300px;
         height: 300px;
@@ -3572,7 +3580,7 @@
     .victoria-button {
         margin-right: 0;
         background: #fff;
-        color: var(--primary);
+        color: #2D325A;
     }
 
     .white-clover {
@@ -3610,7 +3618,7 @@
          bottom: -20px;
          height: 2px;
          width: 100px;
-         background: var(--secondary);
+         background: #DBB13B;
          left: 50%;
          -webkit-transform: translateX(-50%);
              -ms-transform: translateX(-50%);
@@ -3775,7 +3783,7 @@
     }
 
     .crazy-topper h2 {
-        color: var(--tertiary);
+        color: #BA5656;
         font-size: 26px;
         font-weight: bold;
     }
@@ -3805,7 +3813,7 @@
     }
 
     .first-ul li {
-        color: var(--primary);
+        color: #2D325A;
         margin-right: 15px !important;
         line-height: 1.5em;
         margin: 0 auto 4px auto !important;
@@ -3821,7 +3829,7 @@
         display: block;
         height: 5px;
         width: 5px;
-        background: var(--secondary);
+        background: #DBB13B;
         border-radius: 50%;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -3831,15 +3839,15 @@
     }
 
     .crazy-topper button {
-        background: var(--secondary);
-        color: var(--primary);
+        background: #DBB13B;
+        color: #2D325A;
         border-radius: 10px;
         margin-bottom: 70px;
         margin-top: -20px;
     }
 
     .crazy-topper h3, .crazy-topper h3 span {
-        color: var(--primary);
+        color: #2D325A;
         font-size: 25px;
         width: 632px;
         display: inline;
@@ -4114,7 +4122,7 @@
         left: -50px;
         height: 150px;
         width: 150px;
-        background: var(--accent);
+        background: #56BCA2;
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
@@ -4162,7 +4170,7 @@
         left: -80px;
         height: 230px;
         width: 230px;
-        background: var(--accent);
+        background: #56BCA2;
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);

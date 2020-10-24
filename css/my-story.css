@@ -21,7 +21,7 @@
 }
 
 .text-group span {
-    color: var(--secondary);
+    color: #DBB13B;
     display: block;
     text-align: left;
     letter-spacing: 4px;
@@ -41,14 +41,14 @@
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     right: -20px;
-    background: var(--secondary);
+    background: #DBB13B;
     height: 1px;
     width: 27px;
 }
 
 #story-landing h1 {
     font-size: 24px;
-    color: var(--primary);
+    color: #2D325A;
     width: 100%;
     margin: 10px 0 67px;
     max-width: 100%;
@@ -89,7 +89,7 @@
     content: '';
     position: absolute;
     display: block;
-    background: var(--secondary);
+    background: #DBB13B;
     width: 13px;
     height: 13px;
     top: 50%;
@@ -141,7 +141,7 @@
 
 .blue {
     border-radius: 5px 5px 0 0;
-    background: var(--light);
+    background: #304b78;
 }
 
 .blue p {
@@ -152,13 +152,13 @@
 
 .green {
     border-radius: 0px 0px 5px 5px;
-    background: var(--accent);
+    background: #56BCA2;
     padding-top: 26px;
     padding-bottom: 28px;
 }
 
 .green p {
-    color: var(--primary);
+    color: #2D325A;
     font-weight: 600;
     line-height: 16px;
     font-size: 11px;
@@ -232,13 +232,13 @@
 .section-line {
     height: 1px;
     width: 100%;
-    background: var(--secondary);
+    background: #DBB13B;
     margin: 10px auto 12px auto;
 }
 
 .section-content p,
 .section-content p span {
-    color: var(--light);
+    color: #304b78;
     line-height: 19px;
     margin-bottom: 15px;
     font-size: 12px;
@@ -253,7 +253,7 @@
     margin-bottom: 10px;
     font-size: 14px;
     border-radius: 5px;
-    background: var(--primary);
+    background: #2D325A;
     color: #fff;
 }
 
@@ -285,7 +285,7 @@
 
 #believe h2 {
     font-size: 20px;
-    color: var(--primary);
+    color: #2D325A;
     font-weight: bold;
     position: relative;
 }
@@ -341,7 +341,7 @@
 
 #believe h3 {
     font-size: 14px;
-    color: var(--tertiary);
+    color: #BA5656;
     font-weight: bold;
     width: 185px;
     margin: auto;
@@ -364,7 +364,7 @@
 
 #degrees h2 {
     font-size: 20px;
-    color: var(--primary);
+    color: #2D325A;
     font-weight: bold;
     position: relative;
 }
@@ -448,7 +448,7 @@
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background: var(--primary);
+    background: #2D325A;
     top: 0;
     left: -50px;
 }
@@ -457,8 +457,8 @@
     min-width: 220px;
     display: block;
     margin: auto;
-    background: var(--secondary);
-    color: var(--primary);
+    background: #DBB13B;
+    color: #2D325A;
     border-radius: 5px;
     margin-top: 30px;
     position: relative;
@@ -501,7 +501,7 @@
 
 #influences h2,#influences h2 span {
     font-size: 20px;
-    color: var(--primary);
+    color: #2D325A;
     font-weight: bold;
     position: relative;
 }
@@ -563,7 +563,7 @@
     content: '';
     position: absolute;
     display: block;
-    background: var(--light);
+    background: #304b78;
     height: 288px;
     width: 200%;
     top: -25px;
@@ -578,7 +578,7 @@
     content: '';
     position: absolute;
     display: block;
-    background: var(--primary);
+    background: #2D325A;
     height: 260px;
     width: 260px;
     left: 50%;
@@ -631,7 +631,7 @@
 }
 
 #influences h3, #influences h3 span {
-    color: var(--accent);
+    color: #56BCA2;
     font-size: 20px;
     line-height: 26px;
 }
@@ -644,8 +644,8 @@
 
 #influences button {
     width: 120px;
-    background: var(--secondary);
-    color: var(--primary);
+    background: #DBB13B;
+    color: #2D325A;
     display: block;
     margin: auto;
     position: relative;
@@ -690,7 +690,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--light);
+        background: #304b78;
         height: 254px;
         width: 200%;
         top: -25px;
@@ -705,7 +705,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--primary);
+        background: #2D325A;
         height: 300px;
         width: 300px;
         left: 50%;
@@ -744,7 +744,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--light);
+        background: #304b78;
         height: 274px;
         width: 1300px;
         top: -55px;
@@ -759,7 +759,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--light);
+        background: #304b78;
         height: 400px;
         width: 400px;
         left: 50%;
@@ -850,7 +850,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--secondary);
+        background: #DBB13B;
         width: 25px;
         height: 25px;
         top: 50%;
@@ -1052,7 +1052,7 @@
         display: block;
         height: 600px;
         width: 600px;
-        background: var(--primary);
+        background: #2D325A;
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
@@ -1066,7 +1066,7 @@
         display: block;
         height: 600px;
         width: 600px;
-        background: var(--primary);
+        background: #2D325A;
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
@@ -1121,7 +1121,7 @@
 
     .influence-group:after {
         bottom: 30px;
-        background: var(--primary);
+        background: #2D325A;
     }
 
     #influences h3, #influences h3 span {
@@ -1164,7 +1164,7 @@
         display: block;
         height: 700px;
         width: 700px;
-        background: var(--primary);
+        background: #2D325A;
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
@@ -1179,7 +1179,7 @@
         display: block;
         height: 700px;
         width: 700px;
-        background: var(--primary);
+        background: #2D325A;
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
@@ -1287,7 +1287,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: var(--secondary);
+        background: #DBB13B;
         width: 25px;
         height: 25px;
         top: 50%;

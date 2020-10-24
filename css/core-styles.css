@@ -21,8 +21,8 @@
 }
 
 .landing-button:hover {
-	background: var(--primary) !important;
-	color: var(--secondary) !important;
+	background: #2D325A !important;
+	color: #DBB13B !important;
 }
 
 button img {
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	font-size: 1.5em;
     font-weight: normal;
-    color: var(--primary);
+    color: #2D325A;
 }
 
 .container {
@@ -137,7 +137,7 @@ header {
 
 /* Buttons */
 .button-primary {
-	background: var(--primary);
+	background: #2D325A;
 	border-radius: 10px;
 	border: none;
 	color: #fff;
@@ -152,8 +152,8 @@ header {
 }
 
 .button-primary:hover {
-    color: var(--secondary);
-    background: var(--primary);
+    color: #DBB13B;
+    background: #2D325A;
 }
 
 .button-secondary {
@@ -161,11 +161,11 @@ header {
     background: transparent;
     border-style: solid;
     border-width: 2px;
-    border-color: var(--primary);
+    border-color: #2D325A;
     font-size: 16px;
     margin: 10px 0;
     padding: 6px 30px;
-    color: var(--primary);
+    color: #2D325A;
     text-decoration: none;
     -webkit-animation-delay: 0.6s;
             animation-delay: 0.6s;
@@ -179,7 +179,7 @@ header {
 
 .button-secondary:hover {
     color: #fff;
-    background: var(--primary);
+    background: #2D325A;
     border: none;
 }
 
@@ -217,7 +217,7 @@ header {
     cursor: pointer;
 }
 .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
-    background-color: var(--secondary);
+    background-color: #DBB13B;
 }
 .hamburger-box {
     width: 30px;
@@ -237,7 +237,7 @@ header {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 30px;
     height: 3px;
-    background-color: var(--secondary);
+    background-color: #DBB13B;
     border-radius: 4px;
     position: absolute;
     -webkit-transition-property: -webkit-transform;
@@ -383,7 +383,7 @@ header {
 }
 
 .navbar-menu {
-	background: var(--light);
+	background: #304b78;
 	border-radius: 10px 0 0 10px;
 	width: 220px !important;
 	position: absolute;
@@ -421,7 +421,7 @@ header {
 
 .side-nav ul li {
 	overflow: hidden;
-	border-bottom: 1px solid var(--secondary);
+	border-bottom: 1px solid #DBB13B;
 	height: auto;
 }
 
@@ -432,7 +432,7 @@ header {
 }
 
 .side-nav ul li .sub-li:first-child {
-	border-top: 1px solid var(--secondary);
+	border-top: 1px solid #DBB13B;
 }
 
 .side-nav ul li .sub-li:before {
@@ -446,7 +446,7 @@ header {
 	        transform: translateY(-50%);
 	height: 3px;
 	width: 3px;
-	background: var(--secondary);
+	background: #DBB13B;
 	border-radius: 50%;
 }
 
@@ -683,7 +683,7 @@ header {
 
 	.side-nav a {
 		padding: 20px 0;
-		color: var(--primary);
+		color: #2D325A;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
 		transition: .2s ease;
@@ -727,7 +727,7 @@ header {
 	.side-nav ul li a:hover,
 	.desktop-call:hover .button-span-mobile {
 		cursor: pointer;
-		color: var(--secondary);
+		color: #DBB13B;
 		opacity: 1;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
@@ -783,7 +783,7 @@ header {
 	}
 
 	.navbar-links li .sub-nav .sub-li a:hover  {
-		color: var(--secondary) !important;
+		color: #DBB13B !important;
 		opacity: 1;
 	}
 
@@ -802,7 +802,7 @@ header {
 		line-height: 30px;
 		padding: 0;
 		color: #fff;
-		background: var(--primary);
+		background: #2D325A;
 		border-radius: 10px;
 		padding: 0px 30px;
 	}
@@ -816,7 +816,7 @@ header {
 		position: absolute;
 		height: 2px;
 		width: 30px;
-		background: var(--secondary);
+		background: #DBB13B;
 		bottom: 10px;
 		left: 50%;
 		-webkit-transform: translateX(-50%);
@@ -859,7 +859,7 @@ header {
 +==========================================================*/
 
 footer {
-    background: var(--primary);
+    background: #2D325A;
     position: relative;
 	z-index: 1000;
 	padding-top: 100px;
@@ -898,7 +898,7 @@ footer .container {
 .list-group {
 	position: relative;
 	width: 145px;
-	background: var(--light);
+	background: #304b78;
 	padding: 25px 28px 30px 36px;
 	width: 220px;
 	margin: 0;
@@ -914,7 +914,7 @@ footer .container {
 	position: absolute;
 	height: 100%;
 	width: 400px;
-	background: var(--light);
+	background: #304b78;
 	top: 0;
 	left: -380px;
 }
@@ -928,7 +928,7 @@ footer .container {
 }
 
 .list-group h2 {
-	color: var(--secondary);
+	color: #DBB13B;
 	text-align: left;
 	font-size: 9px;
 	padding: 11px 0;
@@ -944,7 +944,7 @@ footer .container {
 }
 
 .gold-border {
-	border-bottom: 1px solid var(--secondary) !important;
+	border-bottom: 1px solid #DBB13B !important;
 	width: 100%;
 	display: block;
 }
@@ -959,7 +959,7 @@ footer .container {
 	position: absolute;
 	height: 3px;
 	width: 3px;
-	background: var(--secondary);
+	background: #DBB13B;
 	top: 50%;
 	left: 0px;
 	-webkit-transform: translateY(-50%);
@@ -973,7 +973,7 @@ footer .container {
 	top: 98px;
 	height: 25px;
 	right: 0px;
-	background: var(--secondary);
+	background: #DBB13B;
 }
 
 .clover-group:before {
@@ -985,7 +985,7 @@ footer .container {
 	        transform: translateY(-50%);
 	height: 50px;
 	width: 200px;
-	background: var(--secondary);
+	background: #DBB13B;
 	z-index: -1;
 	border-radius: 10px;
 	right: -150px;
@@ -1130,7 +1130,7 @@ footer .container {
 	}
 
 	footer {
-		border-top: 90px solid var(--light);
+		border-top: 90px solid #304b78;
 	}
 
 	.footer-nav {

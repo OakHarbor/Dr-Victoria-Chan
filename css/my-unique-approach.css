@@ -86,7 +86,7 @@ body:before {
             transform: rotate(45deg);
     top: 140px;
     left: -20px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .green-square {
@@ -98,7 +98,7 @@ body:before {
             transform: rotate(45deg);
     right: -90px;
     bottom: -58px;
-    background: var(--accent);
+    background: #56BCA2;
 }
 
 /*-- -------------------------- -->
@@ -241,7 +241,7 @@ body:before {
 }
 
 .accordian-topper h3 span {
-    color: var(--primary);
+    color: #2D325A;
     font-size: 12px;
     display: block;
 }
@@ -258,17 +258,17 @@ body:before {
     font-size: 12px;
     text-align: left;
     letter-spacing: 0.36px;
-    color: var(--light);
+    color: #304b78;
     line-height: 1.6em;
 }
 
 .acc1 .accordian-box h4 span {
     display: block;
-    color: var(--light);
+    color: #304b78;
 }
 
 .green {
-    color: var(--accent);
+    color: #56BCA2;
     letter-spacing: 0.36px;
     font-size: 12px;
     font-weight: bold;
@@ -283,11 +283,11 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .red {
-    color: var(--tertiary);
+    color: #BA5656;
     letter-spacing: 0.36px;
     font-size: 12px;
     font-weight: bold;
@@ -302,7 +302,7 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .accordian-list h4 {
@@ -382,14 +382,14 @@ body:before {
 
 .acc2 .accordian-box h4 {
     text-align: left;
-    color: var(--light);
+    color: #304b78;
     font-size: 12px;
     position: relative;
     margin-bottom: 30px;
 }
 
 .acc2-green {
-    color: var(--accent);
+    color: #56BCA2;
     letter-spacing: 0.36px;
     font-size: 12px;
     font-weight: bold;
@@ -404,7 +404,7 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .acc2 .accordian-box ul {
@@ -413,7 +413,7 @@ body:before {
 
 .acc2 .accordian-box ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     list-style: none;
     margin-bottom: 6px;
     letter-spacing: .33px;
@@ -432,7 +432,7 @@ body:before {
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     left: 0px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .acc2 .green {
@@ -445,7 +445,7 @@ body:before {
 
 .acc2 .accordian-box p:last-child {
     font-size: 12px;
-    color: var(--primary);
+    color: #2D325A;
     font-weight: bold;
     line-height: 1.6em;
     width: 209px;
@@ -453,7 +453,7 @@ body:before {
 
 .acc2 .accordian-box p:last-child span {
     display: block;
-    color: var(--primary);
+    color: #2D325A;
 }
 
 .acc2 .accordian-box {
@@ -497,7 +497,7 @@ body:before {
 
 .acc3 ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     max-width: 211px;
     margin-bottom: 5px;
 }
@@ -538,7 +538,7 @@ body:before {
 
 .acc4 .accordian-box h4 {
     text-align: left;
-    color: var(--light);
+    color: #304b78;
     font-size: 12px;
     position: relative;
     margin-bottom: 30px;
@@ -550,12 +550,12 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .acc4 .accordian-box ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     margin-bottom: 6px;
     letter-spacing: .33px;
     position: relative;
@@ -602,7 +602,7 @@ body:before {
 
 .acc5 .accordian-box p {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     line-height: 1.7em;
     margin-bottom: 15px;
     letter-spacing: 0.33px;
@@ -618,7 +618,7 @@ body:before {
 }
 
 .acc5 .accordian-box a {
-    color: var(--accent);
+    color: #56BCA2;
     text-transform: uppercase;
     text-decoration: underline;
     font-weight: bold;
@@ -660,7 +660,7 @@ body:before {
 
 .acc6 .accordian-box h4 {
     text-align: left;
-    color: var(--light);
+    color: #304b78;
     font-size: 12px;
     position: relative;
     margin-bottom: 30px;
@@ -672,12 +672,12 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .acc6 .accordian-box ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     margin-bottom: 6px;
     letter-spacing: .33px;
     position: relative;
@@ -690,7 +690,7 @@ body:before {
 
 .acc6 h3 span {
     display: block;
-    color: var(--primary);
+    color: #2D325A;
     font-size: 14px;
 }
 
@@ -730,7 +730,7 @@ body:before {
 
 .acc7 .accordian-box h4 {
     text-align: left;
-    color: var(--light);
+    color: #304b78;
     font-size: 12px;
     position: relative;
     margin-bottom: 30px;
@@ -742,12 +742,12 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .acc7 .accordian-box ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     margin-bottom: 6px;
     letter-spacing: .33px;
     position: relative;
@@ -795,7 +795,7 @@ body:before {
 
 .acc8 .accordian-box h4 {
     text-align: left;
-    color: var(--light);
+    color: #304b78;
     font-size: 12px;
     position: relative;
     margin-bottom: 30px;
@@ -807,12 +807,12 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .acc8 .accordian-box ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     margin-bottom: 6px;
     letter-spacing: .33px;
     position: relative;
@@ -857,7 +857,7 @@ body:before {
 
 .acc9 .accordian-box h4 {
     text-align: left;
-    color: var(--light);
+    color: #304b78;
     font-size: 12px;
     position: relative;
     margin-bottom: 30px;
@@ -869,12 +869,12 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .acc9 .accordian-box ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     margin-bottom: 6px;
     letter-spacing: .33px;
     position: relative;
@@ -919,7 +919,7 @@ body:before {
 
 .acc10 .accordian-box h4 {
     text-align: left;
-    color: var(--light);
+    color: #304b78;
     font-size: 12px;
     position: relative;
     margin-bottom: 30px;
@@ -931,12 +931,12 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .acc10 .accordian-box ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     margin-bottom: 6px;
     letter-spacing: .33px;
     position: relative;
@@ -946,7 +946,7 @@ body:before {
 
 .acc10 h3 span {
     display: block;
-    color: var(--primary);
+    color: #2D325A;
     font-size: 14px;
 }
 
@@ -986,7 +986,7 @@ body:before {
 
 .acc11 .accordian-box h4 {
     text-align: left;
-    color: var(--light);
+    color: #304b78;
     font-size: 12px;
     position: relative;
     margin-bottom: 30px;
@@ -998,12 +998,12 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .acc11 .accordian-box ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     margin-bottom: 6px;
     letter-spacing: .33px;
     position: relative;
@@ -1047,7 +1047,7 @@ body:before {
 
 .acc12 .accordian-box h4 {
     text-align: left;
-    color: var(--light);
+    color: #304b78;
     font-size: 12px;
     position: relative;
     margin-bottom: 30px;
@@ -1059,12 +1059,12 @@ body:before {
     height: 1px;
     width: 100%;
     bottom: -15px;
-    background: var(--secondary);
+    background: #DBB13B;
 }
 
 .acc12 .accordian-box ul li {
     font-size: 11px;
-    color: var(--light);
+    color: #304b78;
     margin-bottom: 6px;
     letter-spacing: .33px;
     position: relative;
@@ -1125,7 +1125,7 @@ body:before {
     width: 100%;
     text-align: center;
     font-size: 10px;
-    color: var(--primary);
+    color: #2D325A;
     color: #4d4d4d;
     position: relative;
     margin-bottom: 32px;
@@ -1137,7 +1137,7 @@ body:before {
     position: absolute;
     width: 33px;
     height: 1px;
-    background: var(--secondary);
+    background: #DBB13B;
     bottom: -10px;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -1148,8 +1148,8 @@ body:before {
 .bottom button {
     display: block;
     margin: auto;
-    background: var(--secondary);
-    color: var(--primary);
+    background: #DBB13B;
+    color: #2D325A;
     border-radius: 5px;
     min-width: auto;
 }
@@ -1194,7 +1194,7 @@ body:before {
             transform: translate(-50%, -50%);
     text-align: center;
     font-size: 14px;
-    color: var(--primary);
+    color: #2D325A;
 }
 
 .contact-content a {
@@ -1205,7 +1205,7 @@ body:before {
 .contact-content .golden-line {
     height: 2px;
     width: 56px;
-    background: var(--secondary);
+    background: #DBB13B;
     display: block;
     margin: auto;
     margin-top: 10px;
@@ -1797,7 +1797,7 @@ body:before {
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
         bottom: -20px;
-        background: var(--secondary);
+        background: #DBB13B;
     }
 
     .acc1 .accordian-box h4 span {
@@ -2309,7 +2309,7 @@ body:before {
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
         bottom: -20px;
-        background: var(--secondary);
+        background: #DBB13B;
     }
 
     .acc1 .accordian-box h4 span {
@@ -2842,7 +2842,7 @@ body:before {
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
         bottom: -20px;
-        background: var(--secondary);
+        background: #DBB13B;
     }
 
     .acc1 .accordian-box h4 span {
