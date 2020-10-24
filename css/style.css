@@ -767,6 +767,7 @@
 .crazy-topper {
     position: relative;
     z-index: 1000;
+    padding-top: 70px;
 }
 
 .overflow-hide {
@@ -1081,6 +1082,7 @@
         width: 700px;
         height: 400px;
         background: var(--primary);
+        z-index: -1;
     }
 
     #contact-cards:after {
@@ -2732,6 +2734,7 @@
         height: 40px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: -4px;
     }
 
     .first-ul li {
@@ -2766,7 +2769,7 @@
         margin: auto;
         display: block;
         width: 100%;
-        margin-top: 83px;
+        margin-top: 66px;
     }
 
     .diamond {
@@ -2953,31 +2956,6 @@
 
     .mental-health h2 {
         font-weight: 400;
-    }
-
-    .first-ul {
-        width: 460px;
-    }
-
-    .first-ul li {
-        font-size: 14px;
-        width: auto;
-    }
-
-    .first-ul li:nth-child(1) {
-        width: 300px;
-    }
-
-    .first-ul li:nth-child(2) {
-        width: 158px;
-    }
-
-    .first-ul li:nth-child(3) {
-        width: 250px;
-    }
-
-    .first-ul li:nth-child(4) {
-        width: 180px;
     }
 
     .crazy-artsy-thing {
@@ -3710,6 +3688,10 @@
         position: relative;
     }
 
+    .crazy-topper {
+        padding-top: 9px;
+    }
+
     .crazy-topper .clover {
         display: block;
         width: 35px;
@@ -3739,7 +3721,7 @@
     }
 
     .first-ul li:nth-child(1) { 
-        width: 289px;
+        width: 238px;
     }
 
     .first-ul li:nth-child(4) {
@@ -3777,6 +3759,7 @@
         color: var(--primary);
         border-radius: 10px;
         margin-bottom: 70px;
+        margin-top: -20px;
     }
 
     .crazy-topper h3, .crazy-topper h3 span {
@@ -4034,6 +4017,12 @@
         margin-left: -970px;
     }
 
+    .diamond-piece:nth-child(2) h4 {
+        color: #989898;
+        font-size: 20px;
+        width: 200px;
+    }
+
 }
 
 /* Step 6 */
@@ -4055,6 +4044,10 @@
 
     #landing {
         min-height: 750px;
+    }
+
+    .crazy-topper h3, .crazy-topper h3 span {
+        font-size: 30px;
     }
 
 }
@@ -4107,6 +4100,12 @@
 
     .struggle-picture {
         right: -1450px;
+    }
+
+    .crazy-topper h3 {
+        -webkit-transform: translateY(54px);
+            -ms-transform: translateY(54px);
+                transform: translateY(54px);
     }
 
 }
