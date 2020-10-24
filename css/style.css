@@ -2849,6 +2849,7 @@
         margin-bottom: -650px;
         display: block;
         z-index: 100;
+        width: 100%;
     }
 
     .crazy-topper button:after {
@@ -3010,6 +3011,7 @@
         margin-bottom: -650px;
         display: block;
         z-index: 100;
+        width: 100%;
     }
 
     .mental-health .icon {
@@ -3897,6 +3899,7 @@
         margin-bottom: -861px;
         display: block;
         z-index: 100;
+        width: 100%;
     }
 
     .crazy-topper button:after {
@@ -4087,6 +4090,7 @@
 
     .cft {
         margin-bottom: -900px;
+        width: 100%;
     }
 
     #contact-cards {
@@ -4150,6 +4154,7 @@
 
     .cft {
         margin-bottom: -1100px;
+        width: 100%;
     }
 
     #contact-cards {
@@ -4267,6 +4272,7 @@
 
     .cft {
         margin-bottom: -1350px;
+        width: 100%;
     }
 
     #contact-cards {
