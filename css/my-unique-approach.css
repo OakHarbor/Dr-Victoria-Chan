@@ -1934,14 +1934,12 @@ body:before {
     <--- -------------------------- -*/
 
     #contact-cards {
-        padding-top: 0px;
-        height: 150px;
-        position: relative;
-        padding: 0 20px
+        padding-top: 130px;
     }
 
     #contact-cards .container {
-        width: 95%;
+        width: 730px;
+        max-width: 730px;
         margin: auto;
         height: 300px;
         position: absolute;
@@ -1955,26 +1953,22 @@ body:before {
 
     .contact-card {
         background: #fff;
-        width: 49%;
-        height: 205px;
+        width: 360px;
+        height: 185px;
         left: auto;
-        bottom: -80px;
-    }
-
-    .contact-card a {
-        width: 150px;
     }
 
     .contact-card:first-child {
         left: 0;
-        -webkit-transform: auto;
-            -ms-transform: auto;
-                transform: auto;
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
     }
 
     .contact-card:first-child:before {
         content: '';
         position: absolute;
+        display: block;
         top: 10px;
         left: 10px;
         bottom: 10px;
@@ -1995,19 +1989,9 @@ body:before {
                 transform: translateX(0);
     }
 
-    .bottom {
-        margin-top: 50px;
-    }
-
-    .bottom p {
-        font-size: 16px;
-        font-weight: 500;
-    }
-
-    .bottom .clover {
-        display: block !important;
-        position: relative;
-        bottom: 20px;
+    .contact-card img {
+        left: -5px;
+        width: 40px;
     }
 }
 
@@ -2446,15 +2430,10 @@ body:before {
     <---       Contact Cards        -->
     <--- -------------------------- -*/
 
-    #contact-cards {
-        padding-top: 0px;
-        height: 150px;
-        position: relative;
-    }
 
     #contact-cards .container {
-        width: 100%;
-        max-width: 750px;
+        width: 730px;
+        max-width: 730px;
         margin: auto;
         height: 300px;
         position: absolute;
@@ -2462,32 +2441,28 @@ body:before {
         -webkit-transform: translateX(-50%);
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
-        bottom: -50px;
+        bottom: -70px;
         z-index: 100000;
     }
 
     .contact-card {
         background: #fff;
-        width: 49%;
-        height: 205px;
+        width: 360px;
+        height: 185px;
         left: auto;
-        bottom: -80px;
-    }
-
-    .contact-card a {
-        width: 150px;
     }
 
     .contact-card:first-child {
         left: 0;
-        -webkit-transform: auto;
-            -ms-transform: auto;
-                transform: auto;
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
     }
 
     .contact-card:first-child:before {
         content: '';
         position: absolute;
+        display: block;
         top: 10px;
         left: 10px;
         bottom: 10px;
@@ -2508,19 +2483,9 @@ body:before {
                 transform: translateX(0);
     }
 
-    .bottom {
-        margin-top: 50px;
-    }
-
-    .bottom p {
-        font-size: 16px;
-        font-weight: 500;
-    }
-
-    .bottom .clover {
-        display: block !important;
-        position: relative;
-        bottom: -20px;
+    .contact-card img {
+        left: -5px;
+        width: 40px;
     }
 
 }
@@ -2979,15 +2944,10 @@ body:before {
     <---       Contact Cards        -->
     <--- -------------------------- -*/
 
-    #contact-cards {
-        padding-top: 0px;
-        height: 150px;
-        position: relative;
-    }
 
     #contact-cards .container {
-        width: 100%;
-        max-width: 750px;
+        width: 730px;
+        max-width: 730px;
         margin: auto;
         height: 300px;
         position: absolute;
@@ -2995,40 +2955,34 @@ body:before {
         -webkit-transform: translateX(-50%);
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
-        bottom: -50px;
+        bottom: -70px;
         z-index: 100000;
     }
 
     .contact-card {
         background: #fff;
-        width: 49%;
-        height: 205px;
+        width: 360px;
+        height: 185px;
         left: auto;
-        bottom: -80px;
-    }
-
-    .contact-card a {
-        width: 150px;
     }
 
     .contact-card:first-child {
         left: 0;
-        -webkit-transform: auto;
-            -ms-transform: auto;
-                transform: auto;
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
     }
 
     .contact-card:first-child:before {
         content: '';
         position: absolute;
+        display: block;
         top: 10px;
         left: 10px;
         bottom: 10px;
         right: 10px;
-        background: url("/images/map.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        background: #989898;
+        opacity: .5;
     }
 
     #contact-cards:after {
@@ -3043,19 +2997,9 @@ body:before {
                 transform: translateX(0);
     }
 
-    .bottom {
-        margin-top: 50px;
-    }
-
-    .bottom p {
-        font-size: 16px;
-        font-weight: 500;
-    }
-
-    .bottom .clover {
-        display: block !important;
-        position: relative;
-        bottom: 68px;
+    .contact-card img {
+        left: -5px;
+        width: 40px;
     }
 }
 
