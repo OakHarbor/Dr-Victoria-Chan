@@ -232,6 +232,25 @@
     margin-bottom: 20px;
 }
 
+.mental-health .icon {
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+    background: none;
+}
+
+.icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
 .card h3 {
     font-size: 12px;
     letter-spacing: 0.36px;
@@ -263,7 +282,7 @@
     height: 620px;
     overflow: visible !important;
     margin-bottom: 250px;
-    padding-top: 75px;
+    padding-top: 103px;
 }
 
 #struggles:before {
@@ -1377,7 +1396,7 @@
         max-width: 730px;
         width: 730px;
         margin: auto;
-        height: 300px;
+        height: 325px;
         left: 50%;
         -webkit-transform: translateY(-290px);
             -ms-transform: translateY(-290px);
@@ -2179,6 +2198,25 @@
         border-radius: 10px;
     }
 
+    .mental-health .icon {
+        height: 100px !important;
+        width: 100px !important;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+        position: relative;
+        background: none;
+    }
+
+    .icon img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+    }
+
     /*-- -------------------------- -->
     <---         Struggles          -->
     <--- -------------------------- -*/
@@ -2970,6 +3008,25 @@
         z-index: 100;
     }
 
+    .mental-health .icon {
+        height: 100px !important;
+        width: 100px !important;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+        position: relative;
+        background: none;
+    }
+
+    .icon img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
 /* Step 4 */
@@ -3114,6 +3171,25 @@
         border-radius: 10px;
         top: 50px;
         margin: auto;
+    }
+
+    .mental-health .icon {
+        height: 100px !important;
+        width: 100px !important;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+        position: relative;
+        background: none;
+    }
+
+    .icon img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
     }
 
     /*-- -------------------------- -->
