@@ -2430,6 +2430,10 @@ body:before {
     <---       Contact Cards        -->
     <--- -------------------------- -*/
 
+    #contact-cards {
+        padding-top: 130px;
+    }
+
 
     #contact-cards .container {
         width: 730px;
@@ -2943,6 +2947,10 @@ body:before {
     /*-- -------------------------- -->
     <---       Contact Cards        -->
     <--- -------------------------- -*/
+
+    #contact-cards {
+        padding-top: 130px;
+    }
 
 
     #contact-cards .container {
