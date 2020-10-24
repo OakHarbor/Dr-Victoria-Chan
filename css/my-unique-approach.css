@@ -1117,6 +1117,8 @@ body:before {
 
 .bottom {
     padding-top: 20px;
+    position: relative;
+    z-index: 100000000;
 }
 
 .bottom p {
