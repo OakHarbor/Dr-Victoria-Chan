@@ -2526,12 +2526,13 @@ body:before {
 @media screen and (min-width: 1200px) {
 
     .navbar-menu {
-        background: transparent;
-
+        margin-top: 32px;
     }
 
     .navbar-menu img {
-        width: 368px;
+        -webkit-transform: translateY(-2px);
+            -ms-transform: translateY(-2px);
+                transform: translateY(-2px);
     }
 
     .open-accordian  {
