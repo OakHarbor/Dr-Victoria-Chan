@@ -2950,12 +2950,13 @@ body:before {
 
     #contact-cards {
         padding-top: 130px;
+        height: 400px !important;
     }
 
 
     #contact-cards .container {
-        width: 730px;
-        max-width: 730px;
+        width: 1200px;
+        max-width: 1200px;
         margin: auto;
         height: 300px;
         position: absolute;
@@ -2969,7 +2970,7 @@ body:before {
 
     .contact-card {
         background: #fff;
-        width: 360px;
+        width: 49%;
         height: 185px;
         left: auto;
     }
@@ -2989,8 +2990,10 @@ body:before {
         left: 10px;
         bottom: 10px;
         right: 10px;
-        background: #989898;
-        opacity: .5;
+        background: url("/images/map.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     #contact-cards:after {

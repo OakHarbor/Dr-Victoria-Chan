@@ -999,7 +999,7 @@ footer .container {
 
 .social {
 	position: absolute;
-	top: 190px;
+	top: 163px;
 	right: 36px;
 	list-style: none;
 	width: 34px;
@@ -1215,5 +1215,51 @@ footer .container {
 		width: 760px;
 		margin: auto;
 	}
+
+}
+
+@media screen and (min-width: 1300px) { 
+
+	footer{
+		-webkit-transform: scale(1.58);
+		    -ms-transform: scale(1.58);
+		        transform: scale(1.58);
+		padding-bottom: 150px;
+		padding-top: 144px;
+	}
+
+	#contact-cards {
+		height: 1400px !important;
+	}
+
+	#contact-cards .container {
+		max-width: 1200px !important;
+		width: 1200px !important;
+		bottom: -5px !important;
+	}
+
+	.contact-card {
+		height: 350px !important;
+	}
+
+	.contact-content a {
+		font-size: 35px;
+		color: #2D325A;
+	}
+
+	.contact-card img {
+		left: -14px !important;
+	}
+
+
+}
+
+@media screen and (min-width: 1300px) { 
+
+
+	#contact-cards {
+		height: 1976px !important;
+	}
+
 
 }
