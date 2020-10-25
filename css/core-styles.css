@@ -1261,6 +1261,16 @@ footer .container {
 		left: -14px !important;
 	}
 
+	.disclaimer-topper:before {
+		content: '';
+		position: absolute;
+		display: block;
+		width: 761px;
+		height: 1px;
+		bottom: 130px;
+		background: #DBB13B;
+	}
+
 
 }
 
