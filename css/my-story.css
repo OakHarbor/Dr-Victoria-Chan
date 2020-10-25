@@ -1804,7 +1804,21 @@
     }
 
     #contact-cards {
-        height: 1800px;
+        height: 2000px !important;
+    }
+
+}
+
+/* Step 3 */
+@media screen and (min-width: 2896px) {
+
+    #influences img {
+        z-index: -1;
+    }
+
+    #ripple, #mindset, #answers {
+        position: relative;
+        z-index: 6000000;
     }
 
 }
