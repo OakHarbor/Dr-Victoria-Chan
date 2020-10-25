@@ -229,15 +229,14 @@ main:before {
 <--- -------------------------- -*/
 
 form h3 {
-    color: #fff;
     font-size: 1em;
     line-height: 1.5em;
     margin-bottom: 30px;
-    color: rgba(172, 183, 201, 1);
+    color: #fff !important;
 }
 
 .form h3:first-child span {
-    color: #fff;
+    color: #fff !important;
 }
 
 form h3 strong {
