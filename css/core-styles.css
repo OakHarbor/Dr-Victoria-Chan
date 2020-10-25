@@ -1276,6 +1276,10 @@ footer .container {
 		top: 10px;
 	}
 
+	.list-group {
+		top: -10px;
+	}
+
 
 }
 
