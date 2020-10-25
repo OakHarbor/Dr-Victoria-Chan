@@ -1044,6 +1044,16 @@ footer .container {
 	text-align: justify;
 }
 
+.credit {
+	color: #fff !important;
+}
+
+.credit:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #DBB13B !important;
+}
+
 
 /* Step 2 Tablet */
 @media screen and (min-width: 600px) and (max-width: 991px) {
@@ -1116,6 +1126,8 @@ footer .container {
 	.disclaimer-p {
 		font-size: 8px;
 	}
+
+	
 
 }
 
