@@ -1086,7 +1086,7 @@ footer {
     }
 
     form span {
-        color: #fff;
+        color: #fff !important;
     }
 
     .social-square h3 {
