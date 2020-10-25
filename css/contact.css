@@ -362,6 +362,10 @@ footer {
     border: none;
 }
 
+form span {
+        color: #fff !important;
+    }
+
 @media screen and (min-width: 680px) {
 
     .form {
