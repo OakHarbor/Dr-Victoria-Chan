@@ -914,6 +914,10 @@ footer {
         max-width: 900px;
     }
 
+    .contact-toph2 {
+        width: 185px;
+    }
+
     .letter {
         padding-top: 140px;
         width: 350px;
@@ -1002,6 +1006,10 @@ footer {
         top: -150px;
     }
 
+    .three-triangles a:hover {
+        cursor: default;
+    }
+
     .square {
         margin: 20px;
         width: 40%;
@@ -1010,6 +1018,7 @@ footer {
 
     .square a, .square h3 {
         font-size: .8em;
+        font-weight: 500;
     }
 
     .square h3 {
