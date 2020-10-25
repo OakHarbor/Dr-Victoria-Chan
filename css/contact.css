@@ -256,6 +256,7 @@ form input[type="email"] {
     border-radius: 10px;
     margin-bottom: 15px;
     padding-left: 20px;
+    border: none;
 }
 
 form button[type="submit"] {
@@ -1087,6 +1088,19 @@ footer {
 
     .social-button-group a:first-child {
         left: -10px;
+    }
+
+}
+
+/* Step 5 */
+@media screen and (min-width: 1300px) {
+
+    footer {
+        padding-top: 100px;
+    }
+
+    .bottom {
+        padding-bottom: 200px;
     }
 
 }
