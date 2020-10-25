@@ -1106,6 +1106,10 @@ form span {
         left: -10px;
     }
 
+    form button[type="submit"] {
+        margin-bottom: 0;
+    }
+
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         font-size: 15px;
     }
