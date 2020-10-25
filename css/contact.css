@@ -1089,6 +1089,19 @@ footer {
         left: -10px;
     }
 
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 15px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 15px;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+    font-size: 15px;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+    font-size: 15px;
+    }
+
 }
 
 /* Step 5 */
