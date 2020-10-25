@@ -4125,12 +4125,12 @@
     }
 
     .cft {
-        margin-bottom: -900px;
+        margin-bottom: -978px;
         width: 100%;
     }
 
     #contact-cards {
-        height: 1100px;
+        height: 1400px !important;
     }
 
     .slide-1-container:before {
