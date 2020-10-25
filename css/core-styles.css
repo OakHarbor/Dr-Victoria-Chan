@@ -1266,9 +1266,14 @@ footer .container {
 		position: absolute;
 		display: block;
 		width: 761px;
-		height: 1px;
-		bottom: 130px;
+		height: .5px;
+		bottom: 115px;
 		background: #DBB13B;
+		opacity: .7;
+	}
+
+	.social {
+		top: 10px;
 	}
 
 
