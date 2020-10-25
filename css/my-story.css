@@ -1759,7 +1759,7 @@
 }
 
 /* Step 3 */
-@media screen and (min-width: 1832px) {
+@media screen and (min-width: 1824px) {
 
     #influences .section-line {
         margin-bottom: 164px;
@@ -1777,7 +1777,7 @@
     }
 
     #contact-cards {
-        height: 1200px;
+        height: 1400px !important;
     }
 
 }
