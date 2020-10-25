@@ -1085,6 +1085,10 @@ footer {
         font-size: 30px;
     }
 
+    form span {
+        color: #fff;
+    }
+
     .social-square h3 {
         font-size: 1.2em;
         width: 90px;
