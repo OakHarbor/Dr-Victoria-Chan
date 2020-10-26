@@ -20,17 +20,17 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/core-styles.css">
-    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/my-unique-approach.css">
+    <link rel="stylesheet" href="/css/privacy.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- jQuery -->
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <title>Contact | Dr. Victoria Chan | Integrative Mental Health Doctor</title>
+    <title>My unique approach | Integrative Mental Health Doctor</title>
 </head>
 
 <body>
@@ -61,7 +61,7 @@
                     <li class="nav-li padd"><a href="/index.html">Home</a></li>
                     <li class="nav-li padd"><a href="/html/my-unique-approach.html">My Unique Approach</a></li>
                     <li id="about-drop-down" class="nav-li drop-down padd">
-                        <a href="/html/my-story.html">About</a>
+                        <a class="active-menu" href="/html/my-story.html">About</a>
                         <ul id="about-sub-dropdown" class="sub-nav">
                             <li class="sub-li">
                                 <a href="/html/my-story.html">My Story</a>
@@ -71,7 +71,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-li padd"><a class="active-menu" href="/html/contact.html">Contact</a></li>
+                    <li class="nav-li padd"><a href="/html/contact.html">Contact</a></li>
                     <li class="nav-li schedule">
                         <button class="button-primary desktop-call" onclick="location.href='/html/contact.html'" type="button">
                             Schedule <span class="button-span-mobile">An Appointment</span>
@@ -88,65 +88,45 @@
         <!--                    LANDING                   -->
         <!-- ============================================ -->
 
-        <section id="contact-form">
-            <div class="contact-top">
-                <div class="letter">
-                    <span class="greeting">Hi Everyone !</span>
-                    <p class="first-p">
-                        I'm currently fine-tuning the details needed for coordinating the best healthcare I can give you.
-                    </p>
-                    <p>
-                        <strong>I'll be seeing patients located <span>in California starting January 2021.</span></strong>
-                    </p>
-                    <div class="signature">
-                        <p>Your mental health advocate,</p>
-                        <p>Dr. Victoria Chan</p>
-                    </div>
-                </div>
-                <h2 class="contact-toph2">Want to be notified when I announce these?</h2>
+        <section id="privacy-landing">
+            <div class="container">
+                <p>
+                    Protecting your private information is a priority for us. This Privacy Policy covers the data and information collected and processed through this website <a href="https://www.drvictoriachan.com/">(www.drvictoriachan.com)</a>. We are not responsible for the privacy practices of other websites that are affiliated with this website. By using this website and inputting your personal information, you consent to the data practices described in this Privacy Policy.
+                </p>
+                <p>
+                    Our website collects the name and email address you voluntarily input into the text submission boxes. If you do not consent to be contacted by Dr. Victoria Chan or her associates, do not input any personal information into any forms on this website.
+                </p>
+                <p>
+                    This information can only be seen by Dr. Victoria Chan (ND) through a HIPAA-compliant email server and this website’s developer. This information is stored on Netlify’s server that only the web developer of this website has access to it. This information can be shared with Dr. Victoria Chan (ND). We do not sell, rent, or lease your information to third parties.
+                </p>
+                <p>
+                    Our website may collect non-personally-identifiable information including zip code, date and time of visit, IP address, and referring web page.
+                </p>
+                <p>
+                    You may opt-out of communication by emailing <a href="mailto:hello@drvictoriachan.com">hello@drvictoriachan.com</a> to request yourself to be removed from the mailing list.
+                </p>
             </div>
-            <div class="bottom">
-                <div aria-hidden="true" class="left-pillar"></div>
-                <div aria-hidden="true" class="right-pillar"></div>
+        </section>
 
-                <div class="three-triangles">
-                    <div class="square">
-                        <a href="#">Services Offered</a>
-                    </div>
-                    <div class="square">
-                        
-                    </div>
-                    <div class="square">
-                        <a href="#">Contact Details</a>
-                    </div>
-                    <div class="square">
-                        <a href="#">Schedule Availabilities</a>
-                    </div>
+        <!-- ============================================ -->
+        <!--                 Contact Cards                -->
+        <!-- ============================================ -->
+
+        <section id="contact-cards">
+            <div class="container">
+                <div class="contact-card">
+
                 </div>
-
-                <div class="form container">
-                    <form name="Contact Form" method="post" data-netlify="true">
-                        <h3>Fill out the form below <span>or reach out at <strong>hello@drvictoriachan.com</strong></span></h3>
-                        <input aria-label="name" name="name" placeholder="Your Name" type="text" tabindex="1" required>
-                        <input aria-label="email" name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
-                        <button name="submit" type="submit" id="contact-submit" class="primary button-solid" data-submit="...Sending">Submit</button>
-                    </form>
-                    <h3 class="seeking"><em>Seeking help</em> is evidence of your <span>Strength</span></h3>
-                </div>
-
-                <div class="contact-social">
-                    <div class="social-square">
-                        <img class="clover" src="/images/clover.svg" alt="">
-                        <h3>Follow me</h3>
-                        <p>@dr.victoriachan</p>
-                        <div class="social-button-group">
-                            <a href="https://www.facebook.com/dr.victoriachan"><img src="/images/facebook.svg" alt=""></a>
-                            <a href="https://www.instagram.com/dr.victoriachan"><img src="/images/instagram.svg" alt=""></a>
-                        </div>
+                <div class="contact-card">
+                    <img class="clover" aria-hidden="true" src="/images/clover.svg" alt="">
+                    <div class="contact-content">
+                        <a href="/html/contact.html">SCHEDULE AN APPOINTMENT</a>
+                        <div class="golden-line"></div>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
 
     <!-- ============================================ -->

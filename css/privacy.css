@@ -1,0 +1,25 @@
+#privacy-landing {
+    margin-top: 100px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+#privacy-landing .container {
+    max-width: 700px;
+}
+
+p a {
+    color: #56BCA2;
+    text-decoration: underline;
+}
+
+/* Step 2 */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    #privacy-landing {
+        margin-top: 200px;
+    }
+}
