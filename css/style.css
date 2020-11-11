@@ -509,6 +509,7 @@
     font-size: 12px;
     margin: auto;
     margin-bottom: 30px;
+    width: 220px;
 }
 
 .potential-group:last-child h3 {
@@ -534,6 +535,7 @@
 
 .right h3:before {
     content: '';
+    z-index: -1;
     position: absolute;
     display: block;
     height: 90px;
@@ -601,7 +603,7 @@
 }
 
 .victoria {
-    background: url("/images/Homepage_Headshot\ 2.jpeg");
+    background: url("/images/Homepage_Headshot-2.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1331,27 +1333,40 @@
         width: 358px;
     }
 
+    .scalable-feature {
+        display: block;
+        position: absolute;
+        right: -66px;
+        top: 251px;
+    }
+
+    .scalable-feature img {
+        width: 490px;
+    }
+
     .landing-right:before {
         width: 440px;
         height: 440px;
-        display: block;
+        display: none;
     }
 
     .landing-right:after {
         display: block;
-        width: 1000px;
-        bottom: -4400px;
-        left: -160px;
+        width: 800px;
+        bottom: -3843px;
+        left: -54px;
     }
 
     .golden-box {
         height: 310px;
         width: 333px;
+        display: none;
     }
 
     .image-container {
         width: 358px;
         height: 262px;
+        display: none;
     }
 
     .image-container:after {
@@ -1454,7 +1469,7 @@
         -webkit-transform: translateX(-50%) rotate(45deg);
             -ms-transform: translateX(-50%) rotate(45deg);
                 transform: translateX(-50%) rotate(45deg);
-        bottom: 570px;
+        bottom: 630px;
         z-index: 10;
     }
 
@@ -1892,6 +1907,10 @@
 
     .first-ul li {
         font-size: 20px;
+    }
+
+    .first-ul li::marker {
+        color: var(--secondary);
     }
 
     .first-ul li:nth-child(1) {

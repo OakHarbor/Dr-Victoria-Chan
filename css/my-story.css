@@ -1587,9 +1587,9 @@
     }
 
     #answers .section-image {
-        -webkit-transform: translateY(155px);
-            -ms-transform: translateY(155px);
-                transform: translateY(155px);
+        -webkit-transform: translateY(89px);
+            -ms-transform: translateY(89px);
+                transform: translateY(89px);
     }
 
     .section-image {

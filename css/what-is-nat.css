@@ -9,9 +9,9 @@
     letter-spacing: .5px;
     color: #2D325A;
     font-size: 10px;
-    -webkit-transform: translateY(50px);
-        -ms-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(33px);
+        -ms-transform: translateY(33px);
+            transform: translateY(33px);
 }
 
 sup {
@@ -222,9 +222,22 @@ body:before {
     padding: 0;
 }
 
+.acc5 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+}
+
 /*-- -------------------------- -->
 <---           Order            -->
 <--- -------------------------- -*/
+
+#pyramid {
+    display: none;
+}
 
 #therapeutic-order {
     padding-bottom: 0;
@@ -736,8 +749,8 @@ body:before {
     }
 
     .landing-span {
-        font-size: 50px;
-        font-weight: 700;
+        font-size: 30px;
+        font-weight: 500;
     }
 
     .arrow {
@@ -988,6 +1001,18 @@ body:before {
     <---           Order            -->
     <--- -------------------------- -*/
 
+    #therapeutic-order {
+        position: relative;
+    }
+
+    #pyramid {
+        display: block;
+        position: absolute;
+        top: 240px;
+        right: -200px;
+        width: 500px;
+    }
+
     #therapeutic-order h2 {
         font-size: 30px;
         width: 100%;
@@ -1124,8 +1149,8 @@ body:before {
     }
 
     .landing-span {
-        font-size: 50px;
-        font-weight: 700;
+        font-size: 30px;
+        font-weight: 500;
     }
 
     .arrow {
@@ -1383,6 +1408,18 @@ body:before {
     /*-- -------------------------- -->
     <---           Order            -->
     <--- -------------------------- -*/
+
+    #therapeutic-order {
+        position: relative;
+    }
+
+    #pyramid {
+        display: block;
+        position: absolute;
+        top: 240px;
+        right: -210px;
+        width: 500px;
+    }
 
     #principles-mobile {
         display: none !important;
