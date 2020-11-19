@@ -423,103 +423,33 @@ body:before {
 }
 
 /* Step 2 */
-@media screen and (min-width: 540px) and (max-width: 767px) {
+@media screen and (min-width: 540px) and (max-width: 768px) {
+
+#approach-landing {
+    padding-bottom: 0;
+    height: 800px;
+}
+
+#approach-landing h1 {
+    font-size: 50px;
+    width: 542px;
+}
+
+.landing-span {
+    font-size: 26px;
+    width: 5
+}
+
+.arrow {
+    display: block;
+    bottom: 60px;
+}
+
+#approach-landing .clover {
+    bottom: 0;
+}
 
 /*-- -------------------------- -->
-<---        Accordian 3         -->
-<--- -------------------------- -*/
-
-.acc3 h3 span {
-    display: block;
-    font-size: 14px;
-}
-
-.acc3 ul li {
-    font-size: 11px;
-    color: #304b78;
-    max-width: 211px;
-    margin-bottom: 5px;
-}
-
-.acc3 .accordian-box {
-    opacity: 0;
-    height: 0;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.acc3 .accordian-content,
-.acc5 .accordian-content,
-.acc6 .accordian-content {
-    height: 53px;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    overflow: hidden;
-}
-
-.acc2 .accordian-content.open,
-.acc3 .accordian-content.open,
-.acc4 .accordian-content.open,
-.acc5 .accordian-content.open,
-.acc6 .accordian-content.open,
-.acc7 .accordian-content.open {
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    height: auto;
-}
-
-.acc3 .accordian-box.open {
-    opacity: 1;
-    height: auto;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.acc6 .accordian-content:before {
-    display: block;
-    top: 64px;
-}
-
-.acc5 .accordian-content:before {
-    display: block;
-    top: 66px;
-}
-
-.acc3 .accordian-content:before {
-    display: block;
-    top: 66px;
-}
-
-}
-
-/* Step 3 */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-    #approach-landing {
-        padding-bottom: 0;
-    }
-
-    .arrow {
-        bottom: 130px;
-    }
-
-    #approach-landing .clover {
-        bottom: 0;
-    }
-
-    #approach-landing h1 {
-        font-size: 50px;
-    }
-
-    .landing-span {
-        font-size: 26px;
-    }
-
-    /*-- -------------------------- -->
     <---           Cards            -->
     <--- -------------------------- -*/
 
@@ -574,6 +504,14 @@ body:before {
         padding-bottom: 24px;
     }
 
+    .accordian {
+        border-radius: 20px;
+    }
+
+    .accordian-topper h3:before {
+        border-radius: 20px;
+    }
+
     .acc2 .accordian-content,
     .acc3 .accordian-content,
     .acc4 .accordian-content,
@@ -585,7 +523,7 @@ body:before {
         -o-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
         overflow: visible;
-        margin-bottom: 44px;
+        margin-bottom: 0px;
     }
 
     .acc2 .accordian-box ul {
@@ -610,6 +548,14 @@ body:before {
         width: 100%;
         list-style: circle;
         padding: 0;
+    }
+
+    .accordian-content {
+        border-radius: 20px;
+    }
+
+    .accordian-content:before {
+        border-radius: 10px !important;
     }
 
     /*-- -------------------------- -->
@@ -702,6 +648,19 @@ body:before {
         margin-bottom: 20px;
     }
 
+    .lm-item h3, .lm-item h3 span {
+        font-size: 18px;
+    }
+
+    .lm-item:nth-child(4) h3 {
+        width: 294px;
+    }
+
+    #break {
+        display: block;
+        font-size: 18px !important;
+    }
+
     .lm-item:nth-child(1),
     .lm-item:nth-child(3) {
         margin-right: 20px;
@@ -725,6 +684,34 @@ body:before {
     #contact-cards .container {
         height: 100px;
     }
+
+}
+
+/* Step 3 */
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+    
+
+    #approach-landing {
+        padding-bottom: 0;
+    }
+
+    .arrow {
+        bottom: 130px;
+    }
+
+    #approach-landing .clover {
+        bottom: 0;
+    }
+
+    #approach-landing h1 {
+        font-size: 50px;
+    }
+
+    .landing-span {
+        font-size: 26px;
+    }
+
 
 }
 
@@ -776,9 +763,9 @@ body:before {
 
     .card {
         display: inline-block;
-        width: 390px;
-        max-width: 390px;
-        height: 385px;
+        width: 30%;
+        height: auto;
+        min-height: 353px;
         margin-right: 30px;
         padding: 54px 42px;
         background: rgba(255, 255, 255, 1);
@@ -786,7 +773,6 @@ body:before {
                 box-shadow: 0px 0px 11px rgba(0,0,0,.1);
         margin-bottom: 0;
         border-radius: 20px;
-        zoom: 80%;
         vertical-align: middle;
     }
 
@@ -801,7 +787,7 @@ body:before {
     }
 
     .card h2 {
-        font-size: 18px;
+        font-size: 13px;
     }
 
     /*-- -------------------------- -->
@@ -850,8 +836,7 @@ body:before {
         position: relative;
         z-index: 100;
         border-radius: 20px;
-        width: 1200px;
-        zoom: 84%;
+        width: 1000px;
         margin: auto;
         padding: 20px;
         text-align: center;
@@ -868,7 +853,7 @@ body:before {
 
     .button-group a {
         height: 225px;
-        width: 380px;
+        width: 310px;
         display: inline-block;
         margin-right: 10px;
         position: relative;
@@ -1186,7 +1171,6 @@ body:before {
                 box-shadow: 0px 0px 11px rgba(0,0,0,.1);
         margin-bottom: 0;
         border-radius: 20px;
-        zoom: 100%;
         vertical-align: middle;
     }
 
@@ -1255,7 +1239,6 @@ body:before {
         z-index: 100;
         border-radius: 20px;
         width: 1200px;
-        zoom: 100%;
         margin: auto;
         padding: 20px;
         text-align: center;

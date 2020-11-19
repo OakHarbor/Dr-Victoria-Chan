@@ -1218,7 +1218,7 @@ body:before {
 }
 
 /* Step 1 */
-@media screen and (min-width: 540px) and (max-width: 767px) {
+@media screen and (min-width: 540px) and (max-width: 768px) {
 
     .open-accordian  {
     z-index: 100;
@@ -1346,6 +1346,52 @@ body:before {
         max-width: 100% !important;
     }
 
+    .acc2 .accordian-box ul {
+        columns: 2;
+        width: 481px;
+    }
+
+    .acc2 .accordian-box ul li {
+        font-size: 16px !important;
+    }
+
+    .acc2 .accordian-box h4 {
+        width: auto;
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .acc2 .accordian-box h4:before {
+        width: 134px;
+    }
+
+    .acc2-green {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .acc2 .accordian-box.open {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .acc2 .accordian-box p:last-child {
+        width: 390px;
+        font-size: 18px;
+    }
+
+    .acc2 .accordian-box p:last-child span {
+        display: inline;
+    }
+
+    .acc1 .accordian-list ul {
+        padding-bottom: 20px;
+    }
+
+    .accordian-list.open {
+        padding-top: 10px;
+    }
+
     .acc1 .accordian-content, 
     .acc3 .accordian-content, 
     .acc4 .accordian-content, 
@@ -1401,6 +1447,15 @@ body:before {
         border-radius: 5px;
         -webkit-box-shadow: 0px 0px 11px rgba(0,0,0,.1);
                 box-shadow: 0px 0px 11px rgba(0,0,0,.1);
+    }
+
+    .acc5 .accordian-box.open {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .acc5 .accordian-box.open p {
+        font-size: 20px !important;
     }
 
     .acc6 .accordian-content:before {
@@ -1461,8 +1516,11 @@ body:before {
     }
 
     .acc5 .accordian-box.open p {
-        width: 400px;
+        width: 500px;
         font-size: 15px;
+        -webkit-transform: translateX(35px);
+            -ms-transform: translateX(35px);
+                transform: translateX(35px);
     }
 
     .accordian-content {
@@ -1502,11 +1560,40 @@ body:before {
         bottom: 20px;
     }
     
+    .acc3 .accordian-box ul li,
+    .acc4 .accordian-box ul li,
+    .acc5 .accordian-box ul li,
+    .acc6 .accordian-box ul li,
+    .acc7 .accordian-box ul li,
+    .acc8 .accordian-box ul li,
+    .acc9 .accordian-box ul li,
+    .acc10 .accordian-box ul li,
+    .acc11 .accordian-box ul li,
+    .acc12 .accordian-box ul li {
+        width: 571px !important;
+        font-size: 20px !important;
+        line-height: 35px;
+    }
+
+    .acc3 .accordian-box ul,
+    .acc4 .accordian-box ul,
+    .acc5 .accordian-box ul,
+    .acc6 .accordian-box ul,
+    .acc7 .accordian-box ul,
+    .acc8 .accordian-box ul,
+    .acc9 .accordian-box ul,
+    .acc10 .accordian-box ul,
+    .acc11 .accordian-box ul,
+    .acc12 .accordian-box ul {
+        padding: 30px 0;
+        margin: auto;
+        width: 571px;
+    }
 
 }
 
 /* Step 2 */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 769px) and (max-width: 991px) {
 
     #approach-landing {
         height: 970px;
