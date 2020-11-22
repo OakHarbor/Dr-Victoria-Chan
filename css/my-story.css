@@ -2,6 +2,10 @@
 <---          Landing           -->
 <--- -------------------------- -*/
 
+#grey-arrow {
+    display: none;
+}
+
 .yellow-arrow {
     display: none !important;
 }
@@ -1387,6 +1391,7 @@
     }
 
     #grey-arrow {
+        display: block;
         position: absolute;
         width: 90px;
         right: 107px;
