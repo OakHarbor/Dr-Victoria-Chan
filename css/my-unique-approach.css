@@ -40,7 +40,7 @@ body:before {
     z-index: 5;
     width: 100%;
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 22px;
     width: 268px;
     line-height: 1.4em;
@@ -2163,6 +2163,7 @@ body:before {
     #approach-landing h1 {
         font-size: 50px;
         width: 600px;
+        font-weight: 500 !important;
     }
 
     #approach-landing h2 {

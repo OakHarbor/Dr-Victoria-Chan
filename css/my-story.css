@@ -2,6 +2,39 @@
 <---          Landing           -->
 <--- -------------------------- -*/
 
+.yellow-arrow {
+    display: none !important;
+}
+
+.blue-arrow {
+    display: inline-block;
+}
+
+#influences .landing-button img {
+    margin: 0;
+    display: inline-block;
+	width: 20px;
+    margin-left: 10px;
+    position: relative;
+    bottom: auto;
+}
+
+#influences .landing-button:hover .blue-arrow {
+    display: none;
+}
+
+#influences .landing-button:hover .yellow-arrow {
+    display: inline-block !important;
+}
+
+.landing-button:hover .yellow-arrow {
+    display: inline-block !important;
+}
+
+.landing-button:hover .blue-arrow {
+    display: none;
+}
+
 .container {
     padding: 0 10px;
     margin: auto;
@@ -192,7 +225,7 @@
 .section-image {
     height: 138px;
     width: 100%;
-    background: url("/images/epic.png");
+    background: url("/images/About-1.JPG");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -266,6 +299,11 @@
     padding-bottom: 8px;
 }
 
+#mindset .section-image {
+    background: url("/images/About-2.JPG");
+    background-position: center;
+}
+
 /*-- -------------------------- -->
 <---          Ripple            -->
 <--- -------------------------- -*/
@@ -273,6 +311,11 @@
 #ripple {
     padding-top: 0;
     padding-bottom: 8px;
+}
+
+#ripple .section-image {
+    background: url("/images/About-3.JPG");
+    background-position: center;
 }
 
 /*-- -------------------------- -->
@@ -418,7 +461,7 @@
     color: #666;
     text-align: left;
     line-height: 20px;
-    font-weight: 600;
+    font-weight: 400;
     position: relative;
 }
 
@@ -445,12 +488,26 @@
     content: '';
     position: absolute;
     display: block;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    background: #2D325A;
+    background: url("/images/nmc.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     top: 0;
     left: -50px;
+}
+
+.bastyr:before {
+    background: url("/images/bastyr.svg");
+}
+
+.hk:before {
+    background: url("/images/hku.svg");
+}
+
+.none:before {
+    display: none;
 }
 
 #degrees button {
@@ -997,10 +1054,30 @@
     }
 
     .item:before {
-        height: 50px;
-        width: 50px;
-        left: -70px;
+        content: '';
+        position: absolute;
+        display: block;
+        height: 70px !important;
+        width: 70px !important;
+        border-radius: 50%;
+        background: url("/images/nmc.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: -9px;
+        left: -90px;
     }
+
+    .bastyr:before {
+        background: url("/images/bastyr.svg");
+    }
+
+    .hk:before {
+        background: url("/images/hku.svg");
+    }
+
+    .none:before {
+        display: none;
+    } 
 
     #degrees h2 {
         font-size: 30px;
@@ -1309,6 +1386,14 @@
         width: 280px;
     }
 
+    #grey-arrow {
+        position: absolute;
+        width: 90px;
+        right: 107px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
     /*-- -------------------------- -->
     <---          Answers           -->
     <--- -------------------------- -*/
@@ -1435,6 +1520,9 @@
 
     #believe .margin2 {
         margin-right: 0 !important;
+        -webkit-transform: translateY(-30px);
+            -ms-transform: translateY(-30px);
+                transform: translateY(-30px);
     }
 
     #believe h2:before {
@@ -1454,6 +1542,10 @@
     #believe h3 {
         margin-top: 40px;
         width: 100%;
+    }
+
+    #believe .grey-box:nth-child(2) p span {
+        display: inline;
     }
 
     /*-- -------------------------- -->
@@ -1538,7 +1630,7 @@
 
     #story-landing h1 {
         margin-bottom: 254px;
-        font-weight: bold;
+        font-weight: 500;
     }
 
     #story-landing .grey-box,
@@ -1561,6 +1653,24 @@
     .colored-box {
         right: 30px;
         top: 0;
+    }
+
+    .transform {
+        -webkit-transform: translateX(-9px);
+            -ms-transform: translateX(-9px);
+                transform: translateX(-9px);
+    }
+
+    .transform2 {
+        -webkit-transform: translateX(-32px);
+            -ms-transform: translateX(-32px);
+                transform: translateX(-32px);
+    }
+
+    .transform3 {
+        -webkit-transform: translateX(-22px);
+            -ms-transform: translateX(-22px);
+                transform: translateX(-22px);
     }
 
     /*-- -------------------------- -->
