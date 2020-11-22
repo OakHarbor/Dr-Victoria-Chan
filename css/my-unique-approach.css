@@ -2737,6 +2737,10 @@ body:before {
         margin-bottom: 5px !important;
     }
 
+    .accordian-box ul li {
+        line-height: 34px;
+    }
+
     .accordian-content.open {
         height: auto !important;
     }
@@ -3019,7 +3023,7 @@ body:before {
 
     .acc5 .accordian-box.open p {
         width: 925px;
-        font-size: 15px;
+        font-size: 18px;
         margin-left: auto;
         margin-right: auto;
     }
