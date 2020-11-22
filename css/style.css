@@ -228,10 +228,18 @@
 .icon {
     height: 50px;
     width: 50px;
-    background-color: #2D325A;
     border-radius: 50%;
     margin: auto;
     margin-bottom: 20px;
+    position: relative;
+}
+
+.icon img {
+    width: 69px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .mental-health .icon {
@@ -242,17 +250,6 @@
     margin-bottom: 20px;
     position: relative;
     background: none;
-}
-
-.icon img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
 }
 
 .card h3 {
@@ -2242,9 +2239,9 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -101%);
+            -ms-transform: translate(-50%, -101%);
+                transform: translate(-50%, -101%);
         width: 100%;
         height: 100%;
     }
@@ -3061,9 +3058,9 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -101%);
+            -ms-transform: translate(-50%, -101%);
+                transform: translate(-50%, -101%);
         width: 100%;
         height: 100%;
     }
@@ -3229,9 +3226,9 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -101%);
+            -ms-transform: translate(-50%, -101%);
+                transform: translate(-50%, -101%);
         width: 100%;
         height: 100%;
     }
@@ -4250,9 +4247,9 @@
     }
 
     .crazy-topper h3 {
-        -webkit-transform: translateY(54px);
-            -ms-transform: translateY(54px);
-                transform: translateY(54px);
+        -webkit-transform: translateY(46px);
+            -ms-transform: translateY(46px);
+                transform: translateY(46px);
     }
 
 }

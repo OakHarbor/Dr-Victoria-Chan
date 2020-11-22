@@ -1118,7 +1118,7 @@ body:before {
 
 .bottom .clover, 
 .contact-card .clover {
-    display: none !important;
+    display: none;
 }
 
 .bottom {
@@ -2703,18 +2703,29 @@ body:before {
     .accordian-content {
         margin-bottom: 20px;
         height: 100px !important;
+        overflow: hidden;
+    }
+
+    .accordian-topper img {
+        -webkit-transform: translateY(-50%) scale(1.2);
+        -ms-transform: translateY(-50%) scale(1.2);
+        transform: translateY(-50%) scale(1.2);
     }
 
     .accordian-topper h3 {
-        font-size: 30px;
+        font-size: 26px;
         margin-bottom: 20px;
         text-align: center;
         line-height: 80px;
+        font-weight: 600 !important;
+        color: #304b78;
     }
 
     .accordian-topper h3 span {
-        font-size: 30px;
+        font-size: 26px;
         display: inline;
+        font-weight: 600 !important;
+        color: #304b78;
     }
 
     .accordian-topper h3:before {
@@ -3045,6 +3056,10 @@ body:before {
         height: 53px;
     }
 
+    .bottom p {
+        font-size: 14px;
+    }
+
     /*-- -------------------------- -->
     <---       Contact Cards        -->
     <--- -------------------------- -*/
@@ -3112,6 +3127,13 @@ body:before {
     .contact-card img {
         left: -5px;
         width: 40px;
+    }
+
+    .bottom .clover {
+        display: block !important;
+        -webkit-transform: translateX(-50%) translateY(200px);
+            -ms-transform: translateX(-50%) translateY(200px);
+                transform: translateX(-50%) translateY(200px);
     }
 }
 
