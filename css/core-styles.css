@@ -688,7 +688,7 @@ header {
 		-o-transition: .2s ease;
 		transition: .2s ease;
 		font-size: 14px;
-		font-weight: 500;
+		font-weight: normal;
 	}
 
 	.desktop-call {
@@ -765,7 +765,7 @@ header {
 	.sub-nav {
 		position: absolute;
 		height: 300px;
-		right: 221px;
+		right: 218px;
 		top: 80px;
 	}
 
@@ -804,7 +804,8 @@ header {
 		color: #fff;
 		background: #2D325A;
 		border-radius: 10px;
-		padding: 0px 30px;
+		padding: 1px 30px;
+		height: 30px;
 	}
 
 	.active-menu {
