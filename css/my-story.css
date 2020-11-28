@@ -1293,8 +1293,8 @@
         margin-top: 100px;
     }
 
-    #story-landing {
-        overflow: hidden;
+    body {
+        overflow: hidden !important;
     }
 
     #story-landing h1 {
