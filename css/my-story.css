@@ -1345,6 +1345,20 @@
     #story-landing .grey-box ul li {
         margin-right: 100px;
         width: 100%;
+        list-style: none;
+        position: relative;
+    }
+
+    #story-landing .grey-box ul li:before {
+        content: '';
+        display: block;
+        height: 4px;
+        width: 4px;
+        position: absolute;
+        border-radius: 50%;
+        top: 15px;
+        left: -20px;
+        background: #666;
     }
 
     #story-landing .grey-box ul li:nth-child(3),
@@ -1607,7 +1621,9 @@
         width: 100%;
     }
 
-    
+    .influence {
+        font-size: 18px;
+    }
 
     /*-- -------------------------- -->
     <---       Contact Cards        -->
