@@ -1204,7 +1204,7 @@ body:before {
 }
 
 .contact-content a {
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 0.42px;
 }
 
@@ -2649,6 +2649,7 @@ body:before {
         max-width: 1160px;
         margin: auto;
         padding-top: 80px;
+        padding-bottom: 0;
     }
 
     #unique-approach .container {
@@ -3196,11 +3197,23 @@ body:before {
         width: 40px;
     }
 
+    .bottom {
+        padding-top: 109px;
+    }
+
+    .bottom p {
+        font-weight: 500;
+    }
+
+    .bottom p:before {
+        height: 2px;
+    }
+
     .bottom .clover {
         display: block !important;
-        -webkit-transform: translateX(-50%) translateY(200px);
-            -ms-transform: translateX(-50%) translateY(200px);
-                transform: translateX(-50%) translateY(200px);
+        -webkit-transform: translateX(-50%) translateY(-7px);
+            -ms-transform: translateX(-50%) translateY(-7px);
+                transform: translateX(-50%) translateY(-7px);
     }
 }
 

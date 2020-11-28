@@ -825,6 +825,15 @@ header {
 		        transform: translateX(-50%);
 	}
 
+	.home-page-logo {
+		padding: 0 !important;
+		margin-bottom: 46px;
+	}
+
+	.home-page-logo img:hover {
+		cursor: pointer;
+	}
+
 	/* sub nav on hover */
 
 	#about-sub-dropdown {
