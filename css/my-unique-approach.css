@@ -2648,6 +2648,7 @@ body:before {
     #unique-approach {
         max-width: 1160px;
         margin: auto;
+        padding-top: 80px;
     }
 
     #unique-approach .container {
@@ -2677,24 +2678,24 @@ body:before {
     #approach-landing h2 {
         font-size: 24px;
         bottom: 50px;
-        -webkit-transform: translateY(70px);
-            -ms-transform: translateY(70px);
-                transform: translateY(70px);
+        -webkit-transform: translateY(77px);
+            -ms-transform: translateY(77px);
+                transform: translateY(77px);
     }
 
     .clover {
         width: 43px;
         margin-bottom: 40px;
-        -webkit-transform: translateX(-50%) translateY(80px);
-            -ms-transform: translateX(-50%) translateY(80px);
-                transform: translateX(-50%) translateY(80px);
+        -webkit-transform: translateX(-50%) translateY(73px);
+            -ms-transform: translateX(-50%) translateY(73px);
+                transform: translateX(-50%) translateY(73px);
     }
 
     .arrow {
         bottom: 180px;
-        -webkit-transform: translateX(-50%) translateY(90px);
-            -ms-transform: translateX(-50%) translateY(90px);
-                transform: translateX(-50%) translateY(90px);
+        -webkit-transform: translateX(-50%) translateY(67px);
+            -ms-transform: translateX(-50%) translateY(67px);
+                transform: translateX(-50%) translateY(67px);
     }
 
     .accordian {
@@ -2974,8 +2975,9 @@ body:before {
         -webkit-columns: 5;
            -moz-columns: 5;
                 columns: 5;
-        width: 100%;
+        width: 93%;
         margin-bottom: 30px;
+        padding-left: 0 !important;
     }
 
     .accordian-list ul li {
@@ -2994,7 +2996,7 @@ body:before {
         -webkit-columns: 2;
            -moz-columns: 2;
                 columns: 2;
-        width: 450px;
+        width: 468px;
         float: right;
     }
 
@@ -3037,7 +3039,7 @@ body:before {
         width: 100%;
         text-align: center;
         padding: 0;
-        margin-bottom: 40px;
+        margin-bottom: 13px;
         font-size: 18px;
         width: 100%;
     }
@@ -3084,6 +3086,11 @@ body:before {
 
     .accordian-content {
         margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    .accordian-content:before {
+        border-radius: 10px !important;
     }
 
     .acc1 .accordian-content,
@@ -3106,6 +3113,18 @@ body:before {
 
     .bottom p {
         font-size: 14px;
+    }
+
+    .accordian-topper h3:before {
+        border-radius: 20px;
+    }
+
+    .accordian-topper img {
+        right: 11px;
+    }
+
+    .acc1 .accordian-list ul li {
+        font-size: 16px !important;
     }
 
     /*-- -------------------------- -->
