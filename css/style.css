@@ -3074,6 +3074,16 @@
     <---          Landing           -->
     <--- -------------------------- -*/
 
+    .clover {
+        width: 42px !important;
+        height: 30px !important;
+    }
+
+    #landing .landing-button {
+        width: auto;
+        padding: 0 16px;
+    }
+
     .side-nav {
         max-width: 1150px;
         left: 50%;
@@ -4036,7 +4046,8 @@
 
     .contact-card img {
         left: -5px;
-        width: 40px;
+        width: 42px;
+        height: 30px;
         top: -91px;
     }
     
