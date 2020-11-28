@@ -1285,6 +1285,7 @@
 
     .text-group {
         width: 100%;
+        margin-left: 10px;
     }
 
     .text-group span {
@@ -1684,12 +1685,16 @@
                 transform: translateX(-22px);
     }
 
+    .green p {
+        font-weight: 500;
+    }
+
     /*-- -------------------------- -->
     <---          Answers           -->
     <--- -------------------------- -*/
 
     #answers .container {
-        padding-top: 150px;
+        padding-top: 133px;
         padding-bottom: 120px;
     }
 
@@ -1704,7 +1709,7 @@
     }
 
     #answers h2:before {
-        top: -150px;
+        top: -110px;
     }
 
     #answers .section-image {
