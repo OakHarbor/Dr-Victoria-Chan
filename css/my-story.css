@@ -1293,6 +1293,10 @@
         margin-top: 100px;
     }
 
+    #story-landing {
+        overflow: hidden;
+    }
+
     #story-landing h1 {
         font-size: 50px;
         width: 538px;
@@ -1625,18 +1629,38 @@
         font-size: 18px;
     }
 
+    .influence:nth-child(1) p {
+        padding: 25px 65px;
+    }
+
+    .influence:nth-child(2) p {
+        padding: 25px 35px;
+    }
+
+    #influences button {
+        min-width: auto;
+        width: auto;
+        padding: 0 20px;
+    }
+
     /*-- -------------------------- -->
     <---       Contact Cards        -->
     <--- -------------------------- -*/
 
     #contact-cards {
-        height: 1150px;
+        height: 1204px !important;
+        background-position: center 81%;
     }
 
     .contact-card img {
         height: 60px;
         width: auto;
         top: -180px;
+    }
+
+    #contact-cards #diamond-clover {
+        transform: scale(3) translateX(-15%);
+        transform-origin: center;
     }
 
 }
