@@ -2565,8 +2565,9 @@ body:before {
         left: 10px;
         bottom: 10px;
         right: 10px;
-        background: #989898;
-        opacity: .5;
+        background: url("/images/map.jpg");
+        background-size: cover;
+        background-position: center;
     }
 
     #contact-cards:after {
@@ -3139,8 +3140,8 @@ body:before {
 
 
     #contact-cards .container {
-        width: 1200px;
-        max-width: 1200px;
+        width: 1100px;
+        max-width: 1100px;
         margin: auto;
         height: 300px;
         position: absolute;
@@ -3155,7 +3156,7 @@ body:before {
     .contact-card {
         background: #fff;
         width: 49%;
-        height: 185px;
+        height: 300px;
         left: auto;
     }
 

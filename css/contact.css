@@ -882,6 +882,10 @@ form span {
 /* Step 4 */
 @media screen and (min-width: 1200px) {
 
+    .seeking {
+        margin-top: 50px;
+    }
+
     #contact-form {
         position: relative;
         padding-top: 0;
@@ -1096,10 +1100,11 @@ form span {
     .social-square h3 {
         font-size: 1.2em;
         width: 90px;
+        margin-bottom: 10px;
     }
 
     .social-button-group {
-        width: 110px;
+        width: 90px;
     }
 
     .social-button-group a:first-child {
@@ -1144,6 +1149,10 @@ form span {
 
     .bottom {
         padding-bottom: 200px;
+    }
+
+    .seeking {
+        margin-top: 50px;
     }
 
 }

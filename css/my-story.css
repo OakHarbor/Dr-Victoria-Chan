@@ -1659,10 +1659,20 @@
     }
 
     #contact-cards #diamond-clover {
-        transform: scale(3) translateX(-15%);
+        transform: scale(1) translateX(-50%);
         transform-origin: center;
     }
 
+}
+
+/* Step 3 */
+@media screen and (min-width: 1200px) {
+
+
+    #contact-cards #diamond-clover {
+        transform: scale(3) translateX(-18%);
+        transform-origin: center;
+    }
 }
 
 /* Step 3 */
