@@ -380,6 +380,9 @@ header {
 	position: absolute;
 	z-index: 100;
 	left: 20px;
+	width: 70%;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .navbar-menu {

@@ -725,6 +725,10 @@
     top: -107px;
 }
 
+#diamond-clover {
+    display: none;
+}
+
 @media screen and (min-width: 355px) {
 
     #influences {

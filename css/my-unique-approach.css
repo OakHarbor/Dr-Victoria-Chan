@@ -396,7 +396,7 @@ body:before {
     margin-top: 10px;
     margin-bottom: 20px;
     position: relative;
-    width: 205px;
+    width: 100%;
 }
 
 .acc2 .accordian-box h4:before {
@@ -449,11 +449,10 @@ body:before {
     color: #2D325A;
     font-weight: bold;
     line-height: 1.6em;
-    width: 209px;
+    width: 100%;
 }
 
 .acc2 .accordian-box p:last-child span {
-    display: block;
     color: #2D325A;
 }
 
@@ -499,7 +498,7 @@ body:before {
 .acc3 ul li {
     font-size: 11px;
     color: #304b78;
-    max-width: 211px;
+    max-width: 100%;
     margin-bottom: 5px;
 }
 
@@ -586,7 +585,7 @@ body:before {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 248px;
+    height: 230px;
 }
 
 .acc4 .accordian-box.open {
@@ -1097,7 +1096,7 @@ body:before {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 136px;
+    height: 117px;
 }
 
 .acc12 .accordian-box.open {

@@ -163,7 +163,7 @@ body:before {
 .acc3 ul li {
     font-size: 11px;
     color: #304b78;
-    max-width: 211px;
+    max-width: 100%;
     margin-bottom: 5px;
 }
 
@@ -226,7 +226,7 @@ body:before {
 
 .acc2 .accordian-box ul li:nth-child(1), .acc2 .accordian-box ul li:nth-child(2), .acc2 .accordian-box ul li:nth-child(3) {
     width: 100%;
-    list-style: circle;
+    list-style: disc;
     padding: 0;
 }
 
@@ -422,12 +422,16 @@ body:before {
 .explore-group button {
     background: #DBB13B;
     color: #2D325A;
-    width: 196px;
+    width: auto;
     font-size: 14px;
     margin: auto;
     margin-bottom: 15px;
     border-radius: 5px;
     display: block;
+}
+
+ul li {
+    font-size: 14px !important;
 }
 
 /* Step 2 */
