@@ -2019,8 +2019,9 @@
         left: 10px;
         bottom: 10px;
         right: 10px;
-        background: #989898;
-        opacity: .5;
+        background: url("/images/map.jpg");
+        background-size: cover;
+        background-position: center;
     }
 
     #contact-cards:after {
