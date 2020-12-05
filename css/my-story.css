@@ -2,10 +2,6 @@
 <---          Landing           -->
 <--- -------------------------- -*/
 
-body {
-    overflow: hidden !important;
-}
-
 #grey-arrow {
     display: none;
 }
