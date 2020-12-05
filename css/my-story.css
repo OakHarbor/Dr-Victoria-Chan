@@ -2,6 +2,10 @@
 <---          Landing           -->
 <--- -------------------------- -*/
 
+body {
+    overflow: hidden !important;
+}
+
 #grey-arrow {
     display: none;
 }
@@ -1361,13 +1365,13 @@
         -webkit-columns: 3;
            -moz-columns: 3;
                 columns: 3;
-        width: 550px;
+        width: 490px;
         margin-left: -30px;
     }
 
     #story-landing .grey-box ul li {
         margin-right: 100px;
-        width: 100%;
+        width: 140px;
         list-style: none;
         position: relative;
         margin-left: 20px;
@@ -1383,6 +1387,11 @@
         top: 15px;
         left: -20px;
         background: #666;
+    }
+
+    #story-landing .grey-box ul li:nth-child(1),
+    #story-landing .grey-box ul li:nth-child(2) {
+        width: 130px;
     }
 
     #story-landing .grey-box ul li:nth-child(5),
@@ -1413,6 +1422,8 @@
             -ms-transform: scale(.8);
                 transform: scale(.8);
         z-index: 2000000;
+        border-radius: 20px;
+        background: #fff;
     }
 
     .colored-box:after {
@@ -1431,10 +1442,12 @@
 
     .blue {
         padding: 50px 75px;
+        border-radius: 10px 10px 0 0;
     }
 
     .green {
         padding: 41px 75px;
+        border-radius: 0 0 10px 10px;
     }
 
     .green p {
@@ -1445,7 +1458,7 @@
         display: block;
         position: absolute;
         width: 75px;
-        right: 107px;
+        right: 135px;
         top: 50%;
         transform: translateY(-50%);
     }
@@ -1699,6 +1712,10 @@
         transform: scale(3) translateX(-18%);
         transform-origin: center;
     }
+
+    #grey-arrow {
+        right: 125px;
+    }
 }
 
 /* Step 3 */
@@ -1763,6 +1780,14 @@
 
     .green p {
         font-weight: 500;
+    }
+
+    #grey-arrow {
+        right: 121px;
+    }
+
+    #story-landing .grey-box ul {
+        width: 506px;
     }
 
     /*-- -------------------------- -->
