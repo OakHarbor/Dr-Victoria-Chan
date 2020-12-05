@@ -1370,6 +1370,7 @@
         width: 100%;
         list-style: none;
         position: relative;
+        margin-left: 20px;
     }
 
     #story-landing .grey-box ul li:before {
@@ -1382,11 +1383,6 @@
         top: 15px;
         left: -20px;
         background: #666;
-    }
-
-    #story-landing .grey-box ul li:nth-child(3),
-    #story-landing .grey-box ul li:nth-child(4) {
-        margin-left: -15px;
     }
 
     .content-group {
