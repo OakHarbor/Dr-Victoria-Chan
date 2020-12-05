@@ -1392,7 +1392,7 @@
 
     #story-landing .grey-box ul li:nth-child(5),
     #story-landing .grey-box ul li:nth-child(6) {
-        margin-left: 30px;
+        margin-left: 10px;
     }
 
     #story-landing .grey-box ul li:nth-child(3),
@@ -1783,7 +1783,7 @@
     }
 
     #story-landing .grey-box ul {
-        width: 506px;
+        width: 525px;
     }
 
     /*-- -------------------------- -->
