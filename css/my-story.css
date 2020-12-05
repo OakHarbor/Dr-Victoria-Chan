@@ -1319,7 +1319,7 @@
         right: 50%;
         margin-right: -1137px;
         height: 500px;
-        top: 190px;
+        top: 49px;
     }
 
     #story-landing h1 {
@@ -1330,7 +1330,7 @@
     .image-group {
         position: absolute;
         display: block;
-        top: 213px;
+        top: 72px;
         right: 50%;
         margin-right: -460px;
         width: 300px;
@@ -1800,14 +1800,14 @@
     }
 
     #story-landing:before {
-        top: 207px;
+        top: 49px;
         margin-right: -1157px;
+        height: 667px;
     }
 
     .image-group {
         width: 350px;
         margin-right: -530px;
-        top: 230px;
     }
 
     #story-landing .grey-box {
@@ -2091,11 +2091,25 @@
 
     #influences img {
         margin-bottom: -900px;
-        width: 100%;
+        width: 100%
     }
 
     #contact-cards {
         height: 1400px !important;
+    }
+
+    #story-landing:before {
+        background-size: cover;
+    }
+
+}
+
+/* Step 3 */
+@media screen and (min-width: 2313px) {
+
+    #story-landing:before {
+        width: 1500px;
+        margin-right: -1658px;
     }
 
 }
