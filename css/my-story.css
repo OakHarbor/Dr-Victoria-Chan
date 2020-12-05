@@ -1305,6 +1305,23 @@
         overflow: hidden !important;
     }
 
+    #story-landing {
+        position: relative;
+    }
+
+    #story-landing:before {
+        content: '';
+        position: absolute;
+        display: block;
+        background: url("/images/wood-silver.png");
+        background-repeat: no-repeat;
+        width: 1000px;
+        right: 50%;
+        margin-right: -1137px;
+        height: 500px;
+        top: 190px;
+    }
+
     #story-landing h1 {
         font-size: 50px;
         width: 538px;
@@ -1330,6 +1347,7 @@
         right: -600px;
         bottom: -100px;
         z-index: -1;
+        display: none;
     }
 
     .image-group img {
@@ -1779,6 +1797,11 @@
         -webkit-transform: scale(1);
             -ms-transform: scale(1);
                 transform: scale(1);
+    }
+
+    #story-landing:before {
+        top: 207px;
+        margin-right: -1157px;
     }
 
     .image-group {
