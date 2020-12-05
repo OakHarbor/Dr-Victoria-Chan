@@ -1361,7 +1361,7 @@
         -webkit-columns: 3;
            -moz-columns: 3;
                 columns: 3;
-        width: 490px;
+        width: 525px;
         margin-left: -30px;
     }
 
@@ -1398,7 +1398,7 @@
     #story-landing .grey-box ul li:nth-child(3),
     #story-landing .grey-box ul li:nth-child(4) {
         margin-right: 15px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .content-group {
