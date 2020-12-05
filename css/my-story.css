@@ -1494,7 +1494,9 @@
         background: #666;
         top: 50%;
         left: -20px;
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
     }
 
     /*-- -------------------------- -->
@@ -1855,7 +1857,9 @@
         background: #666;
         top: 50%;
         left: -20px;
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
     }
 
     /*-- -------------------------- -->
