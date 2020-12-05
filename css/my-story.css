@@ -1337,9 +1337,24 @@
         width: 840px;
         padding: 31px 45px;
         margin-left: -60px;
+        border-radius: 20px;
         -webkit-transform: scale(.8) translateY(-50px);
             -ms-transform: scale(.8) translateY(-50px);
                 transform: scale(.8) translateY(-50px);
+        position: relative;
+        background: none;
+    }
+
+    #story-landing .grey-box:before {
+        position: absolute;
+        display: block;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background: rgb(234, 234, 234);
+        top: 0;
+        left: 0;
+        border-radius: 10px;
     }
 
     #story-landing .grey-box ul {
