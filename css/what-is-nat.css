@@ -1131,15 +1131,16 @@ ul li {
 
     .explore-group {
         width: 540px;
-        text-align: left;
+        text-align: center;
         margin: auto;
     }
 
     .explore-group button {
-        width: 250px;
+        width: 220px;
         display: inline-block;
-        font-size: 18px;
+        font-size: 14px;
         padding: 0 23px;
+        border-radius: 10px;
     }
 
     .explore-group button:nth-child(1) {
@@ -1441,7 +1442,7 @@ ul li {
         font-size: 18px !important;
         color: #2D325A;
         line-height: 1.7em;
-        margin-bottom: 0px !important;
+        margin-bottom: 5px !important;
         font-weight: 400;
     }
 
