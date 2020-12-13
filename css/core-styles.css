@@ -1223,7 +1223,7 @@ footer .container {
 		position: absolute;
 		display: block;
 		width: 761px;
-		height: .5px;
+		height: 1px;
 		bottom: 130px;
 		background: #DBB13B;
 		opacity: .7;
@@ -1305,7 +1305,7 @@ footer .container {
 		position: absolute;
 		display: block;
 		width: 761px;
-		height: .5px;
+		height: 1px;
 		bottom: 115px;
 		background: #DBB13B;
 		opacity: .7;
