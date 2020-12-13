@@ -382,7 +382,9 @@ header {
 	left: 20px;
 	width: 70%;
 	top: 50%;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 }
 
 .navbar-menu {
@@ -1169,7 +1171,9 @@ footer .container {
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		    -ms-transform: translate(-50%, -50%);
+		        transform: translate(-50%, -50%);
 	}
 	
 	.logo-group {
@@ -1255,7 +1259,9 @@ footer .container {
 @media screen and (min-width: 1300px) { 
 
 	footer{
-		transform: scale(1.58);
+		-webkit-transform: scale(1.58);
+		    -ms-transform: scale(1.58);
+		        transform: scale(1.58);
 		padding-bottom: 150px;
 		padding-top: 144px;
 	}
@@ -1308,7 +1314,9 @@ footer .container {
 @media screen and (min-width: 1300px) { 
 
 	footer{
-		transform: scale(1.58);
+		-webkit-transform: scale(1.58);
+		    -ms-transform: scale(1.58);
+		        transform: scale(1.58);
 		padding-bottom: 150px;
 		padding-top: 144px;
 	}
