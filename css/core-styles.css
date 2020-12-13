@@ -1218,6 +1218,17 @@ footer .container {
 		margin-top: 40px;
 	}
 
+	.disclaimer-topper:before {
+		content: '';
+		position: absolute;
+		display: block;
+		width: 761px;
+		height: .5px;
+		bottom: 130px;
+		background: #DBB13B;
+		opacity: .7;
+	}
+
 	.disclaimer-topper p {
 		width: 450px;
 		text-align: left;

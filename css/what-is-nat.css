@@ -1267,15 +1267,15 @@ ul li {
         content: '';
         display: block;
         position: absolute;
-        width: 43px;
-        height: 31px;
+        width: 42px;
+        height: 30px;
         background: url(/images/clover.svg);
         background-size: contain;
         left: 50%;
         -webkit-transform: translateX(-50%);
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
-        top: -45px;
+        top: -61px;
     }
 
     .button-group {
@@ -1440,8 +1440,8 @@ ul li {
     .button-content ul li {
         font-size: 18px !important;
         color: #2D325A;
-        line-height: 1.5em;
-        margin-bottom: 8px;
+        line-height: 1.7em;
+        margin-bottom: 0px !important;
         font-weight: 400;
     }
 
@@ -1473,9 +1473,9 @@ ul li {
 
     #therapeutic-order h2:before {
         display: block;
-        width: 43px;
+        width: 42px;
         height: 30px;
-        top: -50px;
+        top: -61px;
     }
 
     #therapeutic-order h3 {
