@@ -651,6 +651,10 @@
     font-weight: 400;
 }
 
+.quote h2 strong {
+    font-weight: normal;
+}
+
 .quote button {
     display: none;
 }
@@ -2597,19 +2601,19 @@
         -webkit-box-shadow: none;
                 box-shadow: none;
         top: 50%;
-        -webkit-transform: translate(-240px, -50%);
-            -ms-transform: translate(-240px, -50%);
-                transform: translate(-240px, -50%);
-        width: 320px;
+        -webkit-transform: translate(-283px, -50%);
+            -ms-transform: translate(-283px, -50%);
+                transform: translate(-283px, -50%);
+        width: 388px;
         padding: 0;
     }
 
     .quote h2 {
         text-align: right;
-        width: 320px;
-        font-size: 20px;
+        width: 100%;
+        font-size: 26px;
         line-height: 1.5em;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     .victoria-button {
@@ -3624,19 +3628,24 @@
         -webkit-box-shadow: none;
                 box-shadow: none;
         top: 50%;
-        -webkit-transform: translate(-20px, -50%);
-            -ms-transform: translate(-220px, -50%);
-                transform: translate(-200px, -50%);
-        width: 320px;
+        -webkit-transform: translate(-357px, -50%);
+            -ms-transform: translate(-357px, -50%);
+                transform: translate(-357px, -50%);
+        width: 596px;
         padding: 0;
     }
 
     .quote h2 {
         text-align: right;
-        width: 320px;
-        font-size: 20px;
+        width: 100%;
+        font-size: 26px;
         line-height: 1.5em;
         margin-bottom: 30px;
+    }
+
+    .quote h2 strong {
+        font-weight: normal;
+        display: block;
     }
 
     .victoria-button {

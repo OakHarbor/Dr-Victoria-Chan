@@ -3206,10 +3206,12 @@ body:before {
 
     .bottom p {
         font-weight: 500;
+        font-size: 16px;
     }
 
     .bottom p:before {
         height: 2px;
+        width: 50px;
     }
 
     .bottom .clover {

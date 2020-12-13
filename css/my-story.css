@@ -1754,6 +1754,7 @@
     #contact-cards #diamond-clover {
         transform: scale(1) translateX(-50%);
         transform-origin: center;
+        display: block;
     }
 
 }

@@ -8,7 +8,7 @@
     margin: auto;
     letter-spacing: .5px;
     color: #2D325A;
-    font-size: 10px;
+    font-size: 12px;
     -webkit-transform: translateY(33px);
         -ms-transform: translateY(33px);
             transform: translateY(33px);
@@ -334,11 +334,11 @@ body:before {
 }
 
 .item:nth-child(5) .number {
-    background: #dbbf3b;
+    background: #56bda2;
 }
 
 .item:nth-child(6) .number {
-    background: #4d4d4d;
+    background: #dbbf3b;
 }
 
 .item:nth-child(7) .number{
@@ -386,14 +386,14 @@ body:before {
 #learn-more h2:after {
     content: '';
     position: absolute;
-    width: 33px;
-    height: 1px;
+    width: 50px;
+    height: 2px;
     background: #DBB13B;
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
-    bottom: -7px;
+    bottom: -14px;
 }
 
 .lm-item {
@@ -844,7 +844,7 @@ ul li {
         -webkit-transform: translateX(-50%);
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
-        top: -45px;
+        top: -61px;
     }
 
     .button-group {
@@ -1035,7 +1035,7 @@ ul li {
         display: block;
         width: 43px;
         height: 30px;
-        top: -50px;
+        top: -61px;
     }
 
     #therapeutic-order h3 {
