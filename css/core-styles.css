@@ -1321,6 +1321,10 @@ footer .container {
 		padding-top: 144px;
 	}
 
+	.home-link {
+		display: inline-block;
+	}
+
 	#contact-cards {
 		height: 1250px !important;
 	}

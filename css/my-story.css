@@ -1764,8 +1764,12 @@
 
 
     #contact-cards #diamond-clover {
-        transform: scale(3) translateX(-18%);
-        transform-origin: center;
+        -webkit-transform: scale(3) translateX(-15%);
+            -ms-transform: scale(3) translateX(-15%);
+                transform: scale(3) translateX(-15%);
+        -webkit-transform-origin: center;
+            -ms-transform-origin: center;
+                transform-origin: center;
     }
 
     #grey-arrow {
