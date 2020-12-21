@@ -1112,6 +1112,14 @@ only have to do one edit when we changes something */
         line-height: 22px;
     }
 
+    .card-container {
+        max-width: 288px;
+    }
+
+    #mental-health .container {
+        padding: 0 10px !important;
+    }
+
 }
 
 /* Large Screen Landscape 736px */
