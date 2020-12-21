@@ -1272,14 +1272,15 @@ form span {
     }
 
     form {
-        -webkit-transform: translateY(-60px);
-            -ms-transform: translateY(-60px);
-                transform: translateY(-60px);
+        -webkit-transform: translateY(-72px);
+            -ms-transform: translateY(-72px);
+                transform: translateY(-72px);
     }
 
     form h3 {
         font-size: 1.3em;
         width: 450px;
+        margin-bottom: 23px;
     }
 
     .form:before, .form:after {
@@ -1290,6 +1291,10 @@ form span {
         font-size: 0.7em !important;
         color: rgba(172, 183, 201, 1);
         margin-right: 20px;
+    }
+
+    .seeking {
+        margin-top: 4px;
     }
 
 }

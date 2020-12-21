@@ -1219,6 +1219,21 @@ body:before {
     margin-top: 10px;
 }
 
+@media screen and (max-width: 430px) {
+
+    #approach-landing h1 {
+        font-size: 26px;
+        max-width: 200px;
+        transform: translate(-50%, -70%);
+    }
+
+    .landing-span {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+}
+
 /* Step 1 */
 @media screen and (min-width: 540px) and (max-width: 768px) {
 

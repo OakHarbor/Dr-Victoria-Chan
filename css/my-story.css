@@ -733,6 +733,16 @@
     display: none;
 }
 
+@media screen and (max-width: 430px) {
+
+    #story-landing h1 {
+        font-size: 26px;
+        max-width: 270px;
+        font-weight: 500;
+    }
+
+}
+
 @media screen and (min-width: 355px) {
 
     #influences {
