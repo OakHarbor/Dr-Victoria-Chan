@@ -1230,7 +1230,9 @@ only have to do one edit when we changes something */
     #approach-landing h1 {
         font-size: 26px;
         max-width: 200px;
-        transform: translate(-50%, -70%);
+        -webkit-transform: translate(-50%, -70%);
+            -ms-transform: translate(-50%, -70%);
+                transform: translate(-50%, -70%);
     }
 
     .landing-span {
@@ -1370,7 +1372,9 @@ only have to do one edit when we changes something */
     }
 
     .acc2 .accordian-box ul {
-        columns: 2;
+        -webkit-columns: 2;
+           -moz-columns: 2;
+                columns: 2;
         width: 481px;
     }
 

@@ -239,7 +239,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .mental-health .icon {
@@ -1118,6 +1120,20 @@ only have to do one edit when we changes something */
 
     #mental-health .container {
         padding: 0 10px !important;
+    }
+
+    .mental-health-button {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+        width: 220px;
+    }
+
+    p, li, a {
+        font-size: 15px !important;
     }
 
 }

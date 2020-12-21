@@ -1521,7 +1521,9 @@ only have to do one edit when we changes something */
         width: 75px;
         right: 135px;
         top: 50%;
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
     }
 
     .list-box {
@@ -1795,8 +1797,12 @@ only have to do one edit when we changes something */
     }
 
     #contact-cards #diamond-clover {
-        transform: scale(1) translateX(-50%);
-        transform-origin: center;
+        -webkit-transform: scale(1) translateX(-50%);
+            -ms-transform: scale(1) translateX(-50%);
+                transform: scale(1) translateX(-50%);
+        -webkit-transform-origin: center;
+            -ms-transform-origin: center;
+                transform-origin: center;
         display: block;
     }
 
