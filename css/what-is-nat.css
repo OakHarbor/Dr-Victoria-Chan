@@ -434,6 +434,11 @@ ul li {
     font-size: 14px !important;
 }
 
+/* Mobile edit changes because we were dumb and didn't 
+do mobile edits before desktop so now when we make mobile 
+edits they change stuff on tablet and desktop and now we 
+have to make three edits.  So this is the work around so we 
+only have to do one edit when we changes something */
 
 @media screen and (max-width: 430px) {
 
