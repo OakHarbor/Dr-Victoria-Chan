@@ -741,6 +741,12 @@
         font-weight: 500;
     }
 
+    .text-group {
+        margin-top: 113px;
+        margin-bottom: 150px;
+        margin-left: 9px;
+    }
+
 }
 
 @media screen and (min-width: 355px) {
