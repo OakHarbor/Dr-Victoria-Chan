@@ -1277,6 +1277,11 @@ form span {
                 transform: translateY(-60px);
     }
 
+    form h3 {
+        font-size: 1.3em;
+        width: 450px;
+    }
+
     .form:before, .form:after {
         top: 0;
     }

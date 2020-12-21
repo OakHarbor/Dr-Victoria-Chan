@@ -2809,21 +2809,60 @@
     }
 
     .first-ul {
-        width: 395px;
+        width: 500px;
         height: 40px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -4px;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .first-ul li:nth-child(1) { 
+        width: 338px;
+    }
+
+    .first-ul li:nth-child(2) { 
+        width: 178px;
+    }
+
+    .first-ul li:nth-child(3) { 
+        width: 288px;
+    }
+
+    .first-ul li:nth-child(4) {
+        width: 189px;
     }
 
     .first-ul li {
         color: #2D325A;
-        float: left;
-        list-style: none;
+        margin-right: 15px !important;
+        line-height: 1.5em;
+        margin: 0 auto 4px auto !important;
+        display: block;
+        list-style: circle !important;
+        text-align: center;
+        position: relative;
+        font-size: 16px;
+        width: auto;
     }
 
-    .first-ul li:nth-child(3) {
-        margin-left: 20px;
+    .first-ul li:before {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 5px;
+        background: #DBB13B;
+        border-radius: 50%;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        left: -20px;
+    }
+
+    .crazy-topper {
+        padding-top: 1px;
     }
 
     .crazy-topper button {
@@ -2849,6 +2888,10 @@
         display: block;
         width: 100%;
         margin-top: 66px;
+    }
+
+    .crazy-topper .clover {
+        margin-top: 24px;
     }
 
     .diamond {
