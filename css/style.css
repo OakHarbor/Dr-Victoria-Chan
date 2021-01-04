@@ -269,7 +269,6 @@
     width: auto;
     display: block;
     margin: auto;
-    max-width: 200px;
     padding: 0 14px;
     background: #DBB13B;
     color: #2D325A;
@@ -1116,7 +1115,8 @@ only have to do one edit when we changes something */
     }
 
     .card-container {
-        max-width: 288px;
+        max-width: 340px;
+        widows: 100%;
     }
 
     #mental-health .container {
@@ -1132,6 +1132,117 @@ only have to do one edit when we changes something */
         font-size: 15px;
         width: 220px;
     }
+
+    p, li, button {
+        font-size: 15px !important;
+    }
+
+    .slide {
+        border-radius: 10px;
+    }
+
+    .slide-1-container .slide ul li {
+        font-weight: 300 !important;
+    }
+
+    .slide-2-container .slide ul li {
+        font-weight: 400 !important;
+    }
+
+    #potential {
+        padding-top: 247px;
+    }
+
+    .potential-content-container .left {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    #potential .container {
+        padding: 0 10px;
+    }
+
+    #potential h2 {
+        font-size: 18px;
+        width: 264px;
+    }
+
+    .potential-group h3 {
+        font-size: 15px;
+        width: 100% !important;
+        line-height: 1.5em;
+    }
+
+    .mental-health h2 {
+        font-weight: 500px;
+    }
+
+    #struggles {
+        padding-top: 126px;
+    }
+
+    .potential-content-container .left {
+        border-radius: 10px;
+    }
+
+    .potential-content-container .left:after {
+        transform: translate(-50%, -62px) rotate(45deg);
+    } 
+
+    .victoria-button {
+        width: 125px;
+    }
+
+    .item-container {
+        padding: 21px 10px 21px 1px;
+    }
+
+    .got-item h3:after {
+        width: 255px;
+    }
+
+    .crazy-topper {
+        padding-top: 161px;
+    }
+
+    .first-ul li:nth-child(1) {
+        width: 268px;
+        font-size: 13px !important;
+    }
+
+    .first-ul li:nth-child(2) {
+        width: 141px;
+        font-size: 13px !important;
+    }
+
+    .first-ul li:nth-child(3) {
+        font-size: 13px !important;
+        width: 229px;
+    }
+
+    .first-ul li:nth-child(4) {
+        font-size: 13px !important;
+        width: 142px;
+    }
+
+    .crazy-topper button {
+        max-width: 220px;
+    }
+
+    .crazy-topper button:after {
+        height: 18px;
+        width: 25px;
+    }
+
+    .diamond-piece {
+        background: rgba(219, 177, 59, 0.4);
+    }
+
+    .diamond-piece h4 {
+        color: #fff;
+        opacity: .7;
+    }
+ 
 
 }
 
