@@ -193,7 +193,7 @@
     width: 182px;
     margin: auto;
     font-weight: 600;
-    margin-bottom: 42px;
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -326,6 +326,8 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5px;
+    max-width: 340px;
+    margin: auto;
 }
 
 .slide h2 {
@@ -342,10 +344,9 @@
 
 .line {
     height: 1px;
-    width: 100%;
+    width: calc(100% - 40px);
     background: #DBB13B;
-    margin: 10px auto 12px auto;
-    width: 240px;
+    margin: 0px 0 12px 20px;
 }
 
 .slide-1-container ul li {
@@ -406,7 +407,7 @@
     margin-top: 17px;
     font-weight: 500;
     padding: 0 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .slide-2-container .slide ul {
@@ -1102,6 +1103,54 @@ edits they change stuff on tablet and desktop and now we
 have to make three edits.  So this is the work around so we 
 only have to do one edit when we changes something */
 
+@media screen and (min-width: 347px) {
+
+    .victoria {
+        transform: translateX(-25px);
+    }
+
+}
+
+@media screen and (min-width: 370px) {
+
+    .victoria {
+        transform: translateX(-45px);
+    }
+
+}
+
+@media screen and (min-width: 408px) {
+
+    .victoria {
+        transform: translateX(-75px);
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+
+    #potential {
+        padding-top: 168px !important;
+    }
+
+    #potential h2 {
+        margin-bottom: 60px !important;
+    }
+
+    .clover {
+        margin-bottom: 15px;
+    }
+
+    .crazy-topper h3 {
+        transform: translateY(5px);
+    }
+
+    .got-item h3:after {
+        width: 310px !important;
+    }
+
+}
+
 @media screen and (max-width: 450px) {
 
     #landing h1 {
@@ -1150,7 +1199,7 @@ only have to do one edit when we changes something */
     }
 
     #potential {
-        padding-top: 247px;
+        padding-top: 226px;
     }
 
     .potential-content-container .left {
@@ -1198,11 +1247,11 @@ only have to do one edit when we changes something */
     }
 
     .got-item h3:after {
-        width: 255px;
+        width: 270px;
     }
 
     .crazy-topper {
-        padding-top: 161px;
+        padding-top: 170px;
     }
 
     .first-ul li:nth-child(1) {
@@ -1242,7 +1291,88 @@ only have to do one edit when we changes something */
         color: #fff;
         opacity: .7;
     }
+
+    .slide h2 {
+        margin-top: 24px;
+        font-size: 18px;
+    }
+
+    .slide ul {
+        margin-bottom: 25px;
+    }
+
+    .slide-2-container .slide h2 {
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+
+    .slide-1-container .slide h2 {
+        margin-bottom: 10px;
+    }
  
+    .seeking-container .slide ul {
+        margin-bottom: 14px;
+    }
+
+    .slide-1-container .line {
+        margin-bottom: 15px;
+    }
+
+    .slide-2-container .line {
+        margin-bottom: 15px;
+    }
+
+    .slide-2-container .slide h2 {
+        font-size: 18px;
+    }
+
+    #potential h2 {
+        font-size: 20px;
+        width: 298px;
+    }
+
+    .potential-line {
+        max-width: 100px;
+        margin: 10px auto 30px auto;
+    }
+
+    .potential-content-container .left {
+        padding-bottom: 30px;
+    }
+
+    .right h3, .right h3 span {
+        max-width: 239px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #potential {
+        padding-top: 251px;
+    }
+
+    #potential h2 {
+        margin-bottom: 62px;
+    }
+
+    #struggles .container {
+        padding: 0 10px;
+    }
+
+    #what-you-get h2 {
+        font-size: 18px;
+    }
+
+    .crazy-topper h2 {
+        font-size: 18px;
+    }
+
+    .crazy-topper .golden-line {
+        width: 100px;
+    }
+
+    .crazy-topper h2:before {
+        right: -576px !important;
+    }
 
 }
 
