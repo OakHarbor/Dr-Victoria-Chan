@@ -1130,11 +1130,11 @@ only have to do one edit when we changes something */
 @media screen and (min-width: 375px) and (max-width: 450px) {
 
     #potential {
-        padding-top: 168px !important;
+        padding-top: 188px !important;
     }
 
     #potential h2 {
-        margin-bottom: 60px !important;
+        margin-bottom: 80px !important;
     }
 
     .clover {
@@ -1147,6 +1147,16 @@ only have to do one edit when we changes something */
 
     .got-item h3:after {
         width: 310px !important;
+    }
+
+    .slide-1-container .slide ul {
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .quote h2 {
+        font-size: 18px !important;
     }
 
 }
@@ -1251,7 +1261,7 @@ only have to do one edit when we changes something */
     }
 
     .crazy-topper {
-        padding-top: 170px;
+        padding-top: 140px;
     }
 
     .first-ul li:nth-child(1) {
@@ -1343,7 +1353,7 @@ only have to do one edit when we changes something */
     .right h3, .right h3 span {
         max-width: 239px;
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #potential {
@@ -1372,6 +1382,10 @@ only have to do one edit when we changes something */
 
     .crazy-topper h2:before {
         right: -576px !important;
+    }
+
+    .right h3 {
+        font-weight: 500;
     }
 
 }
