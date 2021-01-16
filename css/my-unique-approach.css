@@ -1344,7 +1344,7 @@ only have to do one edit when we changes something */
 
     .accordian-content.open {
         height: auto !important;
-        padding-bottom: 25px;
+        padding-bottom: 20px;
     }
 
     .accordian-box {
