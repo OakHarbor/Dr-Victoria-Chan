@@ -1101,11 +1101,13 @@ footer .container {
 	}
 }
 
-@media screen and (max-width: 450px) { 
-
+@media screen and (min-width: 375px) and (max-width: 450px) { 
 	.list-group {
 		width: 247px;
 	}
+}
+
+@media screen and (max-width: 450px) { 
 
 	.list-group a {
 		font-size: 14px;
@@ -1132,7 +1134,7 @@ footer .container {
 	}
 
 	.clover-group {
-		top: 140px;
+		top: 137px;
 	}
 
 	.social {

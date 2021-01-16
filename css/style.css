@@ -1161,6 +1161,18 @@ only have to do one edit when we changes something */
 
 }
 
+@media screen and (max-width: 375px) {
+
+    #what-you-get .container {
+        margin: 0 10px;
+    }
+
+    .got-item h3:after {
+        width: 253px !important;
+    }
+
+}
+
 @media screen and (max-width: 450px) {
 
     #landing h1 {
@@ -1261,7 +1273,7 @@ only have to do one edit when we changes something */
     }
 
     .crazy-topper {
-        padding-top: 140px;
+        padding-top: 179px;
     }
 
     .first-ul li:nth-child(1) {
