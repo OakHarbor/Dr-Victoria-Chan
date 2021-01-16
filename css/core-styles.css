@@ -1427,7 +1427,8 @@ footer .container {
 	}
 
 	.social {
-		top: 10px;
+		top: 0px;
+		right: -39px;
 	}
 
 	.list-group {
