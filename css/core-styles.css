@@ -1372,6 +1372,14 @@ footer .container {
 		margin: auto;
 	}
 
+	.disclaimer-link {
+		text-align: left;
+		font-size: 10px;
+		-webkit-transform: translateY(15px);
+		    -ms-transform: translateY(15px);
+		        transform: translateY(15px);
+	}
+
 }
 
 @media screen and (min-width: 1300px) { 
@@ -1413,7 +1421,7 @@ footer .container {
 		display: block;
 		width: 761px;
 		height: 1px;
-		bottom: 115px;
+		bottom: 68px;
 		background: #DBB13B;
 		opacity: .7;
 	}
