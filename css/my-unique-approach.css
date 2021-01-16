@@ -21,12 +21,13 @@ body:before {
     content: '';
     position: fixed;
     left: 0;
+    top: 0;
     background: url("/images/Homepage_Leaf.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     opacity: .2;
 }
 
