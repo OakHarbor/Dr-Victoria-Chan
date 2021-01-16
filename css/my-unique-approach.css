@@ -151,6 +151,7 @@ body:before {
     border: none;
     background: none;
     padding: 20px;
+    padding-left: 220px;
 }
 
 .accordian-topper img {
@@ -165,42 +166,43 @@ body:before {
 
 .open-accordian  {
     z-index: 100;
+    opacity: 1;
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    -webkit-transform: translateY(-50%) rotate(0deg);
-        -ms-transform: translateY(-50%) rotate(0deg);
-            transform: translateY(-50%) rotate(0deg);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 
 .open-accordian.clicked {
     visibility: hidden;
     z-index: -100;
-    -webkit-transform: translateY(-50%) rotate(180deg);
-        -ms-transform: translateY(-50%) rotate(180deg);
-            transform: translateY(-50%) rotate(180deg);
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
+    opacity: 0;
 }
 
 .close-accordian {
     visibility: hidden;
+    opacity: 0;
     z-index: -100;
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    -webkit-transform: translateY(-50%) rotate(0deg);
-        -ms-transform: translateY(-50%) rotate(0deg);
-            transform: translateY(-50%) rotate(0deg);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 
 .close-accordian.clicked {
     visibility: visible;
     z-index: 100;
-    -webkit-transform: translateY(-50%) rotate(360deg);
-        -ms-transform: translateY(-50%) rotate(360deg);
-            transform: translateY(-50%) rotate(360deg);
+    opacity: 1;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
@@ -1239,6 +1241,109 @@ only have to do one edit when we changes something */
         font-size: 17px;
         line-height: 22px;
     }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+    #unique-approach .container {
+        padding: 0 10px;
+    }
+
+    li, p, h4 {
+        font-size: 15px !important;
+    }
+
+    li {
+        margin-bottom: 6px !important;
+    }
+
+    .accordian-list ul {
+        width: 100%;
+    }
+
+    .accordian-list ul li {
+        font-size: 13px !important;
+    }
+
+    .accordian-topper h3 {
+        text-indent: -10px;
+        margin-bottom: 21px;
+        font-size: 15px;
+    }
+
+    .acc1 .accordian-box h4 {
+        margin-top: -4px;
+    }
+
+    .acc1 .accordian-content.open {
+        height: 586px;
+    }
+
+    .acc1 .accordian-topper h3 {
+        font-size: 15px;
+    }
+
+    .acc1 .accordian-topper h3 span {
+        font-size: 13px;
+    }
+
+
+    .accordian-topper button {
+        right: -6px;
+    }
+
+    .accordian-topper img {
+        height: 16px;
+    }
+
+    .acc2 .accordian-content.open {
+        height: 459px;
+    }
+
+    .acc3 .accordian-content.open {
+        height: 232px;
+    }
+
+    .acc4 .accordian-content.open {
+        height: 318px;
+    }
+
+    .acc5 .accordian-content.open {
+        height: 510px;
+    }
+
+    .acc6 .accordian-content.open {
+        height: 275px;
+    }
+
+    .acc7 .accordian-content.open {
+        height: 213px;
+    }
+
+    .acc8 .accordian-content.open {
+        height: 193px;
+    }
+
+    .acc9 .accordian-content.open {
+        height: 260px;
+    }
+
+    .acc10 .accordian-content.open {
+        height: 169px;
+    }
+
+    .acc11 .accordian-content.open {
+        height: 148px;
+    }
+
+    .acc12 .accordian-content.open {
+        height: 168px;
+    }
+
+
+
 
 }
 
