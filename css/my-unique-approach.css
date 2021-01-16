@@ -1256,7 +1256,7 @@ only have to do one edit when we changes something */
         font-size: 15px !important;
     }
 
-    li {
+    #main li {
         margin-bottom: 6px !important;
     }
 
