@@ -151,7 +151,7 @@ body:before {
     border: none;
     background: none;
     padding: 20px;
-    padding-left: 220px;
+    padding-left: 290px;
 }
 
 .accordian-topper img {
@@ -1340,6 +1340,15 @@ only have to do one edit when we changes something */
 
     .acc12 .accordian-content.open {
         height: 168px;
+    }
+
+    .accordian-content.open {
+        height: auto !important;
+        padding-bottom: 25px;
+    }
+
+    .accordian-box {
+        transition: none !important;
     }
 
 
