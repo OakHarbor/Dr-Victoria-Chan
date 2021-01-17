@@ -799,7 +799,11 @@ only have to do one edit when we changes something */
     }
 
     .blue {
-        padding: 30px 27px;
+        padding: 30px 28px;
+    }
+
+    .blue p {
+        font-weight: 500;
     }
 
     .green p {
@@ -823,6 +827,7 @@ only have to do one edit when we changes something */
 
     .section-container button {
         margin-bottom: 0px;
+        margin-top: 20px;
     }
 
     #answers .section-image, #mindset .section-image, #ripple .section-image {
@@ -844,6 +849,8 @@ only have to do one edit when we changes something */
     #believe h3 {
         font-size: 20px;
         width: 270px;
+        position: relative;
+        z-index: 600000;
     }
 
     #believe .grey-boxes {
@@ -864,16 +871,30 @@ only have to do one edit when we changes something */
     }
 
     #influences {
-        padding-bottom: 50px;
+        padding-bottom: 35px;
+    }
+
+    #influences h3:before {
+        top: -35px;
     }
 
     #influences h3 span {
-        margin-top: 60px;
+        margin-top: 82px;
     }
 
     .influence-group:after {
         height: 370px !important;
         width: 370px !important;
+        bottom: 18px !important;
+    }
+
+    #influences h2:after {
+        height: 600px !important;
+        width: 600px !important;
+    }
+
+    #contact-cards {
+        background-position: center 32%;
     }
 
 
