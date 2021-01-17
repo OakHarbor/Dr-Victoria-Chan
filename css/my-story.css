@@ -739,7 +739,14 @@ edits they change stuff on tablet and desktop and now we
 have to make three edits.  So this is the work around so we 
 only have to do one edit when we changes something */
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
+
+#influences {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 450px) {
 
     #story-landing h1 {
         font-size: 26px;
@@ -773,6 +780,102 @@ only have to do one edit when we changes something */
         height: 1px;
         width: 27px;
     }
+
+    .grey-box .mobile {
+        width: 230px;
+        margin-left: -10px;
+    }
+
+    .grey-box ul li {
+        font-size: 11px !important;
+    }
+
+    .colored-box p {
+        font-size: 15px !important;
+    }
+
+    .blue, .green {
+        padding: 26px 27px;
+    }
+
+    .blue {
+        padding: 30px 27px;
+    }
+
+    .green p {
+        width: 100%;
+        font-size: 13px !important;
+    }
+
+    .content-group:after {
+        -webkit-transform: translate(-50%, 42px) rotate(45deg);
+        -ms-transform: translate(-50%, 42px) rotate(45deg);
+        transform: translate(-50%, 42px) rotate(45deg);
+    }
+
+    .section-content h2 {
+        font-size: 18px;
+    }
+
+    .section-content p span {
+        font-size: 15px;
+    }
+
+    .section-container button {
+        margin-bottom: 0px;
+    }
+
+    #answers .section-image, #mindset .section-image, #ripple .section-image {
+        border-radius: 5px;
+    }
+
+    #believe .grey-box:first-child {
+        border-radius: 5px;
+    }
+
+    #believe .grey-box {
+        border-radius: 5px;
+    }
+
+    #believe .grey-box p {
+        line-height: 1.5em;
+    }
+
+    #believe h3 {
+        font-size: 20px;
+        width: 270px;
+    }
+
+    #believe .grey-boxes {
+        margin-bottom: 30px;
+    }
+
+    .item:before {
+        left: -56px;
+    }
+
+    .item h3 {
+        width: 230px;
+    }
+
+    #degrees {
+        padding-bottom: 40px;
+        padding-top: 71px;
+    }
+
+    #influences {
+        padding-bottom: 50px;
+    }
+
+    #influences h3 span {
+        margin-top: 60px;
+    }
+
+    .influence-group:after {
+        height: 370px !important;
+        width: 370px !important;
+    }
+
 
 }
 
@@ -882,6 +985,13 @@ only have to do one edit when we changes something */
         z-index: -20;
     }
 
+}
+
+@media screen and (max-width: 350px) {
+    #mindset button {
+        font-size: 14px !important;
+        padding: 0 10px !Important;
+    }
 }
 
 /* Step 2 Tablet */
