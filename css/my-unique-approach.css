@@ -1352,7 +1352,10 @@ only have to do one edit when we changes something */
         transition: none !important;
     }
 
-
+    .bottom p {
+        font-weight: 700;
+        font-size: 13px;
+    }
 
 
 }

@@ -442,7 +442,23 @@ edits they change stuff on tablet and desktop and now we
 have to make three edits.  So this is the work around so we 
 only have to do one edit when we changes something */
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 350px) { 
+
+    #approach-landing {
+        margin-bottom: -90px;
+    }
+
+    #main p, #main li {
+        font-size: 15px !important;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    p {
+        font-size: 15px !important;
+    }
 
     #approach-landing h1 {
         font-size: 26px;
@@ -456,6 +472,38 @@ only have to do one edit when we changes something */
         font-size: 17px;
         line-height: 22px;
         margin-top: 15px;
+    }
+
+    .card h2 {
+        font-size: 15px;
+    }
+
+    .accordian-topper h3:before {
+        bottom: 2px;
+    }
+
+    #principles-mobile h2 {
+        font-size: 18px;
+        width: 200px;
+    }
+
+    #therapeutic-order h2 {
+        width: 220px;
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    #therapeutic-order h3 {
+        font-size: 15px;
+    }
+
+    #learn-more h2:after {
+        height: 1px;
+    }
+
+    #learn-more h2 {
+        margin-bottom: 46px;
+        font-size: 13px;
     }
 
 }
