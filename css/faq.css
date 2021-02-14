@@ -1,0 +1,1058 @@
+/*-- -------------------------- -->
+<---            Hero            -->
+<--- -------------------------- -*/
+
+.accordian-topper h3 {
+    font-size: 11px;
+}
+
+#approach-landing {
+    height: 300px;
+}
+
+.acc2 .accordian-box ul {
+    padding-left: 10px;
+}
+
+.acc2 .accordian-box ul li {
+    list-style: circle;
+    padding: 0;
+}
+
+.acc2 .accordian-box ul li:before {
+    display: none;
+}
+
+main ul li {
+    list-style: circle;
+    font-size: 11px !important;
+}
+
+main ul li a {
+    text-decoration: underline;
+    color: #2d325a !important;
+}
+
+.acc3 .accordian-content {
+    height: 42px;
+}
+
+.acc5 .accordian-content {
+    height: 42px;
+}
+
+.acc6 .accordian-content {
+    height: 42px;
+}
+
+.acc10 .accordian-content {
+    height: 42px;
+}
+
+.accordian-topper h3 span {
+    font-size: 11px;
+}
+
+.accordian-content {
+    height: 36px !important;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 5        -->
+<--- -------------------------- -*/
+
+.acc5 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc5 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc5 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+}
+
+.acc5 .accordian-box ul li:last-child {
+    margin-bottom: 0 !important;
+}
+
+.acc5 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc5 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc5 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 230px;
+}
+
+.acc5 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 13        -->
+<--- -------------------------- -*/
+
+.acc13 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc13 .accordian-content {
+    margin-bottom: 11px;
+    height: 51px !important;
+}
+
+.acc13 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc13 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.acc13 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc13 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc13 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: auto !important;
+}
+
+.acc13 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 14        -->
+<--- -------------------------- -*/
+
+.acc14 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc14 .accordian-topper h3 {
+    height: 50px !important;
+}
+
+.acc14 .accordian-content {
+    margin-bottom: 11px;
+    height: 51px !important;
+}
+
+.acc14 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc14 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.acc14 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc14 .accordian-content {
+    height: 63px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc14 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: auto !important;
+}
+
+.acc14 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 15       -->
+<--- -------------------------- -*/
+
+.acc15 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc15 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc15 .accordian-content {
+    margin-bottom: 11px;
+    height: 51px !important;
+}
+
+.acc15 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.acc15 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc15 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc15 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 117px;
+}
+
+.acc15 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 16       -->
+<--- -------------------------- -*/
+
+.acc16 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc16 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc16 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.acc16 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc16 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc16 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 117px;
+}
+
+.acc16 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 17        -->
+<--- -------------------------- -*/
+
+.acc17 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc17 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc17 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.acc17 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc17 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc17 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 117px;
+}
+
+.acc17 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 18        -->
+<--- -------------------------- -*/
+
+.acc18 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc18 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc18 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.acc18 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc18 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc18 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 117px;
+}
+
+.acc18 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 19        -->
+<--- -------------------------- -*/
+
+.acc19 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc19 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc19 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.acc19 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc19 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc19 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 117px;
+}
+
+.acc19 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 20        -->
+<--- -------------------------- -*/
+
+.acc20 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc20 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc20 .accordian-content {
+    margin-bottom: 11px;
+    height: 51px !important;
+}
+
+.acc20 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.acc20 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc20 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc20 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: auto !important;
+}
+
+.acc20 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 21        -->
+<--- -------------------------- -*/
+
+.acc21 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc21 .accordian-content {
+    margin-bottom: 11px;
+    height: 51px !important;
+}
+
+.acc21 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc21 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.acc21 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc21 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc21 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: auto !important;
+}
+
+.acc21 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 22        -->
+<--- -------------------------- -*/
+
+.acc22 .accordian-box h4 {
+    text-align: left;
+    color: #304b78;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.acc22 .accordian-content {
+    margin-bottom: 50px;
+    height: 51px !important;
+}
+
+.acc22 .accordian-box h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -15px;
+    background: #DBB13B;
+}
+
+.acc22 .accordian-box ul li {
+    font-size: 11px;
+    color: #304b78;
+    margin-bottom: 6px;
+    letter-spacing: .33px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.acc22 .accordian-box {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc22 .accordian-content {
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.acc22 .accordian-content.open {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: auto !important;
+}
+
+.acc22 .accordian-box.open {
+    opacity: 1;
+    height: auto;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (min-width: 370px) {
+
+    .accordian-topper h3 {
+        font-size: 15px;
+    }
+
+    .accordian-topper h3 span{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .accordian-content {
+        height: 42px !important;
+    }
+
+    .acc13 .accordian-content {
+        height: 64px !important;
+    }
+
+    .acc14 .accordian-content {
+        height: 64px !important;
+    }
+
+    .acc14 .accordian-topper h3:before {
+        bottom: -14px;
+    }
+
+    .acc14 .accordian-topper button {
+        -webkit-transform: translateY(-31%);
+            -ms-transform: translateY(-31%);
+                transform: translateY(-31%);
+    }
+
+    .acc15 .accordian-content {
+        height: 64px !important;
+    }
+
+    .acc20 .accordian-content {
+        height: 64px !important;
+    }
+
+    .acc21 .accordian-content {
+        height: 64px !important;
+    }
+
+    .acc22 .accordian-content {
+        height: 64px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .accordian-topper button {
+        padding-left: 670px;
+    }
+
+    .accordian-topper h3 {
+        font-size: 22px !important;
+    }
+
+    .accordian-box ul li {
+        line-height: 35px;
+    }
+
+    .accordian-topper h3 span {
+        font-size: 22px !important;
+    }
+
+    .accordian-content {
+        height: 53px !important;
+    }
+
+    .acc1 .accordian-box ul {
+        -webkit-columns: 1;
+           -moz-columns: 1;
+                columns: 1;
+    }
+
+    .acc2 .accordian-box ul {
+        -webkit-columns: 1;
+           -moz-columns: 1;
+                columns: 1;
+        margin: auto;
+        width: 571px;
+    }
+
+    .accordian-box ul {
+        margin: auto;
+        width: 571px;
+    }
+
+    .acc2 .accordian-box ul li {
+        font-size: 20px !important;
+        line-height: 35px;
+    }
+
+    .acc3 .accordian-content:before {
+        top: 65px;
+    }
+
+    .acc5 .accordian-content:before {
+        top: 65px;
+    }
+
+    .acc6 .accordian-content:before {
+        top: 65px;
+    }
+
+    .acc10 .accordian-content:before {
+        top: 65px;
+    }
+
+    .acc13 .accordian-topper h3 span {
+        display: inline;
+    }
+
+    .acc13 .accordian-content {
+        height: 53px !important;
+    }
+
+    .acc14 .accordian-topper h3 {
+        margin-bottom: 61px;
+    }
+
+    .acc14 .accordian-content {
+        height: 86px !important;
+    }
+
+    .acc14 .accordian-content.open {
+        height: auto !important;
+    }
+
+    .acc14 .accordian-topper h3:before {
+        bottom: -36px;
+    }
+
+    .acc15 .accordian-topper h3 span {
+        display: inline;
+    }
+
+    .acc15 .accordian-content {
+        height: 53px !important;
+    }
+
+    .acc15 .accordian-content.open {
+        height: auto !important;
+    }
+
+    .acc20 .accordian-topper h3 span {
+        display: inline;
+    }
+
+    .acc20 .accordian-content {
+        height: 53px !important;
+    }
+
+    .acc20 .accordian-content.open {
+        height: auto !important;
+    }
+
+    .acc21 .accordian-content {
+        margin-bottom: 43px;
+    }
+
+    .accordian-content.open {
+        height: auto !important;
+    }
+
+    .accordian-box ul li {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .acc2 .accordian-box ul li:nth-child(1), 
+    .acc2 .accordian-box ul li:nth-child(2), 
+    .acc2 .accordian-box ul li:nth-child(3) {
+        width: 1000px;
+    }
+
+    .acc2 .accordian-box ul {
+        width: 1000px;
+    }
+
+    .acc2 .accordian-box.open {
+        width: 1000px;
+    }
+
+    .accordian-box ul {
+        width: 1000px;
+    }
+
+    .accordian-topper h3 {
+        font-size: 30px !important;
+        text-align: center;
+    }
+
+    .accordian-topper h3 span {
+        font-size: 30px !important;
+    }
+
+    .accordian-content {
+        height: 100px !important;
+        margin-bottom: 20px;
+    }
+
+    .acc13 .accordian-content {
+        margin-bottom: 70px;
+    }
+
+    .acc14 .accordian-content {
+        height: 130px !important;
+    }
+
+    .acc14 .accordian-topper h3 {
+        line-height: 38px;
+        padding-top: 25px;
+        margin-bottom: 97px;
+    }
+    
+    .acc14 .accordian-topper h3 span {
+        display: block !important;
+    }
+
+    .acc14 .accordian-topper h3:before {
+        bottom: -80px;
+    }
+
+    .acc14 .accordian-topper button {
+        -webkit-transform: translateY(-7%);
+            -ms-transform: translateY(-7%);
+                transform: translateY(-7%);
+    }
+
+    .acc15 .accordian-content {
+        height: 100px !important;
+    }
+
+    .acc18 .accordian-content {
+        height: 100px !important;
+    }
+
+    .acc20 .accordian-content {
+        height: 100px !important;
+    }
+
+    .acc21 .accordian-content {
+        margin-bottom: 57px;
+    }
+
+    .acc22 .accordian-content {
+        height: 130px !important;
+    }
+
+    .acc22 .accordian-topper h3 {
+        line-height: 38px !important;
+        padding-top: 25px;
+    }
+
+    .acc22 .accordian-topper h3 span {
+        display: block !important;
+    }
+
+    .acc22 .accordian-topper h3:before {
+        bottom: -19px;
+    }
+
+    .acc22 .accordian-topper button {
+        -webkit-transform: translateY(-39%);
+            -ms-transform: translateY(-39%);
+                transform: translateY(-39%);
+    }
+
+    .accordian-topper button {
+        padding-left: 1020px;
+        padding-top: 76px;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .acc13 .accordian-content {
+        height: 100px !important;
+        margin-bottom: 20px;
+    }
+
+    .acc21 .accordian-content {
+        height: 100px !important;
+        margin-bottom: 20px;
+    }
+}

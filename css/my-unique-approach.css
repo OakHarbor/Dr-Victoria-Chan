@@ -1368,17 +1368,17 @@ only have to do one edit when we changes something */
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    -webkit-transform: translateY(-50%) rotate(0deg);
-        -ms-transform: translateY(-50%) rotate(0deg);
-            transform: translateY(-50%) rotate(0deg);
+    -webkit-transform: translateY(-50%) ;
+        -ms-transform: translateY(-50%) ;
+            transform: translateY(-50%) ;
 }
 
 .open-accordian.clicked {
     visibility: hidden;
     z-index: -100;
-    -webkit-transform: translateY(-50%) rotate(180deg);
-        -ms-transform: translateY(-50%) rotate(180deg);
-            transform: translateY(-50%) rotate(180deg);
+    -webkit-transform: translateY(-50%) ;
+        -ms-transform: translateY(-50%) ;
+            transform: translateY(-50%) ;
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
@@ -1390,17 +1390,17 @@ only have to do one edit when we changes something */
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    -webkit-transform: translateY(-50%) rotate(0deg);
-        -ms-transform: translateY(-50%) rotate(0deg);
-            transform: translateY(-50%) rotate(0deg);
+    -webkit-transform: translateY(-50%) ;
+        -ms-transform: translateY(-50%) ;
+            transform: translateY(-50%) ;
 }
 
 .close-accordian.clicked {
     visibility: visible;
     z-index: 100;
-    -webkit-transform: translateY(-50%) rotate(360deg);
-        -ms-transform: translateY(-50%) rotate(360deg);
-            transform: translateY(-50%) rotate(360deg);
+    -webkit-transform: translateY(-50%) ;
+        -ms-transform: translateY(-50%) ;
+            transform: translateY(-50%) ;
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
@@ -1746,20 +1746,22 @@ only have to do one edit when we changes something */
 
     .open-accordian  {
     z-index: 100;
+    opacity: 1;
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    -webkit-transform: translateY(-50%) rotate(0deg);
-        -ms-transform: translateY(-50%) rotate(0deg);
-            transform: translateY(-50%) rotate(0deg);
+    -webkit-transform: translateY(-50%) ;
+        -ms-transform: translateY(-50%) ;
+            transform: translateY(-50%) ;
     }
 
     .open-accordian.clicked {
         visibility: hidden;
+        opacity: 0;
         z-index: -100;
-        -webkit-transform: translateY(-50%) rotate(180deg);
-            -ms-transform: translateY(-50%) rotate(180deg);
-                transform: translateY(-50%) rotate(180deg);
+        -webkit-transform: translateY(-50%) ;
+            -ms-transform: translateY(-50%) ;
+                transform: translateY(-50%) ;
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
@@ -1768,20 +1770,22 @@ only have to do one edit when we changes something */
     .close-accordian {
         visibility: hidden;
         z-index: -100;
+        opacity: 0;
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
-        -webkit-transform: translateY(-50%) rotate(0deg);
-            -ms-transform: translateY(-50%) rotate(0deg);
-                transform: translateY(-50%) rotate(0deg);
+        -webkit-transform: translateY(-50%) ;
+            -ms-transform: translateY(-50%) ;
+                transform: translateY(-50%) ;
     }
 
     .close-accordian.clicked {
         visibility: visible;
+        opacity: 1;
         z-index: 100;
-        -webkit-transform: translateY(-50%) rotate(360deg);
-            -ms-transform: translateY(-50%) rotate(360deg);
-                transform: translateY(-50%) rotate(360deg);
+        -webkit-transform: translateY(-50%) ;
+            -ms-transform: translateY(-50%) ;
+                transform: translateY(-50%) ;
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
@@ -2246,17 +2250,17 @@ only have to do one edit when we changes something */
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    -webkit-transform: translateY(-50%) rotate(0deg);
-        -ms-transform: translateY(-50%) rotate(0deg);
-            transform: translateY(-50%) rotate(0deg);
+    -webkit-transform: translateY(-50%) ;
+        -ms-transform: translateY(-50%) ;
+            transform: translateY(-50%) ;
     }
 
     .open-accordian.clicked {
         visibility: hidden;
         z-index: -100;
-        -webkit-transform: translateY(-50%) rotate(180deg);
-            -ms-transform: translateY(-50%) rotate(180deg);
-                transform: translateY(-50%) rotate(180deg);
+        -webkit-transform: translateY(-50%) ;
+            -ms-transform: translateY(-50%) ;
+                transform: translateY(-50%) ;
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
@@ -2268,17 +2272,17 @@ only have to do one edit when we changes something */
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
-        -webkit-transform: translateY(-50%) rotate(0deg);
-            -ms-transform: translateY(-50%) rotate(0deg);
-                transform: translateY(-50%) rotate(0deg);
+        -webkit-transform: translateY(-50%) ;
+            -ms-transform: translateY(-50%) ;
+                transform: translateY(-50%) ;
     }
 
     .close-accordian.clicked {
         visibility: visible;
         z-index: 100;
-        -webkit-transform: translateY(-50%) rotate(360deg);
-            -ms-transform: translateY(-50%) rotate(360deg);
-                transform: translateY(-50%) rotate(360deg);
+        -webkit-transform: translateY(-50%) ;
+            -ms-transform: translateY(-50%) ;
+                transform: translateY(-50%) ;
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
@@ -2665,6 +2669,11 @@ only have to do one edit when we changes something */
         height: 53px;
     }
 
+    .accordian-topper button {
+        padding: 40px;
+        padding-left: 920px;
+    }
+
     /*-- -------------------------- -->
     <---       Contact Cards        -->
     <--- -------------------------- -*/
@@ -2753,17 +2762,17 @@ only have to do one edit when we changes something */
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
-        -webkit-transform: translateY(-50%) rotate(0deg);
-            -ms-transform: translateY(-50%) rotate(0deg);
-                transform: translateY(-50%) rotate(0deg);
+        -webkit-transform: translateY(-50%) ;
+            -ms-transform: translateY(-50%) ;
+                transform: translateY(-50%) ;
     }
 
     .open-accordian.clicked {
         visibility: hidden;
         z-index: -100;
-        -webkit-transform: translateY(-50%) rotate(180deg);
-            -ms-transform: translateY(-50%) rotate(180deg);
-                transform: translateY(-50%) rotate(180deg);
+        -webkit-transform: translateY(-50%) ;
+            -ms-transform: translateY(-50%) ;
+                transform: translateY(-50%) ;
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
@@ -2775,17 +2784,17 @@ only have to do one edit when we changes something */
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
-        -webkit-transform: translateY(-50%) rotate(0deg);
-            -ms-transform: translateY(-50%) rotate(0deg);
-                transform: translateY(-50%) rotate(0deg);
+        -webkit-transform: translateY(-50%) ;
+            -ms-transform: translateY(-50%) ;
+                transform: translateY(-50%) ;
     }
 
     .close-accordian.clicked {
         visibility: visible;
         z-index: 100;
-        -webkit-transform: translateY(-50%) rotate(360deg);
-            -ms-transform: translateY(-50%) rotate(360deg);
-                transform: translateY(-50%) rotate(360deg);
+        -webkit-transform: translateY(-50%) ;
+            -ms-transform: translateY(-50%) ;
+                transform: translateY(-50%) ;
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
@@ -3272,6 +3281,11 @@ only have to do one edit when we changes something */
 
     .acc1 .accordian-list ul li {
         font-size: 16px !important;
+    }
+
+    .accordian-topper button {
+        padding: 40px;
+        padding-left: 920px;
     }
 
     /*-- -------------------------- -->

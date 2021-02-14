@@ -1,0 +1,457 @@
+body:before {
+    background: url("/images/mountain-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#approach-landing {
+    height: 600px !important;
+}
+#approach-landing h2 {
+    font-weight: 600;
+    letter-spacing: 2.8px;
+}
+
+.accordian-topper h3 {
+    line-height: 20px;
+    height: 73px;
+    padding-bottom: 0;
+    padding-top: 12px;
+    vertical-align: middle;
+    font-size: 16px;
+    position: relative;
+    padding-left: 50px;
+    z-index: 1;
+}
+
+.accordian-topper h3:after {
+    content: '1';
+    position: absolute;
+    display: inline-block;
+    background: #4D4D4D;
+    height: 40px;
+    color: #fff;
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 11px;
+    padding-left: 9px;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    top: 11px;
+    left: -11px;
+    opacity: 1;
+}
+
+.acc3 .accordian-topper h3:after {
+    content: '2';
+    background: #2D325A;
+}
+
+.acc4 .accordian-topper h3:after {
+    content: '3';
+    background: #304B78;
+}
+
+.acc5 .accordian-topper h3:after {
+    content: '4';
+    background: #2C94A2;
+}
+
+.acc6 .accordian-topper h3:after {
+    content: '5';
+    background: #56BCA2;
+}
+
+.accordian-topper h3 .h3-span {
+    display: block;
+    font-size: 16px;
+}
+
+.accordian-topper h3:before {
+    bottom: 9px;
+}
+
+.accordian-content {
+    height: 64px !important;
+}
+
+.accordian-topper button {
+    -webkit-transform: translateY(-63%);
+        -ms-transform: translateY(-63%);
+            transform: translateY(-63%);
+}
+
+.headline {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    width: 100%;
+    max-width: 260px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#unique-approach .line {
+    height: 100px;
+    width: 1px;
+    background: #DBB13B;
+    margin: 25px auto;
+    display: block;
+    position: relative;
+}
+
+.steps {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #304B78;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.step-line {
+    margin: 10px auto 20px;
+    background: #DBB13B;
+    width: 50px;
+    height: 1px;
+}
+
+.bottom {
+    padding-top: 0px;
+    margin-top: 30px;
+    background: transparent;
+    margin-top: 80px;
+}
+
+.bottom .clover {
+    display: none;
+    margin-bottom: 48px;
+    height: 20px;
+    width: 28px;
+    -webkit-transform: translate(-50%, -124px);
+        -ms-transform: translate(-50%, -124px);
+            transform: translate(-50%, -124px);
+}
+
+.bottom p:before {
+    content: '';
+    position: absolute;
+    display: block;
+    background: url("/images/clover.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 28px;
+    top: -40px;
+}
+
+.bottom button {
+    border-radius: 5px;
+}
+
+.title1 {
+    font-size: 15px;
+    color: #304B78;
+    margin-left: -5px;
+    margin-bottom: 6px;
+    display: block;
+    font-weight: 600;
+    letter-spacing: .45px;
+    margin-top: 10px;
+}
+
+.title2 {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.nest {
+    font-style: italic;
+}
+
+.goal {
+    font-style: 14px;
+    line-height: 18px;
+    color: #BA5656;
+    margin-bottom: 20px;
+    display: block;
+}
+
+@media screen and (min-width: 500px) {
+
+    .bottom .clover {
+        display: none !important;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+
+    .accordian-topper h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        padding-top: 24px;
+    }
+
+    .accordian-topper h3:after {
+        padding-left: 0;
+    }
+
+    .accordian-topper h3 .h3-span {
+        display: inline-block !important;
+        font-size: inherit;
+        width: auto;
+    }
+
+    .accordian-content {
+        height: 53px !important;
+    }
+
+    .accordian-topper button {
+        padding: 33px;
+        padding-left: 600px;
+        -webkit-transform: translateY(-53%);
+            -ms-transform: translateY(-53%);
+                transform: translateY(-53%);
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .title1, .goal {
+        width: 571px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .title2 {
+        margin-bottom: 40px;
+    }
+
+    #approach-landing {
+        height: 700px !important;
+    }
+
+    #approach-landing h1 {
+        font-size: 40px;
+        line-height: 50px;
+        width: 100%;
+        max-width: 650px;
+    }
+
+    #approach-landing h2 {
+        font-size: 24px;
+    }
+
+    #approach-landing .clover {
+        display: none;
+    }
+
+    #approach-landing h2:before {
+        content: '';
+        position: absolute;
+        display: block;
+        background: url("/images/clover.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 42px;
+        top: -70px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    .headline {
+        max-width: 500px;
+        margin-bottom: 45px;
+    }
+
+    .steps {
+        font-size: 30px;
+    }
+
+    .step-line {
+        margin-bottom: 60px;
+    }
+
+    .bottom p {
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #2D325A;
+        margin-top: 140px;
+    }
+
+    .bottom p:before {
+        width: 42px;
+        height: 30px;
+        top: -70px;
+    }
+
+    .bottom .clover {
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
+        left: auto;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    #approach-landing {
+        height: 800px !important;
+        padding-bottom: 100px;
+    }
+
+    #approach-landing h1 {
+        font-size: 50px;
+        line-height: 60px;
+        max-width: 804px;
+    }
+
+    .arrow {
+        bottom: 57px;
+    }
+
+    #approach-landing h2 {
+        bottom: -100px;
+    }
+
+    #unique-approach {
+        padding-top: 150px;
+    }
+
+    .accordian-topper h3 {
+        text-align: left;
+        height: 100px;
+        padding-top: 38px;
+    }
+
+    .accordian-content {
+        border-radius: 20px;
+    }
+
+    .acc1 .accordian-content:before, 
+    .acc3 .accordian-content:before, 
+    .acc4 .accordian-content:before, 
+    .acc5 .accordian-content:before, 
+    .acc10 .accordian-content:before {
+        border-radius: 10px;
+    }
+
+    .accordian-topper h3:before {
+        border-radius: 20px;
+    }
+
+    .accordian-topper h3:after {
+        font-size: 24px;
+        height: 45px;
+        width: 45px;
+        top: 24px;
+        padding-top: 13px;
+        padding-left: 0px;
+    }
+
+    .accordian {
+        margin-bottom: 58px;
+    }
+
+    .accordian-box ul {
+        width: 865px;
+    }
+
+    .accordian-box ul li {
+        width: 865px !important;
+        margin-right: auto;
+    }
+
+    .title1, .goal {
+        width: 865px;
+    }
+
+    .accordian-topper button {
+        padding: 46px;
+        padding-left: 880px;
+        -webkit-transform: translateY(-56%);
+            -ms-transform: translateY(-56%);
+                transform: translateY(-56%);
+    }
+
+    .acc2 .accordian-box.open {
+        width: 865px !important;
+    }
+
+    .bottom:before, .bottom:after {
+        display: none;
+    }
+
+    .bottom {
+        margin-top: 116px;
+    }
+
+    .bottom .clover {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .bottom p {
+        font-size: 26px;
+        text-transform: capitalize;
+        margin-bottom: 40px;
+    }
+
+    .bottom p:before {
+        width: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    #unique-approach {
+        padding-top: 233px;
+    }
+
+    #unique-approach .line {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .accordian {
+        margin-bottom: 20px;
+    }
+
+    .accordian-content {
+        height: 91px !important;
+    }
+
+    .title2 {
+        margin-bottom: 10px;
+    }
+
+    .bottom {
+        padding-bottom: 323px;
+    }
+
+    main:before {
+        bottom: -2px;
+        z-index: 100;
+    }
+
+    .card-group {
+        top: -227px;
+    }
+
+    footer {
+        padding-top: 190px;
+    }
+    
+}

@@ -125,6 +125,66 @@ const $acc12Content = $(".acc12 .accordian-content");
 const $acc12Open = $(".acc12 .open-accordian");
 const $acc12Close = $(".acc12 .close-accordian");
 
+// ACcordian 13
+const $acc13Box = $(".acc13 .accordian-box");
+const $acc13Content = $(".acc13 .accordian-content");
+const $acc13Open = $(".acc13 .open-accordian");
+const $acc13Close = $(".acc13 .close-accordian");
+
+// ACcordian 14
+const $acc14Box = $(".acc14 .accordian-box");
+const $acc14Content = $(".acc14 .accordian-content");
+const $acc14Open = $(".acc14 .open-accordian");
+const $acc14Close = $(".acc14 .close-accordian");
+
+// ACcordian 15
+const $acc15Box = $(".acc15 .accordian-box");
+const $acc15Content = $(".acc15 .accordian-content");
+const $acc15Open = $(".acc15 .open-accordian");
+const $acc15Close = $(".acc15 .close-accordian");
+
+// ACcordian 16
+const $acc16Box = $(".acc16 .accordian-box");
+const $acc16Content = $(".acc16 .accordian-content");
+const $acc16Open = $(".acc16 .open-accordian");
+const $acc16Close = $(".acc16 .close-accordian");
+
+// ACcordian 17
+const $acc17Box = $(".acc17 .accordian-box");
+const $acc17Content = $(".acc17 .accordian-content");
+const $acc17Open = $(".acc17 .open-accordian");
+const $acc17Close = $(".acc1 .close-accordian");
+
+// ACcordian 18
+const $acc18Box = $(".acc18 .accordian-box");
+const $acc18Content = $(".acc18 .accordian-content");
+const $acc18Open = $(".acc18 .open-accordian");
+const $acc18Close = $(".acc18 .close-accordian");
+
+// ACcordian 19
+const $acc19Box = $(".acc19 .accordian-box");
+const $acc19Content = $(".acc19 .accordian-content");
+const $acc19Open = $(".acc19 .open-accordian");
+const $acc19Close = $(".acc19 .close-accordian");
+
+// ACcordian 20
+const $acc20Box = $(".acc20 .accordian-box");
+const $acc20Content = $(".acc20 .accordian-content");
+const $acc20Open = $(".acc20 .open-accordian");
+const $acc20Close = $(".acc20 .close-accordian");
+
+// ACcordian 21
+const $acc21Box = $(".acc21 .accordian-box");
+const $acc21Content = $(".acc21 .accordian-content");
+const $acc21Open = $(".acc21 .open-accordian");
+const $acc21Close = $(".acc21 .close-accordian");
+
+// ACcordian 22
+const $acc22Box = $(".acc22 .accordian-box");
+const $acc22Content = $(".acc22 .accordian-content");
+const $acc22Open = $(".acc22 .open-accordian");
+const $acc22Close = $(".acc22 .close-accordian");
+
 
 // Opening & Closing Accordian 1
 $acc1Open.on("click", function (e) {
@@ -312,6 +372,157 @@ $acc12Close.on("click", function (e) {
   $acc12Box.removeClass("open");
   $acc12Content.removeClass("open");
 });
+
+// Opening & Closing Accordian 13
+$acc13Open.on("click", function (e) {
+  $acc13Open.addClass("clicked");
+  $acc13Close.addClass("clicked");
+  $acc13Box.addClass("open");
+  $acc13Content.addClass("open");
+});
+
+$acc13Close.on("click", function (e) {
+  $acc13Open.removeClass("clicked");
+  $acc13Close.removeClass("clicked");
+  $acc13Box.removeClass("open");
+  $acc13Content.removeClass("open");
+});
+
+// Opening & Closing Accordian 14
+$acc14Open.on("click", function (e) {
+  $acc14Open.addClass("clicked");
+  $acc14Close.addClass("clicked");
+  $acc14Box.addClass("open");
+  $acc14Content.addClass("open");
+});
+
+$acc14Close.on("click", function (e) {
+  $acc14Open.removeClass("clicked");
+  $acc14Close.removeClass("clicked");
+  $acc14Box.removeClass("open");
+  $acc14Content.removeClass("open");
+});
+
+// Opening & Closing Accordian 15
+$acc15Open.on("click", function (e) {
+  $acc15Open.addClass("clicked");
+  $acc15Close.addClass("clicked");
+  $acc15Box.addClass("open");
+  $acc15Content.addClass("open");
+});
+
+$acc15Close.on("click", function (e) {
+  $acc15Open.removeClass("clicked");
+  $acc15Close.removeClass("clicked");
+  $acc15Box.removeClass("open");
+  $acc15Content.removeClass("open");
+});
+
+// Opening & Closing Accordian 16
+$acc16Open.on("click", function (e) {
+  $acc16Open.addClass("clicked");
+  $acc16Close.addClass("clicked");
+  $acc16Box.addClass("open");
+  $acc16Content.addClass("open");
+});
+
+$acc16Close.on("click", function (e) {
+  $acc16Open.removeClass("clicked");
+  $acc16Close.removeClass("clicked");
+  $acc16Box.removeClass("open");
+  $acc16Content.removeClass("open");
+});
+
+// Opening & Closing Accordian 17
+$acc17Open.on("click", function (e) {
+  $acc17Open.addClass("clicked");
+  $acc17Close.addClass("clicked");
+  $acc17Box.addClass("open");
+  $acc17Content.addClass("open");
+});
+
+$acc17Close.on("click", function (e) {
+  $acc17Open.removeClass("clicked");
+  $acc17Close.removeClass("clicked");
+  $acc17Box.removeClass("open");
+  $acc17Content.removeClass("open");
+});
+
+// Opening & Closing Accordian 18
+$acc18Open.on("click", function (e) {
+  $acc18Open.addClass("clicked");
+  $acc18Close.addClass("clicked");
+  $acc18Box.addClass("open");
+  $acc18Content.addClass("open");
+});
+
+$acc18Close.on("click", function (e) {
+  $acc18Open.removeClass("clicked");
+  $acc18Close.removeClass("clicked");
+  $acc18Box.removeClass("open");
+  $acc18Content.removeClass("open");
+});
+
+// Opening & Closing Accordian 19
+$acc19Open.on("click", function (e) {
+  $acc19Open.addClass("clicked");
+  $acc19Close.addClass("clicked");
+  $acc19Box.addClass("open");
+  $acc19Content.addClass("open");
+});
+
+$acc19Close.on("click", function (e) {
+  $acc19Open.removeClass("clicked");
+  $acc19Close.removeClass("clicked");
+  $acc19Box.removeClass("open");
+  $acc19Content.removeClass("open");
+});
+
+// Opening & Closing Accordian 20
+$acc20Open.on("click", function (e) {
+  $acc20Open.addClass("clicked");
+  $acc20Close.addClass("clicked");
+  $acc20Box.addClass("open");
+  $acc20Content.addClass("open");
+});
+
+$acc20Close.on("click", function (e) {
+  $acc20Open.removeClass("clicked");
+  $acc20Close.removeClass("clicked");
+  $acc20Box.removeClass("open");
+  $acc20Content.removeClass("open");
+});
+
+// Opening & Closing Accordian 21
+$acc21Open.on("click", function (e) {
+  $acc21Open.addClass("clicked");
+  $acc21Close.addClass("clicked");
+  $acc21Box.addClass("open");
+  $acc21Content.addClass("open");
+});
+
+$acc21Close.on("click", function (e) {
+  $acc21Open.removeClass("clicked");
+  $acc21Close.removeClass("clicked");
+  $acc21Box.removeClass("open");
+  $acc21Content.removeClass("open");
+});
+
+// Opening & Closing Accordian 22
+$acc22Open.on("click", function (e) {
+  $acc22Open.addClass("clicked");
+  $acc22Close.addClass("clicked");
+  $acc22Box.addClass("open");
+  $acc22Content.addClass("open");
+});
+
+$acc22Close.on("click", function (e) {
+  $acc22Open.removeClass("clicked");
+  $acc22Close.removeClass("clicked");
+  $acc22Box.removeClass("open");
+  $acc22Content.removeClass("open");
+});
+
 
 
 // what is naturopathic medicne buttons 
