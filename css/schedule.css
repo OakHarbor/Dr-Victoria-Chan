@@ -1,0 +1,413 @@
+/*-- -------------------------- -->
+<---          Top Card          -->
+<--- -------------------------- -*/
+
+section {
+    padding: 0 !important;
+}
+
+body {
+    z-index: 1;
+}
+
+body:before {
+    content: '';
+    position: fixed;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url("/images/schedule-mobile.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: .3;
+    top: 0;
+    left: 0;
+}
+
+.schedule-clover {
+    display: block;
+    margin: auto;
+    width: 42px;
+    height: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.schedule-heading {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    width: 235px;
+    display: block;
+    margin: 20px auto;
+    margin-top: 160px;
+}
+
+.schedule-line {
+    width: 100px;
+    margin: 20px auto;
+    height: 1px;
+    background: #DBB13B;
+}
+
+#top-card > h2 {
+    font-size: 18px;
+    line-height: 24px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* Top Card */
+
+.box-container {
+    padding: 0 10px;
+    max-width: 370px;
+    margin: auto;
+}
+
+.box {
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 24px;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 0px 0px 11px #00000029;
+            box-shadow: 0px 0px 11px #00000029;
+}
+
+.box h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.box p {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #304B78;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box ul {
+    padding-left: 20px;
+}
+
+.box ul li {
+    font-size: 15px;
+    line-height: 20px;
+    color: #304B78;
+    letter-spacing: .045em;
+    margin-bottom: 5px;
+}
+
+.box ul li:last-child {
+    margin-bottom: 20px;
+}
+
+.box ul li span {
+    color: #56BCA2;
+    font-weight: bold;
+}
+
+.details {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #304B78;
+}
+
+.detail-line {
+    width: 50px;
+    height: 1px;
+    background: #DBB13B;
+    margin: 10px auto 20px;
+}
+
+#main .button-primary {
+    background: #DBB13B;
+    color: #304B78;
+    border-radius: 5px;
+    padding: 0rem;
+    font-size: 15px;
+    width: 100%;
+    max-width: 252px;
+    margin: auto;
+}
+
+/*-- -------------------------- -->
+<---          Good Fit          -->
+<--- -------------------------- -*/
+
+#good-fit span {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #BA5656;
+    text-align: center;
+    display: block;
+}
+
+#good-fit ul {
+    width: 270px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#good-fit ul li {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #304B78;
+    margin-bottom: 8px;
+}
+
+#good-fit ul li ul {
+    width: 255px;
+    margin: auto;
+}
+
+#good-fit ul li ul li {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: normal;
+    font-style: italic;
+    color: #304B78;
+    list-style: disc;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/*-- -------------------------- -->
+<---          Discovery         -->
+<--- -------------------------- -*/
+
+#call .box {
+    padding: 24px;
+}
+
+#call .schedule-clover {
+    display: block;
+}
+
+#call .box .schedule-heading {
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 26px;
+    width: 265px;
+}
+
+.line {
+    width: 50px;
+    height: 1px;
+    background: #DBB13B;
+    margin: 15px auto 20px;
+}
+
+#call p {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 24px;
+    color: #304B78;
+    width: 268px;
+}
+
+#call .blue-clover {
+    width: 76px;
+    display: block;
+    margin: auto;
+    margin-bottom: 56px;
+}
+
+main:before {
+    display: none;
+}
+
+.card-group {
+    top: -29px;
+}
+
+@media screen and (min-width:768px) {
+
+    #top-card .schedule-clover {
+        margin-top: 260px;
+    }
+
+    .schedule-clover {
+        display: block;
+    }
+
+    .schedule-heading {
+        margin-top: 0;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .schedule-line {
+        margin: 20px auto 30px;
+    }
+
+    #top-card > h2 {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    .box-container {
+        max-width: 800px;
+        border-radius: 20px;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 800px;
+        padding: 70px 78px 80px 78px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 60px;
+    }
+
+    .box:before {
+        content: '';
+        position: absolute;
+        display: block;
+        background: #BFBEBE;
+        opacity: .1;
+        top: 20px;
+        left: 20px;
+        bottom: 20px;
+        right: 20px;
+        z-index: -1;
+        border-radius: 10px;
+    }
+
+    .box h2 {
+        font-size: 26px;
+        line-height: 30px;
+        max-width: 640px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .schedule-line {
+        width: 150px;
+    }
+
+    .box p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 50px;
+        width: 535px;
+    }
+
+    .box ul li {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .details {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .detail-line {
+        width: 150px;
+        margin: 20px auto 30px;
+    }
+
+    .button-primary {
+        font-size: 16px;
+        max-width: 265px;
+        border-radius: 10px;
+    }
+
+    /* Unique Approach */
+
+    #good-fit span {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    #good-fit .schedule-line {
+        margin: 20px auto 50px;
+    }
+
+    #good-fit ul {
+        max-width: 643px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 55px;
+    }
+
+    #good-fit ul li {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    #good-fit ul li ul {
+        width: 100%;
+        padding-left: 44px;
+    }
+
+    #good-fit ul li ul li {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #call .schedule-clover {
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+
+    #call .box .schedule-heading {
+        font-size: 30px;
+        width: 600px;
+        line-height: 40px;
+    }
+
+    #call .line {
+        width: 150px;
+        margin: 20px auto 40px;
+    }
+
+    #call .button-primary {
+        max-width: 255px;
+        margin-bottom: 60px;
+    }
+
+    #call p {
+        font-size: 26px;
+        line-height: 36px;
+        width: 573px;
+        margin-bottom: 50px;
+    }
+
+    #call .blue-clover {
+        height: 99px;
+        width: 99px;
+        margin-bottom: 150px;
+    }
+
+    .card-group {
+        top: -66px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .box-container {
+        padding: 0;
+    }
+}
