@@ -132,7 +132,7 @@ main ul li a {
     transition: all .3s ease-in-out;
 }
 
-.acc5 .accordian-content {
+.faq .acc5 .accordian-content {
     height: 40px;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -159,7 +159,7 @@ main ul li a {
 <---        Accordian 7         -->
 <--- -------------------------- -*/
 
-.acc7 .accordian-content {
+.faq .acc7 .accordian-content {
     margin-bottom: 75px;
 }
 
@@ -526,7 +526,7 @@ main ul li a {
     transition: all .3s ease-in-out;
 }
 
-.acc18 .accordian-content {
+.faq .acc18 .accordian-content {
     height: 40px;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -1121,10 +1121,10 @@ main ul li a {
         margin-bottom: 30px;
     }
 
-    .acc5 .accordian-content,
-    .acc7 .accordian-content,
-    .acc14 .accordian-content,
-    .acc18 .accordian-content {
+    .faq .acc5 .accordian-content,
+    .faq .acc7 .accordian-content,
+    .faq .acc14 .accordian-content,
+    .faq .acc18 .accordian-content {
         margin-bottom: 120px !important;
     }
 
