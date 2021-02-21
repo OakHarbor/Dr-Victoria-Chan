@@ -398,13 +398,12 @@ header {
 	position: absolute;
 	top: 85px;
 	right: -300px;
-	height: 310px;
+	height: 471px;
 	-webkit-transition: .3s ease-in-out;
 	-o-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	z-index: 100;
+	z-index: 1100;
 	padding: 10px 20px;
-	
 }
 
 .side-nav {
@@ -517,9 +516,9 @@ header {
 @media screen and (min-width:400px) {
 
 	.navbar-menu {
-		-webkit-transform: scale(1.4);
-		    -ms-transform: scale(1.4);
-		        transform: scale(1.4);
+		-webkit-transform: scale(1.2);
+		    -ms-transform: scale(1.2);
+		        transform: scale(1.2);
 		-webkit-transform-origin: top right;
 		    -ms-transform-origin: top right;
 		        transform-origin: top right;
@@ -776,7 +775,8 @@ header {
 		position: absolute;
 		height: 300px;
 		right: 291px;
-		top: 80px;
+		top: 58px;
+		padding-top: 20px !important;
 	}
 
 	.navbar-links li .sub-nav li.sub-li {
@@ -848,10 +848,50 @@ header {
 
 	#about-sub-dropdown {
 		visibility: hidden;
+		-webkit-transition: .1s ease;
+		-o-transition: .1s ease;
+		transition: .1s ease;
+		opacity: 0;
+		overflow: hidden;
+		height: 0;
 	}
 
-	#about-drop-down:hover #about-sub-dropdown {
+	#about-drop-down-li:hover #about-sub-dropdown {
 		visibility: visible;
+		-webkit-transition: .4s ease;
+		-o-transition: .4s ease;
+		transition: .4s ease;
+		opacity: 1;
+		height: 140%;
+	}
+
+
+	/* Get started sub nav */
+
+	#started-sub-dropdown {
+		visibility: hidden;
+		-webkit-transition: .1s ease;
+		-o-transition: .1s ease;
+		transition: .1s ease;
+		opacity: 0;
+		overflow: hidden;
+		height: 0;
+	}
+
+	#started-drop-down-li:hover #started-sub-dropdown {
+		visibility: visible;
+		-webkit-transition: 0s ease;
+		-o-transition: 0s ease;
+		transition: 0s ease;
+		-webkit-transition: .4s ease;
+		-o-transition: .4s ease;
+		transition: .4s ease;
+		opacity: 1;
+		height: 140%;
+	}
+
+	.started-li {
+		right: 329px;
 	}
 
 }

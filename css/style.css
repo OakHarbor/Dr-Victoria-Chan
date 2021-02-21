@@ -1106,7 +1106,9 @@ only have to do one edit when we changes something */
 @media screen and (min-width: 347px) {
 
     .victoria {
-        transform: translateX(-25px);
+        -webkit-transform: translateX(-25px);
+            -ms-transform: translateX(-25px);
+                transform: translateX(-25px);
     }
 
 }
@@ -1114,7 +1116,9 @@ only have to do one edit when we changes something */
 @media screen and (min-width: 370px) {
 
     .victoria {
-        transform: translateX(-45px);
+        -webkit-transform: translateX(-45px);
+            -ms-transform: translateX(-45px);
+                transform: translateX(-45px);
     }
 
 }
@@ -1122,7 +1126,9 @@ only have to do one edit when we changes something */
 @media screen and (min-width: 408px) {
 
     .victoria {
-        transform: translateX(-75px);
+        -webkit-transform: translateX(-75px);
+            -ms-transform: translateX(-75px);
+                transform: translateX(-75px);
     }
 
 }
@@ -1142,7 +1148,9 @@ only have to do one edit when we changes something */
     }
 
     .crazy-topper h3 {
-        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+            -ms-transform: translateY(5px);
+                transform: translateY(5px);
     }
 
     .got-item h3:after {
@@ -1257,7 +1265,9 @@ only have to do one edit when we changes something */
     }
 
     .potential-content-container .left:after {
-        transform: translate(-50%, -62px) rotate(45deg);
+        -webkit-transform: translate(-50%, -62px) rotate(45deg);
+            -ms-transform: translate(-50%, -62px) rotate(45deg);
+                transform: translate(-50%, -62px) rotate(45deg);
     } 
 
     .victoria-button {
@@ -1418,7 +1428,7 @@ only have to do one edit when we changes something */
         position: absolute;
         top: -100px;
         right: -600px;
-        width: 700px;
+        width: 736px;
         height: 400px;
         background: #2D325A;
         z-index: -1;

@@ -2,6 +2,20 @@
 <---            Hero            -->
 <--- -------------------------- -*/
 
+body:before {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: url("/images/faq-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    opacity: .2;
+}
+
 .accordian-topper h3 {
     font-size: 11px;
 }
@@ -25,7 +39,7 @@
 
 main ul li {
     list-style: circle;
-    font-size: 11px !important;
+    font-size: 15px !important;
 }
 
 main ul li a {
@@ -312,7 +326,7 @@ main ul li a {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    height: 117px;
+    height: auto !important;
 }
 
 .acc15 .accordian-box.open {
@@ -936,26 +950,48 @@ main ul li a {
     .accordian-box ul li {
         font-size: 20px !important;
     }
+
+    .bottom p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
 
+    body:before {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: url("/images/faq-desktop.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    opacity: .2;
+}
+
     .acc2 .accordian-box ul li:nth-child(1), 
     .acc2 .accordian-box ul li:nth-child(2), 
     .acc2 .accordian-box ul li:nth-child(3) {
-        width: 1000px;
+        max-width: 1000px;
+        width: 100%;
     }
 
     .acc2 .accordian-box ul {
-        width: 1000px;
+        max-width: 1000px;
+        width: 100%;
     }
 
     .acc2 .accordian-box.open {
-        width: 1000px;
+        max-width: 1000px;
+        width: 100%;
     }
 
     .accordian-box ul {
-        width: 1000px;
+        max-width: 1000px;
+        width: 100%;
     }
 
     .accordian-topper h3 {
@@ -1001,10 +1037,6 @@ main ul li a {
     }
 
     .acc15 .accordian-content {
-        height: 100px !important;
-    }
-
-    .acc18 .accordian-content {
         height: 100px !important;
     }
 

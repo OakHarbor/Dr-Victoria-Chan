@@ -3,6 +3,7 @@ body:before {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
 }
 
 #approach-landing {
