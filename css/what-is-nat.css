@@ -418,7 +418,7 @@ body:before {
 }
 
 .explore-group {
-    margin-bottom: 45px;
+    margin-bottom: 120px;
 }
 
 .explore-group button {
@@ -756,6 +756,7 @@ only have to do one edit when we changes something */
         width: 540px;
         text-align: left;
         margin: auto;
+        margin-bottom: 150px;
     }
 
     .explore-group button {
@@ -1209,6 +1210,7 @@ only have to do one edit when we changes something */
         width: 540px;
         text-align: center;
         margin: auto;
+        margin-bottom: 150px;
     }
 
     .explore-group button {
@@ -1652,6 +1654,7 @@ only have to do one edit when we changes something */
         width: 540px;
         text-align: left;
         margin: auto;
+        margin-bottom: 153px;
     }
 
     .explore-group button {
@@ -1673,4 +1676,14 @@ only have to do one edit when we changes something */
         width: 43px !important;
     }
 
+    footer {
+        padding-top: 270px;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+    footer {
+        padding-top: 368px;
+    }
 }

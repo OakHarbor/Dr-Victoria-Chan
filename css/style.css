@@ -4429,6 +4429,14 @@ only have to do one edit when we changes something */
     
 }
 
+@media screen and (min-width: 1300px) {
+
+    footer {
+        padding-top: 367px;
+    }
+
+}
+
 /* Step 5 */
 @media screen and (min-width: 1320px) {
 

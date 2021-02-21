@@ -1349,6 +1349,8 @@ only have to do one edit when we changes something */
     }
 
     .accordian-box {
+        -webkit-transition: none !important;
+        -o-transition: none !important;
         transition: none !important;
     }
 
@@ -1358,6 +1360,14 @@ only have to do one edit when we changes something */
     }
 
 
+}
+
+@media screen and ( min-width: 768px) {
+
+    .bottom {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
 }
 
 /* Step 1 */
@@ -1692,6 +1702,7 @@ only have to do one edit when we changes something */
 
     .bottom {
         margin-top: 50px;
+        margin-bottom: 100px;
     }
 
     .bottom p {
@@ -2234,6 +2245,12 @@ only have to do one edit when we changes something */
     .contact-card img {
         left: -5px;
         width: 40px;
+    }
+}
+  
+@media screen and (min-width: 1024px) {
+    footer {
+        padding-top: 266px;
     }
 }
 
@@ -3376,6 +3393,10 @@ only have to do one edit when we changes something */
         -webkit-transform: translateX(-50%) translateY(-7px);
             -ms-transform: translateX(-50%) translateY(-7px);
                 transform: translateX(-50%) translateY(-7px);
+    }
+
+    footer {
+        padding-top: 367px;
     }
 }
 

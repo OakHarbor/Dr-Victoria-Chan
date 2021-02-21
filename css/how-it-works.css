@@ -6,6 +6,10 @@ body:before {
     opacity: 1;
 }
 
+main:before {
+    display: none;
+}
+
 #approach-landing {
     height: 600px !important;
 }
@@ -182,6 +186,93 @@ body:before {
     display: block;
 }
 
+.acc6 .accordian-content {
+    z-index: 100;
+}
+
+.acc6 .accordian-content .accordian-box {
+    display: none;
+}
+
+.acc6 .accordian-content.open .accordian-box {
+    display: block;
+}
+
+.first-step {
+    z-index: 1;
+    position: relative;
+    margin: auto;
+    margin-top: -10px;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 10px;
+}
+
+.first-step .wrapper {
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.first-step .wrapper:before {
+    content: '';
+    position: absolute;
+    display: block;
+    background: #BFBEBE;
+    border-radius: 0 0 5px 5px;
+    opacity: .1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.first-step span {
+    display: block;
+    font-size: 18px;
+    line-height: 025px;
+    font-weight: 700;
+    color: #2D325A;
+    margin: auto;
+    text-align: center;
+}
+
+.first-line {
+    width: 50px;
+    height: 1px;
+    background: #DBB13B;
+    margin: 10px auto 20px;
+}
+
+.first-step p {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #2D325A;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 205px;
+}
+
+.first-step button {
+    background: #DBB13B;
+    font-size: 15px;
+    width: 240px;
+    padding: 0;
+    color: #304B78;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1900000000;
+    display: block;
+    margin: auto;
+}
+
 @media screen and (min-width: 500px) {
 
     .bottom .clover {
@@ -302,6 +393,38 @@ body:before {
                 transform: none;
         left: auto;
         margin: auto;
+    }
+
+    .first-step .wrapper {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .first-step .wrapper:before {
+        top: 0;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .first-step span {
+        font-size: 30px;
+        margin-top: 70px;
+    }
+
+    .first-line {
+        width: 100px;
+        margin: 10px auto 30px;
+    }
+
+    .first-step p {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .first-step button {
+        margin-bottom: 80px;
     }
 }
 
@@ -439,7 +562,7 @@ body:before {
     }
 
     .bottom {
-        padding-bottom: 323px;
+        padding-bottom: 30px;
     }
 
     main:before {
@@ -453,6 +576,10 @@ body:before {
 
     footer {
         padding-top: 190px;
+    }
+
+    footer {
+        padding-top: 376px;
     }
     
 }

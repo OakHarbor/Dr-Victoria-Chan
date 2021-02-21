@@ -71,8 +71,27 @@ main ul li a {
     height: 36px !important;
 }
 
+#title {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.title-clover {
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 31px;
+}
+
 /*-- -------------------------- -->
-<---        Accordian 5        -->
+<---        Accordian 5         -->
 <--- -------------------------- -*/
 
 .acc5 .accordian-box h4 {
@@ -118,6 +137,7 @@ main ul li a {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    margin-bottom: 75px;
 }
 
 .acc5 .accordian-content.open {
@@ -133,6 +153,14 @@ main ul li a {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+
+/*-- -------------------------- -->
+<---        Accordian 7         -->
+<--- -------------------------- -*/
+
+.acc7 .accordian-content {
+    margin-bottom: 75px;
 }
 
 /*-- -------------------------- -->
@@ -218,7 +246,7 @@ main ul li a {
 }
 
 .acc14 .accordian-content {
-    margin-bottom: 11px;
+    margin-bottom: 75px;
     height: 51px !important;
 }
 
@@ -503,6 +531,7 @@ main ul li a {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    margin-bottom: 75px;
 }
 
 .acc18 .accordian-content.open {
@@ -777,6 +806,10 @@ main ul li a {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+
+.bottom {
+    margin-bottom: 50px;
 }
 
 @media screen and (min-width: 370px) {
@@ -1074,6 +1107,29 @@ main ul li a {
     .accordian-topper button {
         padding-left: 1020px;
         padding-top: 76px;
+    }
+
+    #title {
+        margin-bottom: 40px;
+    }
+
+    #title h2 {
+        font-size: 24px;
+    }
+
+    .title-clover {
+        margin-bottom: 30px;
+    }
+
+    .acc5 .accordian-content,
+    .acc7 .accordian-content,
+    .acc14 .accordian-content,
+    .acc18 .accordian-content {
+        margin-bottom: 120px !important;
+    }
+
+    .bottom {
+        margin-bottom: 100px;
     }
 }
 

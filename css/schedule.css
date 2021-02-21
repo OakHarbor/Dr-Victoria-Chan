@@ -307,6 +307,7 @@ main:before {
     .box p {
         font-size: 20px;
         line-height: 30px;
+        margin: auto;
         margin-bottom: 50px;
         width: 535px;
     }

@@ -733,6 +733,15 @@
     display: none;
 }
 
+#card-group {
+    top: 439px;
+    z-index: 10000;
+}
+
+#card-group .blue-diamond {
+    display: none;
+}
+
 /* Mobile edit changes because we were dumb and didn't 
 do mobile edits before desktop so now when we make mobile 
 edits they change stuff on tablet and desktop and now we 
@@ -1937,6 +1946,21 @@ only have to do one edit when we changes something */
         display: block;
     }
 
+    #card-group {
+        top: 1154px;
+    }
+
+    #card-group .blue-diamond {
+        display: block;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        top: -200px;
+        width: 90px;
+    }
+
 }
 
 /* Step 3 */
@@ -2279,10 +2303,6 @@ only have to do one edit when we changes something */
         width: 100%
     }
 
-    #contact-cards {
-        height: 1400px !important;
-    }
-
     #story-landing:before {
         background-size: cover;
     }
@@ -2322,6 +2342,14 @@ only have to do one edit when we changes something */
 
     #contact-cards {
         height: 2000px !important;
+    }
+
+    #card-group {
+        top: 1950px;
+    }
+
+    #card-group .blue-diamond {
+        top: -250px;
     }
 
 }
