@@ -1088,14 +1088,14 @@ form span {
     .bottom:before {
         width: 600px;
         height: 600px;
-        left: -301px;
+        left: -601px;
         top: -45px;
     }
 
     .bottom:after {
         width: 600px;
         height: 600px;
-        right: -301px;
+        right: -601px;
         top: -45px;
     }
     

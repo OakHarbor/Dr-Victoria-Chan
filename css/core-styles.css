@@ -1130,6 +1130,11 @@ footer .container {
 	margin-top: 40px;
 }
 
+.copy a {
+	color: #fff;
+	opacity: .9;
+}
+
 @media screen and (min-width: 410px) and (max-width: 450px) {  
 
 	.logo-group h2 {
