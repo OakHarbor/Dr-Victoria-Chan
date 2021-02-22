@@ -441,6 +441,20 @@ main:before {
         max-width: 804px;
     }
 
+    .headline {
+        font-size: 26px;
+        max-width: 697px;
+        line-height: 36px;
+    }
+
+    .steps {
+        font-size: 40px;
+    }
+
+    .step-line {
+        width: 100px;
+    }
+
     .arrow {
         bottom: 57px;
     }
