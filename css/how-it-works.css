@@ -273,6 +273,13 @@ main:before {
     margin: auto;
 }
 
+@media screen and (max-width: 500px) {
+
+    #approach-landing .clover {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 500px) {
 
     .bottom .clover {

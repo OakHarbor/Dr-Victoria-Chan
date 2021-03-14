@@ -45,6 +45,10 @@ body:before {
     opacity: 1;
 }
 
+#approach-landing {
+    padding-bottom: 0;
+}
+
 #approach-landing h1 {
     line-height: 1.3em;
 }

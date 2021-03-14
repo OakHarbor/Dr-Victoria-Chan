@@ -9,7 +9,7 @@
 .contact-card-group {
     display: inline-block;
     width: 45%;
-    max-width: 145px;
+    max-width: 45%;
     height: 100px;
     background: #fff;
     position: relative;
@@ -23,7 +23,8 @@
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: .39px;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     font-weight: 600;
     line-height: 16px;
 }

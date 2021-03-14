@@ -21,7 +21,7 @@ body:before {
 }
 
 #approach-landing {
-    height: 300px;
+    height: 400px;
 }
 
 .acc2 .accordian-box ul {
@@ -812,6 +812,18 @@ main ul li a {
     margin-bottom: 50px;
 }
 
+.bottom p {
+    display: block;
+    font-size: 18px !important;
+    line-height: 025px;
+    font-weight: 700;
+    color: #2D325A;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: initial;
+}
+
 @media screen and (min-width: 370px) {
 
     .accordian-topper h3 {
@@ -863,6 +875,17 @@ main ul li a {
 }
 
 @media screen and (min-width: 768px) {
+
+    #approach-landing {
+        margin-top: 100px;
+    }
+
+    #approach-landing h1 {
+        font-size: 40px;
+        line-height: 50px;
+        width: 100%;
+        max-width: 650px;
+    }
 
     .accordian-topper button {
         padding-left: 670px;

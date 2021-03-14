@@ -1162,7 +1162,7 @@ body:before {
     font-size: 14px;
     border-radius: 10px;
     padding: 0 15px;
-
+    margin-bottom: 60px;
 }
 
 /*-- -------------------------- -->
@@ -1353,10 +1353,21 @@ only have to do one edit when we changes something */
         -o-transition: none !important;
         transition: none !important;
     }
+    
+    .bottom {
+        padding-bottom: 0 !important;
+    }
 
     .bottom p {
+        display: block;
+        font-size: 18px !important;
+        line-height: 025px;
         font-weight: 700;
-        font-size: 13px;
+        color: #2D325A;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: initial;
     }
 
 
