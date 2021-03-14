@@ -6,6 +6,15 @@ main {
     position: relative;
 }
 
+.specifics a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.specifics a:hover {
+    color: #DBB13B;
+}
+
 main:before {
     content: '';
     position: absolute;
@@ -172,7 +181,7 @@ main:before {
 
 .existing h3 {
     font-size: 20px;
-    color: var(--primary);
+    color: #2D325A;
     font-weight: 600;
 }
 
@@ -185,7 +194,7 @@ main:before {
 
 .existing p {
     font-size: 15px;
-    color: var(--primary);
+    color: #2D325A;
     text-align: center;
     display: block;
     margin: auto;
@@ -473,7 +482,7 @@ form .button-solid img {
     display: block;
     height: 370px;
     width: 370px;
-    background: var(--primary);
+    background: #2D325A;
     top: 50%;
     left: 50%;
     -webkit-transform-origin: center;
@@ -614,7 +623,7 @@ form span {
 }
 
 .content h2 span {
-    color: var(--primary);
+    color: #2D325A;
 }
 
 .content {

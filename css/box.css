@@ -29,7 +29,7 @@
 }
 
 .content h2 span {
-    color: var(--primary);
+    color: #2D325A;
 }
 
 .content {
@@ -108,6 +108,10 @@
 
 @media screen and (min-width: 1024px) {
 
+    #clover-design {
+        display: none;
+    }
+
     #card-group .blue-diamond {
         display: block;
         position: absolute;
@@ -115,7 +119,7 @@
         -webkit-transform: translateX(-50%);
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
-        top: -300px;
+        top: -140px;
         width: 90px;
     }
 
